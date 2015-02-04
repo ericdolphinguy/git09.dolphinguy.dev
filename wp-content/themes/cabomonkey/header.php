@@ -35,7 +35,9 @@
 
 	<div id="content" class="site-content columns large-9">
 		<div class="header">
-			<div class="chat columns large-2 large-centered"></div>
+			<div class="chat columns large-2 large-centered">
+				CHAT NOW
+			</div>
 			<div class="logo colums large-1 large-offset-11"></div>
 		</div>
 		<div class="banner"></div>

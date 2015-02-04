@@ -1,11 +1,18 @@
+$color_background: #719539;
+$color_green: #78b800;
+
 html {
   body {
-    background: #78b800;
+    background: $color_background;
 
     #page {
       #masthead {
         .site-branding {
-          background: #fff;
+          background: url(images/logo.jpg) center center no-repeat;
+          background-size: 100% auto;
+          height: 250px; // todo: Change this to non fixed height.
+          overflow: hidden;
+          text-indent: -999%;
         }
 
         .main-navigation {
@@ -27,7 +34,8 @@ html {
           height: 117px;
 
           .chat {
-            background: green;
+            background: $color_green;
+            color: #fff;
             height: 20px;
           }
 

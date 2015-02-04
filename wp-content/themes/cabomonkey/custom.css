@@ -1,7 +1,11 @@
 html body {
-  background: #78b800; }
+  background: #719539; }
   html body #page #masthead .site-branding {
-    background: #fff; }
+    background: url(images/logo.jpg) center center no-repeat;
+    background-size: 100% auto;
+    height: 250px;
+    overflow: hidden;
+    text-indent: -999%; }
   html body #page #masthead .main-navigation .menu-item {
     float: none; }
     html body #page #masthead .main-navigation .menu-item a {
@@ -12,7 +16,8 @@ html body {
       background: #333;
       height: 117px; }
       html body #page #content .header .chat {
-        background: green;
+        background: #78b800;
+        color: #fff;
         height: 20px; }
       html body #page #content .header .logo {
         background: #fff;
