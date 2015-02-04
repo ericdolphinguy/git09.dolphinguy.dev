@@ -1,3 +1,142 @@
 html {
+  body {
+    background: #78b800;
 
+    #page {
+      #masthead {
+        .site-branding {
+          background: #fff;
+        }
+
+        .main-navigation {
+          .menu-item {
+            float: none;
+
+            a {
+              color: #fff;
+            }
+          }
+        }
+      }
+
+      #content {
+        background: #cdb696;
+
+        .header {
+          background: #333;
+          height: 117px;
+
+          .chat {
+            background: green;
+            height: 20px;
+          }
+
+          .logo {
+            background: #fff;
+            height: 117px;
+          }
+        }
+
+        .banner {
+          background: #265d58;
+          height: 675px;
+        }
+
+        .banner-2 {
+          background: #bf433b;
+          height: 270px;
+          margin: 0 0 24px;
+        }
+
+        .banner-3 {
+          background: #bf433b;
+          height: 160px;
+          margin: 0 0 24px;
+
+          .image {
+            background: blue;
+            height: inherit;
+          }
+
+          .tripadvisor {
+            background: #fff;
+            height: inherit;
+          }
+        }
+
+        #primary {
+          .offer {
+            background: #2f3032;
+            height: 300px;
+            margin: 0 0 45px;
+
+            .image {
+              background: red;
+              height: inherit;
+            }
+
+            .coupon {
+              background: blue;
+              height: inherit;
+
+              .tripadvisor {
+                background: #111;
+                height: 60px;
+              }
+
+              .inner {
+                background: #222;
+                height: 240px;
+
+                .title {
+                  background: #333;
+                  height: 40px;
+                }
+
+                .title-2 {
+                  background: #444;
+                  height: 40px;
+                }
+
+                .buttons {
+                  background: #555;
+                  height: 100px;
+
+                  .details {
+                    background: red;
+                    height: inherit;
+                  }
+
+                  .bookit {
+                    background: blue;
+                    height: inherit;
+                  }
+                }
+
+                .ticket {
+                  background: #666;
+                  height: 60px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #colophon {
+        background: #cdb696;
+
+        .pickup {
+          background: green;
+          height: 220px;
+        }
+
+        .site-info {
+          background: #d0b999;
+          color: #fff;
+          font-size: 11px;
+        }
+      }
+    }
+  }
 }

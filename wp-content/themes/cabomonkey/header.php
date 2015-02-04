@@ -18,10 +18,10 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
+<div id="page" class="hfeed site row collapse">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'cabomonkey' ); ?></a>
 
-	<header id="masthead" class="site-header row" role="banner">
+	<header id="masthead" class="site-header columns large-3" role="banner">
 		<div class="site-branding">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
@@ -33,4 +33,15 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content columns large-9">
+		<div class="header">
+			<div class="chat columns large-2 large-centered"></div>
+			<div class="logo colums large-1 large-offset-11"></div>
+		</div>
+		<div class="banner"></div>
+		<div class="banner-2"></div>
+
+		<div class="banner-3">
+			<div class="image columns large-8"></div>
+			<div class="tripadvisor columns large-3"></div>
+		</div>
