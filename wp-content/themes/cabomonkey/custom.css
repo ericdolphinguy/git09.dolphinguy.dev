@@ -13,14 +13,12 @@ html body {
   html body #page #content {
     background: #cdb696; }
     html body #page #content .header {
-      background: #333;
       height: 117px; }
       html body #page #content .header .chat {
         background: #78b800;
         color: #fff;
         height: 20px; }
       html body #page #content .header .logo {
-        background: #fff;
         height: 117px; }
     html body #page #content .banner {
       background: #265d58;

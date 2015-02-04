@@ -38,7 +38,9 @@
 			<div class="chat columns large-2 large-centered">
 				CHAT NOW
 			</div>
-			<div class="logo colums large-1 large-offset-11"></div>
+			<div class="logo colums large-3 large-offset-9">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-2.png" />
+			</div>
 		</div>
 		<div class="banner"></div>
 		<div class="banner-2"></div>
