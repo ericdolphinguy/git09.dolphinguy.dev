@@ -12,7 +12,7 @@
 
 	<footer id="colophon" class="site-footer columns large-9" role="contentinfo">
 		<div class="pickup">
-
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-5.png" />
 		</div>
 		<div class="site-info">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur cupiditate, eos incidunt ipsam

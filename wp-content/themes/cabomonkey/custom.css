@@ -16,21 +16,13 @@ html body {
       background: #78b800;
       color: #fff;
       height: 20px; }
-    html body #page #content .banner {
-      background: #265d58; }
     html body #page #content .banner-2 {
-      background: #bf433b;
-      height: 270px;
       margin: 0 0 24px; }
     html body #page #content .banner-3 {
-      background: #bf433b;
-      height: 160px;
       margin: 0 0 24px; }
       html body #page #content .banner-3 .image {
-        background: blue;
         height: inherit; }
       html body #page #content .banner-3 .tripadvisor {
-        background: #fff;
         height: inherit; }
     html body #page #content #primary .offer {
       height: 300px;
@@ -66,9 +58,6 @@ html body {
             height: 60px; }
   html body #page #colophon {
     background: #cdb696; }
-    html body #page #colophon .pickup {
-      background: green;
-      height: 220px; }
     html body #page #colophon .site-info {
       background: #d0b999;
       color: #fff;

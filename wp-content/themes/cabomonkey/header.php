@@ -45,9 +45,15 @@
 		<div class="banner">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image.jpg" />
 		</div>
-		<div class="banner-2"></div>
+		<div class="banner-2">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-2.png" />
+		</div>
 
 		<div class="banner-3">
-			<div class="image columns large-8"></div>
-			<div class="tripadvisor columns large-3"></div>
+			<div class="image columns large-8">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-3.png" />
+			</div>
+			<div class="tripadvisor columns large-3">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-4.png" />
+			</div>
 		</div>
