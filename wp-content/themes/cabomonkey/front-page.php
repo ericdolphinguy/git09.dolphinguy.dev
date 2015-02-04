@@ -16,10 +16,10 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<div class="offer row collapse">
-				<div class="image columns large-8">
+				<div class="image columns large-8 medium-8">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01.jpg" />
 				</div>
-				<div class="coupon columns large-3">
+				<div class="coupon columns large-3 medium-3">
 					<div class="tripadvisor">
 					</div>
 					<div class="inner">
@@ -40,10 +40,10 @@ get_header(); ?>
 			</div>
 
 			<div class="offer row collapse">
-				<div class="image columns large-8">
+				<div class="image columns large-8 medium-8">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-zip-line-adventure-01.jpg" />
 				</div>
-				<div class="coupon columns large-3">
+				<div class="coupon columns large-3 medium-3">
 					<div class="tripadvisor">
 					</div>
 					<div class="inner">
@@ -60,10 +60,10 @@ get_header(); ?>
 			</div>
 
 			<div class="offer row collapse">
-				<div class="image columns large-8">
+				<div class="image columns large-8 medium-8">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-outback-camel-safari-01.jpg" />
 				</div>
-				<div class="coupon columns large-3">
+				<div class="coupon columns large-3 medium-3">
 					<div class="tripadvisor">
 					</div>
 					<div class="inner">
@@ -80,10 +80,10 @@ get_header(); ?>
 			</div>
 
 			<div class="offer row collapse">
-				<div class="image columns large-8">
+				<div class="image columns large-8 medium-8">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01.jpg" />
 				</div>
-				<div class="coupon columns large-3">
+				<div class="coupon columns large-3 medium-3">
 					<div class="tripadvisor">
 					</div>
 					<div class="inner">
@@ -100,10 +100,10 @@ get_header(); ?>
 			</div>
 
 			<div class="offer row collapse">
-				<div class="image columns large-8">
+				<div class="image columns large-8 medium-8">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01.jpg" />
 				</div>
-				<div class="coupon columns large-3">
+				<div class="coupon columns large-3 medium-3">
 					<div class="tripadvisor">
 					</div>
 					<div class="inner">
@@ -120,10 +120,10 @@ get_header(); ?>
 			</div>
 
 			<div class="offer row collapse">
-				<div class="image columns large-8">
+				<div class="image columns large-8 medium-8">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cabo-dolphins-01.jpg" />
 				</div>
-				<div class="coupon columns large-3">
+				<div class="coupon columns large-3 medium-3">
 					<div class="tripadvisor">
 					</div>
 					<div class="inner">
