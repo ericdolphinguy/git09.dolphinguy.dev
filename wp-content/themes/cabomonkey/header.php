@@ -37,10 +37,10 @@
 
 		<!-- Content Header -->
 		<div class="header">
-			<div class="chat columns large-2 large-centered medium-2 medium-centered">
+			<div class="chat columns large-2 large-centered medium-2 medium-centered small-11 small-centered">
 				CHAT NOW
 			</div>
-			<div class="logo colums large-3 large-offset-9 medium-3 medium-offset-9">
+			<div class="logo columns large-3 large-offset-9 medium-3 medium-offset-9 small-11 small-centered">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-2.png" />
 			</div>
 		</div>

@@ -1,3 +1,8 @@
+/* 0, 640px */
+/* 641px, 1024px */
+/* 1025px, 1440px */
+/* 1441px, 1920px */
+/* 1921px */
 html body {
   background: #719539; }
   html body #page #masthead .site-branding {
@@ -59,5 +64,9 @@ html body {
     html body #page #colophon .site-info {
       color: #fff;
       font-size: 11px; }
+
+@media only screen and (max-width: upper-bound(0em, 40em)) {
+  html body #content .header .logo {
+    text-align: center; } }
 
 /*# sourceMappingURL=custom.css.map */
