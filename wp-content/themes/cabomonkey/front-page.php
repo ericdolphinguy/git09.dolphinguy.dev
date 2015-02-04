@@ -23,12 +23,16 @@ get_header(); ?>
 					<div class="tripadvisor">
 					</div>
 					<div class="inner">
-						<div class="title"></div>
-						<div class="title-2"></div>
+						<div class="title">
+							OUTDOOR ZIPLINE ADVENTURE
+						</div>
+						<div class="title-2">
+							The Adventure
+						</div>
 						<div class="text"></div>
 						<div class="buttons row collapse">
-							<div class="details columns large-5"></div>
-							<div class="bookit columns large-5"></div>
+							<div class="details columns large-5">Details</div>
+							<div class="bookit columns large-5">Book It</div>
 						</div>
 						<div class="ticket"></div>
 					</div>

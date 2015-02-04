@@ -21,7 +21,7 @@
 <div id="page" class="hfeed site row collapse">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'cabomonkey' ); ?></a>
 
-	<header id="masthead" class="site-header columns large-3" role="banner">
+	<header id="masthead" class="site-header columns large-3 medium-3" role="banner">
 		<div class="site-branding">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
@@ -33,27 +33,38 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content columns large-9">
+	<div id="content" class="site-content columns large-9 medium-9">
+
+		<!-- Content Header -->
 		<div class="header">
-			<div class="chat columns large-2 large-centered">
+			<div class="chat columns large-2 large-centered medium-2 medium-centered">
 				CHAT NOW
 			</div>
-			<div class="logo colums large-3 large-offset-9">
+			<div class="logo colums large-3 large-offset-9 medium-3 medium-offset-9">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-2.png" />
 			</div>
 		</div>
+		<!-- End Content Header -->
+
+		<!-- Banner -->
 		<div class="banner">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image.jpg" />
 		</div>
+		<!-- End Banner -->
+
+		<!-- Banner 2 -->
 		<div class="banner-2">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-2.png" />
 		</div>
+		<!-- End Banner 2 -->
 
+		<!-- Banner 3 -->
 		<div class="banner-3">
-			<div class="image columns large-8">
+			<div class="image columns large-8 medium-8">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-3.png" />
 			</div>
-			<div class="tripadvisor columns large-3">
+			<div class="tripadvisor columns large-3 medium-3">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-4.png" />
 			</div>
 		</div>
+		<!-- End Banner 3 -->
