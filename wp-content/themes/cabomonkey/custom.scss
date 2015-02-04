@@ -27,7 +27,7 @@ html {
       }
 
       #content {
-        background: #cdb696;
+        background: #cdb696 url(images/background.jpg);
 
         .header {
           .chat {
@@ -117,13 +117,12 @@ html {
       }
 
       #colophon {
-        background: #cdb696;
+        background: #cdb696 url(images/background.jpg);
 
         .pickup {
         }
 
         .site-info {
-          background: #d0b999;
           color: #fff;
           font-size: 11px;
         }

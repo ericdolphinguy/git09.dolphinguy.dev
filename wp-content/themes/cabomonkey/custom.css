@@ -11,7 +11,7 @@ html body {
     html body #page #masthead .main-navigation .menu-item a {
       color: #fff; }
   html body #page #content {
-    background: #cdb696; }
+    background: #cdb696 url(images/background.jpg); }
     html body #page #content .header .chat {
       background: #78b800;
       color: #fff;
@@ -57,9 +57,8 @@ html body {
             background: #666;
             height: 60px; }
   html body #page #colophon {
-    background: #cdb696; }
+    background: #cdb696 url(images/background.jpg); }
     html body #page #colophon .site-info {
-      background: #d0b999;
       color: #fff;
       font-size: 11px; }
 
