@@ -40,11 +40,9 @@ html body {
         background: #fff;
         height: inherit; }
     html body #page #content #primary .offer {
-      background: #2f3032;
       height: 300px;
       margin: 0 0 45px; }
       html body #page #content #primary .offer .image {
-        background: red;
         height: inherit; }
       html body #page #content #primary .offer .coupon {
         background: blue;
