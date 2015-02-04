@@ -25,37 +25,35 @@ html body {
       html body #page #content .banner-3 .tripadvisor {
         height: inherit; }
     html body #page #content #primary .offer {
-      height: 300px;
       margin: 0 0 45px; }
       html body #page #content #primary .offer .image {
         height: inherit; }
       html body #page #content #primary .offer .coupon {
-        background: blue;
+        background: #c10c00;
+        padding: 10px;
         height: inherit; }
         html body #page #content #primary .offer .coupon .tripadvisor {
-          background: #111;
-          height: 60px; }
+          color: #fff; }
         html body #page #content #primary .offer .coupon .inner {
-          background: #222;
-          height: 240px; }
+          background: #31291f; }
           html body #page #content #primary .offer .coupon .inner .title {
-            background: #333;
+            color: #fec900;
             height: 40px; }
           html body #page #content #primary .offer .coupon .inner .title-2 {
-            background: #444;
-            height: 40px; }
+            color: #fff; }
           html body #page #content #primary .offer .coupon .inner .buttons {
-            background: #555;
-            height: 100px; }
+            background: #555; }
             html body #page #content #primary .offer .coupon .inner .buttons .details {
-              background: red;
+              background: #78b800;
+              color: #fff;
               height: inherit; }
             html body #page #content #primary .offer .coupon .inner .buttons .bookit {
-              background: blue;
+              background: #d95843;
+              color: #fff;
               height: inherit; }
           html body #page #content #primary .offer .coupon .inner .ticket {
-            background: #666;
-            height: 60px; }
+            background: #d7c47c;
+            min-height: 60px; }
   html body #page #colophon {
     background: #cdb696 url(images/background.jpg); }
     html body #page #colophon .site-info {

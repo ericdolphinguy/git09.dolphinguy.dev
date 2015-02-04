@@ -61,7 +61,6 @@ html {
 
         #primary {
           .offer {
-            height: 300px;
             margin: 0 0 45px;
 
             .image {
@@ -69,46 +68,45 @@ html {
             }
 
             .coupon {
-              background: blue;
+              background: #c10c00;
+              padding: 10px;
               height: inherit;
 
               .tripadvisor {
-                background: #111;
-                height: 60px;
+                color: #fff;
               }
 
               .inner {
-                background: #222;
-                height: 240px;
+                background: #31291f;
 
                 .title {
-                  background: #333;
+                  color: #fec900;
                   height: 40px;
                 }
 
                 .title-2 {
-                  background: #444;
-                  height: 40px;
+                  color: #fff;
                 }
 
                 .buttons {
                   background: #555;
-                  height: 100px;
 
                   .details {
-                    background: red;
+                    background: #78b800;
+                    color: #fff;
                     height: inherit;
                   }
 
                   .bookit {
-                    background: blue;
+                    background: #d95843;
+                    color: #fff;
                     height: inherit;
                   }
                 }
 
                 .ticket {
-                  background: #666;
-                  height: 60px;
+                  background: #d7c47c;
+                  min-height: 60px;
                 }
               }
             }
