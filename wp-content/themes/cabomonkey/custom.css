@@ -12,17 +12,12 @@ html body {
       color: #fff; }
   html body #page #content {
     background: #cdb696; }
-    html body #page #content .header {
-      height: 117px; }
-      html body #page #content .header .chat {
-        background: #78b800;
-        color: #fff;
-        height: 20px; }
-      html body #page #content .header .logo {
-        height: 117px; }
+    html body #page #content .header .chat {
+      background: #78b800;
+      color: #fff;
+      height: 20px; }
     html body #page #content .banner {
-      background: #265d58;
-      height: 675px; }
+      background: #265d58; }
     html body #page #content .banner-2 {
       background: #bf433b;
       height: 270px;

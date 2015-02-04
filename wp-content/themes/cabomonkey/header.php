@@ -42,7 +42,9 @@
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-2.png" />
 			</div>
 		</div>
-		<div class="banner"></div>
+		<div class="banner">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image.jpg" />
+		</div>
 		<div class="banner-2"></div>
 
 		<div class="banner-3">
