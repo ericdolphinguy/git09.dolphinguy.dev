@@ -39,8 +39,10 @@
 		<div class="header">
 			<div class="chat">
 			</div>
-			<div class="logo right">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-2.png" />
+			<div class="logo">
+				<a href="<?php echo site_url('/'); ?>">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-2.png" />
+				</a>
 			</div>
 		</div>
 		<!-- End Content Header -->

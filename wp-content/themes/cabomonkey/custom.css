@@ -1,22 +1,18 @@
-/* 0, 640px */
-/* 641px, 1024px */
-/* 1025px, 1440px */
-/* 1441px, 1920px */
-/* 1921px */
+@import url(fonts/tiza/stylesheet.css);
 html body {
   background: #719539; }
   html body #page {
     position: relative; }
     html body #page #masthead {
       left: -300px;
-      padding: 0 28px 0 0;
+      padding: 0 30px 0 0;
       position: absolute;
       z-index: 2;
       width: 300px; }
       html body #page #masthead .site-branding {
         background: url(images/logo.jpg) center center no-repeat;
         background-size: 100% auto;
-        height: 333px;
+        height: 300px;
         overflow: hidden;
         text-indent: -999%; }
       html body #page #masthead .main-navigation .menu-item {
@@ -25,24 +21,37 @@ html body {
           color: #fff; }
     html body #page #content {
       background: #cdb696 url(images/background.jpg); }
-      html body #page #content .header .chat {
-        background: url(images/chat-now.png) center center no-repeat;
-        color: #fff;
-        cursor: pointer;
-        text-align: center;
-        height: 50px; }
-      html body #page #content .header .logo {
-        margin: 0 24px 6px 0; }
+      html body #page #content .header {
+        height: 115px;
+        overflow: hidden;
+        position: relative; }
+        html body #page #content .header .chat {
+          background: url(images/chat-now.png) center center no-repeat;
+          color: #fff;
+          cursor: pointer;
+          height: 50px;
+          margin: 0 auto;
+          width: 255px; }
+        html body #page #content .header .logo {
+          position: absolute;
+          top: 22px;
+          right: 36px; }
       html body #page #content .banner-2 {
-        margin: 0 0 24px; }
+        height: 270px; }
         html body #page #content .banner-2 .reasons {
-          padding: 14px 0 0 0px; }
+          padding: 14px 0 0 137px; }
         html body #page #content .banner-2 .guarantees .guarantee {
           float: left; }
       html body #page #content .banner-3 {
         margin: 0 0 24px; }
         html body #page #content .banner-3 .image {
-          height: inherit; }
+          height: 160px; }
+          html body #page #content .banner-3 .image img {
+            margin: -218px 0 0 -110px;
+            left: 0;
+            position: absolute;
+            top: 0;
+            z-index: 9; }
         html body #page #content .banner-3 .tripadvisor {
           height: inherit; }
       html body #page #content #primary .offer {
@@ -83,6 +92,8 @@ html body {
 
 @media only screen and (max-width: 40em) {
   html body #content .header .logo {
-    text-align: center; } }
+    position: static;
+    top: auto;
+    right: auto; } }
 
 /*# sourceMappingURL=custom.css.map */
