@@ -274,10 +274,19 @@ html {
       #page {
         #content {
           .header {
+            height: auto;
+
             .logo {
+              padding: 12px;
               position: static;
               top: auto;
               right: auto;
+              text-align: center;
+
+              img {
+                display: block;
+                margin: 0 auto;
+              }
             }
           }
 

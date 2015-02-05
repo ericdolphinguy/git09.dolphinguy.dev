@@ -163,10 +163,17 @@ html body {
 * Content column width.
 */
 @media all and (max-width: 1230px) {
-  html body #page #content .header .logo {
-    position: static;
-    top: auto;
-    right: auto; }
+  html body #page #content .header {
+    height: auto; }
+    html body #page #content .header .logo {
+      padding: 12px;
+      position: static;
+      top: auto;
+      right: auto;
+      text-align: center; }
+      html body #page #content .header .logo img {
+        display: block;
+        margin: 0 auto; }
   html body #page #content #primary .offer {
     margin: 0 0 12px; }
     html body #page #content #primary .offer .image {
