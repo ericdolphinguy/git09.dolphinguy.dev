@@ -38,7 +38,7 @@ html {
         .site-branding {
           background: url(images/logo.jpg) center center no-repeat;
           background-size: 100% auto;
-          height: 250px; // todo: Change this to non fixed height.
+          height: 333px; // todo: Change this to non fixed height.
           overflow: hidden;
           text-indent: -999%;
         }
@@ -157,7 +157,7 @@ html {
   }
 }
 
-@media #{$small-only} {
+@media only screen and (max-width: 40em){
   html {
     body {
       #content {

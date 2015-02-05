@@ -8,7 +8,7 @@ html body {
   html body #page #masthead .site-branding {
     background: url(images/logo.jpg) center center no-repeat;
     background-size: 100% auto;
-    height: 250px;
+    height: 333px;
     overflow: hidden;
     text-indent: -999%; }
   html body #page #masthead .main-navigation .menu-item {
@@ -65,7 +65,7 @@ html body {
       color: #fff;
       font-size: 11px; }
 
-@media only screen and (max-width: upper-bound(0em, 40em)) {
+@media only screen and (max-width: 40em) {
   html body #content .header .logo {
     text-align: center; } }
 
