@@ -35,11 +35,14 @@ html {
         }
 
         .main-navigation {
+          font-weight: bold;
+
           .menu-item {
             float: none;
 
             a {
               color: #fff;
+              font-size: 18px;
             }
           }
         }

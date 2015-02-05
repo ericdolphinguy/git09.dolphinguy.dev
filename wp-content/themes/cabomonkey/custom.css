@@ -18,10 +18,13 @@ html body {
         height: 300px;
         overflow: hidden;
         text-indent: -999%; }
-      html body #page #masthead .main-navigation .menu-item {
-        float: none; }
-        html body #page #masthead .main-navigation .menu-item a {
-          color: #fff; }
+      html body #page #masthead .main-navigation {
+        font-weight: bold; }
+        html body #page #masthead .main-navigation .menu-item {
+          float: none; }
+          html body #page #masthead .main-navigation .menu-item a {
+            color: #fff;
+            font-size: 18px; }
     html body #page #content {
       background: #cdb696 url(images/background.jpg); }
       html body #page #content .header {
