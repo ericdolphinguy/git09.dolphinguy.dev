@@ -1,18 +1,33 @@
+/**
+* Include custom fonts.
+*/
+
 @import 'fonts/tiza/stylesheet.css';
 @import 'fonts/momt/stylesheet.css';
 @import 'fonts/321impact/stylesheet.css';
 @import 'fonts/dead_kansas/stylesheet.css';
+
+/**
+* Scss font variables.
+*/
 
 $font_tiza: 'tizaregular', serif;
 $font_momt: 'momstypewriterregular', serif;
 $font_321impact: '321impactregular', arial, sans-serif;
 $font_dead_kansas: 'dead_kansasregular', arial, sans-serif;
 
+/**
+* Scss color variables.
+*/
+
 $color_background: #719539;
 $color_green: #78b800;
 
-html {
+/**
+* Custom styles.
+*/
 
+html {
   body {
     background: $color_background;
 
@@ -178,6 +193,10 @@ html {
     }
   }
 }
+
+/**
+* Small screen size styles.
+*/
 
 @media only screen and (max-width: 40em){
   html {

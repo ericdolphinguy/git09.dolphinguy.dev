@@ -1,7 +1,19 @@
+/**
+* Include custom fonts.
+*/
 @import url(fonts/tiza/stylesheet.css);
 @import url(fonts/momt/stylesheet.css);
 @import url(fonts/321impact/stylesheet.css);
 @import url(fonts/dead_kansas/stylesheet.css);
+/**
+* Scss font variables.
+*/
+/**
+* Scss color variables.
+*/
+/**
+* Custom styles.
+*/
 html body {
   background: #719539; }
   html body #page {
@@ -96,6 +108,9 @@ html body {
         color: #fff;
         font-size: 11px; }
 
+/**
+* Small screen size styles.
+*/
 @media only screen and (max-width: 40em) {
   html body #content .header .logo {
     position: static;
