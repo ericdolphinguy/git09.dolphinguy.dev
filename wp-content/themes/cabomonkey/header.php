@@ -53,12 +53,26 @@
 
 		<!-- Banner 2 -->
 		<div class="banner-2">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-2.png" />
+			<div class="reasons left">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/reasons.png" />
+			</div>
+			<div class="guarantees right">
+				<!--<img src="<?php /*echo get_stylesheet_directory_uri(); */?>/images/guarantees.png" />-->
+				<div class="guarantee">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/good-weather.png" />
+				</div>
+				<div class="guarantee">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/free-pictures.png" />
+				</div>
+				<div class="guarantee">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/30-min-cancels.png" />
+				</div>
+			</div>
 		</div>
 		<!-- End Banner 2 -->
 
 		<!-- Banner 3 -->
-		<div class="banner-3">
+		<div class="banner-3 row collapse">
 			<div class="image columns large-8 medium-8">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-3.png" />
 			</div>

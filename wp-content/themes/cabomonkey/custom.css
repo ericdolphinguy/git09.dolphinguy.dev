@@ -35,6 +35,10 @@ html body {
         margin: 0 24px 6px 0; }
       html body #page #content .banner-2 {
         margin: 0 0 24px; }
+        html body #page #content .banner-2 .reasons {
+          padding: 14px 0 0 0px; }
+        html body #page #content .banner-2 .guarantees .guarantee {
+          float: left; }
       html body #page #content .banner-3 {
         margin: 0 0 24px; }
         html body #page #content .banner-3 .image {

@@ -10,7 +10,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer columns large-9 medium-9" role="contentinfo">
+	<footer id="colophon" class="site-footer columns large-12 medium-12" role="contentinfo">
 		<div class="pickup">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-5.png" />
 		</div>
