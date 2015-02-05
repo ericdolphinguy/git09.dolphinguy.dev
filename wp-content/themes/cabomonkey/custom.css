@@ -144,8 +144,12 @@ html body {
     html body #page #colophon {
       background: #cdb696 url(images/background.jpg); }
       html body #page #colophon .site-info {
+        background: rgba(0, 0, 0, 0.12);
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.72);
         color: #fff;
-        font-size: 11px; }
+        font-size: 11px;
+        margin: 12px;
+        padding: 12px; }
 
 /**
 * Small screen size styles.
