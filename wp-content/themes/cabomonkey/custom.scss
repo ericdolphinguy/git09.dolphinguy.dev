@@ -70,7 +70,8 @@ html {
       }
 
       #content {
-        background: #cdb696 url(images/background.jpg);
+        background: #cdb696 url(images/page_bg.jpg) center top;
+        background-size: 100% auto;
 
         .header {
           height: 115px;
@@ -132,6 +133,7 @@ html {
 
         #primary {
           .offer {
+            @include clearfix;
             padding: 0 12px;
             margin: 0 0 12px;
 
@@ -237,7 +239,7 @@ html {
       }
 
       #colophon {
-        background: #cdb696 url(images/background.jpg);
+        background: #cdb696 url(images/page_bg.jpg) center top;
 
         .pickup {
         }

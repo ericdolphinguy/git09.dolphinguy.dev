@@ -41,7 +41,8 @@ html body {
             color: #fff;
             font-size: 18px; }
     html body #page #content {
-      background: #cdb696 url(images/background.jpg); }
+      background: #cdb696 url(images/page_bg.jpg) center top;
+      background-size: 100% auto; }
       html body #page #content .header {
         height: 115px;
         overflow: hidden;
@@ -78,6 +79,10 @@ html body {
       html body #page #content #primary .offer {
         padding: 0 12px;
         margin: 0 0 12px; }
+        html body #page #content #primary .offer::after {
+          clear: both;
+          content: "";
+          display: table; }
         html body #page #content #primary .offer .image {
           background: url(images/monkeys.png) left bottom repeat-x;
           padding: 0 0 54px;
@@ -141,7 +146,7 @@ html body {
               height: 124px;
               padding: 0 12px 12px; }
     html body #page #colophon {
-      background: #cdb696 url(images/background.jpg); }
+      background: #cdb696 url(images/page_bg.jpg) center top; }
       html body #page #colophon .site-info {
         background: rgba(0, 0, 0, 0.12);
         box-shadow: 0 0 12px rgba(0, 0, 0, 0.72);

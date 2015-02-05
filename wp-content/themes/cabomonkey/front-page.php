@@ -15,7 +15,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<div class="offer row collapse">
+			<div class="offer ">
 				<div class="image left">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01.jpg" />
 					<div class="meta">
@@ -50,7 +50,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="offer row collapse">
+			<div class="offer ">
 				<div class="image left">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-zip-line-adventure-01.jpg" />
 					<div class="meta">
@@ -85,7 +85,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="offer row collapse">
+			<div class="offer ">
 				<div class="image left">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-outback-camel-safari-01.jpg" />
 					<div class="meta">
@@ -120,7 +120,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="offer row collapse">
+			<div class="offer ">
 				<div class="image left">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01.jpg" />
 					<div class="meta">
@@ -155,7 +155,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="offer row collapse">
+			<div class="offer ">
 				<div class="image left">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-santa-maria-snorkeling-01.jpg" />
 					<div class="meta">
@@ -190,7 +190,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="offer row collapse">
+			<div class="offer ">
 				<div class="image left">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cabo-dolphins-01.jpg" />
 					<div class="meta">
