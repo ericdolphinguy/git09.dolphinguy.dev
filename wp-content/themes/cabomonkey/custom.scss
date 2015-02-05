@@ -1,4 +1,10 @@
 /**
+* Include bourbon.io framework.
+*/
+
+@import "bourbon/bourbon";
+
+/**
 * Include custom fonts.
 */
 
@@ -136,42 +142,61 @@ html {
               background: #c10c00;
               padding: 10px;
               height: inherit;
+              width: 362px;
 
               .tripadvisor {
                 color: #fff;
               }
 
               .inner {
-                background: #31291f;
+                background: #322a1f;
 
                 .title {
                   color: #fec900;
-                  height: 40px;
+                  font-family: $font_momt;
+                  padding: 12px 12px 0;
                 }
 
                 .title-2 {
                   color: #fff;
+                  font-family: $font_momt;
+                  padding: 0 12px 12px;
+                }
+
+                .text {
+                  color: #fff;
+                  font-size: 12px;
+                  padding: 0 12px 12px;
                 }
 
                 .buttons {
-                  background: #555;
+                  padding: 0 24px;
+
+                  .button {
+                    border-radius: 2px;
+                    font-family: $font_momt;
+                    font-size: 18px;
+                    padding: 6px;
+                    width: 48%;
+                  }
 
                   .details {
                     background: #78b800;
                     color: #fff;
-                    height: inherit;
+                    float: left;
                   }
 
                   .bookit {
                     background: #d95843;
                     color: #fff;
-                    height: inherit;
+                    float: right;
                   }
                 }
 
                 .ticket {
-                  background: #d7c47c;
-                  min-height: 60px;
+                  background: url(images/ticket.png) center center no-repeat;
+                  height: 124px;
+                  padding: 0 12px 12px;
                 }
               }
             }

@@ -1,4 +1,7 @@
 /**
+* Include bourbon.io framework.
+*/
+/**
 * Include custom fonts.
 */
 @import url(fonts/tiza/stylesheet.css);
@@ -79,29 +82,44 @@ html body {
         html body #page #content #primary .offer .coupon {
           background: #c10c00;
           padding: 10px;
-          height: inherit; }
+          height: inherit;
+          width: 362px; }
           html body #page #content #primary .offer .coupon .tripadvisor {
             color: #fff; }
           html body #page #content #primary .offer .coupon .inner {
-            background: #31291f; }
+            background: #322a1f; }
             html body #page #content #primary .offer .coupon .inner .title {
               color: #fec900;
-              height: 40px; }
+              font-family: "momstypewriterregular", serif;
+              padding: 12px 12px 0; }
             html body #page #content #primary .offer .coupon .inner .title-2 {
-              color: #fff; }
+              color: #fff;
+              font-family: "momstypewriterregular", serif;
+              padding: 0 12px 12px; }
+            html body #page #content #primary .offer .coupon .inner .text {
+              color: #fff;
+              font-size: 12px;
+              padding: 0 12px 12px; }
             html body #page #content #primary .offer .coupon .inner .buttons {
-              background: #555; }
+              padding: 0 24px; }
+              html body #page #content #primary .offer .coupon .inner .buttons .button {
+                border-radius: 2px;
+                font-family: "momstypewriterregular", serif;
+                font-size: 18px;
+                padding: 6px;
+                width: 48%; }
               html body #page #content #primary .offer .coupon .inner .buttons .details {
                 background: #78b800;
                 color: #fff;
-                height: inherit; }
+                float: left; }
               html body #page #content #primary .offer .coupon .inner .buttons .bookit {
                 background: #d95843;
                 color: #fff;
-                height: inherit; }
+                float: right; }
             html body #page #content #primary .offer .coupon .inner .ticket {
-              background: #d7c47c;
-              min-height: 60px; }
+              background: url(images/ticket.png) center center no-repeat;
+              height: 124px;
+              padding: 0 12px 12px; }
     html body #page #colophon {
       background: #cdb696 url(images/background.jpg); }
       html body #page #colophon .site-info {
