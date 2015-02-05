@@ -16,10 +16,18 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<div class="offer row collapse">
-				<div class="image columns large-8 medium-8">
+				<div class="image left">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01.jpg" />
+					<div class="meta">
+						<div class="qrcode">
+							{qrcode}
+						</div>
+						<div class="notes">
+							{notes}
+						</div>
+					</div>
 				</div>
-				<div class="coupon columns large-3 medium-3">
+				<div class="coupon right">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>
@@ -44,10 +52,18 @@ get_header(); ?>
 			</div>
 
 			<div class="offer row collapse">
-				<div class="image columns large-8 medium-8">
+				<div class="image left">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-zip-line-adventure-01.jpg" />
+					<div class="meta">
+						<div class="qrcode">
+							{qrcode}
+						</div>
+						<div class="notes">
+							{notes}
+						</div>
+					</div>
 				</div>
-				<div class="coupon columns large-3 medium-3">
+				<div class="coupon right">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>
@@ -72,10 +88,18 @@ get_header(); ?>
 			</div>
 
 			<div class="offer row collapse">
-				<div class="image columns large-8 medium-8">
+				<div class="image left">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-outback-camel-safari-01.jpg" />
+					<div class="meta">
+						<div class="qrcode">
+							{qrcode}
+						</div>
+						<div class="notes">
+							{notes}
+						</div>
+					</div>
 				</div>
-				<div class="coupon columns large-3 medium-3">
+				<div class="coupon right">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>
@@ -100,10 +124,18 @@ get_header(); ?>
 			</div>
 
 			<div class="offer row collapse">
-				<div class="image columns large-8 medium-8">
+				<div class="image left">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01.jpg" />
+					<div class="meta">
+						<div class="qrcode">
+							{qrcode}
+						</div>
+						<div class="notes">
+							{notes}
+						</div>
+					</div>
 				</div>
-				<div class="coupon columns large-3 medium-3">
+				<div class="coupon right">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>
@@ -128,10 +160,18 @@ get_header(); ?>
 			</div>
 
 			<div class="offer row collapse">
-				<div class="image columns large-8 medium-8">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01.jpg" />
+				<div class="image left">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-santa-maria-snorkeling-01.jpg" />
+					<div class="meta">
+						<div class="qrcode">
+							{qrcode}
+						</div>
+						<div class="notes">
+							{notes}
+						</div>
+					</div>
 				</div>
-				<div class="coupon columns large-3 medium-3">
+				<div class="coupon right">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>
@@ -156,10 +196,18 @@ get_header(); ?>
 			</div>
 
 			<div class="offer row collapse">
-				<div class="image columns large-8 medium-8">
+				<div class="image left">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cabo-dolphins-01.jpg" />
+					<div class="meta">
+						<div class="qrcode">
+							{qrcode}
+						</div>
+						<div class="notes">
+							{notes}
+						</div>
+					</div>
 				</div>
-				<div class="coupon columns large-3 medium-3">
+				<div class="coupon right">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>

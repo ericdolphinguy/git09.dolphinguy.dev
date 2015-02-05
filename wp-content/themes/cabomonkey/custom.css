@@ -76,9 +76,30 @@ html body {
         html body #page #content .banner-3 .tripadvisor {
           height: inherit; }
       html body #page #content #primary .offer {
-        margin: 0 0 45px; }
+        padding: 0 12px;
+        margin: 0 0 12px; }
         html body #page #content #primary .offer .image {
-          height: inherit; }
+          background: url(images/monkeys.png) left bottom repeat-x;
+          padding: 0 0 54px;
+          position: relative;
+          width: 738px; }
+          html body #page #content #primary .offer .image .meta {
+            bottom: 54px;
+            position: absolute;
+            right: 12px;
+            width: 100px; }
+            html body #page #content #primary .offer .image .meta .qrcode {
+              background: url(images/qrcode.png);
+              background-size: 100% 100%;
+              height: 100px;
+              width: 100%; }
+              html body #page #content #primary .offer .image .meta .qrcode img {
+                width: 100%; }
+            html body #page #content #primary .offer .image .meta .notes {
+              background: #eee;
+              height: 60px; }
+              html body #page #content #primary .offer .image .meta .notes .note {
+                width: 33.33%; }
         html body #page #content #primary .offer .coupon {
           background: #c10c00;
           padding: 10px;

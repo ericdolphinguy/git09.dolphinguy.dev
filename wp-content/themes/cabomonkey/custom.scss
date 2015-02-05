@@ -132,10 +132,41 @@ html {
 
         #primary {
           .offer {
-            margin: 0 0 45px;
+            padding: 0 12px;
+            margin: 0 0 12px;
 
             .image {
-              height: inherit;
+              background: url(images/monkeys.png) left bottom repeat-x;
+              padding: 0 0 54px;
+              position: relative;
+              width: 738px;
+
+              .meta {
+                bottom: 54px;
+                position: absolute;
+                right: 12px;
+                width: 100px;
+
+                .qrcode {
+                  background: url(images/qrcode.png);
+                  background-size: 100% 100%;
+                  height: 100px;
+                  width: 100%;
+
+                  img {
+                    width: 100%;
+                  }
+                }
+
+                .notes {
+                  background: #eee;
+                  height: 60px;
+
+                  .note {
+                    width: 33.33%;
+                  }
+                }
+              }
             }
 
             .coupon {
