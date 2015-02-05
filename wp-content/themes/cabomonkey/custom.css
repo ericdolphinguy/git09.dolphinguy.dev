@@ -5,65 +5,77 @@
 /* 1921px */
 html body {
   background: #719539; }
-  html body #page #masthead .site-branding {
-    background: url(images/logo.jpg) center center no-repeat;
-    background-size: 100% auto;
-    height: 333px;
-    overflow: hidden;
-    text-indent: -999%; }
-  html body #page #masthead .main-navigation .menu-item {
-    float: none; }
-    html body #page #masthead .main-navigation .menu-item a {
-      color: #fff; }
-  html body #page #content {
-    background: #cdb696 url(images/background.jpg); }
-    html body #page #content .header .chat {
-      background: #78b800;
-      color: #fff;
-      height: 20px; }
-    html body #page #content .banner-2 {
-      margin: 0 0 24px; }
-    html body #page #content .banner-3 {
-      margin: 0 0 24px; }
-      html body #page #content .banner-3 .image {
-        height: inherit; }
-      html body #page #content .banner-3 .tripadvisor {
-        height: inherit; }
-    html body #page #content #primary .offer {
-      margin: 0 0 45px; }
-      html body #page #content #primary .offer .image {
-        height: inherit; }
-      html body #page #content #primary .offer .coupon {
-        background: #c10c00;
-        padding: 10px;
-        height: inherit; }
-        html body #page #content #primary .offer .coupon .tripadvisor {
+  html body #page {
+    position: relative; }
+    html body #page #masthead {
+      left: -300px;
+      padding: 0 28px 0 0;
+      position: absolute;
+      z-index: 2;
+      width: 300px; }
+      html body #page #masthead .site-branding {
+        background: url(images/logo.jpg) center center no-repeat;
+        background-size: 100% auto;
+        height: 333px;
+        overflow: hidden;
+        text-indent: -999%; }
+      html body #page #masthead .main-navigation .menu-item {
+        float: none; }
+        html body #page #masthead .main-navigation .menu-item a {
           color: #fff; }
-        html body #page #content #primary .offer .coupon .inner {
-          background: #31291f; }
-          html body #page #content #primary .offer .coupon .inner .title {
-            color: #fec900;
-            height: 40px; }
-          html body #page #content #primary .offer .coupon .inner .title-2 {
+    html body #page #content {
+      background: #cdb696 url(images/background.jpg); }
+      html body #page #content .header .chat {
+        background: url(images/chat-now.png) center center no-repeat;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+        height: 50px; }
+      html body #page #content .header .logo {
+        margin: 0 24px 6px 0; }
+      html body #page #content .banner-2 {
+        margin: 0 0 24px; }
+      html body #page #content .banner-3 {
+        margin: 0 0 24px; }
+        html body #page #content .banner-3 .image {
+          height: inherit; }
+        html body #page #content .banner-3 .tripadvisor {
+          height: inherit; }
+      html body #page #content #primary .offer {
+        margin: 0 0 45px; }
+        html body #page #content #primary .offer .image {
+          height: inherit; }
+        html body #page #content #primary .offer .coupon {
+          background: #c10c00;
+          padding: 10px;
+          height: inherit; }
+          html body #page #content #primary .offer .coupon .tripadvisor {
             color: #fff; }
-          html body #page #content #primary .offer .coupon .inner .buttons {
-            background: #555; }
-            html body #page #content #primary .offer .coupon .inner .buttons .details {
-              background: #78b800;
-              color: #fff;
-              height: inherit; }
-            html body #page #content #primary .offer .coupon .inner .buttons .bookit {
-              background: #d95843;
-              color: #fff;
-              height: inherit; }
-          html body #page #content #primary .offer .coupon .inner .ticket {
-            background: #d7c47c;
-            min-height: 60px; }
-  html body #page #colophon {
-    background: #cdb696 url(images/background.jpg); }
-    html body #page #colophon .site-info {
-      color: #fff;
-      font-size: 11px; }
+          html body #page #content #primary .offer .coupon .inner {
+            background: #31291f; }
+            html body #page #content #primary .offer .coupon .inner .title {
+              color: #fec900;
+              height: 40px; }
+            html body #page #content #primary .offer .coupon .inner .title-2 {
+              color: #fff; }
+            html body #page #content #primary .offer .coupon .inner .buttons {
+              background: #555; }
+              html body #page #content #primary .offer .coupon .inner .buttons .details {
+                background: #78b800;
+                color: #fff;
+                height: inherit; }
+              html body #page #content #primary .offer .coupon .inner .buttons .bookit {
+                background: #d95843;
+                color: #fff;
+                height: inherit; }
+            html body #page #content #primary .offer .coupon .inner .ticket {
+              background: #d7c47c;
+              min-height: 60px; }
+    html body #page #colophon {
+      background: #cdb696 url(images/background.jpg); }
+      html body #page #colophon .site-info {
+        color: #fff;
+        font-size: 11px; }
 
 @media only screen and (max-width: 40em) {
   html body #content .header .logo {

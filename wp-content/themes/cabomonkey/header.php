@@ -21,7 +21,7 @@
 <div id="page" class="hfeed site row collapse">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'cabomonkey' ); ?></a>
 
-	<header id="masthead" class="site-header columns large-3 medium-3" role="banner">
+	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
@@ -33,14 +33,13 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content columns large-9 medium-9">
+	<div id="content" class="site-content columns large-12 medium-12">
 
 		<!-- Content Header -->
 		<div class="header">
-			<div class="chat columns large-2 large-centered medium-2 medium-centered small-11 small-centered">
-				CHAT NOW
+			<div class="chat">
 			</div>
-			<div class="logo columns large-3 large-offset-9 medium-3 medium-offset-9 small-11 small-centered">
+			<div class="logo right">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-2.png" />
 			</div>
 		</div>
