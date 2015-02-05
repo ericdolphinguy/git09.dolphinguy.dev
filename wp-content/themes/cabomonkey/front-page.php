@@ -61,7 +61,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="coupon right">
+				<div class="coupon">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>
