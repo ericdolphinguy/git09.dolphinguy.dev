@@ -144,14 +144,16 @@ html {
               .meta {
                 bottom: 54px;
                 position: absolute;
-                right: 12px;
+                right: 10px;
                 width: 100px;
 
                 .qrcode {
-                  background: url(images/qrcode.png);
-                  background-size: 100% 100%;
                   height: 100px;
                   width: 100%;
+
+                  a {
+                    display: none !important;
+                  }
 
                   img {
                     width: 100%;
@@ -159,7 +161,6 @@ html {
                 }
 
                 .notes {
-                  background: #eee;
                   height: 60px;
 
                   .note {
