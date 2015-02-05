@@ -1,6 +1,8 @@
 @import url(fonts/tiza/stylesheet.css);
+@import url(fonts/momt/stylesheet.css);
 html body {
-  background: #719539; }
+  background: #719539;
+  font-family: "momstypewriterregular", serif; }
   html body #page {
     position: relative; }
     html body #page #masthead {
