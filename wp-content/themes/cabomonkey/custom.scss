@@ -139,9 +139,14 @@ html {
 
             .image {
               background: url(images/monkeys.png) left bottom repeat-x;
+              float: left;
               padding: 0 0 54px;
               position: relative;
               width: 738px;
+
+              > img {
+                width: 100%;
+              }
 
               .meta {
                 bottom: 54px;
@@ -174,6 +179,7 @@ html {
 
             .coupon {
               background: #c10c00;
+              float: right;
               padding: 10px;
               height: inherit;
               width: 362px;
@@ -257,19 +263,44 @@ html {
   }
 }
 
+
 /**
-* Small screen size styles.
+* Content column width.
 */
 
-@media only screen and (max-width: 40em){
+@media all and (max-width: 1230px) {
   html {
     body {
-      #content {
-        .header {
-          .logo {
-            position: static;
-            top: auto;
-            right: auto;
+      #page {
+        #content {
+          .header {
+            .logo {
+              position: static;
+              top: auto;
+              right: auto;
+            }
+          }
+
+          #primary {
+            .offer {
+              margin: 0 0 12px;
+
+              .image {
+                float: none;
+                margin: 0 0 12px;
+                width: 100%;
+
+                .meta {
+                  display: none;
+                }
+              }
+
+              .coupon {
+                float: none;
+                margin: 0 auto;
+                max-width: 100%;
+              }
+            }
           }
         }
       }

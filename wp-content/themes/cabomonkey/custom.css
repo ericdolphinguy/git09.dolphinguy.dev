@@ -85,9 +85,12 @@ html body {
           display: table; }
         html body #page #content #primary .offer .image {
           background: url(images/monkeys.png) left bottom repeat-x;
+          float: left;
           padding: 0 0 54px;
           position: relative;
           width: 738px; }
+          html body #page #content #primary .offer .image > img {
+            width: 100%; }
           html body #page #content #primary .offer .image .meta {
             bottom: 54px;
             position: absolute;
@@ -106,6 +109,7 @@ html body {
                 width: 33.33%; }
         html body #page #content #primary .offer .coupon {
           background: #c10c00;
+          float: right;
           padding: 10px;
           height: inherit;
           width: 362px; }
@@ -156,12 +160,24 @@ html body {
         padding: 12px; }
 
 /**
-* Small screen size styles.
+* Content column width.
 */
-@media only screen and (max-width: 40em) {
-  html body #content .header .logo {
+@media all and (max-width: 1230px) {
+  html body #page #content .header .logo {
     position: static;
     top: auto;
-    right: auto; } }
+    right: auto; }
+  html body #page #content #primary .offer {
+    margin: 0 0 12px; }
+    html body #page #content #primary .offer .image {
+      float: none;
+      margin: 0 0 12px;
+      width: 100%; }
+      html body #page #content #primary .offer .image .meta {
+        display: none; }
+    html body #page #content #primary .offer .coupon {
+      float: none;
+      margin: 0 auto;
+      max-width: 100%; } }
 
 /*# sourceMappingURL=custom.css.map */

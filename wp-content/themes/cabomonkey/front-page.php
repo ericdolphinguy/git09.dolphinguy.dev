@@ -16,7 +16,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<div class="offer ">
-				<div class="image left">
+				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
@@ -26,7 +26,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="coupon right">
+				<div class="coupon">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>
@@ -51,7 +51,7 @@ get_header(); ?>
 			</div>
 
 			<div class="offer ">
-				<div class="image left">
+				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-zip-line-adventure-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
@@ -86,7 +86,7 @@ get_header(); ?>
 			</div>
 
 			<div class="offer ">
-				<div class="image left">
+				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-outback-camel-safari-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
@@ -96,7 +96,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="coupon right">
+				<div class="coupon">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>
@@ -121,7 +121,7 @@ get_header(); ?>
 			</div>
 
 			<div class="offer ">
-				<div class="image left">
+				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
@@ -131,7 +131,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="coupon right">
+				<div class="coupon">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>
@@ -156,7 +156,7 @@ get_header(); ?>
 			</div>
 
 			<div class="offer ">
-				<div class="image left">
+				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-santa-maria-snorkeling-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
@@ -166,7 +166,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="coupon right">
+				<div class="coupon">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>
@@ -191,7 +191,7 @@ get_header(); ?>
 			</div>
 
 			<div class="offer ">
-				<div class="image left">
+				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cabo-dolphins-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
@@ -201,7 +201,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="coupon right">
+				<div class="coupon">
 					<div class="tripadvisor">
 						{tripadvisor}
 					</div>
