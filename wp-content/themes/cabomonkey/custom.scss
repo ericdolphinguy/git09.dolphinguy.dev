@@ -1,8 +1,10 @@
 @import 'fonts/tiza/stylesheet.css';
 @import 'fonts/momt/stylesheet.css';
+@import 'fonts/321impact/stylesheet.css';
 
 $font_tiza: 'tizaregular', serif;
 $font_momt: 'momstypewriterregular', serif;
+$font_321impact: '321impactregular', arial, sans-serif;
 
 $color_background: #719539;
 $color_green: #78b800;
@@ -11,7 +13,6 @@ html {
 
   body {
     background: $color_background;
-    font-family: $font_momt;
 
     #page {
       position: relative;
