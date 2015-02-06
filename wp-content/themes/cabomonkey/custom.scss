@@ -342,7 +342,7 @@ html {
 
         #content {
           .header {
-            background: $color_background;
+//            background: $color_background;
             height: auto;
 
             .main-navigation {
@@ -466,6 +466,16 @@ html {
                 margin: 0 auto;
                 max-width: 100%;
               }
+            }
+          }
+        }
+      }
+
+      &.toggled {
+        #page {
+          #content {
+            .header {
+              background: $color_background;
             }
           }
         }

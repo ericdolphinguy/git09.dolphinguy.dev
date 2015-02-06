@@ -221,7 +221,6 @@ html body {
   html body #page {
     overflow: hidden; }
     html body #page #content .header {
-      background: #719539;
       height: auto; }
       html body #page #content .header .main-navigation {
         /*
@@ -296,6 +295,8 @@ html body {
       html body #page #content #primary .offer .coupon {
         float: none;
         margin: 0 auto;
-        max-width: 100%; } }
+        max-width: 100%; }
+  html body.toggled #page #content .header {
+    background: #719539; } }
 
 /*# sourceMappingURL=custom.css.map */
