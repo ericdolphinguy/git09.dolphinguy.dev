@@ -44,10 +44,12 @@
 					</a>
 				</div><!-- .logo -->
 
-				<div class="site-branding">
-				</div><!-- .site-branding -->
+				<div class="menu-block">
+					<div class="site-branding">
+					</div><!-- .site-branding -->
 
-				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+				</div>
 
 			</nav>
 

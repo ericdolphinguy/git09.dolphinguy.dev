@@ -26,25 +26,28 @@ html body {
       background-size: 100% auto; }
       html body #page #content .header {
         height: 115px;
-        overflow: hidden;
         position: relative; }
         html body #page #content .header .main-navigation {
-          background: #719539;
+          float: none;
           font-weight: bold; }
-          html body #page #content .header .main-navigation .site-branding {
-            background: url(images/logo.jpg) center center no-repeat;
-            background-size: 100% auto;
-            display: none;
-            margin: 0 auto;
-            padding: 0 0 80%;
-            width: 80%; }
-          html body #page #content .header .main-navigation .menu {
-            padding: 0 72px; }
-            html body #page #content .header .main-navigation .menu .menu-item {
-              float: none; }
-              html body #page #content .header .main-navigation .menu .menu-item a {
-                color: #fff;
-                font-size: 18px; }
+          html body #page #content .header .main-navigation .menu-block {
+            left: -300px;
+            position: absolute;
+            z-index: 9;
+            width: 300px; }
+            html body #page #content .header .main-navigation .menu-block .site-branding {
+              background: url(images/logo.jpg) center center no-repeat;
+              background-size: 100% auto;
+              margin: 0 auto;
+              padding: 0 0 80%;
+              width: 80%; }
+            html body #page #content .header .main-navigation .menu-block .menu {
+              padding: 0 72px; }
+              html body #page #content .header .main-navigation .menu-block .menu .menu-item {
+                float: none; }
+                html body #page #content .header .main-navigation .menu-block .menu .menu-item a {
+                  color: #fff;
+                  font-size: 18px; }
         html body #page #content .header .chat {
           background: url(images/chat-now.png) center center no-repeat;
           color: #fff;
@@ -211,66 +214,52 @@ html body {
 * Content column width.
 */
 @media all and (max-width: 1230px) {
-  html body #page {
-       /* #masthead {
-
-          left: auto;
-          padding: 0 72px;
-          position: static;
-          width: 100%;
-
-          .main-navigation {
-
-            .site-branding {
-              display: none;
-            }
-
-            &.toggled {
-              .site-branding {
-                display: block;
-              }
-            }
-          }
-        }*/ }
-    html body #page #content .header {
-      height: auto; }
-      html body #page #content .header .main-navigation.toggled .site-branding {
-        display: block; }
-      html body #page #content .header .logo {
-        padding: 12px;
-        position: static;
-        top: auto;
-        right: auto;
-        text-align: center; }
-        html body #page #content .header .logo img {
-          display: block;
-          margin: 0 auto; }
-    html body #page #content .banner-2 {
-      height: auto; }
-      html body #page #content .banner-2 .reasons {
-        float: none;
-        padding: 12px 12px;
-        text-align: center; }
-      html body #page #content .banner-2 .guarantees {
-        float: none;
-        padding: 0 12px;
-        text-align: center; }
-        html body #page #content .banner-2 .guarantees .guarantee {
-          display: inline-block;
-          float: none; }
-    html body #page #content .banner-3 .image img {
-      max-width: 100%; }
-    html body #page #content #primary .offer {
-      margin: 0 0 12px; }
-      html body #page #content #primary .offer .image {
-        float: none;
-        margin: 0 0 12px;
-        width: 100%; }
-        html body #page #content #primary .offer .image .meta {
-          display: none; }
-      html body #page #content #primary .offer .coupon {
-        float: none;
-        margin: 0 auto;
-        max-width: 100%; } }
+  html body #page #content .header {
+    background: #719539;
+    height: auto; }
+    html body #page #content .header .main-navigation .menu-block {
+      left: auto;
+      position: static;
+      width: 100%; }
+      html body #page #content .header .main-navigation .menu-block .site-branding {
+        display: none; }
+    html body #page #content .header .main-navigation.toggled .menu-block .site-branding {
+      display: block; }
+    html body #page #content .header .logo {
+      padding: 12px;
+      position: static;
+      top: auto;
+      right: auto;
+      text-align: center; }
+      html body #page #content .header .logo img {
+        display: block;
+        margin: 0 auto; }
+  html body #page #content .banner-2 {
+    height: auto; }
+    html body #page #content .banner-2 .reasons {
+      float: none;
+      padding: 12px 12px;
+      text-align: center; }
+    html body #page #content .banner-2 .guarantees {
+      float: none;
+      padding: 0 12px;
+      text-align: center; }
+      html body #page #content .banner-2 .guarantees .guarantee {
+        display: inline-block;
+        float: none; }
+  html body #page #content .banner-3 .image img {
+    max-width: 100%; }
+  html body #page #content #primary .offer {
+    margin: 0 0 12px; }
+    html body #page #content #primary .offer .image {
+      float: none;
+      margin: 0 0 12px;
+      width: 100%; }
+      html body #page #content #primary .offer .image .meta {
+        display: none; }
+    html body #page #content #primary .offer .coupon {
+      float: none;
+      margin: 0 auto;
+      max-width: 100%; } }
 
 /*# sourceMappingURL=custom.css.map */

@@ -46,31 +46,36 @@ html {
 
         .header {
           height: 115px;
-          overflow: hidden;
           position: relative;
 
           .main-navigation {
-            background: $color_background;
+            float: none;
             font-weight: bold;
 
-            .site-branding {
-              background: url(images/logo.jpg) center center no-repeat;
-              background-size: 100% auto;
-              display: none;
-              margin: 0 auto;
-              padding: 0 0 80%;
-              width: 80%;
-            }
+            .menu-block {
+              left: - 300px;
+              position: absolute;
+              z-index: 9;
+              width: 300px;
 
-            .menu {
-              padding: 0 72px;
+              .site-branding {
+                background: url(images/logo.jpg) center center no-repeat;
+                background-size: 100% auto;
+                margin: 0 auto;
+                padding: 0 0 80%;
+                width: 80%;
+              }
 
-              .menu-item {
-                float: none;
+              .menu {
+                padding: 0 72px;
 
-                a {
-                  color: #fff;
-                  font-size: 18px;
+                .menu-item {
+                  float: none;
+
+                  a {
+                    color: #fff;
+                    font-size: 18px;
+                  }
                 }
               }
             }
@@ -328,35 +333,29 @@ html {
   html {
     body {
       #page {
-       /* #masthead {
-
-          left: auto;
-          padding: 0 72px;
-          position: static;
-          width: 100%;
-
-          .main-navigation {
-
-            .site-branding {
-              display: none;
-            }
-
-            &.toggled {
-              .site-branding {
-                display: block;
-              }
-            }
-          }
-        }*/
 
         #content {
           .header {
+            background: $color_background;
             height: auto;
 
             .main-navigation {
-              &.toggled {
+
+              .menu-block {
+                left: auto;
+                position: static;
+                width: 100%;
+
                 .site-branding {
-                  display: block;
+                  display: none;
+                }
+              }
+
+              &.toggled {
+                .menu-block {
+                  .site-branding {
+                    display: block;
+                  }
                 }
               }
             }
