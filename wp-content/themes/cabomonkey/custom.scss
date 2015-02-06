@@ -12,6 +12,7 @@
 @import 'fonts/momt/stylesheet.css';
 @import 'fonts/321impact/stylesheet.css';
 @import 'fonts/dead_kansas/stylesheet.css';
+@import 'fonts/icomoon/style.css';
 
 /**
 * Scss font variables.
@@ -21,6 +22,7 @@ $font_tiza: 'tizaregular', serif;
 $font_momt: 'momstypewriterregular', serif;
 $font_321impact: '321impactregular', arial, sans-serif;
 $font_dead_kansas: 'dead_kansasregular', arial, sans-serif;
+$font_icomoon: 'icomoon';
 
 /**
 * Scss color variables.
@@ -342,7 +344,6 @@ html {
 
         #content {
           .header {
-//            background: $color_background;
             height: auto;
 
             .main-navigation {
@@ -352,22 +353,30 @@ html {
               */
 
               .menu-toggle {
-                background: #77ac14;
+                background: transparent;
                 border: 0;
                 box-shadow: none;
                 float: left;
+                font-family: $font_icomoon;
                 height: 40px;
                 margin: 10px 0 0 10px;
-                overflow: hidden;
+                outline: none;
                 padding: 0;
-                text-align: left;
-                text-indent: 999%;
+                text-shadow: none;
                 width: 40px;
+              }
+
+              .menu-toggle:before {
+                color: #78b800;
+                content: "\e9bd";
+                display: block;
+                font-size: 42px;
+                text-align: center;
               }
 
               .menu-block {
                 left: auto;
-                padding: 0 50px;
+                padding: 0 50px 50px;
                 position: static;
                 width: 100%;
 

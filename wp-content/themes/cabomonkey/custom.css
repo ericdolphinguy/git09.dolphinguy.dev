@@ -8,6 +8,7 @@
 @import url(fonts/momt/stylesheet.css);
 @import url(fonts/321impact/stylesheet.css);
 @import url(fonts/dead_kansas/stylesheet.css);
+@import url(fonts/icomoon/style.css);
 /**
 * Scss font variables.
 */
@@ -227,20 +228,26 @@ html body {
         Corrected the styles
         */ }
         html body #page #content .header .main-navigation .menu-toggle {
-          background: #77ac14;
+          background: transparent;
           border: 0;
           box-shadow: none;
           float: left;
+          font-family: "icomoon";
           height: 40px;
           margin: 10px 0 0 10px;
-          overflow: hidden;
+          outline: none;
           padding: 0;
-          text-align: left;
-          text-indent: 999%;
+          text-shadow: none;
           width: 40px; }
+        html body #page #content .header .main-navigation .menu-toggle:before {
+          color: #78b800;
+          content: "\e9bd";
+          display: block;
+          font-size: 42px;
+          text-align: center; }
         html body #page #content .header .main-navigation .menu-block {
           left: auto;
-          padding: 0 50px;
+          padding: 0 50px 50px;
           position: static;
           width: 100%; }
           html body #page #content .header .main-navigation .menu-block .site-branding {
