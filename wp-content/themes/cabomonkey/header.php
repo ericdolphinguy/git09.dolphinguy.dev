@@ -22,9 +22,6 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'cabomonkey' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-
-
-
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content columns large-12 medium-12">
@@ -34,37 +31,28 @@
 
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 
-				<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Primary Menu', 'cabomonkey' ); ?></button>
+				<button class="menu-toggle" aria-controls="menu" aria-expanded="false">
+					<?php _e( 'Primary Menu', 'cabomonkey' ); ?>
+				</button>
 
 				<div class="chat">
-				</div>
+				</div><!-- .chat -->
 
 				<div class="logo">
 					<a href="<?php echo site_url('/'); ?>">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-2.png" />
 					</a>
-				</div>
+				</div><!-- .logo -->
 
 				<div class="site-branding">
 				</div><!-- .site-branding -->
 
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 
-			</nav><!-- #site-navigation -->
-
-			<!--<div class="chat">
-			</div>
-
-			<div class="logo">
-				<a href="<?php /*echo site_url('/'); */?>">
-					<img src="<?php /*echo get_stylesheet_directory_uri(); */?>/images/logo-2.png" />
-				</a>
-			</div>-->
+			</nav>
 
 		</div>
 		<!-- End Content Header -->
-
-
 
 		<!-- Banner -->
 		<div class="banner">

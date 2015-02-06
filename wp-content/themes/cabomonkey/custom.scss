@@ -38,7 +38,7 @@ html {
     background: $color_background;
 
     #page {
-      position: relative;s
+      position: relative;
 
       #content {
         background: #cdb696 url(images/page_bg.jpg) center top;
@@ -57,10 +57,8 @@ html {
               background: url(images/logo.jpg) center center no-repeat;
               background-size: 100% auto;
               display: none;
-              overflow: hidden;
               margin: 0 auto;
               padding: 0 0 80%;
-              text-indent: -999%;
               width: 80%;
             }
 
