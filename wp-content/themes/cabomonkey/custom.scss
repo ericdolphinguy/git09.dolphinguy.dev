@@ -38,36 +38,7 @@ html {
     background: $color_background;
 
     #page {
-      position: relative;
-
-      #masthead {
-        left: -300px;
-        padding: 0 30px 0 0;
-        position: absolute;
-        z-index: 2;
-        width: 300px;
-
-        .site-branding {
-          background: url(images/logo.jpg) center center no-repeat;
-          background-size: 100% auto;
-          height: 300px;
-          overflow: hidden;
-          text-indent: -999%;
-        }
-
-        .main-navigation {
-          font-weight: bold;
-
-          .menu-item {
-            float: none;
-
-            a {
-              color: #fff;
-              font-size: 18px;
-            }
-          }
-        }
-      }
+      position: relative;s
 
       #content {
         background: #cdb696 url(images/page_bg.jpg) center top;
@@ -77,6 +48,35 @@ html {
           height: 115px;
           overflow: hidden;
           position: relative;
+
+          .main-navigation {
+            background: $color_background;
+            font-weight: bold;
+
+            .site-branding {
+              background: url(images/logo.jpg) center center no-repeat;
+              background-size: 100% auto;
+              display: none;
+              overflow: hidden;
+              margin: 0 auto;
+              padding: 0 0 80%;
+              text-indent: -999%;
+              width: 80%;
+            }
+
+            .menu {
+              padding: 0 72px;
+
+              .menu-item {
+                float: none;
+
+                a {
+                  color: #fff;
+                  font-size: 18px;
+                }
+              }
+            }
+          }
 
           .chat {
             background: url(images/chat-now.png) center center no-repeat;
@@ -330,9 +330,38 @@ html {
   html {
     body {
       #page {
+       /* #masthead {
+
+          left: auto;
+          padding: 0 72px;
+          position: static;
+          width: 100%;
+
+          .main-navigation {
+
+            .site-branding {
+              display: none;
+            }
+
+            &.toggled {
+              .site-branding {
+                display: block;
+              }
+            }
+          }
+        }*/
+
         #content {
           .header {
             height: auto;
+
+            .main-navigation {
+              &.toggled {
+                .site-branding {
+                  display: block;
+                }
+              }
+            }
 
             .logo {
               padding: 12px;

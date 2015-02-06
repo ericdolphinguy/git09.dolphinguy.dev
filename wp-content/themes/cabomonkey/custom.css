@@ -21,100 +21,123 @@ html body {
   background: #719539; }
   html body #page {
     position: relative; }
-    html body #page #masthead {
-      left: -300px;
-      padding: 0 30px 0 0;
-      position: absolute;
-      z-index: 2;
-      width: 300px; }
-      html body #page #masthead .site-branding {
-        background: url(images/logo.jpg) center center no-repeat;
-        background-size: 100% auto;
-        height: 300px;
-        overflow: hidden;
-        text-indent: -999%; }
-      html body #page #masthead .main-navigation {
-        font-weight: bold; }
-        html body #page #masthead .main-navigation .menu-item {
-          float: none; }
-          html body #page #masthead .main-navigation .menu-item a {
-            color: #fff;
-            font-size: 18px; }
-    html body #page #content {
+    html body #page s
+    #content {
       background: #cdb696 url(images/page_bg.jpg) center top;
       background-size: 100% auto; }
-      html body #page #content .header {
+      html body #page s
+      #content .header {
         height: 115px;
         overflow: hidden;
         position: relative; }
-        html body #page #content .header .chat {
+        html body #page s
+        #content .header .main-navigation {
+          background: #719539;
+          font-weight: bold; }
+          html body #page s
+          #content .header .main-navigation .site-branding {
+            background: url(images/logo.jpg) center center no-repeat;
+            background-size: 100% auto;
+            display: none;
+            overflow: hidden;
+            margin: 0 auto;
+            padding: 0 0 80%;
+            text-indent: -999%;
+            width: 80%; }
+          html body #page s
+          #content .header .main-navigation .menu {
+            padding: 0 72px; }
+            html body #page s
+            #content .header .main-navigation .menu .menu-item {
+              float: none; }
+              html body #page s
+              #content .header .main-navigation .menu .menu-item a {
+                color: #fff;
+                font-size: 18px; }
+        html body #page s
+        #content .header .chat {
           background: url(images/chat-now.png) center center no-repeat;
           color: #fff;
           cursor: pointer;
           height: 50px;
           margin: 0 auto;
           width: 255px; }
-        html body #page #content .header .logo {
+        html body #page s
+        #content .header .logo {
           position: absolute;
           top: 22px;
           right: 36px; }
-      html body #page #content .banner {
+      html body #page s
+      #content .banner {
         position: relative; }
-        html body #page #content .banner .text {
+        html body #page s
+        #content .banner .text {
           display: none;
           position: absolute;
           left: 37px;
           top: 102px; }
-          html body #page #content .banner .text .text-1 {
+          html body #page s
+          #content .banner .text .text-1 {
             color: #78b800;
             font-family: "dead_kansasregular", arial, sans-serif;
             font-size: 150px;
             line-height: 150px;
             margin: 0 0 30px;
             text-shadow: 0 0 48px rgba(0, 0, 0, 0.72); }
-          html body #page #content .banner .text .text-2 {
+          html body #page s
+          #content .banner .text .text-2 {
             color: #b49672;
             font-family: "dead_kansasregular", arial, sans-serif;
             font-size: 110px;
             line-height: 110px;
             margin: 0 0 10px;
             text-shadow: 0 0 48px rgba(0, 0, 0, 0.72); }
-          html body #page #content .banner .text .text-3 {
+          html body #page s
+          #content .banner .text .text-3 {
             color: #fec900;
             font-family: "dead_kansasregular", arial, sans-serif;
             font-size: 140px;
             line-height: 140px;
             margin: 0 0 8px;
             text-shadow: 0 0 48px rgba(0, 0, 0, 0.72); }
-          html body #page #content .banner .text .text-4 {
+          html body #page s
+          #content .banner .text .text-4 {
             color: #fff;
             font-family: "321impactregular", arial, sans-serif;
             font-size: 70px;
             line-height: 70px;
             text-shadow: 0 0 48px rgba(0, 0, 0, 0.72); }
-      html body #page #content .banner-2 {
+      html body #page s
+      #content .banner-2 {
         height: 270px; }
-        html body #page #content .banner-2 .reasons {
+        html body #page s
+        #content .banner-2 .reasons {
           float: left;
           padding: 14px 0 0 137px; }
-        html body #page #content .banner-2 .guarantees {
+        html body #page s
+        #content .banner-2 .guarantees {
           float: right;
           padding: 63px 81px 0 0; }
-          html body #page #content .banner-2 .guarantees .guarantee {
+          html body #page s
+          #content .banner-2 .guarantees .guarantee {
             float: left; }
-      html body #page #content .banner-3 {
+      html body #page s
+      #content .banner-3 {
         margin: 0 0 24px;
         padding: 0 12px; }
-        html body #page #content .banner-3::after {
+        html body #page s
+        #content .banner-3::after {
           clear: both;
           content: "";
           display: table; }
-        html body #page #content .banner-3 .image {
+        html body #page s
+        #content .banner-3 .image {
           height: 160px;
           float: left;
           position: relative;
           width: 780px; }
-          html body #page #content .banner-3 .image img {
+          html body #page s
+          #content .banner-3 .image img {
             margin: -218px 0 0;
             max-width: none;
             right: 0;
@@ -122,80 +145,103 @@ html body {
             top: 0;
             z-index: 9;
             width: auto; }
-          html body #page #content .banner-3 .image .text {
+          html body #page s
+          #content .banner-3 .image .text {
             display: none; }
-        html body #page #content .banner-3 .tripadvisor {
+        html body #page s
+        #content .banner-3 .tripadvisor {
           float: right; }
-      html body #page #content #primary .offer {
+      html body #page s
+      #content #primary .offer {
         padding: 0 12px;
         margin: 0 0 12px; }
-        html body #page #content #primary .offer::after {
+        html body #page s
+        #content #primary .offer::after {
           clear: both;
           content: "";
           display: table; }
-        html body #page #content #primary .offer .image {
+        html body #page s
+        #content #primary .offer .image {
           background: url(images/monkeys.png) left bottom repeat-x;
           float: left;
           padding: 0 0 54px;
           position: relative;
           width: 780px; }
-          html body #page #content #primary .offer .image > img {
+          html body #page s
+          #content #primary .offer .image > img {
             width: 100%; }
-          html body #page #content #primary .offer .image .meta {
+          html body #page s
+          #content #primary .offer .image .meta {
             bottom: 54px;
             position: absolute;
             right: 10px;
             width: 100px; }
-            html body #page #content #primary .offer .image .meta .qrcode {
+            html body #page s
+            #content #primary .offer .image .meta .qrcode {
               height: 100px;
               width: 100%; }
-              html body #page #content #primary .offer .image .meta .qrcode a {
+              html body #page s
+              #content #primary .offer .image .meta .qrcode a {
                 display: none !important; }
-              html body #page #content #primary .offer .image .meta .qrcode img {
+              html body #page s
+              #content #primary .offer .image .meta .qrcode img {
                 width: 100%; }
-            html body #page #content #primary .offer .image .meta .notes {
+            html body #page s
+            #content #primary .offer .image .meta .notes {
               height: 60px; }
-              html body #page #content #primary .offer .image .meta .notes .note {
+              html body #page s
+              #content #primary .offer .image .meta .notes .note {
                 width: 33.33%; }
-        html body #page #content #primary .offer .coupon {
+        html body #page s
+        #content #primary .offer .coupon {
           background: #c10c00;
           float: right;
           padding: 10px;
           height: inherit;
           width: 362px; }
-          html body #page #content #primary .offer .coupon .tripadvisor {
+          html body #page s
+          #content #primary .offer .coupon .tripadvisor {
             color: #fff; }
-          html body #page #content #primary .offer .coupon .inner {
+          html body #page s
+          #content #primary .offer .coupon .inner {
             background: #322a1f; }
-            html body #page #content #primary .offer .coupon .inner .title {
+            html body #page s
+            #content #primary .offer .coupon .inner .title {
               color: #fec900;
               font-family: "momstypewriterregular", serif;
               padding: 12px 12px 0; }
-            html body #page #content #primary .offer .coupon .inner .title-2 {
+            html body #page s
+            #content #primary .offer .coupon .inner .title-2 {
               color: #fff;
               font-family: "momstypewriterregular", serif;
               padding: 0 12px 12px; }
-            html body #page #content #primary .offer .coupon .inner .text {
+            html body #page s
+            #content #primary .offer .coupon .inner .text {
               color: #fff;
               font-size: 12px;
               padding: 0 12px 12px; }
-            html body #page #content #primary .offer .coupon .inner .buttons {
+            html body #page s
+            #content #primary .offer .coupon .inner .buttons {
               padding: 0 24px; }
-              html body #page #content #primary .offer .coupon .inner .buttons .button {
+              html body #page s
+              #content #primary .offer .coupon .inner .buttons .button {
                 border-radius: 2px;
                 font-family: "momstypewriterregular", serif;
                 font-size: 18px;
                 padding: 6px;
                 width: 48%; }
-              html body #page #content #primary .offer .coupon .inner .buttons .details {
+              html body #page s
+              #content #primary .offer .coupon .inner .buttons .details {
                 background: #78b800;
                 color: #fff;
                 float: left; }
-              html body #page #content #primary .offer .coupon .inner .buttons .bookit {
+              html body #page s
+              #content #primary .offer .coupon .inner .buttons .bookit {
                 background: #d95843;
                 color: #fff;
                 float: right; }
-            html body #page #content #primary .offer .coupon .inner .ticket {
+            html body #page s
+            #content #primary .offer .coupon .inner .ticket {
               background: url(images/ticket.png) center center no-repeat;
               height: 124px;
               padding: 0 12px 12px; }
@@ -213,43 +259,66 @@ html body {
 * Content column width.
 */
 @media all and (max-width: 1230px) {
-  html body #page #content .header {
-    height: auto; }
-    html body #page #content .header .logo {
-      padding: 12px;
-      position: static;
-      top: auto;
-      right: auto;
-      text-align: center; }
-      html body #page #content .header .logo img {
-        display: block;
-        margin: 0 auto; }
-  html body #page #content .banner-2 {
-    height: auto; }
-    html body #page #content .banner-2 .reasons {
-      float: none;
-      padding: 12px 12px;
-      text-align: center; }
-    html body #page #content .banner-2 .guarantees {
-      float: none;
-      padding: 0 12px;
-      text-align: center; }
-      html body #page #content .banner-2 .guarantees .guarantee {
-        display: inline-block;
-        float: none; }
-  html body #page #content .banner-3 .image img {
-    max-width: 100%; }
-  html body #page #content #primary .offer {
-    margin: 0 0 12px; }
-    html body #page #content #primary .offer .image {
-      float: none;
-      margin: 0 0 12px;
-      width: 100%; }
-      html body #page #content #primary .offer .image .meta {
-        display: none; }
-    html body #page #content #primary .offer .coupon {
-      float: none;
-      margin: 0 auto;
-      max-width: 100%; } }
+  html body #page {
+       /* #masthead {
+
+          left: auto;
+          padding: 0 72px;
+          position: static;
+          width: 100%;
+
+          .main-navigation {
+
+            .site-branding {
+              display: none;
+            }
+
+            &.toggled {
+              .site-branding {
+                display: block;
+              }
+            }
+          }
+        }*/ }
+    html body #page #content .header {
+      height: auto; }
+      html body #page #content .header .main-navigation.toggled .site-branding {
+        display: block; }
+      html body #page #content .header .logo {
+        padding: 12px;
+        position: static;
+        top: auto;
+        right: auto;
+        text-align: center; }
+        html body #page #content .header .logo img {
+          display: block;
+          margin: 0 auto; }
+    html body #page #content .banner-2 {
+      height: auto; }
+      html body #page #content .banner-2 .reasons {
+        float: none;
+        padding: 12px 12px;
+        text-align: center; }
+      html body #page #content .banner-2 .guarantees {
+        float: none;
+        padding: 0 12px;
+        text-align: center; }
+        html body #page #content .banner-2 .guarantees .guarantee {
+          display: inline-block;
+          float: none; }
+    html body #page #content .banner-3 .image img {
+      max-width: 100%; }
+    html body #page #content #primary .offer {
+      margin: 0 0 12px; }
+      html body #page #content #primary .offer .image {
+        float: none;
+        margin: 0 0 12px;
+        width: 100%; }
+        html body #page #content #primary .offer .image .meta {
+          display: none; }
+      html body #page #content #primary .offer .coupon {
+        float: none;
+        margin: 0 auto;
+        max-width: 100%; } }
 
 /*# sourceMappingURL=custom.css.map */
