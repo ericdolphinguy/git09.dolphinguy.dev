@@ -61,21 +61,35 @@ html body {
       html body #page #content .banner-2 {
         height: 270px; }
         html body #page #content .banner-2 .reasons {
+          float: left;
           padding: 14px 0 0 137px; }
-        html body #page #content .banner-2 .guarantees .guarantee {
-          float: left; }
+        html body #page #content .banner-2 .guarantees {
+          float: right;
+          padding: 63px 81px 0 0; }
+          html body #page #content .banner-2 .guarantees .guarantee {
+            float: left; }
       html body #page #content .banner-3 {
-        margin: 0 0 24px; }
+        margin: 0 0 24px;
+        padding: 0 12px; }
+        html body #page #content .banner-3::after {
+          clear: both;
+          content: "";
+          display: table; }
         html body #page #content .banner-3 .image {
-          height: 160px; }
+          height: 160px;
+          float: left;
+          position: relative;
+          width: 780px; }
           html body #page #content .banner-3 .image img {
-            margin: -218px 0 0 -110px;
-            left: 0;
+            margin: -218px 0 0;
+            max-width: none;
+            right: 0;
             position: absolute;
             top: 0;
-            z-index: 9; }
+            z-index: 9;
+            width: auto; }
         html body #page #content .banner-3 .tripadvisor {
-          height: inherit; }
+          float: right; }
       html body #page #content #primary .offer {
         padding: 0 12px;
         margin: 0 0 12px; }
@@ -88,7 +102,7 @@ html body {
           float: left;
           padding: 0 0 54px;
           position: relative;
-          width: 738px; }
+          width: 780px; }
           html body #page #content #primary .offer .image > img {
             width: 100%; }
           html body #page #content #primary .offer .image .meta {
@@ -174,6 +188,21 @@ html body {
       html body #page #content .header .logo img {
         display: block;
         margin: 0 auto; }
+  html body #page #content .banner-2 {
+    height: auto; }
+    html body #page #content .banner-2 .reasons {
+      float: none;
+      padding: 12px 12px;
+      text-align: center; }
+    html body #page #content .banner-2 .guarantees {
+      float: none;
+      padding: 0 12px;
+      text-align: center; }
+      html body #page #content .banner-2 .guarantees .guarantee {
+        display: inline-block;
+        float: none; }
+  html body #page #content .banner-3 .image img {
+    max-width: 100%; }
   html body #page #content #primary .offer {
     margin: 0 0 12px; }
     html body #page #content #primary .offer .image {

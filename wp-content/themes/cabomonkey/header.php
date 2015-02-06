@@ -55,10 +55,10 @@
 
 		<!-- Banner 2 -->
 		<div class="banner-2">
-			<div class="reasons left">
+			<div class="reasons">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/reasons.png" />
 			</div>
-			<div class="guarantees right">
+			<div class="guarantees">
 				<!--<img src="<?php /*echo get_stylesheet_directory_uri(); */?>/images/guarantees.png" />-->
 				<div class="guarantee">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/good-weather.png" />
@@ -74,11 +74,11 @@
 		<!-- End Banner 2 -->
 
 		<!-- Banner 3 -->
-		<div class="banner-3 row collapse">
-			<div class="image columns large-8 medium-8">
+		<div class="banner-3">
+			<div class="image">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-3.png" />
 			</div>
-			<div class="tripadvisor columns large-3 medium-3">
+			<div class="tripadvisor">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-4.png" />
 			</div>
 		</div>
