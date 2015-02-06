@@ -221,9 +221,24 @@ html body {
                 color: #fff;
                 float: right; }
             html body #page #content #primary .offer .coupon .inner .ticket {
-              background: url(images/ticket.png) center center no-repeat;
+              background: url(images/ticket.png) center top no-repeat;
+              color: #c10c00;
+              font-family: "dead_kansasregular", arial, sans-serif;
               height: 124px;
-              padding: 0 12px 12px; }
+              padding: 12px 12px 12px;
+              text-align: center; }
+              html body #page #content #primary .offer .coupon .inner .ticket .adults {
+                float: left;
+                margin: 0 0 0 68px;
+                width: 90px; }
+                html body #page #content #primary .offer .coupon .inner .ticket .adults .price2 {
+                  font-size: 24px; }
+              html body #page #content #primary .offer .coupon .inner .ticket .kids {
+                float: right;
+                margin: 0 68px 0 0;
+                width: 90px; }
+                html body #page #content #primary .offer .coupon .inner .ticket .kids .price2 {
+                  font-size: 24px; }
     html body #page #colophon {
       background: #cdb696 url(images/page_bg.jpg) center top; }
       html body #page #colophon .site-info {

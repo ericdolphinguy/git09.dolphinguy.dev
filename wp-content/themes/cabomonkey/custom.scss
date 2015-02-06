@@ -324,9 +324,32 @@ html {
                 }
 
                 .ticket {
-                  background: url(images/ticket.png) center center no-repeat;
+                  background: url(images/ticket.png) center top no-repeat;
+                  color: #c10c00;
+                  font-family: $font_dead_kansas;
                   height: 124px;
-                  padding: 0 12px 12px;
+                  padding: 12px 12px 12px;
+                  text-align: center;
+
+                  .adults {
+                    float: left;
+                    margin: 0 0 0 68px;
+                    width: 90px;
+
+                    .price2 {
+                      font-size: 24px;
+                    }
+                  }
+
+                  .kids {
+                    float: right;
+                    margin: 0 68px 0 0;
+                    width: 90px;
+
+                    .price2 {
+                      font-size: 24px;
+                    }
+                  }
                 }
               }
             }

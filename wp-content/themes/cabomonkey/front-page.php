@@ -53,6 +53,16 @@ get_header(); ?>
 							<div class="bookit button">Book It</div>
 						</div>
 						<div class="ticket">
+							<div class="adults">
+								<div class="price1">$150</div>
+								<div class="price2">$125</div>
+								<div class="category">ADULTS</div>
+							</div>
+							<div class="kids">
+								<div class="price1">$100</div>
+								<div class="price2">$75</div>
+								<div class="category">KIDS</div>
+							</div>
 						</div>
 					</div>
 				</div>
