@@ -477,6 +477,26 @@ html {
             .header {
               background: $color_background;
             }
+
+            .banner {
+              display: none;
+            }
+
+            .banner-2 {
+              display: none;
+            }
+
+            .banner-3 {
+              display: none;
+            }
+
+            #primary {
+              display: none;
+            }
+          }
+
+          #colophon {
+            display: none;
           }
         }
       }

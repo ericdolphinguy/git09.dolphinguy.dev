@@ -297,6 +297,16 @@ html body {
         margin: 0 auto;
         max-width: 100%; }
   html body.toggled #page #content .header {
-    background: #719539; } }
+    background: #719539; }
+  html body.toggled #page #content .banner {
+    display: none; }
+  html body.toggled #page #content .banner-2 {
+    display: none; }
+  html body.toggled #page #content .banner-3 {
+    display: none; }
+  html body.toggled #page #content #primary {
+    display: none; }
+  html body.toggled #page #colophon {
+    display: none; } }
 
 /*# sourceMappingURL=custom.css.map */
