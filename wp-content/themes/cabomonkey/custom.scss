@@ -338,6 +338,7 @@ html {
   html {
     body {
       #page {
+        overflow: hidden;
 
         #content {
           .header {
@@ -345,6 +346,24 @@ html {
             height: auto;
 
             .main-navigation {
+
+              /*
+              Corrected the styles
+              */
+
+              .menu-toggle {
+                background: #77ac14;
+                border: 0;
+                box-shadow: none;
+                float: left;
+                height: 40px;
+                margin: 10px 0 0 10px;
+                overflow: hidden;
+                padding: 0;
+                text-align: left;
+                text-indent: 999%;
+                width: 40px;
+              }
 
               .menu-block {
                 left: auto;

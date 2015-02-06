@@ -31,8 +31,8 @@
 
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 
+				<!-- Tried to use a div instead of button but the break the script. -->
 				<button class="menu-toggle" aria-controls="menu" aria-expanded="false">
-					<?php _e( 'Primary Menu', 'cabomonkey' ); ?>
 				</button>
 
 				<div class="chat">

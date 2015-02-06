@@ -218,55 +218,73 @@ html body {
 * Content column width.
 */
 @media all and (max-width: 1230px) {
-  html body #page #content .header {
-    background: #719539;
-    height: auto; }
-    html body #page #content .header .main-navigation .menu-block {
-      left: auto;
-      padding: 0 50px;
-      position: static;
-      width: 100%; }
-      html body #page #content .header .main-navigation .menu-block .site-branding {
-        display: none; }
-      html body #page #content .header .main-navigation .menu-block .menu {
-        padding: 0 45px; }
-    html body #page #content .header .main-navigation.toggled .menu-block .site-branding {
-      display: block; }
-    html body #page #content .header .logo {
-      padding: 12px;
-      position: static;
-      top: auto;
-      right: auto;
-      text-align: center; }
-      html body #page #content .header .logo img {
-        display: block;
-        margin: 0 auto; }
-  html body #page #content .banner-2 {
-    height: auto; }
-    html body #page #content .banner-2 .reasons {
-      float: none;
-      padding: 12px 12px;
-      text-align: center; }
-    html body #page #content .banner-2 .guarantees {
-      float: none;
-      padding: 0 12px;
-      text-align: center; }
-      html body #page #content .banner-2 .guarantees .guarantee {
-        display: inline-block;
-        float: none; }
-  html body #page #content .banner-3 .image img {
-    max-width: 100%; }
-  html body #page #content #primary .offer {
-    margin: 0 0 12px; }
-    html body #page #content #primary .offer .image {
-      float: none;
-      margin: 0 0 12px;
-      width: 100%; }
-      html body #page #content #primary .offer .image .meta {
-        display: none; }
-    html body #page #content #primary .offer .coupon {
-      float: none;
-      margin: 0 auto;
-      max-width: 100%; } }
+  html body #page {
+    overflow: hidden; }
+    html body #page #content .header {
+      background: #719539;
+      height: auto; }
+      html body #page #content .header .main-navigation {
+        /*
+        Corrected the styles
+        */ }
+        html body #page #content .header .main-navigation .menu-toggle {
+          background: #77ac14;
+          border: 0;
+          box-shadow: none;
+          float: left;
+          height: 40px;
+          margin: 10px 0 0 10px;
+          overflow: hidden;
+          padding: 0;
+          text-align: left;
+          text-indent: 999%;
+          width: 40px; }
+        html body #page #content .header .main-navigation .menu-block {
+          left: auto;
+          padding: 0 50px;
+          position: static;
+          width: 100%; }
+          html body #page #content .header .main-navigation .menu-block .site-branding {
+            display: none; }
+          html body #page #content .header .main-navigation .menu-block .menu {
+            padding: 0 45px; }
+        html body #page #content .header .main-navigation.toggled .menu-block .site-branding {
+          display: block; }
+      html body #page #content .header .logo {
+        padding: 12px;
+        position: static;
+        top: auto;
+        right: auto;
+        text-align: center; }
+        html body #page #content .header .logo img {
+          display: block;
+          margin: 0 auto; }
+    html body #page #content .banner-2 {
+      height: auto; }
+      html body #page #content .banner-2 .reasons {
+        float: none;
+        padding: 12px 12px;
+        text-align: center; }
+      html body #page #content .banner-2 .guarantees {
+        float: none;
+        padding: 0 12px;
+        text-align: center; }
+        html body #page #content .banner-2 .guarantees .guarantee {
+          display: inline-block;
+          float: none; }
+    html body #page #content .banner-3 .image img {
+      max-width: 100%; }
+    html body #page #content #primary .offer {
+      margin: 0 0 12px; }
+      html body #page #content #primary .offer .image {
+        float: none;
+        margin: 0 0 12px;
+        width: 100%; }
+        html body #page #content #primary .offer .image .meta {
+          display: none; }
+      html body #page #content #primary .offer .coupon {
+        float: none;
+        margin: 0 auto;
+        max-width: 100%; } }
 
 /*# sourceMappingURL=custom.css.map */
