@@ -29,9 +29,13 @@ html body {
         position: relative; }
         html body #page #content .header .main-navigation {
           float: none;
-          font-weight: bold; }
+          font-weight: bold;
+          /*
+          300px is not based from the actual size on the psd.
+          */ }
           html body #page #content .header .main-navigation .menu-block {
             left: -300px;
+            padding: 0 28px 0 0;
             position: absolute;
             z-index: 9;
             width: 300px; }
@@ -39,10 +43,10 @@ html body {
               background: url(images/logo.jpg) center center no-repeat;
               background-size: 100% auto;
               margin: 0 auto;
-              padding: 0 0 80%;
-              width: 80%; }
+              padding: 0 0 100%;
+              width: 100%; }
             html body #page #content .header .main-navigation .menu-block .menu {
-              padding: 0 72px; }
+              padding: 0 28px; }
               html body #page #content .header .main-navigation .menu-block .menu .menu-item {
                 float: none; }
                 html body #page #content .header .main-navigation .menu-block .menu .menu-item a {
@@ -219,10 +223,13 @@ html body {
     height: auto; }
     html body #page #content .header .main-navigation .menu-block {
       left: auto;
+      padding: 0 50px;
       position: static;
       width: 100%; }
       html body #page #content .header .main-navigation .menu-block .site-branding {
         display: none; }
+      html body #page #content .header .main-navigation .menu-block .menu {
+        padding: 0 45px; }
     html body #page #content .header .main-navigation.toggled .menu-block .site-branding {
       display: block; }
     html body #page #content .header .logo {
