@@ -28,7 +28,15 @@ get_header(); ?>
 				</div>
 				<div class="coupon">
 					<div class="tripadvisor">
-						{tripadvisor}
+						<div class="text">
+							<div class="rank">
+								<strong>Ranked #1</strong> of 54 attactions
+							</div>
+							<div class="rank-value">
+								<div class="stars"></div>
+								<div class="reviews">2,261 reviews</div>
+							</div>
+						</div>
 					</div>
 					<div class="inner">
 						<div class="title">
@@ -63,7 +71,15 @@ get_header(); ?>
 				</div>
 				<div class="coupon">
 					<div class="tripadvisor">
-						{tripadvisor}
+						<div class="text">
+							<div class="rank">
+								<strong>Ranked #1</strong> of 54 attactions
+							</div>
+							<div class="rank-value">
+								<div class="stars"></div>
+								<div class="reviews">2,261 reviews</div>
+							</div>
+						</div>
 					</div>
 					<div class="inner">
 						<div class="title">
@@ -98,7 +114,15 @@ get_header(); ?>
 				</div>
 				<div class="coupon">
 					<div class="tripadvisor">
-						{tripadvisor}
+						<div class="text">
+							<div class="rank">
+								<strong>Ranked #1</strong> of 54 attactions
+							</div>
+							<div class="rank-value">
+								<div class="stars"></div>
+								<div class="reviews">2,261 reviews</div>
+							</div>
+						</div>
 					</div>
 					<div class="inner">
 						<div class="title">
@@ -133,7 +157,15 @@ get_header(); ?>
 				</div>
 				<div class="coupon">
 					<div class="tripadvisor">
-						{tripadvisor}
+						<div class="text">
+							<div class="rank">
+								<strong>Ranked #1</strong> of 54 attactions
+							</div>
+							<div class="rank-value">
+								<div class="stars"></div>
+								<div class="reviews">2,261 reviews</div>
+							</div>
+						</div>
 					</div>
 					<div class="inner">
 						<div class="title">
@@ -168,7 +200,15 @@ get_header(); ?>
 				</div>
 				<div class="coupon">
 					<div class="tripadvisor">
-						{tripadvisor}
+						<div class="text">
+							<div class="rank">
+								<strong>Ranked #1</strong> of 54 attactions
+							</div>
+							<div class="rank-value">
+								<div class="stars"></div>
+								<div class="reviews">2,261 reviews</div>
+							</div>
+						</div>
 					</div>
 					<div class="inner">
 						<div class="title">
@@ -203,7 +243,15 @@ get_header(); ?>
 				</div>
 				<div class="coupon">
 					<div class="tripadvisor">
-						{tripadvisor}
+						<div class="text">
+							<div class="rank">
+								<strong>Ranked #1</strong> of 54 attactions
+							</div>
+							<div class="rank-value">
+								<div class="stars"></div>
+								<div class="reviews">2,261 reviews</div>
+							</div>
+						</div>
 					</div>
 					<div class="inner">
 						<div class="title">
