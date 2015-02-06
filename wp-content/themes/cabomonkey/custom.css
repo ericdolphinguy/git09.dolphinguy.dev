@@ -273,10 +273,18 @@ html body {
           display: inline-block;
           float: none;
           width: 28%; }
-    html body #page #content .banner-3 {
-      display: none; }
+    html body #page #content .banner-3 .image {
+      float: none;
+      height: auto;
+      width: auto; }
       html body #page #content .banner-3 .image img {
-        max-width: 100%; }
+        margin: 0;
+        position: static;
+        width: 100%; }
+    html body #page #content .banner-3 .tripadvisor {
+      float: none; }
+      html body #page #content .banner-3 .tripadvisor img {
+        width: 100%; }
     html body #page #content #primary .offer {
       margin: 0 0 12px; }
       html body #page #content #primary .offer .image {

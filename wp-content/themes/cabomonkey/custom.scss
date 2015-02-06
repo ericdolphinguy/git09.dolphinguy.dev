@@ -426,15 +426,24 @@ html {
           }
 
           .banner-3 {
-            display: none;
-
             .image {
+              float: none;
+              height: auto;
+              width: auto;
+
               img {
-                max-width: 100%;
+                margin: 0;
+                position: static;
+                width: 100%;
               }
             }
 
             .tripadvisor {
+              float: none;
+
+              img {
+                width: 100%;
+              }
             }
           }
 
