@@ -15,7 +15,10 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+			<!-- Every row is an offer -->
 			<div class="offer ">
+
+				<!-- Big image on the left side. -->
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01.jpg" />
 					<div class="meta">
@@ -26,7 +29,11 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
+
+				<!-- The coupon/ticket section to the right. -->
 				<div class="coupon">
+
+					<!-- Trip advisor sub section. -->
 					<div class="tripadvisor">
 						<div class="text">
 							<div class="rank">
@@ -38,6 +45,7 @@ get_header(); ?>
 							</div>
 						</div>
 					</div>
+
 					<div class="inner">
 						<div class="title">
 							OUTDOOR ZIPLINE ADVENTURE
@@ -45,13 +53,17 @@ get_header(); ?>
 						<div class="title-2">
 							The Adventure
 						</div>
+
 						<div class="text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
 						</div>
+
 						<div class="buttons clear">
 							<div class="details button">Details</div>
 							<div class="bookit button">Book It</div>
 						</div>
+
+						<!-- Ticket secion -->
 						<div class="ticket">
 							<div class="adults">
 								<div class="price1">$150</div>
