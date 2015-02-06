@@ -267,13 +267,16 @@ html body {
         text-align: center; }
       html body #page #content .banner-2 .guarantees {
         float: none;
-        padding: 0 12px;
+        padding: 12px 12px;
         text-align: center; }
         html body #page #content .banner-2 .guarantees .guarantee {
           display: inline-block;
-          float: none; }
-    html body #page #content .banner-3 .image img {
-      max-width: 100%; }
+          float: none;
+          width: 28%; }
+    html body #page #content .banner-3 {
+      display: none; }
+      html body #page #content .banner-3 .image img {
+        max-width: 100%; }
     html body #page #content #primary .offer {
       margin: 0 0 12px; }
       html body #page #content #primary .offer .image {

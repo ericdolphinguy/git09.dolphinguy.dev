@@ -414,17 +414,20 @@ html {
 
             .guarantees {
               float: none;
-              padding: 0 12px;
+              padding: 12px 12px;
               text-align: center;
 
               .guarantee {
                 @include inline-block;
                 float: none;
+                width: 28%;
               }
             }
           }
 
           .banner-3 {
+            display: none;
+
             .image {
               img {
                 max-width: 100%;
