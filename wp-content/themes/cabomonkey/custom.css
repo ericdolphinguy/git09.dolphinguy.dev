@@ -19,7 +19,8 @@
 * Custom styles.
 */
 html body {
-  background: #719539; }
+  background: #719539 url(images/background.jpg) center top;
+  background-size: 100% auto; }
   html body #page {
     position: relative; }
     html body #page #content {

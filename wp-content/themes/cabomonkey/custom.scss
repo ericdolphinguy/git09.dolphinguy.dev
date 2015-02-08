@@ -37,7 +37,8 @@ $color_green: #78b800;
 
 html {
   body {
-    background: $color_background;
+    background: $color_background url(images/background.jpg) center top;
+    background-size: 100% auto;
 
     #page {
       position: relative;
