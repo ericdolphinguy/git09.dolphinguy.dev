@@ -3,6 +3,7 @@
 */
 
 @import "bourbon/bourbon";
+@import "mixins";
 
 /**
 * Include custom fonts.
@@ -167,7 +168,7 @@ html {
             width: 780px;
 
             img {
-              margin: -218px 0 0 ;
+              margin: -242px 0 0 ;
               max-width: none;
               right: 0;
               position: absolute;
@@ -182,7 +183,13 @@ html {
           }
 
           .tripadvisor {
+            background: #fec900;
+            @include border-top-left-radius(34px);
             float: right;
+            height: 160px;
+            padding: 20px;
+            width: 362px;
+            text-align: center;
           }
         }
 

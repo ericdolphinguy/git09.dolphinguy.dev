@@ -116,7 +116,7 @@ html body {
           position: relative;
           width: 780px; }
           html body #page #content .banner-3 .image img {
-            margin: -218px 0 0;
+            margin: -242px 0 0;
             max-width: none;
             right: 0;
             position: absolute;
@@ -126,7 +126,18 @@ html body {
           html body #page #content .banner-3 .image .text {
             display: none; }
         html body #page #content .banner-3 .tripadvisor {
-          float: right; }
+          background: #fec900;
+          -webkit-border-top-left-radius: 34px;
+          -moz-border-top-left-radius: 34px;
+          -moz-border-radius-topleft: 34px;
+          -ms-border-top-left-radius: 34px;
+          -o-border-top-left-radius: 34px;
+          border-top-left-radius: 34px;
+          float: right;
+          height: 160px;
+          padding: 20px;
+          width: 362px;
+          text-align: center; }
       html body #page #content #primary .offer {
         padding: 0 12px;
         margin: 0 0 12px; }
