@@ -95,7 +95,11 @@
 					<div class="text-2">CHOOSE CABOMONKEY</div>
 				</div>
 
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-3.png" />
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-6.png" />
+
+				<div class="inner">
+
+				</div>
 			</div>
 			<div class="tripadvisor">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-4.png" />

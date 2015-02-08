@@ -134,15 +134,32 @@ html body {
           position: relative;
           width: 780px; }
           html body #page #content .banner-3 .image img {
-            margin: -242px 0 0;
+            margin: -242px 0 0 -125px;
             max-width: none;
-            right: 0;
+            left: 0;
             position: absolute;
             top: 0;
             z-index: 9;
             width: auto; }
           html body #page #content .banner-3 .image .text {
-            display: none; }
+            color: #fff;
+            display: none;
+            font-family: "tizaregular", serif;
+            font-size: 24px;
+            padding: 0 0 0 80px;
+            position: absolute;
+            z-index: 99; }
+            html body #page #content .banner-3 .image .text .text-2 {
+              font-size: 38px; }
+          html body #page #content .banner-3 .image .inner {
+            background: #78b800;
+            -webkit-border-top-right-radius: 34px;
+            -moz-border-top-right-radius: 34px;
+            -moz-border-radius-topright: 34px;
+            -ms-border-top-right-radius: 34px;
+            -o-border-top-right-radius: 34px;
+            border-top-right-radius: 34px;
+            height: 160px; }
         html body #page #content .banner-3 .tripadvisor {
           background: #fec900;
           -webkit-border-top-left-radius: 34px;
