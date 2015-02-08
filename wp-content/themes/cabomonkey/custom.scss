@@ -520,16 +520,16 @@ html {
             .image {
               float: none;
               height: auto;
-              width: auto;
+              margin: 70px 0 36px;
 
               img {
-                margin: 0;
-                position: static;
-                width: 100%;
+                margin: -90px 0 0;
               }
+
             }
 
             .tripadvisor {
+              margin: 0 0 36px;
             }
           }
 
