@@ -28,7 +28,8 @@ html body {
       left: 100%;
       top: 120px; }
       html body #page #masthead .menu {
-        list-style: none; }
+        list-style: none;
+        margin: 0 0 0 8px; }
         html body #page #masthead .menu .menu-item {
           background: url(images/menu-bg.png);
           -webkit-box-sizing: border-box;
@@ -98,6 +99,23 @@ html body {
         html body #page #content .banner-2 .reasons {
           float: left;
           padding: 14px 0 0 137px; }
+          html body #page #content .banner-2 .reasons .texts {
+            display: none; }
+            html body #page #content .banner-2 .reasons .texts .text-1 {
+              color: #fff;
+              font-family: "tizaregular", serif;
+              font-size: 56px;
+              line-height: 1.2em; }
+            html body #page #content .banner-2 .reasons .texts .text-2 {
+              color: #bf423b;
+              font-family: "321impactregular", arial, sans-serif;
+              font-size: 56px;
+              line-height: 1.2em; }
+            html body #page #content .banner-2 .reasons .texts .text-3 {
+              color: #fff;
+              font-family: "tizaregular", serif;
+              font-size: 56px;
+              line-height: 1.2em; }
         html body #page #content .banner-2 .guarantees {
           float: right;
           padding: 63px 81px 0 0; }
@@ -328,10 +346,6 @@ html body {
       html body #page #content .banner-3 .image img {
         margin: 0;
         position: static;
-        width: 100%; }
-    html body #page #content .banner-3 .tripadvisor {
-      float: none; }
-      html body #page #content .banner-3 .tripadvisor img {
         width: 100%; }
     html body #page #content #primary .offer {
       margin: 0 0 12px; }

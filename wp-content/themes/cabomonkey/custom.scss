@@ -51,6 +51,7 @@ html {
 
         .menu {
           list-style: none;
+          margin: 0 0 0 8px;
 
           .menu-item {
             background: url(images/menu-bg.png);
@@ -144,6 +145,31 @@ html {
           .reasons {
             float: left;
             padding: 14px 0 0 137px;
+
+            .texts {
+              display: none;
+
+              .text-1 {
+                color: #fff;
+                font-family: $font_tiza;
+                font-size: 56px;
+                line-height: 1.2em;
+              }
+
+              .text-2 {
+                color: #bf423b;
+                font-family: $font_321impact;
+                font-size: 56px;
+                line-height: 1.2em;
+              }
+
+              .text-3 {
+                color: #fff;
+                font-family: $font_tiza;
+                font-size: 56px;
+                line-height: 1.2em;
+              }
+            }
           }
 
           .guarantees {
@@ -488,11 +514,6 @@ html {
             }
 
             .tripadvisor {
-              float: none;
-
-              img {
-                width: 100%;
-              }
             }
           }
 
