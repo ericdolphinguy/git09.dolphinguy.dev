@@ -42,7 +42,7 @@ html body {
             z-index: 9;
             width: 300px; }
             html body #page #content .header .main-navigation .menu-block .site-branding {
-              background: url(images/logo.jpg) center center no-repeat;
+              background: url(images/logo.png) center center no-repeat;
               background-size: 100% auto;
               margin: 0 auto;
               padding: 0 0 100%;
