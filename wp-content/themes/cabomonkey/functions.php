@@ -153,3 +153,5 @@ require get_template_directory() . '/inc/jetpack.php';
 
 
 show_admin_bar(false);
+
+register_nav_menu( 'secondary', 'Secondary' );

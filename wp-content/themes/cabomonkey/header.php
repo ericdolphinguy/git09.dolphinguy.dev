@@ -22,12 +22,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'cabomonkey' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-		<ul class="menu">
-			<li class="menu-item"><a href="">Home</a></li>
-			<li class="menu-item"><a href="">FAQ</a></li>
-			<li class="menu-item"><a href="">About</a></li>
-			<li class="menu-item"><a href="">Photos</a></li>
-		</ul>
+		<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content columns large-12 medium-12">
