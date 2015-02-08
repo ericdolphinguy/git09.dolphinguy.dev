@@ -43,6 +43,34 @@ html {
     #page {
       position: relative;
 
+      #masthead {
+        position: absolute;
+        left: 100%;
+        top: 120px;
+
+        .menu {
+          list-style: none;
+
+          .menu-item {
+            background: url(images/menu-bg.png);
+            @include box-sizing(border-box);
+            height: 264px;
+            line-height: 68px;
+            margin: 0 0 12px;
+            padding: 75px 0 0;
+            width: 68px;
+
+            a {
+              color: #000;
+              display: block;
+              font-family: $font_momt;
+              font-size: 36px;
+              @include transform(rotate(90deg));
+            }
+          }
+        }
+      }
+
       #content {
         background: #cdb696 url(images/page_bg.jpg) center top;
         background-size: 100% auto;

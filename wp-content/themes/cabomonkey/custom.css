@@ -23,6 +23,32 @@ html body {
   background-size: 100% auto; }
   html body #page {
     position: relative; }
+    html body #page #masthead {
+      position: absolute;
+      left: 100%;
+      top: 120px; }
+      html body #page #masthead .menu {
+        list-style: none; }
+        html body #page #masthead .menu .menu-item {
+          background: url(images/menu-bg.png);
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          height: 264px;
+          line-height: 68px;
+          margin: 0 0 12px;
+          padding: 75px 0 0;
+          width: 68px; }
+          html body #page #masthead .menu .menu-item a {
+            color: #000;
+            display: block;
+            font-family: "momstypewriterregular", serif;
+            font-size: 36px;
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg); }
     html body #page #content {
       background: #cdb696 url(images/page_bg.jpg) center top;
       background-size: 100% auto; }
