@@ -58,20 +58,6 @@
 
 		<!-- Banner -->
 		<div class="banner">
-			<div class="text">
-				<div class="text-1">
-					WELCOME
-				</div>
-				<div class="text-2">
-					TO THE LAST
-				</div>
-				<div class="text-3">
-					EXCITING
-				</div>
-				<div class="text-4">
-					PART OF YOUR ADVENTURE!!!
-				</div>
-			</div>
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image.jpg" />
 		</div>
 		<!-- End Banner -->
