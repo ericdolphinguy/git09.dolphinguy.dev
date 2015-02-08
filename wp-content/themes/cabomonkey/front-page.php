@@ -48,7 +48,7 @@ get_header(); ?>
 
 					<div class="inner">
 						<div class="title">
-							OUTDOOR ZIPLINE ADVENTURE
+							CACTUS ATV TOURS
 						</div>
 						<div class="title-2">
 							The Adventure
@@ -105,7 +105,7 @@ get_header(); ?>
 					</div>
 					<div class="inner">
 						<div class="title">
-							OUTDOOR ZIPLINE ADVENTURE
+							OUTDOOT ZIPLINE ADVENTURE
 						</div>
 						<div class="title-2">
 							The Adventure
@@ -158,7 +158,7 @@ get_header(); ?>
 					</div>
 					<div class="inner">
 						<div class="title">
-							OUTDOOR ZIPLINE ADVENTURE
+							OUTBACK CAMEL SAFARI
 						</div>
 						<div class="title-2">
 							The Adventure
@@ -211,7 +211,7 @@ get_header(); ?>
 					</div>
 					<div class="inner">
 						<div class="title">
-							OUTDOOR ZIPLINE ADVENTURE
+							CABO YATCH RENTALS
 						</div>
 						<div class="title-2">
 							The Adventure
@@ -264,7 +264,7 @@ get_header(); ?>
 					</div>
 					<div class="inner">
 						<div class="title">
-							OUTDOOR ZIPLINE ADVENTURE
+							SANTA MARIA SNORKELING
 						</div>
 						<div class="title-2">
 							The Adventure
@@ -317,7 +317,7 @@ get_header(); ?>
 					</div>
 					<div class="inner">
 						<div class="title">
-							OUTDOOR ZIPLINE ADVENTURE
+							CABO DOLPHINS
 						</div>
 						<div class="title-2">
 							The Adventure

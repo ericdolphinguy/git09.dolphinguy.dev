@@ -201,11 +201,13 @@ html body {
             html body #page #content #primary .offer .coupon .inner .title {
               color: #fec900;
               font-family: "momstypewriterregular", serif;
+              font-size: 22px;
               padding: 12px 12px 0; }
             html body #page #content #primary .offer .coupon .inner .title-2 {
               color: #fff;
               font-family: "momstypewriterregular", serif;
-              padding: 0 12px 12px; }
+              font-size: 22px;
+              padding: 0 12px 3px; }
             html body #page #content #primary .offer .coupon .inner .text {
               color: #fff;
               font-size: 12px;
