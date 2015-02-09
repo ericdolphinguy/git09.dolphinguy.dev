@@ -448,7 +448,15 @@ html {
           color: #fff;
           font-size: 14px;
           margin: 12px;
-          padding: 12px;
+          overflow: auto;
+          padding: 0 10px;
+
+          .text {
+            border: solid #fff;
+            border-width: 0 1px;
+            margin: 7px 0;
+            padding: 0 12px;
+          }
         }
       }
     }

@@ -26,11 +26,13 @@
 			</div>
 		</div>
 		<div class="site-info">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur cupiditate, eos incidunt ipsam
-			nihil perspiciatis reiciendis similique soluta voluptate? Consequatur facere ipsa nobis pariatur possimus
-			praesentium saepe vel vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae
-			deserunt doloremque doloribus, eaque earum necessitatibus tempore tenetur? Asperiores aspernatur cupiditate
-			expedita minima minus nobis nostrum obcaecati qui similique, soluta.
+			<div class="text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur cupiditate, eos incidunt ipsam
+				nihil perspiciatis reiciendis similique soluta voluptate? Consequatur facere ipsa nobis pariatur possimus
+				praesentium saepe vel vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae
+				deserunt doloremque doloribus, eaque earum necessitatibus tempore tenetur? Asperiores aspernatur cupiditate
+				expedita minima minus nobis nostrum obcaecati qui similique, soluta.
+			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

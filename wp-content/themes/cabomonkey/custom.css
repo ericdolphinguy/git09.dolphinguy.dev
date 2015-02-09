@@ -315,7 +315,13 @@ html body {
         color: #fff;
         font-size: 14px;
         margin: 12px;
-        padding: 12px; }
+        overflow: auto;
+        padding: 0 10px; }
+        html body #page #colophon .site-info .text {
+          border: solid #fff;
+          border-width: 0 1px;
+          margin: 7px 0;
+          padding: 0 12px; }
 
 @media all and (max-width: 1230px) {
   html body #page {
