@@ -211,7 +211,9 @@ html body {
             background: url(images/tripadvisor.png) -12px center no-repeat;
             background-size: auto 200%;
             color: #fff;
-            padding: 0 0 6px; }
+            margin: 0 auto;
+            padding: 0 0 6px;
+            width: 342px; }
             html body #page #content #primary .offer .coupon .tripadvisor::after {
               clear: both;
               content: "";
@@ -229,7 +231,9 @@ html body {
                   margin: 0 6px 0 0;
                   width: 100px; }
           html body #page #content #primary .offer .coupon .inner {
-            background: #322a1f; }
+            background: #322a1f;
+            margin: 0 auto;
+            width: 342px; }
             html body #page #content #primary .offer .coupon .inner .title {
               color: #fec900;
               font-family: "momstypewriterregular", serif;
@@ -415,7 +419,7 @@ html body {
       html body #page #content #primary .offer .coupon {
         float: none;
         margin: 0 auto;
-        max-width: 100%; }
+        width: 100%; }
   html body.toggled #page #content .header {
     background: #719539; }
   html body.toggled #page #content .banner {

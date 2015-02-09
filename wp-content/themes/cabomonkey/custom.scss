@@ -295,7 +295,9 @@ html {
                 background-size: auto 200%;
                 @include clearfix;
                 color: #fff;
+                margin: 0 auto;
                 padding: 0 0 6px;
+                width: 342px;
 
                 .text {
                   color: #589442;
@@ -318,6 +320,8 @@ html {
 
               .inner {
                 background: #322a1f;
+                margin: 0 auto;
+                width: 342px;
 
                 .title {
                   color: #fec900;
