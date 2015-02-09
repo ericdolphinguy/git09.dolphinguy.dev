@@ -57,10 +57,7 @@ html body {
         position: relative; }
         html body #page #content .header .main-navigation {
           float: none;
-          font-weight: bold;
-          /*
-          300px is not based from the actual size on the psd.
-          */ }
+          font-weight: bold; }
           html body #page #content .header .main-navigation .menu-toggle {
             display: none; }
           html body #page #content .header .main-navigation .menu-toggle-2 {
@@ -85,6 +82,29 @@ html body {
                   color: #fff;
                   font-family: "momstypewriterregular", serif;
                   font-size: 18px; }
+          html body #page #content .header .main-navigation .texts {
+            color: #fff;
+            display: none;
+            font-family: "dead_kansasregular", arial, sans-serif;
+            font-weight: normal;
+            line-height: normal;
+            text-shadow: 0 12px 12px rgba(0, 0, 0, 0.56); }
+            html body #page #content .header .main-navigation .texts .text-1 {
+              color: #71a807;
+              font-size: 72px;
+              margin: 0 0 12px; }
+            html body #page #content .header .main-navigation .texts .text-2 {
+              color: #ae926f;
+              font-size: 54px;
+              margin: 0 0 12px; }
+            html body #page #content .header .main-navigation .texts .text-3 {
+              color: #fec901;
+              font-size: 68px;
+              margin: 0 0 12px; }
+            html body #page #content .header .main-navigation .texts .text-4 {
+              font-family: "321impactregular", arial, sans-serif;
+              font-size: 33px;
+              margin: 0 0 12px; }
         html body #page #content .header .chat {
           background: url(images/chat-now.png) center center no-repeat;
           color: #fff;
@@ -349,56 +369,54 @@ html body {
       display: none; }
     html body #page #content .header {
       height: auto; }
-      html body #page #content .header .main-navigation {
-        /*
-        Corrected the styles
-        */ }
-        html body #page #content .header .main-navigation .menu-toggle {
-          background: transparent;
-          border: 0;
-          box-shadow: none;
-          display: block;
-          float: left;
-          font-family: "icomoon";
-          height: 40px;
-          margin: 10px 0 0 10px;
-          outline: none;
+      html body #page #content .header .main-navigation .menu-toggle {
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+        display: block;
+        float: left;
+        font-family: "icomoon";
+        height: 40px;
+        margin: 10px 0 0 10px;
+        outline: none;
+        padding: 0;
+        text-shadow: none;
+        width: 40px; }
+      html body #page #content .header .main-navigation .menu-toggle:before {
+        color: #78b800;
+        content: "\e9bd";
+        display: block;
+        font-size: 42px;
+        text-align: center; }
+      html body #page #content .header .main-navigation .menu-toggle-2 {
+        background: url(images/image-11.png);
+        cursor: pointer;
+        display: block;
+        height: 40px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 40px; }
+      html body #page #content .header .main-navigation .menu-block {
+        left: auto;
+        padding: 0;
+        position: static;
+        width: 100%; }
+        html body #page #content .header .main-navigation .menu-block .site-branding {
+          display: none;
+          height: 300px;
           padding: 0;
-          text-shadow: none;
-          width: 40px; }
-        html body #page #content .header .main-navigation .menu-toggle:before {
-          color: #78b800;
-          content: "\e9bd";
-          display: block;
-          font-size: 42px;
-          text-align: center; }
-        html body #page #content .header .main-navigation .menu-toggle-2 {
-          background: url(images/image-11.png);
-          cursor: pointer;
-          display: block;
-          height: 40px;
-          position: absolute;
-          right: 10px;
-          top: 10px;
-          width: 40px; }
-        html body #page #content .header .main-navigation .menu-block {
-          left: auto;
-          padding: 0;
-          position: static;
-          width: 100%; }
-          html body #page #content .header .main-navigation .menu-block .site-branding {
-            display: none;
-            height: 300px;
-            padding: 0;
-            width: 300px; }
-          html body #page #content .header .main-navigation .menu-block .menu {
-            margin: 0 auto;
-            padding: 0 45px;
-            width: 300px; }
-        html body #page #content .header .main-navigation.toggled .menu-block {
-          padding: 0 0 50px; }
-          html body #page #content .header .main-navigation.toggled .menu-block .site-branding {
-            display: block; }
+          width: 300px; }
+        html body #page #content .header .main-navigation .menu-block .menu {
+          margin: 0 auto;
+          padding: 0 45px;
+          width: 300px; }
+      html body #page #content .header .main-navigation .texts {
+        display: block; }
+      html body #page #content .header .main-navigation.toggled .menu-block {
+        padding: 0 0 50px; }
+        html body #page #content .header .main-navigation.toggled .menu-block .site-branding {
+          display: block; }
       html body #page #content .header .logo {
         padding: 12px;
         position: static;

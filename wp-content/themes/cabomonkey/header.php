@@ -54,6 +54,13 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 				</div>
 
+				<div class="texts">
+					<div class="text-1">WELCOME</div>
+					<div class="text-2">TO THE LEAST</div>
+					<div class="text-3">EXCITING</div>
+					<div class="text-4">PART OF YOUR ADVENTURE!!!</div>
+				</div>
+
 			</nav>
 
 		</div>

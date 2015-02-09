@@ -92,10 +92,6 @@ html {
               display: none;
             }
 
-            /*
-            300px is not based from the actual size on the psd.
-            */
-
             .menu-block {
               left: -300px;
               padding: 0 28px 0 0;
@@ -123,6 +119,39 @@ html {
                     font-size: 18px;
                   }
                 }
+              }
+            }
+
+            .texts {
+              color: #fff;
+              display: none;
+              font-family: $font_dead_kansas;
+              font-weight: normal;
+              line-height: normal;
+              text-shadow: 0 12px 12px rgba(0,0,0,0.56);
+
+              .text-1 {
+                color: #71a807;
+                font-size: 72px;
+                margin: 0 0 12px;
+              }
+
+              .text-2 {
+                color: #ae926f;
+                font-size: 54px;
+                margin: 0 0 12px;
+              }
+
+              .text-3 {
+                color: #fec901;
+                font-size: 68px;
+                margin: 0 0 12px;
+              }
+
+              .text-4 {
+                font-family: $font_321impact;
+                font-size: 33px;
+                margin: 0 0 12px;
               }
             }
           }

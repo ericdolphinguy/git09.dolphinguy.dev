@@ -16,11 +16,6 @@
             height: auto;
 
             .main-navigation {
-
-              /*
-              Corrected the styles
-              */
-
               .menu-toggle {
                 background: transparent;
                 border: 0;
@@ -73,6 +68,10 @@
                   padding: 0 45px;
                   width: 300px;
                 }
+              }
+
+              .texts {
+                display: block;
               }
 
               &.toggled {
