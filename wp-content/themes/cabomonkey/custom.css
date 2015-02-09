@@ -152,7 +152,7 @@ html body {
             html body #page #content .banner-3 .image .text .text-2 {
               font-size: 38px; }
           html body #page #content .banner-3 .image .inner {
-            background: #78b800;
+            background: #78b800 url(images/image-7.png) right top no-repeat;
             -webkit-border-top-right-radius: 34px;
             -moz-border-top-right-radius: 34px;
             -moz-border-radius-topright: 34px;

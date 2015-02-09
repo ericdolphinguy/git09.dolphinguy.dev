@@ -218,7 +218,7 @@ html {
             }
 
             .inner {
-              background: #78b800;
+              background: #78b800 url(images/image-7.png) right top no-repeat;
               @include border-top-right-radius(34px);
               height: 160px;
             }
@@ -525,7 +525,6 @@ html {
               img {
                 margin: -90px 0 0;
               }
-
             }
 
             .tripadvisor {
