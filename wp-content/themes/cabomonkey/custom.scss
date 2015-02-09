@@ -85,6 +85,14 @@ html {
             float: none;
             font-weight: bold;
 
+            .menu-toggle {
+              display: none;
+            }
+
+            .menu-toggle-2 {
+              display: none;
+            }
+
             /*
             300px is not based from the actual size on the psd.
             */

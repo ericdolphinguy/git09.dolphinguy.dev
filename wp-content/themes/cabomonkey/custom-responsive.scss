@@ -1,4 +1,3 @@
-
 @media all and (max-width: 1230px) {
   html {
     body {
@@ -25,6 +24,7 @@
                 background: transparent;
                 border: 0;
                 box-shadow: none;
+                display: block;
                 float: left;
                 font-family: $font_icomoon;
                 height: 40px;
@@ -41,6 +41,17 @@
                 display: block;
                 font-size: 42px;
                 text-align: center;
+              }
+
+              .menu-toggle-2 {
+                background: url(images/image-11.png);
+                cursor: pointer;
+                display: block;
+                height: 40px;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                width: 40px;
               }
 
               .menu-block {
