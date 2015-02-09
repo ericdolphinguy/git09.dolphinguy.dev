@@ -194,7 +194,7 @@ html {
             position: relative;
             width: 780px;
 
-            img {
+            > img {
               margin: -242px 0 0 -125px;
               max-width: none;
               left: 0;
@@ -204,24 +204,13 @@ html {
               width: auto;
             }
 
-            .text {
-              color: #fff;
-              display: none;
-              font-family: $font_tiza;
-              font-size: 24px;
-              padding: 0 0 0 80px;
-              position: absolute;
-              z-index: 99;
-
-              .text-2 {
-                font-size: 38px;
-              }
-            }
-
             .inner {
               background: #78b800 url(images/image-7.png) right top no-repeat;
               @include border-top-right-radius(34px);
               height: 160px;
+
+              > img {
+              }
             }
           }
 

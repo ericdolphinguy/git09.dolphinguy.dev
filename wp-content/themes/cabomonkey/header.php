@@ -90,15 +90,10 @@
 		<!-- Banner 3 -->
 		<div class="banner-3">
 			<div class="image">
-				<div class="text">
-					<div class="text-1">SUPERCHARGE YOUR VACATION</div>
-					<div class="text-2">CHOOSE CABOMONKEY</div>
-				</div>
-
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-6.png" />
 
 				<div class="inner">
-
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-8.png" />
 				</div>
 			</div>
 			<div class="tripadvisor">

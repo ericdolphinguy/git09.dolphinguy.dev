@@ -134,7 +134,7 @@ html body {
           float: left;
           position: relative;
           width: 780px; }
-          html body #page #content .banner-3 .image img {
+          html body #page #content .banner-3 .image > img {
             margin: -242px 0 0 -125px;
             max-width: none;
             left: 0;
@@ -142,16 +142,6 @@ html body {
             top: 0;
             z-index: 9;
             width: auto; }
-          html body #page #content .banner-3 .image .text {
-            color: #fff;
-            display: none;
-            font-family: "tizaregular", serif;
-            font-size: 24px;
-            padding: 0 0 0 80px;
-            position: absolute;
-            z-index: 99; }
-            html body #page #content .banner-3 .image .text .text-2 {
-              font-size: 38px; }
           html body #page #content .banner-3 .image .inner {
             background: #78b800 url(images/image-7.png) right top no-repeat;
             -webkit-border-top-right-radius: 34px;
