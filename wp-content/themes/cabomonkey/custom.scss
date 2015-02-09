@@ -326,32 +326,39 @@ html {
                 .title {
                   color: #fec900;
                   font-family: $font_momt;
-                  font-size: 22px;
-                  padding: 12px 12px 0;
+                  font-size: 23px;
+                  line-height: 1em;
+                  padding: 12px 12px 5px;
                 }
 
                 .title-2 {
                   color: #fff;
                   font-family: $font_momt;
-                  font-size: 22px;
+                  font-size: 23px;
+                  line-height: 1em;
                   padding: 0 12px 3px;
                 }
 
                 .text {
                   color: #fff;
                   font-size: 12px;
-                  padding: 0 12px 12px;
+                  line-height: 1.2em;
+                  padding: 0 12px 24px;
                 }
 
                 .buttons {
-                  padding: 0 24px;
+                  line-height: 1em;
+                  padding: 0 25px 10px;
 
-                  .button {
+                  .buttn {
                     border-radius: 2px;
                     font-family: $font_momt;
-                    font-size: 18px;
-                    padding: 6px;
-                    width: 48%;
+                    font-size: 20px;
+                    height: 39px;
+                    line-height: 39px;
+                    text-align: center;
+                    vertical-align: middle;
+                    width: 141px;
                   }
 
                   .details {

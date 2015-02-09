@@ -237,25 +237,32 @@ html body {
             html body #page #content #primary .offer .coupon .inner .title {
               color: #fec900;
               font-family: "momstypewriterregular", serif;
-              font-size: 22px;
-              padding: 12px 12px 0; }
+              font-size: 23px;
+              line-height: 1em;
+              padding: 12px 12px 5px; }
             html body #page #content #primary .offer .coupon .inner .title-2 {
               color: #fff;
               font-family: "momstypewriterregular", serif;
-              font-size: 22px;
+              font-size: 23px;
+              line-height: 1em;
               padding: 0 12px 3px; }
             html body #page #content #primary .offer .coupon .inner .text {
               color: #fff;
               font-size: 12px;
-              padding: 0 12px 12px; }
+              line-height: 1.2em;
+              padding: 0 12px 24px; }
             html body #page #content #primary .offer .coupon .inner .buttons {
-              padding: 0 24px; }
-              html body #page #content #primary .offer .coupon .inner .buttons .button {
+              line-height: 1em;
+              padding: 0 25px 10px; }
+              html body #page #content #primary .offer .coupon .inner .buttons .buttn {
                 border-radius: 2px;
                 font-family: "momstypewriterregular", serif;
-                font-size: 18px;
-                padding: 6px;
-                width: 48%; }
+                font-size: 20px;
+                height: 39px;
+                line-height: 39px;
+                text-align: center;
+                vertical-align: middle;
+                width: 141px; }
               html body #page #content #primary .offer .coupon .inner .buttons .details {
                 background: #78b800;
                 color: #fff;

@@ -59,8 +59,8 @@ get_header(); ?>
 						</div>
 
 						<div class="buttons clear">
-							<div class="details button">Details</div>
-							<div class="bookit button">Book It</div>
+							<div class="details buttn">Details</div>
+							<div class="bookit buttn">Book It</div>   
 						</div>
 
 						<!-- Ticket secion -->
@@ -114,8 +114,8 @@ get_header(); ?>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
 						</div>
 						<div class="buttons clear">
-							<div class="details button">Details</div>
-							<div class="bookit button">Book It</div>
+							<div class="details buttn">Details</div>
+							<div class="bookit buttn">Book It</div>
 						</div>
 						<div class="ticket">
 							<div class="adults">
@@ -167,8 +167,8 @@ get_header(); ?>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
 						</div>
 						<div class="buttons clear">
-							<div class="details button">Details</div>
-							<div class="bookit button">Book It</div>
+							<div class="details buttn">Details</div>
+							<div class="bookit buttn">Book It</div>
 						</div>
 						<div class="ticket">
 							<div class="adults">
@@ -220,8 +220,8 @@ get_header(); ?>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
 						</div>
 						<div class="buttons clear">
-							<div class="details button">Details</div>
-							<div class="bookit button">Book It</div>
+							<div class="details buttn">Details</div>
+							<div class="bookit buttn">Book It</div>
 						</div>
 						<div class="ticket">
 							<div class="adults">
@@ -273,8 +273,8 @@ get_header(); ?>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
 						</div>
 						<div class="buttons clear">
-							<div class="details button">Details</div>
-							<div class="bookit button">Book It</div>
+							<div class="details buttn">Details</div>
+							<div class="bookit buttn">Book It</div>
 						</div>
 						<div class="ticket">
 							<div class="adults">
@@ -326,8 +326,8 @@ get_header(); ?>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
 						</div>
 						<div class="buttons clear">
-							<div class="details button">Details</div>
-							<div class="bookit button">Book It</div>
+							<div class="details buttn">Details</div>
+							<div class="bookit buttn">Book It</div>
 						</div>
 						<div class="ticket">
 							<div class="adults">
