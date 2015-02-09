@@ -343,6 +343,7 @@ html body {
 
 @media all and (max-width: 1230px) {
   html body #page {
+    background: url(images/page_bg.jpg) center top repeat-y;
     overflow: hidden; }
     html body #page #masthead .menu {
       display: none; }
@@ -434,6 +435,26 @@ html body {
         float: none;
         margin: 0 auto;
         width: 100%; }
+    html body #page #colophon .pickup {
+      background: #78b800;
+      height: auto;
+      width: 100%; }
+      html body #page #colophon .pickup .image {
+        width: 100%; }
+        html body #page #colophon .pickup .image img {
+          margin: 0;
+          position: static;
+          width: 100%; }
+      html body #page #colophon .pickup .texts {
+        float: none;
+        width: 100%; }
+        html body #page #colophon .pickup .texts .text-1 {
+          line-height: normal;
+          padding: 0;
+          text-align: center; }
+        html body #page #colophon .pickup .texts .text-2 {
+          line-height: normal;
+          padding: 0 0 12px; }
   html body.toggled #page #content .header {
     background: #719539; }
   html body.toggled #page #content .banner {

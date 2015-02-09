@@ -2,6 +2,7 @@
   html {
     body {
       #page {
+        background: url(images/page_bg.jpg) center top repeat-y;
         overflow: hidden;
 
         #masthead {
@@ -152,7 +153,41 @@
             }
           }
         }
+        #colophon {
+          .pickup {
+            background: #78b800;
+            height: auto;
+            width: 100%;
+
+            .image {
+              width: 100%;
+
+              img {
+                margin: 0;
+                position: static;
+                width: 100%;
+              }
+            }
+
+            .texts {
+              float: none;
+              width: 100%;
+
+              .text-1 {
+                line-height: normal;
+                padding: 0;
+                text-align: center;
+              }
+
+              .text-2 {
+                line-height: normal;
+                padding: 0 0 12px;
+              }
+            }
+          }
+        }
       }
+
 
       &.toggled {
         #page {
