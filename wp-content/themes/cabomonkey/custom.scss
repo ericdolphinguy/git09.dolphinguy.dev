@@ -208,6 +208,7 @@ html {
               background: #78b800 url(images/image-7.png) right top no-repeat;
               @include border-top-right-radius(34px);
               height: 160px;
+              padding: 20px 0 0 90px;
 
               > img {
               }
@@ -389,6 +390,10 @@ html {
         background: #cdb696 url(images/page_bg.jpg) center top;
 
         .pickup {
+          background: url(images/image-9.png) right top no-repeat;
+          height: 216px;
+          margin: 0 auto;
+          width: 1200px;
         }
 
         .site-info {
@@ -413,6 +418,12 @@ html {
     body {
       #page {
         overflow: hidden;
+
+        #masthead {
+          .menu {
+            display: none;
+          }
+        }
 
         #content {
           .header {

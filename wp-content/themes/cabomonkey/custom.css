@@ -150,7 +150,8 @@ html body {
             -ms-border-top-right-radius: 34px;
             -o-border-top-right-radius: 34px;
             border-top-right-radius: 34px;
-            height: 160px; }
+            height: 160px;
+            padding: 20px 0 0 90px; }
         html body #page #content .banner-3 .tripadvisor {
           background: #fec900;
           -webkit-border-top-left-radius: 34px;
@@ -275,6 +276,11 @@ html body {
                   font-size: 24px; }
     html body #page #colophon {
       background: #cdb696 url(images/page_bg.jpg) center top; }
+      html body #page #colophon .pickup {
+        background: url(images/image-9.png) right top no-repeat;
+        height: 216px;
+        margin: 0 auto;
+        width: 1200px; }
       html body #page #colophon .site-info {
         background: rgba(0, 0, 0, 0.12);
         box-shadow: 0 0 12px rgba(0, 0, 0, 0.72);
@@ -289,6 +295,8 @@ html body {
 @media all and (max-width: 1230px) {
   html body #page {
     overflow: hidden; }
+    html body #page #masthead .menu {
+      display: none; }
     html body #page #content .header {
       height: auto; }
       html body #page #content .header .main-navigation {
