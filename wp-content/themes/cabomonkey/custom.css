@@ -19,8 +19,7 @@
 * Custom styles.
 */
 html body {
-  background: #719539 url(images/background.jpg) center top;
-  background-size: 100% auto; }
+  background: #719539 url(images/background.jpg) center top; }
   html body #page {
     position: relative; }
     html body #page #masthead {
