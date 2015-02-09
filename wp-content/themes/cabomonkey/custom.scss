@@ -263,6 +263,7 @@ html {
                 .qrcode {
                   @include border-radius(4px);
                   height: 100px;
+                  margin: 0 0 7px;
                   overflow: hidden;
                   width: 100%;
 

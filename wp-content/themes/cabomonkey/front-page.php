@@ -26,6 +26,7 @@ get_header(); ?>
 							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
 						</div>
 						<div class="notes">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
 						</div>
 					</div>
 				</div>
@@ -88,6 +89,7 @@ get_header(); ?>
 							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
 						</div>
 						<div class="notes">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
 						</div>
 					</div>
 				</div>
@@ -141,6 +143,7 @@ get_header(); ?>
 							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
 						</div>
 						<div class="notes">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
 						</div>
 					</div>
 				</div>
@@ -194,6 +197,7 @@ get_header(); ?>
 							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
 						</div>
 						<div class="notes">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
 						</div>
 					</div>
 				</div>
@@ -247,6 +251,7 @@ get_header(); ?>
 							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
 						</div>
 						<div class="notes">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
 						</div>
 					</div>
 				</div>
@@ -300,6 +305,7 @@ get_header(); ?>
 							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
 						</div>
 						<div class="notes">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
 						</div>
 					</div>
 				</div>
