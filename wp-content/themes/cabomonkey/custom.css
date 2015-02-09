@@ -279,8 +279,31 @@ html body {
       html body #page #colophon .pickup {
         background: url(images/image-9.png) right top no-repeat;
         height: 216px;
+        padding: 0 33px;
         margin: 0 auto;
         width: 1200px; }
+        html body #page #colophon .pickup .image {
+          float: left;
+          padding: 8px 0 0;
+          width: 434px; }
+          html body #page #colophon .pickup .image img {
+            margin: 0 0 0 -50px;
+            position: absolute; }
+        html body #page #colophon .pickup .texts {
+          color: #fff;
+          float: right;
+          font-size: 18px;
+          line-height: 1em;
+          padding: 30px 0 0;
+          width: 700px; }
+          html body #page #colophon .pickup .texts .text-1 {
+            font-family: "momstypewriterregular", serif;
+            font-size: 40px;
+            padding: 0 0 20px; }
+            html body #page #colophon .pickup .texts .text-1 span {
+              color: #fec900; }
+          html body #page #colophon .pickup .texts .text-2 {
+            line-height: 1.2em; }
       html body #page #colophon .site-info {
         background: rgba(0, 0, 0, 0.12);
         box-shadow: 0 0 12px rgba(0, 0, 0, 0.72);
