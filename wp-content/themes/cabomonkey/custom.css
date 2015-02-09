@@ -95,6 +95,8 @@ html body {
           right: 36px; }
       html body #page #content .banner {
         position: relative; }
+        html body #page #content .banner img {
+          width: 100%; }
       html body #page #content .banner-2 {
         height: 270px; }
         html body #page #content .banner-2 .reasons {
@@ -308,13 +310,10 @@ html body {
         background: rgba(0, 0, 0, 0.12);
         box-shadow: 0 0 12px rgba(0, 0, 0, 0.72);
         color: #fff;
-        font-size: 11px;
+        font-size: 14px;
         margin: 12px;
         padding: 12px; }
 
-/**
-* Content column width.
-*/
 @media all and (max-width: 1230px) {
   html body #page {
     overflow: hidden; }

@@ -138,6 +138,10 @@ html {
 
         .banner {
           position: relative;
+
+          img {
+            width: 100%;
+          }
         }
 
         .banner-2 {
@@ -435,7 +439,7 @@ html {
           background: rgba(0,0,0,0.12);
           box-shadow: 0 0 12px rgba(0,0,0,0.72);
           color: #fff;
-          font-size: 11px;
+          font-size: 14px;
           margin: 12px;
           padding: 12px;
         }
@@ -444,183 +448,4 @@ html {
   }
 }
 
-/**
-* Content column width.
-*/
-
-@media all and (max-width: 1230px) {
-  html {
-    body {
-      #page {
-        overflow: hidden;
-
-        #masthead {
-          .menu {
-            display: none;
-          }
-        }
-
-        #content {
-          .header {
-            height: auto;
-
-            .main-navigation {
-
-              /*
-              Corrected the styles
-              */
-
-              .menu-toggle {
-                background: transparent;
-                border: 0;
-                box-shadow: none;
-                float: left;
-                font-family: $font_icomoon;
-                height: 40px;
-                margin: 10px 0 0 10px;
-                outline: none;
-                padding: 0;
-                text-shadow: none;
-                width: 40px;
-              }
-
-              .menu-toggle:before {
-                color: #78b800;
-                content: "\e9bd";
-                display: block;
-                font-size: 42px;
-                text-align: center;
-              }
-
-              .menu-block {
-                left: auto;
-                padding: 0 50px 50px;
-                position: static;
-                width: 100%;
-
-                .site-branding {
-                  display: none;
-                }
-
-                .menu {
-                  padding: 0 45px;
-                }
-              }
-
-              &.toggled {
-                .menu-block {
-                  .site-branding {
-                    display: block;
-                  }
-                }
-              }
-            }
-
-            .logo {
-              padding: 12px;
-              position: static;
-              top: auto;
-              right: auto;
-              text-align: center;
-
-              img {
-                display: block;
-                margin: 0 auto;
-              }
-            }
-          }
-
-          .banner-2 {
-            height: auto;
-
-            .reasons {
-              float: none;
-              padding: 12px 12px;
-              text-align: center;
-            }
-
-            .guarantees {
-              float: none;
-              padding: 12px 12px;
-              text-align: center;
-
-              .guarantee {
-                @include inline-block;
-                float: none;
-                width: 28%;
-              }
-            }
-          }
-
-          .banner-3 {
-            .image {
-              float: none;
-              height: auto;
-              margin: 70px 0 36px;
-
-              img {
-                margin: -90px 0 0;
-              }
-            }
-
-            .tripadvisor {
-              margin: 0 0 36px;
-            }
-          }
-
-          #primary {
-            .offer {
-              margin: 0 0 12px;
-
-              .image {
-                float: none;
-                margin: 0 0 12px;
-                width: 100%;
-
-                .meta {
-                  display: none;
-                }
-              }
-
-              .coupon {
-                float: none;
-                margin: 0 auto;
-                max-width: 100%;
-              }
-            }
-          }
-        }
-      }
-
-      &.toggled {
-        #page {
-          #content {
-            .header {
-              background: $color_background;
-            }
-
-            .banner {
-              display: none;
-            }
-
-            .banner-2 {
-              display: none;
-            }
-
-            .banner-3 {
-              display: none;
-            }
-
-            #primary {
-              display: none;
-            }
-          }
-
-          #colophon {
-            display: none;
-          }
-        }
-      }
-    }
-  }
-}
+@import "custom-responsive";

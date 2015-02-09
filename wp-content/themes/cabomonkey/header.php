@@ -39,6 +39,8 @@
 				<div class="chat">
 				</div><!-- .chat -->
 
+				<div class="menu-toggle-2"></div>
+
 				<div class="logo">
 					<a href="<?php echo site_url('/'); ?>">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-2.png" />
