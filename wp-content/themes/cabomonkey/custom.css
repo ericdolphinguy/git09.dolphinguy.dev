@@ -80,6 +80,7 @@ html body {
                 float: none; }
                 html body #page #content .header .main-navigation .menu-block .menu .menu-item a {
                   color: #fff;
+                  font-family: "momstypewriterregular", serif;
                   font-size: 18px; }
         html body #page #content .header .chat {
           background: url(images/chat-now.png) center center no-repeat;
