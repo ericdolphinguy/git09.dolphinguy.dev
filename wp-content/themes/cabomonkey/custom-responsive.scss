@@ -57,7 +57,7 @@
 
               .menu-block {
                 left: auto;
-                padding: 0 0 50px;
+                padding: 0;
                 position: static;
                 width: 100%;
 
@@ -77,6 +77,8 @@
 
               &.toggled {
                 .menu-block {
+                  padding: 0 0 50px;
+
                   .site-branding {
                     display: block;
                   }
@@ -111,6 +113,8 @@
               float: none;
               padding: 12px 12px;
               text-align: center;
+              margin: 0 auto;
+              max-width: 480px;
 
               .guarantee {
                 @include inline-block;
@@ -125,9 +129,19 @@
               float: none;
               height: auto;
               margin: 70px 0 36px;
+              max-width: 100%;
 
-              img {
-                margin: -90px 0 0;
+              > img {
+                margin: -40px 0 0;
+                width: 122px;
+              }
+
+              .inner {
+                padding: 20px 20px 20px 130px;
+
+                img {
+                  height: 100%;
+                }
               }
             }
 

@@ -383,7 +383,7 @@ html body {
           width: 40px; }
         html body #page #content .header .main-navigation .menu-block {
           left: auto;
-          padding: 0 0 50px;
+          padding: 0;
           position: static;
           width: 100%; }
           html body #page #content .header .main-navigation .menu-block .site-branding {
@@ -395,8 +395,10 @@ html body {
             margin: 0 auto;
             padding: 0 45px;
             width: 300px; }
-        html body #page #content .header .main-navigation.toggled .menu-block .site-branding {
-          display: block; }
+        html body #page #content .header .main-navigation.toggled .menu-block {
+          padding: 0 0 50px; }
+          html body #page #content .header .main-navigation.toggled .menu-block .site-branding {
+            display: block; }
       html body #page #content .header .logo {
         padding: 12px;
         position: static;
@@ -415,7 +417,9 @@ html body {
       html body #page #content .banner-2 .guarantees {
         float: none;
         padding: 12px 12px;
-        text-align: center; }
+        text-align: center;
+        margin: 0 auto;
+        max-width: 480px; }
         html body #page #content .banner-2 .guarantees .guarantee {
           display: inline-block;
           float: none;
@@ -423,9 +427,15 @@ html body {
     html body #page #content .banner-3 .image {
       float: none;
       height: auto;
-      margin: 70px 0 36px; }
-      html body #page #content .banner-3 .image img {
-        margin: -90px 0 0; }
+      margin: 70px 0 36px;
+      max-width: 100%; }
+      html body #page #content .banner-3 .image > img {
+        margin: -40px 0 0;
+        width: 122px; }
+      html body #page #content .banner-3 .image .inner {
+        padding: 20px 20px 20px 130px; }
+        html body #page #content .banner-3 .image .inner img {
+          height: 100%; }
     html body #page #content .banner-3 .tripadvisor {
       margin: 0 0 36px; }
     html body #page #content #primary .offer {
