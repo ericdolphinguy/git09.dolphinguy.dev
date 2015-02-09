@@ -50,7 +50,7 @@ html body {
             -o-transform: rotate(90deg);
             transform: rotate(90deg); }
     html body #page #content {
-      background: #cdb696 url(images/page_bg.jpg) center top;
+      background: url(images/page_bg.png) center top;
       background-size: 100% auto; }
       html body #page #content .header {
         height: 115px;
@@ -124,7 +124,7 @@ html body {
               line-height: 1.2em; }
         html body #page #content .banner-2 .guarantees {
           float: right;
-          padding: 63px 81px 0 0; }
+          padding: 63px 87px 0 0; }
           html body #page #content .banner-2 .guarantees .guarantee {
             float: left; }
       html body #page #content .banner-3 {
