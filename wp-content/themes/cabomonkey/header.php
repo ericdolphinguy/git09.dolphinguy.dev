@@ -69,11 +69,6 @@
 		<div class="banner-2">
 			<div class="reasons">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/reasons.png" />
-				<div class="texts">
-					<div class="text-1">3 RESONS YOU</div>
-					<div class="text-2">SHOULD BUY</div>
-					<div class="text-3">FROM CABOMONKEY</div>
-				</div>
 			</div>
 			<div class="guarantees">
 				<div class="guarantee">
