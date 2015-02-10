@@ -173,9 +173,13 @@ html {
         }
 
         .banner {
+          height: 0;
           position: relative;
+          padding-bottom: 56.25%;
 
-          img {
+          iframe {
+            height: 100%;
+            position: absolute;
             width: 100%;
           }
         }

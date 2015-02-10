@@ -117,8 +117,12 @@ html body {
           top: 22px;
           right: 36px; }
       html body #page #content .banner {
-        position: relative; }
-        html body #page #content .banner img {
+        height: 0;
+        position: relative;
+        padding-bottom: 56.25%; }
+        html body #page #content .banner iframe {
+          height: 100%;
+          position: absolute;
           width: 100%; }
       html body #page #content .banner-2 {
         height: 270px; }

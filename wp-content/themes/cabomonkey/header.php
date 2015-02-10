@@ -66,7 +66,8 @@
 
 		<!-- Banner -->
 		<div class="banner">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image.jpg" />
+			<!--<img src="<?php /*echo get_stylesheet_directory_uri(); */?>/images/image.jpg" />-->
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/HrqXTHCGVEo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<!-- End Banner -->
 
