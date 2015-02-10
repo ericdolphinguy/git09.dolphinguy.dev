@@ -33,8 +33,7 @@
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 
 				<!-- Tried to use a div instead of button but the break the script. -->
-				<button class="menu-toggle" aria-controls="menu" aria-expanded="false">
-				</button>
+				<button class="menu-toggle" aria-controls="menu" aria-expanded="false"></button>
 
 				<div class="chat">
 				</div><!-- .chat -->
@@ -50,7 +49,6 @@
 				<div class="menu-block">
 					<div class="site-branding">
 					</div><!-- .site-branding -->
-
 					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 				</div>
 
@@ -76,6 +74,11 @@
 		<div class="banner-2">
 			<div class="reasons">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/reasons.png" />
+				<div class="texts">
+					<div class="text text-1">3 REASONS YOU</div>
+					<div class="text text-2">SHOULD BUY</div>
+					<div class="text text-3">FROM <span>CABOMONKEY!!!</span></div>
+				</div>
 			</div>
 			<div class="guarantees">
 				<div class="guarantee">
@@ -98,6 +101,11 @@
 
 				<div class="inner">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-8.png" />
+
+					<div class="texts">
+						<div class="text text-1">SUPERCHARGE YOUR VACATION!</div>
+						<div class="text text-2">CHOOSE CABOMONKEY!</div>
+					</div>
 				</div>
 			</div>
 			<div class="tripadvisor">

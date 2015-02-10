@@ -181,34 +181,59 @@ html {
         }
 
         .banner-2 {
+          @include clearfix;
           height: 270px;
 
           .reasons {
             float: left;
-            padding: 14px 0 0 137px;
+            padding: 0 0 0 155px;
+            position: relative;
+            width: 50%;
+
+            > img {
+              display: none;
+              left: 137px;
+              position: absolute;
+              top: 14px;
+              z-index: 0;
+            }
 
             .texts {
-              display: none;
+              text-align: left;
 
-              .text-1 {
-                color: #fff;
-                font-family: $font_tiza;
-                font-size: 56px;
-                line-height: 1.2em;
-              }
+              .text {
+                line-height: 1em;
+                @include transform-origin(0% 0%);
 
-              .text-2 {
-                color: #bf423b;
-                font-family: $font_321impact;
-                font-size: 56px;
-                line-height: 1.2em;
-              }
+                &.text-1 {
+                  color: #fff;
+                  font-family: $font_tiza;
+                  font-size: 96px;
+                  margin: 0 0 6px -10px;
+                  @include transform(scale(0.35,1));
+                  white-space: nowrap;
+                }
 
-              .text-3 {
-                color: #fff;
-                font-family: $font_tiza;
-                font-size: 56px;
-                line-height: 1.2em;
+                &.text-2 {
+                  color: #bf423b;
+                  font-family: $font_321impact;
+                  font-size: 62px;
+                  margin: 0 0 0 10px;
+                  @include transform(scale(1.3,1));
+                }
+
+                &.text-3 {
+                  color: #fff;
+                  font-family: $font_tiza;
+                  font-size: 80px;
+                  margin: -12px 0 0;
+                  white-space: nowrap;
+                  @include transform(scale(0.375,1));
+
+                  span {
+                    color: #a3d855;
+                  }
+                }
               }
             }
           }
@@ -251,6 +276,7 @@ html {
               padding: 20px 0 0 90px;
 
               > img {
+                position: absolute;
               }
             }
           }
