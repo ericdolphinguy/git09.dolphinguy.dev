@@ -23,7 +23,7 @@ get_header(); ?>
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
-							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cactus-atv-tours.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
@@ -86,7 +86,7 @@ get_header(); ?>
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-zip-line-adventure-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
-							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/outdoor-zipline-adventure.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
@@ -107,7 +107,7 @@ get_header(); ?>
 					</div>
 					<div class="inner">
 						<div class="title">
-							OUTDOOT ZIPLINE ADVENTURE
+							OUTDOOR ZIPLINE ADVENTURE
 						</div>
 						<div class="title-2">
 							The Adventure
@@ -140,7 +140,7 @@ get_header(); ?>
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-outback-camel-safari-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
-							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/outback-camel-safari.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
@@ -194,7 +194,7 @@ get_header(); ?>
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
-							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-yatch-rentals.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
@@ -248,7 +248,7 @@ get_header(); ?>
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-santa-maria-snorkeling-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
-							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/santa-maria-snorkeling.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
@@ -302,7 +302,7 @@ get_header(); ?>
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cabo-dolphins-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
-							<?php echo do_shortcode( sprintf( '[qrcode size=100 content="%s"]', site_url( 'cabo-adventures-cactus-atv-tours-01' ) ) ); ?>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-dolphins.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
