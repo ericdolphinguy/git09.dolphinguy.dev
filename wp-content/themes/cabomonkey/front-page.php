@@ -56,7 +56,8 @@ get_header(); ?>
 						</div>
 
 						<div class="text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
+							Experience the awesomeness of Baja's desert landscape will blasting over permative trails on top of brand new 2013 and 2014 Razor Polaris or ATVs.
+							Enjoy spectacular views of the beach only 20 minutes from Cabo San Lucas.
 						</div>
 
 						<div class="buttons clear">
@@ -113,7 +114,8 @@ get_header(); ?>
 							The Adventure
 						</div>
 						<div class="text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
+							Exhilirating and exciting, our Outdoor Adventure combines amazing activities with the impressive scenery of Boca de la Sierra.
+							Zip line across canyons above a beautiful desert stream, rappel down a rock wall, traverse various suspended bridges, climb the famous Crazy Ladder and more.
 						</div>
 						<div class="buttons clear">
 							<div class="details buttn">Details</div>
@@ -167,7 +169,8 @@ get_header(); ?>
 							The Adventure
 						</div>
 						<div class="text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
+							Outback Camel Safari takes you on a voyage of discovery as you journey away from the tourist areas and delve deeper into the stunning
+							outback and seduced wonders of the Baja peninsula. Enjoy spectacular views, a gentle nature walk, camel ride and delicious cuisine on this exclusive adventure.
 						</div>
 						<div class="buttons clear">
 							<div class="details buttn">Details</div>
@@ -215,13 +218,15 @@ get_header(); ?>
 					</div>
 					<div class="inner">
 						<div class="title">
-							CABO YATCH RENTALS
+							CABO YACHT RENTALS
 						</div>
 						<div class="title-2">
 							The Adventure
 						</div>
 						<div class="text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
+							We operate a fleet of both sailing and motor yachts, all luxurious and in top condition.
+							Snorkeling, sunset cruises, sailing classes and whale watching excursions. All cruises by professional
+							crew dedicated to excellence.
 						</div>
 						<div class="buttons clear">
 							<div class="details buttn">Details</div>
@@ -275,7 +280,10 @@ get_header(); ?>
 							The Adventure
 						</div>
 						<div class="text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
+							Santa Maria Bay in one of the premier snorkeling destinations in Cabo San Lucas Mexico.
+							The water at Santa Maria Cove is teeming with marine live and tropical fish.
+							Take a 30-minute boat ride to the snorkeling site where you may see sea turtles or manta rays,
+							along with hundreds of tropical fish.
 						</div>
 						<div class="buttons clear">
 							<div class="details buttn">Details</div>
@@ -329,7 +337,10 @@ get_header(); ?>
 							The Adventure
 						</div>
 						<div class="text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur in iusto neque quasi ut. Amet at cumque deleniti eaque incidunt ipsum, nobis tenetur! Accusantium commodi doloremque fugit itaque maiores quasi!
+							There aren't many activities that top swimming with a dolphin!
+							When you are planning your trip put Cabo Dolphins on top of your list.
+							Swim with the dolphin centers in San Jose del Cabo and Cabo San Lucas.
+							Feel the thrill of swimming alongside dolphins.
 						</div>
 						<div class="buttons clear">
 							<div class="details buttn">Details</div>
