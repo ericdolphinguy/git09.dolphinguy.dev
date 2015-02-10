@@ -131,12 +131,6 @@ html body {
           padding: 0 0 0 155px;
           position: relative;
           width: 50%; }
-          html body #page #content .banner-2 .reasons > img {
-            display: none;
-            left: 137px;
-            position: absolute;
-            top: 14px;
-            z-index: 0; }
           html body #page #content .banner-2 .reasons .texts {
             text-align: left; }
             html body #page #content .banner-2 .reasons .texts .text {
@@ -215,8 +209,32 @@ html body {
             border-top-right-radius: 34px;
             height: 160px;
             padding: 20px 0 0 90px; }
-            html body #page #content .banner-3 .image .inner > img {
-              position: absolute; }
+            html body #page #content .banner-3 .image .inner .texts {
+              color: #fff;
+              font-family: "tizaregular", serif;
+              margin: -6px 0 0; }
+              html body #page #content .banner-3 .image .inner .texts .text {
+                -webkit-transform-origin: 0% 0%;
+                -moz-transform-origin: 0% 0%;
+                -ms-transform-origin: 0% 0%;
+                -o-transform-origin: 0% 0%;
+                transform-origin: 0% 0%;
+                line-height: 1em;
+                white-space: nowrap; }
+                html body #page #content .banner-3 .image .inner .texts .text.text-1 {
+                  font-size: 51px;
+                  -webkit-transform: scale(0.34, 1);
+                  -moz-transform: scale(0.34, 1);
+                  -ms-transform: scale(0.34, 1);
+                  -o-transform: scale(0.34, 1);
+                  transform: scale(0.34, 1); }
+                html body #page #content .banner-3 .image .inner .texts .text.text-2 {
+                  font-size: 79px;
+                  -webkit-transform: scale(0.5, 1);
+                  -moz-transform: scale(0.5, 1);
+                  -ms-transform: scale(0.5, 1);
+                  -o-transform: scale(0.5, 1);
+                  transform: scale(0.5, 1); }
         html body #page #content .banner-3 .tripadvisor {
           background: #fec900;
           -webkit-border-top-left-radius: 34px;

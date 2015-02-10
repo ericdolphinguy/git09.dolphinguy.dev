@@ -190,14 +190,6 @@ html {
             position: relative;
             width: 50%;
 
-            > img {
-              display: none;
-              left: 137px;
-              position: absolute;
-              top: 14px;
-              z-index: 0;
-            }
-
             .texts {
               text-align: left;
 
@@ -275,8 +267,27 @@ html {
               height: 160px;
               padding: 20px 0 0 90px;
 
-              > img {
-                position: absolute;
+              .texts {
+                color: #fff;
+                font-family: $font_tiza;
+                margin: -6px 0 0;
+
+                .text {
+                  @include transform-origin(0% 0%);
+                  line-height: 1em;
+                  white-space: nowrap;
+
+                  &.text-1 {
+                    font-size: 51px;
+                    @include transform(scale(0.34,1));
+
+                  }
+
+                  &.text-2 {
+                    font-size: 79px;
+                    @include transform(scale(0.5,1));
+                  }
+                }
               }
             }
           }
