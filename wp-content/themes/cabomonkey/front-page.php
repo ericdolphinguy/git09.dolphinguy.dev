@@ -197,7 +197,7 @@ get_header(); ?>
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01.jpg" />
 					<div class="meta">
 						<div class="qrcode">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-yatch-rentals.png" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-yacht-rentals.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
