@@ -552,6 +552,8 @@ html body {
           padding: 0 0 12px; }
   html body.toggled #page #content .header {
     background: #719539; }
+    html body.toggled #page #content .header .main-navigation .texts {
+      display: none; }
   html body.toggled #page #content .banner {
     display: none; }
   html body.toggled #page #content .banner-2 {

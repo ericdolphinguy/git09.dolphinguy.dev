@@ -213,6 +213,12 @@
           #content {
             .header {
               background: $color_background;
+
+              .main-navigation {
+                .texts {
+                  display: none;
+                }
+              }
             }
 
             .banner {
