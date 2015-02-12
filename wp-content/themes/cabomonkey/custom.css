@@ -268,7 +268,10 @@ html {
               top: -90px;
               z-index: 9; }
             html body #page #content .banner-3 .tripadvisor .TA_cdswritereviewlg {
-              float: right; }
+              background: #fff;
+              float: right;
+              height: 250px;
+              width: 240px; }
         html body #page #content #primary {
           padding: 35px 0 0; }
           html body #page #content #primary .offer {
@@ -337,7 +340,9 @@ html {
                     height: auto;
                     width: 80px; }
                 html body #page #content #primary .offer .coupon .tripadvisor .TA_cdsratingsonlynarrow {
+                  background: #fff;
                   float: right;
+                  height: 78px;
                   width: 70%; }
                   html body #page #content #primary .offer .coupon .tripadvisor .TA_cdsratingsonlynarrow .narrow {
                     width: 100%; }
