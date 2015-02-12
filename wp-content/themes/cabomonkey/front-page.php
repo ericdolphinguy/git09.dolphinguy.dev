@@ -36,15 +36,14 @@ get_header(); ?>
 
 					<!-- Trip advisor sub section. -->
 					<div class="tripadvisor">
-						<div class="text">
-							<div class="rank">
-								<strong>Ranked #1</strong> of 54 attactions
-							</div>
-							<div class="rank-value">
-								<div class="stars"></div>
-								<div class="reviews">2,261 reviews</div>
-							</div>
+						<div id="TA_certificateOfExcellence886" class="TA_certificateOfExcellence">
+							<ul id="9tb5yJoMP" class="TA_links LTSb0jYMmji">
+								<li id="sJAePkMXjbC0" class="C5BcZJl3dDT">
+									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+								</li>
+							</ul>
 						</div>
+						<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=886&amp;locationId=1437325&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
 					</div>
 
 					<div class="inner">
@@ -101,22 +100,10 @@ get_header(); ?>
 								<strong>Ranked #1</strong> of 54 attactions
 							</div>
 
-							<!--<div class="rank-value">
+							<div class="rank-value">
 								<div class="stars"></div>
 								<div class="reviews">2,261 reviews</div>
-							</div>-->
-
-							<!-- TripAdvisor embed code -->
-
-							<div id="TA_certificateOfExcellence886" class="TA_certificateOfExcellence">
-								<ul id="9tb5yJoMP" class="TA_links LTSb0jYMmji">
-									<li id="sJAePkMXjbC0" class="C5BcZJl3dDT">
-										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
-									</li>
-								</ul>
 							</div>
-							<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=886&amp;locationId=1437325&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
-
 						</div>
 					</div>
 					<div class="inner">

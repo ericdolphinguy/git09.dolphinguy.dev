@@ -303,7 +303,6 @@ html {
             height: inherit;
             width: 362px; }
             html body #page #content #primary .offer .coupon .tripadvisor {
-              background: url(images/tripadvisor.png) -12px center no-repeat;
               background-size: auto 200%;
               color: #fff;
               margin: 0 auto;
@@ -313,18 +312,8 @@ html {
                 clear: both;
                 content: "";
                 display: table; }
-              html body #page #content #primary .offer .coupon .tripadvisor .text {
-                color: #589442;
-                float: right;
-                width: 220px; }
-                html body #page #content #primary .offer .coupon .tripadvisor .text .rank-value {
-                  color: #31281e; }
-                  html body #page #content #primary .offer .coupon .tripadvisor .text .rank-value .stars {
-                    float: left;
-                    background: url(images/star.png);
-                    height: 20px;
-                    margin: 0 6px 0 0;
-                    width: 100px; }
+              html body #page #content #primary .offer .coupon .tripadvisor .TA_certificateOfExcellence {
+                float: right; }
             html body #page #content #primary .offer .coupon .inner {
               background: #322a1f;
               margin: 0 auto;

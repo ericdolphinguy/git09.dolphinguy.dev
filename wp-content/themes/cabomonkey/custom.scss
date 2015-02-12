@@ -373,7 +373,7 @@ html {
               width: 362px;
 
               .tripadvisor {
-                background: url(images/tripadvisor.png) -12px center no-repeat;
+//                background: url(images/tripadvisor.png) -12px center no-repeat;
                 background-size: auto 200%;
                 @include clearfix;
                 color: #fff;
@@ -381,22 +381,8 @@ html {
                 padding: 0 0 6px;
                 width: 342px;
 
-                .text {
-                  color: #589442;
+                .TA_certificateOfExcellence {
                   float: right;
-                  width: 220px;
-
-                  .rank-value {
-                    color: #31281e;
-
-                    .stars {
-                      float: left;
-                      background: url(images/star.png);
-                      height: 20px;
-                      margin: 0 6px 0 0;
-                      width: 100px;
-                    }
-                  }
                 }
               }
 
