@@ -534,10 +534,13 @@ html {
       html body #page #content .banner-3 .tripadvisor {
         margin: 0 0 36px; }
       html body #page #content #primary .offer {
-        margin: 0 0 12px; }
+        background: url(images/monkeys.png) center bottom repeat-x;
+        margin: 0 0 16px;
+        padding: 0 12px 60px; }
         html body #page #content #primary .offer .image {
           float: none;
-          margin: 0 0 12px;
+          margin: 0;
+          padding: 0;
           width: 100%; }
           html body #page #content #primary .offer .image .meta {
             display: none; }
