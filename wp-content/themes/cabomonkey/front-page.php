@@ -15,8 +15,8 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<!-- Every row is an offer -->
-			<div class="offer ">
+			<!-- Every row is an offer-->
+			<div class="offer">
 
 				<!-- Big image on the left side. -->
 				<div class="image">
@@ -82,7 +82,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="offer ">
+			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-zip-line-adventure-01.jpg" />
 					<div class="meta">
@@ -100,10 +100,23 @@ get_header(); ?>
 							<div class="rank">
 								<strong>Ranked #1</strong> of 54 attactions
 							</div>
-							<div class="rank-value">
+
+							<!--<div class="rank-value">
 								<div class="stars"></div>
 								<div class="reviews">2,261 reviews</div>
+							</div>-->
+
+							<!-- TripAdvisor embed code -->
+
+							<div id="TA_certificateOfExcellence886" class="TA_certificateOfExcellence">
+								<ul id="9tb5yJoMP" class="TA_links LTSb0jYMmji">
+									<li id="sJAePkMXjbC0" class="C5BcZJl3dDT">
+										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+									</li>
+								</ul>
 							</div>
+							<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=886&amp;locationId=1437325&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
+
 						</div>
 					</div>
 					<div class="inner">
@@ -137,7 +150,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="offer ">
+			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-outback-camel-safari-01.jpg" />
 					<div class="meta">
@@ -192,7 +205,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="offer ">
+			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01.jpg" />
 					<div class="meta">
@@ -248,7 +261,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="offer ">
+			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-santa-maria-snorkeling-01.jpg" />
 					<div class="meta">
@@ -305,7 +318,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="offer ">
+			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cabo-dolphins-01.jpg" />
 					<div class="meta">
