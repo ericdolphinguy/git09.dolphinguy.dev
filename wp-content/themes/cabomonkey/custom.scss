@@ -259,8 +259,9 @@ html {
           padding: 0 12px;
 
           .image {
-            height: 160px;
+            height: 220px;
             float: left;
+            margin: 135px 0 0 0;
             position: relative;
             width: 780px;
 
@@ -275,14 +276,14 @@ html {
             }
 
             .inner {
-              background: #78b800 url(images/image-7.png) right top no-repeat;
+              background: #78b800;
               @include border-top-right-radius(34px);
-              height: 160px;
+              height: 220px;
               padding: 20px 0 0 90px;
 
               .texts {
                 color: #fff;
-                font-family: $font_tiza;
+                font-family: $font_321impact;
                 margin: -6px 0 0;
 
                 .text {
@@ -291,14 +292,16 @@ html {
                   white-space: nowrap;
 
                   &.text-1 {
-                    font-size: 51px;
-                    @include transform(scale(0.34,1));
+                    font-size: 84px;
+                    margin: 20px 0 0;
+                    @include transform(scale(0.5,1));
 
                   }
 
                   &.text-2 {
-                    font-size: 79px;
-                    @include transform(scale(0.5,1));
+                    font-size: 86px;
+                    margin: 0 0 0 100px;
+                    @include transform(scale(0.55,1));
                   }
                 }
               }

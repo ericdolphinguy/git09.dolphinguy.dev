@@ -197,8 +197,9 @@ html {
             content: "";
             display: table; }
           html body #page #content .banner-3 .image {
-            height: 160px;
+            height: 220px;
             float: left;
+            margin: 135px 0 0 0;
             position: relative;
             width: 780px; }
             html body #page #content .banner-3 .image > img {
@@ -210,18 +211,18 @@ html {
               z-index: 9;
               width: auto; }
             html body #page #content .banner-3 .image .inner {
-              background: #78b800 url(images/image-7.png) right top no-repeat;
+              background: #78b800;
               -webkit-border-top-right-radius: 34px;
               -moz-border-top-right-radius: 34px;
               -moz-border-radius-topright: 34px;
               -ms-border-top-right-radius: 34px;
               -o-border-top-right-radius: 34px;
               border-top-right-radius: 34px;
-              height: 160px;
+              height: 220px;
               padding: 20px 0 0 90px; }
               html body #page #content .banner-3 .image .inner .texts {
                 color: #fff;
-                font-family: "tizaregular", serif;
+                font-family: "321impactregular", arial, sans-serif;
                 margin: -6px 0 0; }
                 html body #page #content .banner-3 .image .inner .texts .text {
                   -webkit-transform-origin: 0% 0%;
@@ -232,19 +233,21 @@ html {
                   line-height: 1em;
                   white-space: nowrap; }
                   html body #page #content .banner-3 .image .inner .texts .text.text-1 {
-                    font-size: 51px;
-                    -webkit-transform: scale(0.34, 1);
-                    -moz-transform: scale(0.34, 1);
-                    -ms-transform: scale(0.34, 1);
-                    -o-transform: scale(0.34, 1);
-                    transform: scale(0.34, 1); }
-                  html body #page #content .banner-3 .image .inner .texts .text.text-2 {
-                    font-size: 79px;
+                    font-size: 84px;
+                    margin: 20px 0 0;
                     -webkit-transform: scale(0.5, 1);
                     -moz-transform: scale(0.5, 1);
                     -ms-transform: scale(0.5, 1);
                     -o-transform: scale(0.5, 1);
                     transform: scale(0.5, 1); }
+                  html body #page #content .banner-3 .image .inner .texts .text.text-2 {
+                    font-size: 86px;
+                    margin: 0 0 0 100px;
+                    -webkit-transform: scale(0.55, 1);
+                    -moz-transform: scale(0.55, 1);
+                    -ms-transform: scale(0.55, 1);
+                    -o-transform: scale(0.55, 1);
+                    transform: scale(0.55, 1); }
           html body #page #content .banner-3 .tripadvisor {
             background: #fec900;
             -webkit-border-top-left-radius: 34px;
