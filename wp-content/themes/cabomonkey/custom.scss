@@ -317,6 +317,8 @@ html {
         }
 
         #primary {
+          padding: 35px 0 0;
+
           .offer {
             @include clearfix;
             padding: 0 12px;
@@ -325,11 +327,13 @@ html {
             .image {
               background: url(images/monkeys.png) left bottom repeat-x;
               float: left;
+              height: 428px;
               padding: 0 0 54px;
               position: relative;
               width: 780px;
 
               > img {
+                height: 100%;
                 width: 100%;
               }
 
@@ -368,6 +372,7 @@ html {
             .coupon {
               background: #fec900;
               float: right;
+              margin: -25px 0 0;
               padding: 10px;
               height: inherit;
               width: 362px;
@@ -384,7 +389,7 @@ html {
                   float: left;
                   padding: 12px 0;
                   text-align: center;
-                  width: 50%;
+                  width: 30%;
 
                   img {
                     height: auto;
@@ -394,7 +399,7 @@ html {
 
                 .TA_cdsratingsonlynarrow {
                   float: right;
-                  width: 50%;
+                  width: 70%;
 
                   .narrow {
                     width: 100%;
@@ -405,14 +410,17 @@ html {
               .inner {
                 background: #322a1f;
                 margin: 0 auto;
+                overflow: hidden;
                 width: 342px;
 
                 .title {
                   color: #fec900;
                   font-family: $font_momt;
                   font-size: 23px;
+                  letter-spacing: -2px;
                   line-height: 1em;
                   padding: 12px 12px 5px;
+                  white-space: nowrap;
                 }
 
                 .title-2 {

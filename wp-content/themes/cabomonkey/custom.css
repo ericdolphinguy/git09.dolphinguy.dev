@@ -258,133 +258,141 @@ html {
             padding: 20px;
             width: 362px;
             text-align: center; }
-        html body #page #content #primary .offer {
-          padding: 0 12px;
-          margin: 0 0 12px; }
-          html body #page #content #primary .offer::after {
-            clear: both;
-            content: "";
-            display: table; }
-          html body #page #content #primary .offer .image {
-            background: url(images/monkeys.png) left bottom repeat-x;
-            float: left;
-            padding: 0 0 54px;
-            position: relative;
-            width: 780px; }
-            html body #page #content #primary .offer .image > img {
-              width: 100%; }
-            html body #page #content #primary .offer .image .meta {
-              bottom: 54px;
-              position: absolute;
-              right: 12px;
-              width: 100px; }
-              html body #page #content #primary .offer .image .meta .qrcode {
-                -webkit-border-radius: 4px;
-                -moz-border-radius: 4px;
-                -ms-border-radius: 4px;
-                -o-border-radius: 4px;
-                border-radius: 4px;
-                height: 100px;
-                margin: 0 0 7px;
-                overflow: hidden;
+        html body #page #content #primary {
+          padding: 35px 0 0; }
+          html body #page #content #primary .offer {
+            padding: 0 12px;
+            margin: 0 0 12px; }
+            html body #page #content #primary .offer::after {
+              clear: both;
+              content: "";
+              display: table; }
+            html body #page #content #primary .offer .image {
+              background: url(images/monkeys.png) left bottom repeat-x;
+              float: left;
+              height: 428px;
+              padding: 0 0 54px;
+              position: relative;
+              width: 780px; }
+              html body #page #content #primary .offer .image > img {
+                height: 100%;
                 width: 100%; }
-                html body #page #content #primary .offer .image .meta .qrcode a {
-                  display: none !important; }
-                html body #page #content #primary .offer .image .meta .qrcode img {
+              html body #page #content #primary .offer .image .meta {
+                bottom: 54px;
+                position: absolute;
+                right: 12px;
+                width: 100px; }
+                html body #page #content #primary .offer .image .meta .qrcode {
+                  -webkit-border-radius: 4px;
+                  -moz-border-radius: 4px;
+                  -ms-border-radius: 4px;
+                  -o-border-radius: 4px;
+                  border-radius: 4px;
+                  height: 100px;
+                  margin: 0 0 7px;
+                  overflow: hidden;
                   width: 100%; }
-              html body #page #content #primary .offer .image .meta .notes {
-                height: 60px; }
-                html body #page #content #primary .offer .image .meta .notes .note {
-                  width: 33.33%; }
-          html body #page #content #primary .offer .coupon {
-            background: #fec900;
-            float: right;
-            padding: 10px;
-            height: inherit;
-            width: 362px; }
-            html body #page #content #primary .offer .coupon .tripadvisor {
-              background-size: auto 200%;
-              color: #fff;
-              margin: 0 auto;
-              padding: 0 0 6px;
-              width: 342px; }
-              html body #page #content #primary .offer .coupon .tripadvisor::after {
-                clear: both;
-                content: "";
-                display: table; }
-              html body #page #content #primary .offer .coupon .tripadvisor .ta_image {
-                float: left;
-                padding: 12px 0;
-                text-align: center;
-                width: 50%; }
-                html body #page #content #primary .offer .coupon .tripadvisor .ta_image img {
-                  height: auto;
-                  width: 80px; }
-              html body #page #content #primary .offer .coupon .tripadvisor .TA_cdsratingsonlynarrow {
-                float: right;
-                width: 50%; }
-                html body #page #content #primary .offer .coupon .tripadvisor .TA_cdsratingsonlynarrow .narrow {
-                  width: 100%; }
-            html body #page #content #primary .offer .coupon .inner {
-              background: #322a1f;
-              margin: 0 auto;
-              width: 342px; }
-              html body #page #content #primary .offer .coupon .inner .title {
-                color: #fec900;
-                font-family: "momstypewriterregular", serif;
-                font-size: 23px;
-                line-height: 1em;
-                padding: 12px 12px 5px; }
-              html body #page #content #primary .offer .coupon .inner .title-2 {
+                  html body #page #content #primary .offer .image .meta .qrcode a {
+                    display: none !important; }
+                  html body #page #content #primary .offer .image .meta .qrcode img {
+                    width: 100%; }
+                html body #page #content #primary .offer .image .meta .notes {
+                  height: 60px; }
+                  html body #page #content #primary .offer .image .meta .notes .note {
+                    width: 33.33%; }
+            html body #page #content #primary .offer .coupon {
+              background: #fec900;
+              float: right;
+              margin: -25px 0 0;
+              padding: 10px;
+              height: inherit;
+              width: 362px; }
+              html body #page #content #primary .offer .coupon .tripadvisor {
+                background-size: auto 200%;
                 color: #fff;
-                font-family: "momstypewriterregular", serif;
-                font-size: 23px;
-                line-height: 1em;
-                padding: 0 12px 3px; }
-              html body #page #content #primary .offer .coupon .inner .text {
-                color: #fff;
-                font-size: 12px;
-                line-height: 1.2em;
-                padding: 0 12px 24px; }
-              html body #page #content #primary .offer .coupon .inner .buttons {
-                line-height: 1em;
-                padding: 0 25px 10px; }
-                html body #page #content #primary .offer .coupon .inner .buttons .buttn {
-                  border-radius: 2px;
-                  font-family: "momstypewriterregular", serif;
-                  font-size: 20px;
-                  height: 39px;
-                  line-height: 39px;
-                  text-align: center;
-                  vertical-align: middle;
-                  width: 141px; }
-                html body #page #content #primary .offer .coupon .inner .buttons .details {
-                  background: #78b800;
-                  color: #fff;
-                  float: left; }
-                html body #page #content #primary .offer .coupon .inner .buttons .bookit {
-                  background: #d95843;
-                  color: #fff;
-                  float: right; }
-              html body #page #content #primary .offer .coupon .inner .ticket {
-                background: url(images/ticket.png) center top no-repeat;
-                color: #c10c00;
-                font-family: "dead_kansasregular", arial, sans-serif;
-                height: 124px;
-                padding: 12px 12px 12px;
-                text-align: center; }
-                html body #page #content #primary .offer .coupon .inner .ticket .adults {
+                margin: 0 auto;
+                padding: 0 0 6px;
+                width: 342px; }
+                html body #page #content #primary .offer .coupon .tripadvisor::after {
+                  clear: both;
+                  content: "";
+                  display: table; }
+                html body #page #content #primary .offer .coupon .tripadvisor .ta_image {
                   float: left;
-                  margin: 0 0 0 68px;
-                  width: 90px; }
-                  html body #page #content #primary .offer .coupon .inner .ticket .adults .price2 {
-                    font-size: 24px; }
-                html body #page #content #primary .offer .coupon .inner .ticket .kids {
+                  padding: 12px 0;
+                  text-align: center;
+                  width: 30%; }
+                  html body #page #content #primary .offer .coupon .tripadvisor .ta_image img {
+                    height: auto;
+                    width: 80px; }
+                html body #page #content #primary .offer .coupon .tripadvisor .TA_cdsratingsonlynarrow {
                   float: right;
-                  margin: 0 68px 0 0;
-                  width: 90px; }
-                  html body #page #content #primary .offer .coupon .inner .ticket .kids .price2 {
-                    font-size: 24px; }
+                  width: 70%; }
+                  html body #page #content #primary .offer .coupon .tripadvisor .TA_cdsratingsonlynarrow .narrow {
+                    width: 100%; }
+              html body #page #content #primary .offer .coupon .inner {
+                background: #322a1f;
+                margin: 0 auto;
+                overflow: hidden;
+                width: 342px; }
+                html body #page #content #primary .offer .coupon .inner .title {
+                  color: #fec900;
+                  font-family: "momstypewriterregular", serif;
+                  font-size: 23px;
+                  letter-spacing: -2px;
+                  line-height: 1em;
+                  padding: 12px 12px 5px;
+                  white-space: nowrap; }
+                html body #page #content #primary .offer .coupon .inner .title-2 {
+                  color: #fff;
+                  font-family: "momstypewriterregular", serif;
+                  font-size: 23px;
+                  line-height: 1em;
+                  padding: 0 12px 3px; }
+                html body #page #content #primary .offer .coupon .inner .text {
+                  color: #fff;
+                  font-size: 12px;
+                  line-height: 1.2em;
+                  padding: 0 12px 24px; }
+                html body #page #content #primary .offer .coupon .inner .buttons {
+                  line-height: 1em;
+                  padding: 0 25px 10px; }
+                  html body #page #content #primary .offer .coupon .inner .buttons .buttn {
+                    border-radius: 2px;
+                    font-family: "momstypewriterregular", serif;
+                    font-size: 20px;
+                    height: 39px;
+                    line-height: 39px;
+                    text-align: center;
+                    vertical-align: middle;
+                    width: 141px; }
+                  html body #page #content #primary .offer .coupon .inner .buttons .details {
+                    background: #78b800;
+                    color: #fff;
+                    float: left; }
+                  html body #page #content #primary .offer .coupon .inner .buttons .bookit {
+                    background: #d95843;
+                    color: #fff;
+                    float: right; }
+                html body #page #content #primary .offer .coupon .inner .ticket {
+                  background: url(images/ticket.png) center top no-repeat;
+                  color: #c10c00;
+                  font-family: "dead_kansasregular", arial, sans-serif;
+                  height: 124px;
+                  padding: 12px 12px 12px;
+                  text-align: center; }
+                  html body #page #content #primary .offer .coupon .inner .ticket .adults {
+                    float: left;
+                    margin: 0 0 0 68px;
+                    width: 90px; }
+                    html body #page #content #primary .offer .coupon .inner .ticket .adults .price2 {
+                      font-size: 24px; }
+                  html body #page #content #primary .offer .coupon .inner .ticket .kids {
+                    float: right;
+                    margin: 0 68px 0 0;
+                    width: 90px; }
+                    html body #page #content #primary .offer .coupon .inner .ticket .kids .price2 {
+                      font-size: 24px; }
       html body #page #colophon {
         background: #cdb696 url(images/page_bg.jpg) center top; }
         html body #page #colophon .pickup {

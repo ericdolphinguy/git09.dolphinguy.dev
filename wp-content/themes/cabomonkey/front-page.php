@@ -124,7 +124,7 @@ get_header(); ?>
 						</div>
 						<div class="text">
 							Exhilirating and exciting, our Outdoor Adventure combines amazing activities with the impressive scenery of Boca de la Sierra.
-							Zip line across canyons above a beautiful desert stream, rappel down a rock wall, traverse various suspended bridges, climb the famous Crazy Ladder and more.
+							Zip line across canyons above a beautiful desert stream, rappel down a rock wall, traverse various
 						</div>
 						<div class="buttons clear">
 							<div class="details buttn">Details</div>
@@ -184,7 +184,7 @@ get_header(); ?>
 						</div>
 						<div class="text">
 							Outback Camel Safari takes you on a voyage of discovery as you journey away from the tourist areas and delve deeper into the stunning
-							outback and seduced wonders of the Baja peninsula. Enjoy spectacular views, a gentle nature walk, camel ride and delicious cuisine on this exclusive adventure.
+							outback and seduced wonders of the Baja peninsula. Enjoy spectacular views, a gentle
 						</div>
 						<div class="buttons clear">
 							<div class="details buttn">Details</div>
@@ -304,8 +304,7 @@ get_header(); ?>
 						<div class="text">
 							Santa Maria Bay in one of the premier snorkeling destinations in Cabo San Lucas Mexico.
 							The water at Santa Maria Cove is teeming with marine live and tropical fish.
-							Take a 30-minute boat ride to the snorkeling site where you may see sea turtles or manta rays,
-							along with hundreds of tropical fish.
+							Take a 30-minute boat ride to the snorkeling site
 						</div>
 						<div class="buttons clear">
 							<div class="details buttn">Details</div>
@@ -367,7 +366,7 @@ get_header(); ?>
 							There aren't many activities that top swimming with a dolphin!
 							When you are planning your trip put Cabo Dolphins on top of your list.
 							Swim with the dolphin centers in San Jose del Cabo and Cabo San Lucas.
-							Feel the thrill of swimming alongside dolphins.
+							Feel the thrill
 						</div>
 						<div class="buttons clear">
 							<div class="details buttn">Details</div>
