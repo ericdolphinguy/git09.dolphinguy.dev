@@ -312,8 +312,19 @@ html {
                 clear: both;
                 content: "";
                 display: table; }
-              html body #page #content #primary .offer .coupon .tripadvisor .TA_certificateOfExcellence {
-                float: right; }
+              html body #page #content #primary .offer .coupon .tripadvisor .ta_image {
+                float: left;
+                padding: 12px 0;
+                text-align: center;
+                width: 50%; }
+                html body #page #content #primary .offer .coupon .tripadvisor .ta_image img {
+                  height: auto;
+                  width: 80px; }
+              html body #page #content #primary .offer .coupon .tripadvisor .TA_cdsratingsonlynarrow {
+                float: right;
+                width: 50%; }
+                html body #page #content #primary .offer .coupon .tripadvisor .TA_cdsratingsonlynarrow .narrow {
+                  width: 100%; }
             html body #page #content #primary .offer .coupon .inner {
               background: #322a1f;
               margin: 0 auto;

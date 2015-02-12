@@ -373,7 +373,6 @@ html {
               width: 362px;
 
               .tripadvisor {
-//                background: url(images/tripadvisor.png) -12px center no-repeat;
                 background-size: auto 200%;
                 @include clearfix;
                 color: #fff;
@@ -381,8 +380,25 @@ html {
                 padding: 0 0 6px;
                 width: 342px;
 
-                .TA_certificateOfExcellence {
+                .ta_image {
+                  float: left;
+                  padding: 12px 0;
+                  text-align: center;
+                  width: 50%;
+
+                  img {
+                    height: auto;
+                    width: 80px;
+                  }
+                }
+
+                .TA_cdsratingsonlynarrow {
                   float: right;
+                  width: 50%;
+
+                  .narrow {
+                    width: 100%;
+                  }
                 }
               }
 

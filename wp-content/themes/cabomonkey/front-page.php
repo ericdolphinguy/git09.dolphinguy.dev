@@ -36,14 +36,18 @@ get_header(); ?>
 
 					<!-- Trip advisor sub section. -->
 					<div class="tripadvisor">
-						<div id="TA_certificateOfExcellence886" class="TA_certificateOfExcellence">
-							<ul id="9tb5yJoMP" class="TA_links LTSb0jYMmji">
-								<li id="sJAePkMXjbC0" class="C5BcZJl3dDT">
-									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+						<div class="ta_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
+						</div>
+
+						<div id="TA_cdsratingsonlynarrow495" class="TA_cdsratingsonlynarrow">
+							<ul id="MvS9nR" class="TA_links ncOsIq">
+								<li id="zz9EYZfk" class="93rS5fG">
+									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
 								</li>
 							</ul>
 						</div>
-						<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=886&amp;locationId=1437325&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
+						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=495&amp;locationId=1437325&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
 					</div>
 
 					<div class="inner">
@@ -95,16 +99,19 @@ get_header(); ?>
 				</div>
 				<div class="coupon">
 					<div class="tripadvisor">
-						<div class="text">
-							<div class="rank">
-								<strong>Ranked #1</strong> of 54 attactions
-							</div>
-
-							<div class="rank-value">
-								<div class="stars"></div>
-								<div class="reviews">2,261 reviews</div>
-							</div>
+						<div class="ta_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
+
+						<div id="TA_cdsratingsonlynarrow133" class="TA_cdsratingsonlynarrow">
+							<ul id="FPWFG7WxIr" class="TA_links KA792f8P">
+								<li id="nj63Zimk" class="ZOF43a0yE">
+									<a target="_blank" href="http://www.tripadvisor.com.ph/"><img src="http://www.tripadvisor.com.ph/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+								</li>
+							</ul>
+						</div>
+						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=133&amp;locationId=1372071&amp;lang=en_PH&amp;border=true&amp;display_version=2"></script>
+
 					</div>
 					<div class="inner">
 						<div class="title">
@@ -151,15 +158,19 @@ get_header(); ?>
 				</div>
 				<div class="coupon">
 					<div class="tripadvisor">
-						<div class="text">
-							<div class="rank">
-								<strong>Ranked #1</strong> of 54 attactions
-							</div>
-							<div class="rank-value">
-								<div class="stars"></div>
-								<div class="reviews">2,261 reviews</div>
-							</div>
+						<div class="ta_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
+
+						<div id="TA_cdsratingsonlynarrow857" class="TA_cdsratingsonlynarrow">
+							<ul id="50r2Pv" class="TA_links vvWA5F">
+								<li id="31Cypj" class="xih5bI9E">
+									<a target="_blank" href="http://www.tripadvisor.com.ph/"><img src="http://www.tripadvisor.com.ph/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+								</li>
+							</ul>
+						</div>
+						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=857&amp;locationId=801680&amp;lang=en_PH&amp;border=true&amp;display_version=2"></script>
+
 					</div>
 					<div class="inner">
 						<div class="title">
@@ -206,15 +217,10 @@ get_header(); ?>
 				</div>
 				<div class="coupon">
 					<div class="tripadvisor">
-						<div class="text">
-							<div class="rank">
-								<strong>Ranked #1</strong> of 54 attactions
-							</div>
-							<div class="rank-value">
-								<div class="stars"></div>
-								<div class="reviews">2,261 reviews</div>
-							</div>
+						<div class="ta_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
+
 					</div>
 					<div class="inner">
 						<div class="title">
@@ -262,15 +268,11 @@ get_header(); ?>
 				</div>
 				<div class="coupon">
 					<div class="tripadvisor">
-						<div class="text">
-							<div class="rank">
-								<strong>Ranked #1</strong> of 54 attactions
-							</div>
-							<div class="rank-value">
-								<div class="stars"></div>
-								<div class="reviews">2,261 reviews</div>
-							</div>
+						<div class="ta_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
+
+
 					</div>
 					<div class="inner">
 						<div class="title">
@@ -319,15 +321,11 @@ get_header(); ?>
 				</div>
 				<div class="coupon">
 					<div class="tripadvisor">
-						<div class="text">
-							<div class="rank">
-								<strong>Ranked #1</strong> of 54 attactions
-							</div>
-							<div class="rank-value">
-								<div class="stars"></div>
-								<div class="reviews">2,261 reviews</div>
-							</div>
+						<div class="ta_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
+
+
 					</div>
 					<div class="inner">
 						<div class="title">
