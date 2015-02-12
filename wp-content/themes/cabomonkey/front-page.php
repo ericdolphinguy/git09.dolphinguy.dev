@@ -40,14 +40,15 @@ get_header(); ?>
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
 
-						<div id="TA_cdsratingsonlynarrow495" class="TA_cdsratingsonlynarrow">
-							<ul id="MvS9nR" class="TA_links ncOsIq">
-								<li id="zz9EYZfk" class="93rS5fG">
+						<div id="TA_cdsratingsonlynarrow284" class="TA_cdsratingsonlynarrow">
+							<ul id="3Fmr3db9A" class="TA_links fEk91A83lN">
+								<li id="H4gSGF9cb" class="Bk8fQtzw9">
 									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
 								</li>
 							</ul>
 						</div>
-						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=495&amp;locationId=1437325&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=284&amp;locationId=1437325&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+
 					</div>
 
 					<div class="inner">
@@ -103,14 +104,15 @@ get_header(); ?>
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
 
-						<div id="TA_cdsratingsonlynarrow133" class="TA_cdsratingsonlynarrow">
-							<ul id="FPWFG7WxIr" class="TA_links KA792f8P">
-								<li id="nj63Zimk" class="ZOF43a0yE">
-									<a target="_blank" href="http://www.tripadvisor.com.ph/"><img src="http://www.tripadvisor.com.ph/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+						<div id="TA_cdsratingsonlynarrow880" class="TA_cdsratingsonlynarrow">
+							<ul id="0BNdSvKJK" class="TA_links Mk0ktHhQlT">
+								<li id="7LQ7pvC" class="mjC2LCym">
+									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
 								</li>
 							</ul>
 						</div>
-						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=133&amp;locationId=1372071&amp;lang=en_PH&amp;border=true&amp;display_version=2"></script>
+						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=880&amp;locationId=1372071&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+
 
 					</div>
 					<div class="inner">
@@ -162,14 +164,15 @@ get_header(); ?>
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
 
-						<div id="TA_cdsratingsonlynarrow857" class="TA_cdsratingsonlynarrow">
-							<ul id="50r2Pv" class="TA_links vvWA5F">
-								<li id="31Cypj" class="xih5bI9E">
-									<a target="_blank" href="http://www.tripadvisor.com.ph/"><img src="http://www.tripadvisor.com.ph/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+						<div id="TA_cdsratingsonlynarrow712" class="TA_cdsratingsonlynarrow">
+							<ul id="2bgNIg" class="TA_links ZeS0eoWv6">
+								<li id="GfKidi5ousIt" class="kegbH7NeeHR">
+									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
 								</li>
 							</ul>
 						</div>
-						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=857&amp;locationId=801680&amp;lang=en_PH&amp;border=true&amp;display_version=2"></script>
+						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=712&amp;locationId=801680&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+
 
 					</div>
 					<div class="inner">
@@ -220,6 +223,15 @@ get_header(); ?>
 						<div class="ta_image">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
+
+						<div id="TA_cdsratingsonlynarrow679" class="TA_cdsratingsonlynarrow">
+							<ul id="rKKYd2V" class="TA_links cDBm2FED">
+								<li id="li97zC" class="1dK7knGrF">
+									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+								</li>
+							</ul>
+						</div>
+						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=679&amp;locationId=1758961&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
 
 					</div>
 					<div class="inner">
@@ -272,6 +284,14 @@ get_header(); ?>
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
 
+						<div id="TA_cdsratingsonlynarrow200" class="TA_cdsratingsonlynarrow">
+							<ul id="cVSD6eBLMeA" class="TA_links K2B2ZL">
+								<li id="kcMCxih7xWB" class="7b9mPK1EKr">
+									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+								</li>
+							</ul>
+						</div>
+						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=200&amp;locationId=1522775&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
 
 					</div>
 					<div class="inner">
@@ -324,6 +344,15 @@ get_header(); ?>
 						<div class="ta_image">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
+
+						<div id="TA_cdsratingsonlynarrow454" class="TA_cdsratingsonlynarrow">
+							<ul id="QR8xgrDen" class="TA_links S8imBU52qd">
+								<li id="u8DIJA6" class="reMyd4P">
+									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+								</li>
+							</ul>
+						</div>
+						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=454&amp;locationId=7306367&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
 
 
 					</div>
