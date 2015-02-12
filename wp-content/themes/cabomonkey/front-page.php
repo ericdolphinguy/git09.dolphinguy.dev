@@ -117,7 +117,7 @@ get_header(); ?>
 					</div>
 					<div class="inner">
 						<div class="title">
-							OUTDOOR ZIPLINE ADVENTURE
+							OUTDOOR ZIP LINE ADVENTURE
 						</div>
 						<div class="title-2">
 							The Adventure
@@ -177,7 +177,7 @@ get_header(); ?>
 					</div>
 					<div class="inner">
 						<div class="title">
-							OUTBACK CAMEL SAFARI
+							OUTBACK & CAMEL SAFARI
 						</div>
 						<div class="title-2">
 							The Adventure
@@ -236,7 +236,7 @@ get_header(); ?>
 					</div>
 					<div class="inner">
 						<div class="title">
-							CABO YACHT RENTALS
+							CABO SAILS
 						</div>
 						<div class="title-2">
 							The Adventure
@@ -296,7 +296,7 @@ get_header(); ?>
 					</div>
 					<div class="inner">
 						<div class="title">
-							SANTA MARIA SNORKELING
+							MANTA SCUBA
 						</div>
 						<div class="title-2">
 							The Adventure
