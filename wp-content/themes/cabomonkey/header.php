@@ -67,7 +67,6 @@
 
 		<!-- Banner -->
 		<div class="banner">
-			<!--<img src="<?php /*echo get_stylesheet_directory_uri(); */?>/images/image.jpg" />-->
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/HrqXTHCGVEo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<!-- End Banner -->
@@ -108,7 +107,22 @@
 				</div>
 			</div>
 			<div class="tripadvisor">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-4.png" />
+
+				<div class="tripadvisor_image">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
+				</div>
+
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/enrique.png" />
+
+				<div id="TA_cdswritereviewlg615" class="TA_cdswritereviewlg">
+					<ul id="AvarNuY" class="TA_links SfBMBEUlon">
+						<li id="Rjy2LZ" class="s5j7dus">
+							<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/medium-logo-12097-2.png" alt="TripAdvisor"/></a>
+						</li>
+					</ul>
+				</div>
+				<script src="http://www.jscache.com/wejs?wtype=cdswritereviewlg&amp;uniq=615&amp;locationId=1148450&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+
 			</div>
 		</div>
 		<!-- End Banner 3 -->
