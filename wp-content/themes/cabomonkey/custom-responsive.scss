@@ -205,15 +205,15 @@
         }
       }
 
+      /*
+      body.toggle
+      Left side menu is toggled
+      */
+
       &.toggled {
         #page {
           #masthead {
-            left: 0;
-            top: 0;
-
-            .menu {
-              display: block;
-            }
+            display: none;
           }
 
           #content {
@@ -250,7 +250,10 @@
         }
       }
 
-      /* body.toggled-2 */
+      /*
+      body.toggled-2
+      Right side menu is toggled
+      */
 
       &.toggled-2 {
         #page {

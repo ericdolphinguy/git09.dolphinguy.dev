@@ -431,7 +431,14 @@ html {
 
 @media all and (max-width: 1230px) {
   html body {
-    /* body.toggled-2 */ }
+    /*
+    body.toggle
+    Left side menu is toggled
+    */
+    /*
+    body.toggled-2
+    Right side menu is toggled
+    */ }
     html body #page {
       background: url(images/page_bg.jpg) center top repeat-y;
       overflow: hidden; }
@@ -559,10 +566,7 @@ html {
             line-height: normal;
             padding: 0 0 12px; }
     html body.toggled #page #masthead {
-      left: 0;
-      top: 0; }
-      html body.toggled #page #masthead .menu {
-        display: block; }
+      display: none; }
     html body.toggled #page #content .header {
       background: #719539; }
       html body.toggled #page #content .header .main-navigation .texts {
