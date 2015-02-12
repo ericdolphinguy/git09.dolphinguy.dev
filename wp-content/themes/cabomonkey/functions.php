@@ -113,6 +113,9 @@ function cabomonkey_scripts() {
 	wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/foundation/js/foundation.min.js', array( 'jquery' ), '1', true );
 	wp_enqueue_script( 'foundation-modernizr-js', get_template_directory_uri() . '/foundation/js/vendor/modernizr.js', array( 'jquery' ), '1', true );
 
+	/* Add Custom Javascirpt */
+	wp_enqueue_script( 'cabomonkey-custom-script', get_stylesheet_directory_uri() . '/js/custom.js', array( 'jquery' ), '1', true );
+
 	/* Foundation Init JS */
 	wp_enqueue_script( 'foundation-init-js', get_template_directory_uri() . '/foundation.js', array( 'jquery' ), '1', true );
 
