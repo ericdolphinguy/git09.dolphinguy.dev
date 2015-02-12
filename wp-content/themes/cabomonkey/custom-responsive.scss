@@ -6,9 +6,7 @@
         overflow: hidden;
 
         #masthead {
-          .menu {
-            display: none;
-          }
+          display: none;
         }
 
         #content {
@@ -207,9 +205,17 @@
         }
       }
 
-
       &.toggled {
         #page {
+          #masthead {
+            left: 0;
+            top: 0;
+
+            .menu {
+              display: block;
+            }
+          }
+
           #content {
             .header {
               background: $color_background;
@@ -241,6 +247,60 @@
           #colophon {
             display: none;
           }
+        }
+      }
+
+      /* body.toggled-2 */
+
+      &.toggled-2 {
+        #page {
+          #content {
+            .header {
+              .main-navigation {
+                .menu-block {
+                  .menu-menu-1-container {
+                    display: none;
+                  }
+
+                  .menu-menu-2-container {
+                    display: block;
+                  }
+                }
+              }
+            }
+          }
+
+          /*#masthead {
+            @include clearfix;
+            background: $color_background;
+            left: 0;
+            min-height: 100%;
+            top: 0;
+            z-index: 1;
+            width: 100%;
+
+            .menu {
+              display: block;
+              margin: 0 auto;
+              width: 300px;
+
+              .menu-item {
+                background: 0;
+                height: auto;
+                line-height: normal;
+                margin: 0;
+                padding: 0;
+                width: auto;
+
+                a {
+                  color: #fff;
+                  font-size: 18px;
+                  line-height: 1.6em;
+                  @include transform(rotate(0));
+                }
+              }
+            }
+          }*/
         }
       }
     }

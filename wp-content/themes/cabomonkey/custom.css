@@ -18,551 +18,600 @@
 /**
 * Custom styles.
 */
-html body {
-  background: #719539 url(images/background.jpg) center top; }
-  html body #page {
-    position: relative; }
-    html body #page #masthead {
-      position: absolute;
-      left: 100%;
-      top: 120px; }
-      html body #page #masthead .menu {
-        list-style: none;
-        margin: 0 0 0 8px; }
-        html body #page #masthead .menu .menu-item {
-          background: url(images/menu-bg.png);
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
-          box-sizing: border-box;
-          height: 264px;
-          line-height: 68px;
-          margin: 0 0 12px;
-          padding: 75px 0 0;
-          width: 68px; }
-          html body #page #masthead .menu .menu-item a {
-            color: #000;
-            display: block;
-            font-family: "momstypewriterregular", serif;
-            font-size: 36px;
-            -webkit-transform: rotate(90deg);
-            -moz-transform: rotate(90deg);
-            -ms-transform: rotate(90deg);
-            -o-transform: rotate(90deg);
-            transform: rotate(90deg); }
-    html body #page #content {
-      background: url(images/page_bg.png) center top;
-      background-size: 100% auto; }
-      html body #page #content .header {
-        height: 115px;
-        position: relative; }
-        html body #page #content .header .main-navigation {
-          float: none;
-          font-weight: bold; }
-          html body #page #content .header .main-navigation .menu-toggle {
-            display: none; }
-          html body #page #content .header .main-navigation .menu-toggle-2 {
-            display: none; }
-          html body #page #content .header .main-navigation .menu-block {
-            left: -300px;
-            padding: 0 28px 0 0;
-            position: absolute;
-            z-index: 9;
-            width: 300px; }
-            html body #page #content .header .main-navigation .menu-block .site-branding {
-              background: url(images/logo.png) center center no-repeat;
-              background-size: 100% auto;
-              margin: 0 auto;
-              padding: 0 0 100%;
-              width: 100%; }
-            html body #page #content .header .main-navigation .menu-block .menu {
-              padding: 0 28px; }
-              html body #page #content .header .main-navigation .menu-block .menu .menu-item {
-                float: none; }
-                html body #page #content .header .main-navigation .menu-block .menu .menu-item a {
-                  color: #fff;
-                  font-family: "momstypewriterregular", serif;
-                  font-size: 18px; }
-          html body #page #content .header .main-navigation .texts {
-            color: #fff;
-            display: none;
-            font-family: "dead_kansasregular", arial, sans-serif;
-            font-weight: normal;
-            line-height: normal;
-            text-shadow: 0 12px 12px rgba(0, 0, 0, 0.56); }
-            html body #page #content .header .main-navigation .texts .text-1 {
-              color: #71a807;
-              font-size: 72px;
-              margin: 0 0 12px; }
-            html body #page #content .header .main-navigation .texts .text-2 {
-              color: #ae926f;
-              font-size: 54px;
-              margin: 0 0 12px; }
-            html body #page #content .header .main-navigation .texts .text-3 {
-              color: #fec901;
-              font-size: 68px;
-              margin: 0 0 12px; }
-            html body #page #content .header .main-navigation .texts .text-4 {
-              font-family: "321impactregular", arial, sans-serif;
-              font-size: 33px;
-              margin: 0 0 12px; }
-        html body #page #content .header .chat {
-          background: url(images/chat-now.png) center center no-repeat;
-          color: #fff;
-          cursor: pointer;
-          height: 50px;
-          margin: 0 auto;
-          width: 255px; }
-        html body #page #content .header .logo {
-          position: absolute;
-          top: 22px;
-          right: 36px; }
-      html body #page #content .banner {
-        height: 0;
-        position: relative;
-        padding-bottom: 56.25%; }
-        html body #page #content .banner iframe {
-          height: 100%;
-          position: absolute;
-          width: 100%; }
-      html body #page #content .banner-2 {
-        height: 270px; }
-        html body #page #content .banner-2::after {
-          clear: both;
-          content: "";
-          display: table; }
-        html body #page #content .banner-2 .reasons {
-          float: left;
-          padding: 0 0 0 155px;
-          position: relative;
-          width: 50%; }
-          html body #page #content .banner-2 .reasons .texts {
-            text-align: left; }
-            html body #page #content .banner-2 .reasons .texts .text {
-              line-height: 1em;
-              -webkit-transform-origin: 0% 0%;
-              -moz-transform-origin: 0% 0%;
-              -ms-transform-origin: 0% 0%;
-              -o-transform-origin: 0% 0%;
-              transform-origin: 0% 0%; }
-              html body #page #content .banner-2 .reasons .texts .text.text-1 {
-                color: #fff;
-                font-family: "tizaregular", serif;
-                font-size: 96px;
-                margin: 0 0 6px -10px;
-                -webkit-transform: scale(0.35, 1);
-                -moz-transform: scale(0.35, 1);
-                -ms-transform: scale(0.35, 1);
-                -o-transform: scale(0.35, 1);
-                transform: scale(0.35, 1);
-                white-space: nowrap; }
-              html body #page #content .banner-2 .reasons .texts .text.text-2 {
-                color: #bf423b;
-                font-family: "321impactregular", arial, sans-serif;
-                font-size: 62px;
-                margin: 0 0 0 10px;
-                -webkit-transform: scale(1.3, 1);
-                -moz-transform: scale(1.3, 1);
-                -ms-transform: scale(1.3, 1);
-                -o-transform: scale(1.3, 1);
-                transform: scale(1.3, 1); }
-              html body #page #content .banner-2 .reasons .texts .text.text-3 {
-                color: #fff;
-                font-family: "tizaregular", serif;
-                font-size: 80px;
-                margin: -12px 0 0;
-                white-space: nowrap;
-                -webkit-transform: scale(0.375, 1);
-                -moz-transform: scale(0.375, 1);
-                -ms-transform: scale(0.375, 1);
-                -o-transform: scale(0.375, 1);
-                transform: scale(0.375, 1); }
-                html body #page #content .banner-2 .reasons .texts .text.text-3 span {
-                  color: #a3d855; }
-        html body #page #content .banner-2 .guarantees {
-          float: right;
-          padding: 63px 87px 0 0; }
-          html body #page #content .banner-2 .guarantees .guarantee {
-            float: left; }
-      html body #page #content .banner-3 {
-        margin: 0 0 24px;
-        padding: 0 12px; }
-        html body #page #content .banner-3::after {
-          clear: both;
-          content: "";
-          display: table; }
-        html body #page #content .banner-3 .image {
-          height: 160px;
-          float: left;
-          position: relative;
-          width: 780px; }
-          html body #page #content .banner-3 .image > img {
-            margin: -242px 0 0 -125px;
-            max-width: none;
-            left: 0;
-            position: absolute;
-            top: 0;
-            z-index: 9;
-            width: auto; }
-          html body #page #content .banner-3 .image .inner {
-            background: #78b800 url(images/image-7.png) right top no-repeat;
-            -webkit-border-top-right-radius: 34px;
-            -moz-border-top-right-radius: 34px;
-            -moz-border-radius-topright: 34px;
-            -ms-border-top-right-radius: 34px;
-            -o-border-top-right-radius: 34px;
-            border-top-right-radius: 34px;
-            height: 160px;
-            padding: 20px 0 0 90px; }
-            html body #page #content .banner-3 .image .inner .texts {
+html {
+  min-height: 100%; }
+  html body {
+    background: #719539 url(images/background.jpg) center top;
+    min-height: 100%; }
+    html body #page {
+      position: relative; }
+      html body #page #masthead {
+        position: absolute;
+        left: 100%;
+        top: 120px; }
+        html body #page #masthead .menu {
+          list-style: none;
+          margin: 0 0 0 8px; }
+          html body #page #masthead .menu .menu-item {
+            background: url(images/menu-bg.png);
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            height: 264px;
+            line-height: 68px;
+            margin: 0 0 12px;
+            padding: 75px 0 0;
+            width: 68px; }
+            html body #page #masthead .menu .menu-item a {
+              color: #000;
+              display: block;
+              font-family: "momstypewriterregular", serif;
+              font-size: 36px;
+              -webkit-transform: rotate(90deg);
+              -moz-transform: rotate(90deg);
+              -ms-transform: rotate(90deg);
+              -o-transform: rotate(90deg);
+              transform: rotate(90deg); }
+      html body #page #content {
+        background: url(images/page_bg.png) center top;
+        background-size: 100% auto; }
+        html body #page #content .header {
+          height: 115px;
+          position: relative; }
+          html body #page #content .header .main-navigation {
+            float: none;
+            font-weight: bold; }
+            html body #page #content .header .main-navigation .menu-toggle {
+              display: none; }
+            html body #page #content .header .main-navigation .menu-toggle-2 {
+              display: none; }
+            html body #page #content .header .main-navigation .menu-block {
+              left: -300px;
+              padding: 0 28px 0 0;
+              position: absolute;
+              z-index: 9;
+              width: 300px;
+              /* Hide second instance of right menu */ }
+              html body #page #content .header .main-navigation .menu-block .site-branding {
+                background: url(images/logo.png) center center no-repeat;
+                background-size: 100% auto;
+                margin: 0 auto;
+                padding: 0 0 100%;
+                width: 100%; }
+              html body #page #content .header .main-navigation .menu-block .menu {
+                padding: 0 28px; }
+                html body #page #content .header .main-navigation .menu-block .menu .menu-item {
+                  float: none; }
+                  html body #page #content .header .main-navigation .menu-block .menu .menu-item a {
+                    color: #fff;
+                    font-family: "momstypewriterregular", serif;
+                    font-size: 18px; }
+              html body #page #content .header .main-navigation .menu-block .menu-menu-2-container {
+                display: none; }
+            html body #page #content .header .main-navigation .texts {
               color: #fff;
-              font-family: "tizaregular", serif;
-              margin: -6px 0 0; }
-              html body #page #content .banner-3 .image .inner .texts .text {
+              display: none;
+              font-family: "dead_kansasregular", arial, sans-serif;
+              font-weight: normal;
+              line-height: normal;
+              text-shadow: 0 12px 12px rgba(0, 0, 0, 0.56); }
+              html body #page #content .header .main-navigation .texts .text-1 {
+                color: #71a807;
+                font-size: 72px;
+                margin: 0 0 12px; }
+              html body #page #content .header .main-navigation .texts .text-2 {
+                color: #ae926f;
+                font-size: 54px;
+                margin: 0 0 12px; }
+              html body #page #content .header .main-navigation .texts .text-3 {
+                color: #fec901;
+                font-size: 68px;
+                margin: 0 0 12px; }
+              html body #page #content .header .main-navigation .texts .text-4 {
+                font-family: "321impactregular", arial, sans-serif;
+                font-size: 33px;
+                margin: 0 0 12px; }
+          html body #page #content .header .chat {
+            background: url(images/chat-now.png) center center no-repeat;
+            color: #fff;
+            cursor: pointer;
+            height: 50px;
+            margin: 0 auto;
+            width: 255px; }
+          html body #page #content .header .logo {
+            position: absolute;
+            top: 22px;
+            right: 36px; }
+        html body #page #content .banner {
+          height: 0;
+          position: relative;
+          padding-bottom: 56.25%; }
+          html body #page #content .banner iframe {
+            height: 100%;
+            position: absolute;
+            width: 100%; }
+        html body #page #content .banner-2 {
+          height: 270px; }
+          html body #page #content .banner-2::after {
+            clear: both;
+            content: "";
+            display: table; }
+          html body #page #content .banner-2 .reasons {
+            float: left;
+            padding: 0 0 0 155px;
+            position: relative;
+            width: 50%; }
+            html body #page #content .banner-2 .reasons .texts {
+              text-align: left; }
+              html body #page #content .banner-2 .reasons .texts .text {
+                line-height: 1em;
                 -webkit-transform-origin: 0% 0%;
                 -moz-transform-origin: 0% 0%;
                 -ms-transform-origin: 0% 0%;
                 -o-transform-origin: 0% 0%;
-                transform-origin: 0% 0%;
-                line-height: 1em;
-                white-space: nowrap; }
-                html body #page #content .banner-3 .image .inner .texts .text.text-1 {
-                  font-size: 51px;
-                  -webkit-transform: scale(0.34, 1);
-                  -moz-transform: scale(0.34, 1);
-                  -ms-transform: scale(0.34, 1);
-                  -o-transform: scale(0.34, 1);
-                  transform: scale(0.34, 1); }
-                html body #page #content .banner-3 .image .inner .texts .text.text-2 {
-                  font-size: 79px;
-                  -webkit-transform: scale(0.5, 1);
-                  -moz-transform: scale(0.5, 1);
-                  -ms-transform: scale(0.5, 1);
-                  -o-transform: scale(0.5, 1);
-                  transform: scale(0.5, 1); }
-        html body #page #content .banner-3 .tripadvisor {
-          background: #fec900;
-          -webkit-border-top-left-radius: 34px;
-          -moz-border-top-left-radius: 34px;
-          -moz-border-radius-topleft: 34px;
-          -ms-border-top-left-radius: 34px;
-          -o-border-top-left-radius: 34px;
-          border-top-left-radius: 34px;
-          float: right;
-          height: 160px;
-          padding: 20px;
-          width: 362px;
-          text-align: center; }
-      html body #page #content #primary .offer {
-        padding: 0 12px;
-        margin: 0 0 12px; }
-        html body #page #content #primary .offer::after {
-          clear: both;
-          content: "";
-          display: table; }
-        html body #page #content #primary .offer .image {
-          background: url(images/monkeys.png) left bottom repeat-x;
-          float: left;
-          padding: 0 0 54px;
-          position: relative;
-          width: 780px; }
-          html body #page #content #primary .offer .image > img {
-            width: 100%; }
-          html body #page #content #primary .offer .image .meta {
-            bottom: 54px;
-            position: absolute;
-            right: 12px;
-            width: 100px; }
-            html body #page #content #primary .offer .image .meta .qrcode {
-              -webkit-border-radius: 4px;
-              -moz-border-radius: 4px;
-              -ms-border-radius: 4px;
-              -o-border-radius: 4px;
-              border-radius: 4px;
-              height: 100px;
-              margin: 0 0 7px;
-              overflow: hidden;
-              width: 100%; }
-              html body #page #content #primary .offer .image .meta .qrcode a {
-                display: none !important; }
-              html body #page #content #primary .offer .image .meta .qrcode img {
-                width: 100%; }
-            html body #page #content #primary .offer .image .meta .notes {
-              height: 60px; }
-              html body #page #content #primary .offer .image .meta .notes .note {
-                width: 33.33%; }
-        html body #page #content #primary .offer .coupon {
-          background: #fec900;
-          float: right;
-          padding: 10px;
-          height: inherit;
-          width: 362px; }
-          html body #page #content #primary .offer .coupon .tripadvisor {
-            background: url(images/tripadvisor.png) -12px center no-repeat;
-            background-size: auto 200%;
-            color: #fff;
-            margin: 0 auto;
-            padding: 0 0 6px;
-            width: 342px; }
-            html body #page #content #primary .offer .coupon .tripadvisor::after {
-              clear: both;
-              content: "";
-              display: table; }
-            html body #page #content #primary .offer .coupon .tripadvisor .text {
-              color: #589442;
-              float: right;
-              width: 220px; }
-              html body #page #content #primary .offer .coupon .tripadvisor .text .rank-value {
-                color: #31281e; }
-                html body #page #content #primary .offer .coupon .tripadvisor .text .rank-value .stars {
-                  float: left;
-                  background: url(images/star.png);
-                  height: 20px;
-                  margin: 0 6px 0 0;
-                  width: 100px; }
-          html body #page #content #primary .offer .coupon .inner {
-            background: #322a1f;
-            margin: 0 auto;
-            width: 342px; }
-            html body #page #content #primary .offer .coupon .inner .title {
-              color: #fec900;
-              font-family: "momstypewriterregular", serif;
-              font-size: 23px;
-              line-height: 1em;
-              padding: 12px 12px 5px; }
-            html body #page #content #primary .offer .coupon .inner .title-2 {
-              color: #fff;
-              font-family: "momstypewriterregular", serif;
-              font-size: 23px;
-              line-height: 1em;
-              padding: 0 12px 3px; }
-            html body #page #content #primary .offer .coupon .inner .text {
-              color: #fff;
-              font-size: 12px;
-              line-height: 1.2em;
-              padding: 0 12px 24px; }
-            html body #page #content #primary .offer .coupon .inner .buttons {
-              line-height: 1em;
-              padding: 0 25px 10px; }
-              html body #page #content #primary .offer .coupon .inner .buttons .buttn {
-                border-radius: 2px;
-                font-family: "momstypewriterregular", serif;
-                font-size: 20px;
-                height: 39px;
-                line-height: 39px;
-                text-align: center;
-                vertical-align: middle;
-                width: 141px; }
-              html body #page #content #primary .offer .coupon .inner .buttons .details {
-                background: #78b800;
-                color: #fff;
-                float: left; }
-              html body #page #content #primary .offer .coupon .inner .buttons .bookit {
-                background: #d95843;
-                color: #fff;
-                float: right; }
-            html body #page #content #primary .offer .coupon .inner .ticket {
-              background: url(images/ticket.png) center top no-repeat;
-              color: #c10c00;
-              font-family: "dead_kansasregular", arial, sans-serif;
-              height: 124px;
-              padding: 12px 12px 12px;
-              text-align: center; }
-              html body #page #content #primary .offer .coupon .inner .ticket .adults {
-                float: left;
-                margin: 0 0 0 68px;
-                width: 90px; }
-                html body #page #content #primary .offer .coupon .inner .ticket .adults .price2 {
-                  font-size: 24px; }
-              html body #page #content #primary .offer .coupon .inner .ticket .kids {
-                float: right;
-                margin: 0 68px 0 0;
-                width: 90px; }
-                html body #page #content #primary .offer .coupon .inner .ticket .kids .price2 {
-                  font-size: 24px; }
-    html body #page #colophon {
-      background: #cdb696 url(images/page_bg.jpg) center top; }
-      html body #page #colophon .pickup {
-        background: url(images/image-9.png) right top no-repeat;
-        height: 216px;
-        padding: 0 33px;
-        margin: 0 auto;
-        width: 1200px; }
-        html body #page #colophon .pickup .image {
-          float: left;
-          padding: 8px 0 0;
-          width: 434px; }
-          html body #page #colophon .pickup .image img {
-            margin: 0 0 0 -50px;
-            position: absolute; }
-        html body #page #colophon .pickup .texts {
-          color: #fff;
-          float: right;
-          font-size: 18px;
-          line-height: 1em;
-          padding: 30px 0 0;
-          width: 700px; }
-          html body #page #colophon .pickup .texts .text-1 {
-            font-family: "momstypewriterregular", serif;
-            font-size: 40px;
-            padding: 0 0 20px; }
-            html body #page #colophon .pickup .texts .text-1 span {
-              color: #fec900; }
-          html body #page #colophon .pickup .texts .text-2 {
-            line-height: 1.2em; }
-      html body #page #colophon .site-info {
-        background: rgba(0, 0, 0, 0.12);
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.72);
-        color: #fff;
-        font-size: 14px;
-        margin: 12px;
-        overflow: auto;
-        padding: 0 10px; }
-        html body #page #colophon .site-info .text {
-          border: solid #fff;
-          border-width: 0 1px;
-          margin: 7px 0;
+                transform-origin: 0% 0%; }
+                html body #page #content .banner-2 .reasons .texts .text.text-1 {
+                  color: #fff;
+                  font-family: "tizaregular", serif;
+                  font-size: 96px;
+                  margin: 0 0 6px -10px;
+                  -webkit-transform: scale(0.35, 1);
+                  -moz-transform: scale(0.35, 1);
+                  -ms-transform: scale(0.35, 1);
+                  -o-transform: scale(0.35, 1);
+                  transform: scale(0.35, 1);
+                  white-space: nowrap; }
+                html body #page #content .banner-2 .reasons .texts .text.text-2 {
+                  color: #bf423b;
+                  font-family: "321impactregular", arial, sans-serif;
+                  font-size: 62px;
+                  margin: 0 0 0 10px;
+                  -webkit-transform: scale(1.3, 1);
+                  -moz-transform: scale(1.3, 1);
+                  -ms-transform: scale(1.3, 1);
+                  -o-transform: scale(1.3, 1);
+                  transform: scale(1.3, 1); }
+                html body #page #content .banner-2 .reasons .texts .text.text-3 {
+                  color: #fff;
+                  font-family: "tizaregular", serif;
+                  font-size: 80px;
+                  margin: -12px 0 0;
+                  white-space: nowrap;
+                  -webkit-transform: scale(0.375, 1);
+                  -moz-transform: scale(0.375, 1);
+                  -ms-transform: scale(0.375, 1);
+                  -o-transform: scale(0.375, 1);
+                  transform: scale(0.375, 1); }
+                  html body #page #content .banner-2 .reasons .texts .text.text-3 span {
+                    color: #a3d855; }
+          html body #page #content .banner-2 .guarantees {
+            float: right;
+            padding: 63px 87px 0 0; }
+            html body #page #content .banner-2 .guarantees .guarantee {
+              float: left; }
+        html body #page #content .banner-3 {
+          margin: 0 0 24px;
           padding: 0 12px; }
+          html body #page #content .banner-3::after {
+            clear: both;
+            content: "";
+            display: table; }
+          html body #page #content .banner-3 .image {
+            height: 160px;
+            float: left;
+            position: relative;
+            width: 780px; }
+            html body #page #content .banner-3 .image > img {
+              margin: -242px 0 0 -125px;
+              max-width: none;
+              left: 0;
+              position: absolute;
+              top: 0;
+              z-index: 9;
+              width: auto; }
+            html body #page #content .banner-3 .image .inner {
+              background: #78b800 url(images/image-7.png) right top no-repeat;
+              -webkit-border-top-right-radius: 34px;
+              -moz-border-top-right-radius: 34px;
+              -moz-border-radius-topright: 34px;
+              -ms-border-top-right-radius: 34px;
+              -o-border-top-right-radius: 34px;
+              border-top-right-radius: 34px;
+              height: 160px;
+              padding: 20px 0 0 90px; }
+              html body #page #content .banner-3 .image .inner .texts {
+                color: #fff;
+                font-family: "tizaregular", serif;
+                margin: -6px 0 0; }
+                html body #page #content .banner-3 .image .inner .texts .text {
+                  -webkit-transform-origin: 0% 0%;
+                  -moz-transform-origin: 0% 0%;
+                  -ms-transform-origin: 0% 0%;
+                  -o-transform-origin: 0% 0%;
+                  transform-origin: 0% 0%;
+                  line-height: 1em;
+                  white-space: nowrap; }
+                  html body #page #content .banner-3 .image .inner .texts .text.text-1 {
+                    font-size: 51px;
+                    -webkit-transform: scale(0.34, 1);
+                    -moz-transform: scale(0.34, 1);
+                    -ms-transform: scale(0.34, 1);
+                    -o-transform: scale(0.34, 1);
+                    transform: scale(0.34, 1); }
+                  html body #page #content .banner-3 .image .inner .texts .text.text-2 {
+                    font-size: 79px;
+                    -webkit-transform: scale(0.5, 1);
+                    -moz-transform: scale(0.5, 1);
+                    -ms-transform: scale(0.5, 1);
+                    -o-transform: scale(0.5, 1);
+                    transform: scale(0.5, 1); }
+          html body #page #content .banner-3 .tripadvisor {
+            background: #fec900;
+            -webkit-border-top-left-radius: 34px;
+            -moz-border-top-left-radius: 34px;
+            -moz-border-radius-topleft: 34px;
+            -ms-border-top-left-radius: 34px;
+            -o-border-top-left-radius: 34px;
+            border-top-left-radius: 34px;
+            float: right;
+            height: 160px;
+            padding: 20px;
+            width: 362px;
+            text-align: center; }
+        html body #page #content #primary .offer {
+          padding: 0 12px;
+          margin: 0 0 12px; }
+          html body #page #content #primary .offer::after {
+            clear: both;
+            content: "";
+            display: table; }
+          html body #page #content #primary .offer .image {
+            background: url(images/monkeys.png) left bottom repeat-x;
+            float: left;
+            padding: 0 0 54px;
+            position: relative;
+            width: 780px; }
+            html body #page #content #primary .offer .image > img {
+              width: 100%; }
+            html body #page #content #primary .offer .image .meta {
+              bottom: 54px;
+              position: absolute;
+              right: 12px;
+              width: 100px; }
+              html body #page #content #primary .offer .image .meta .qrcode {
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                -ms-border-radius: 4px;
+                -o-border-radius: 4px;
+                border-radius: 4px;
+                height: 100px;
+                margin: 0 0 7px;
+                overflow: hidden;
+                width: 100%; }
+                html body #page #content #primary .offer .image .meta .qrcode a {
+                  display: none !important; }
+                html body #page #content #primary .offer .image .meta .qrcode img {
+                  width: 100%; }
+              html body #page #content #primary .offer .image .meta .notes {
+                height: 60px; }
+                html body #page #content #primary .offer .image .meta .notes .note {
+                  width: 33.33%; }
+          html body #page #content #primary .offer .coupon {
+            background: #fec900;
+            float: right;
+            padding: 10px;
+            height: inherit;
+            width: 362px; }
+            html body #page #content #primary .offer .coupon .tripadvisor {
+              background: url(images/tripadvisor.png) -12px center no-repeat;
+              background-size: auto 200%;
+              color: #fff;
+              margin: 0 auto;
+              padding: 0 0 6px;
+              width: 342px; }
+              html body #page #content #primary .offer .coupon .tripadvisor::after {
+                clear: both;
+                content: "";
+                display: table; }
+              html body #page #content #primary .offer .coupon .tripadvisor .text {
+                color: #589442;
+                float: right;
+                width: 220px; }
+                html body #page #content #primary .offer .coupon .tripadvisor .text .rank-value {
+                  color: #31281e; }
+                  html body #page #content #primary .offer .coupon .tripadvisor .text .rank-value .stars {
+                    float: left;
+                    background: url(images/star.png);
+                    height: 20px;
+                    margin: 0 6px 0 0;
+                    width: 100px; }
+            html body #page #content #primary .offer .coupon .inner {
+              background: #322a1f;
+              margin: 0 auto;
+              width: 342px; }
+              html body #page #content #primary .offer .coupon .inner .title {
+                color: #fec900;
+                font-family: "momstypewriterregular", serif;
+                font-size: 23px;
+                line-height: 1em;
+                padding: 12px 12px 5px; }
+              html body #page #content #primary .offer .coupon .inner .title-2 {
+                color: #fff;
+                font-family: "momstypewriterregular", serif;
+                font-size: 23px;
+                line-height: 1em;
+                padding: 0 12px 3px; }
+              html body #page #content #primary .offer .coupon .inner .text {
+                color: #fff;
+                font-size: 12px;
+                line-height: 1.2em;
+                padding: 0 12px 24px; }
+              html body #page #content #primary .offer .coupon .inner .buttons {
+                line-height: 1em;
+                padding: 0 25px 10px; }
+                html body #page #content #primary .offer .coupon .inner .buttons .buttn {
+                  border-radius: 2px;
+                  font-family: "momstypewriterregular", serif;
+                  font-size: 20px;
+                  height: 39px;
+                  line-height: 39px;
+                  text-align: center;
+                  vertical-align: middle;
+                  width: 141px; }
+                html body #page #content #primary .offer .coupon .inner .buttons .details {
+                  background: #78b800;
+                  color: #fff;
+                  float: left; }
+                html body #page #content #primary .offer .coupon .inner .buttons .bookit {
+                  background: #d95843;
+                  color: #fff;
+                  float: right; }
+              html body #page #content #primary .offer .coupon .inner .ticket {
+                background: url(images/ticket.png) center top no-repeat;
+                color: #c10c00;
+                font-family: "dead_kansasregular", arial, sans-serif;
+                height: 124px;
+                padding: 12px 12px 12px;
+                text-align: center; }
+                html body #page #content #primary .offer .coupon .inner .ticket .adults {
+                  float: left;
+                  margin: 0 0 0 68px;
+                  width: 90px; }
+                  html body #page #content #primary .offer .coupon .inner .ticket .adults .price2 {
+                    font-size: 24px; }
+                html body #page #content #primary .offer .coupon .inner .ticket .kids {
+                  float: right;
+                  margin: 0 68px 0 0;
+                  width: 90px; }
+                  html body #page #content #primary .offer .coupon .inner .ticket .kids .price2 {
+                    font-size: 24px; }
+      html body #page #colophon {
+        background: #cdb696 url(images/page_bg.jpg) center top; }
+        html body #page #colophon .pickup {
+          background: url(images/image-9.png) right top no-repeat;
+          height: 216px;
+          padding: 0 33px;
+          margin: 0 auto;
+          width: 1200px; }
+          html body #page #colophon .pickup .image {
+            float: left;
+            padding: 8px 0 0;
+            width: 434px; }
+            html body #page #colophon .pickup .image img {
+              margin: 0 0 0 -50px;
+              position: absolute; }
+          html body #page #colophon .pickup .texts {
+            color: #fff;
+            float: right;
+            font-size: 18px;
+            line-height: 1em;
+            padding: 30px 0 0;
+            width: 700px; }
+            html body #page #colophon .pickup .texts .text-1 {
+              font-family: "momstypewriterregular", serif;
+              font-size: 40px;
+              padding: 0 0 20px; }
+              html body #page #colophon .pickup .texts .text-1 span {
+                color: #fec900; }
+            html body #page #colophon .pickup .texts .text-2 {
+              line-height: 1.2em; }
+        html body #page #colophon .site-info {
+          background: rgba(0, 0, 0, 0.12);
+          box-shadow: 0 0 12px rgba(0, 0, 0, 0.72);
+          color: #fff;
+          font-size: 14px;
+          margin: 12px;
+          overflow: auto;
+          padding: 0 10px; }
+          html body #page #colophon .site-info .text {
+            border: solid #fff;
+            border-width: 0 1px;
+            margin: 7px 0;
+            padding: 0 12px; }
 
 @media all and (max-width: 1230px) {
-  html body #page {
-    background: url(images/page_bg.jpg) center top repeat-y;
-    overflow: hidden; }
-    html body #page #masthead .menu {
-      display: none; }
-    html body #page #content .header {
-      height: auto; }
-      html body #page #content .header .main-navigation .menu-toggle {
-        background: transparent;
-        border: 0;
-        box-shadow: none;
-        display: block;
-        float: left;
-        font-family: "icomoon";
-        height: 40px;
-        margin: 10px 0 0 10px;
-        outline: none;
-        padding: 0;
-        text-shadow: none;
-        width: 40px; }
-      html body #page #content .header .main-navigation .menu-toggle:before {
-        color: #78b800;
-        content: "\e9bd";
-        display: block;
-        font-size: 42px;
-        text-align: center; }
-      html body #page #content .header .main-navigation .menu-toggle-2 {
-        background: url(images/image-11.png);
-        cursor: pointer;
-        display: block;
-        height: 40px;
-        position: absolute;
-        right: 10px;
-        top: 10px;
-        width: 40px; }
-      html body #page #content .header .main-navigation .menu-block {
-        left: auto;
-        padding: 0;
-        position: static;
-        width: 100%; }
-        html body #page #content .header .main-navigation .menu-block .site-branding {
-          display: none;
-          height: 300px;
-          padding: 0;
-          width: 300px; }
-        html body #page #content .header .main-navigation .menu-block .menu {
-          margin: 0 auto;
-          padding: 0 45px;
-          width: 300px; }
-      html body #page #content .header .main-navigation .texts {
-        display: block; }
-      html body #page #content .header .main-navigation.toggled .menu-block {
-        padding: 0 0 50px; }
-        html body #page #content .header .main-navigation.toggled .menu-block .site-branding {
-          display: block; }
-      html body #page #content .header .logo {
-        padding: 12px;
-        position: static;
-        top: auto;
-        right: auto;
-        text-align: center; }
-        html body #page #content .header .logo img {
+  html body {
+    /* body.toggled-2 */ }
+    html body #page {
+      background: url(images/page_bg.jpg) center top repeat-y;
+      overflow: hidden; }
+      html body #page #masthead {
+        display: none; }
+      html body #page #content .header {
+        height: auto; }
+        html body #page #content .header .main-navigation .menu-toggle {
+          background: transparent;
+          border: 0;
+          box-shadow: none;
           display: block;
-          margin: 0 auto; }
-    html body #page #content .banner-2 {
-      height: auto; }
-      html body #page #content .banner-2 .reasons {
-        float: none;
-        padding: 12px 12px;
-        text-align: center; }
-      html body #page #content .banner-2 .guarantees {
-        float: none;
-        padding: 12px 12px;
-        text-align: center;
-        margin: 0 auto;
-        max-width: 480px; }
-        html body #page #content .banner-2 .guarantees .guarantee {
-          display: inline-block;
-          float: none;
-          width: 28%; }
-    html body #page #content .banner-3 .image {
-      float: none;
-      height: auto;
-      margin: 70px 0 36px;
-      max-width: 100%; }
-      html body #page #content .banner-3 .image > img {
-        margin: -40px 0 0;
-        width: 122px; }
-      html body #page #content .banner-3 .image .inner {
-        padding: 20px 20px 20px 130px; }
-        html body #page #content .banner-3 .image .inner img {
-          height: 100%; }
-    html body #page #content .banner-3 .tripadvisor {
-      margin: 0 0 36px; }
-    html body #page #content #primary .offer {
-      margin: 0 0 12px; }
-      html body #page #content #primary .offer .image {
-        float: none;
-        margin: 0 0 12px;
-        width: 100%; }
-        html body #page #content #primary .offer .image .meta {
-          display: none; }
-      html body #page #content #primary .offer .coupon {
-        float: none;
-        margin: 0 auto;
-        width: 100%; }
-    html body #page #colophon .pickup {
-      background: #78b800;
-      height: auto;
-      width: 100%; }
-      html body #page #colophon .pickup .image {
-        width: 100%; }
-        html body #page #colophon .pickup .image img {
-          margin: 0;
+          float: left;
+          font-family: "icomoon";
+          height: 40px;
+          margin: 10px 0 0 10px;
+          outline: none;
+          padding: 0;
+          text-shadow: none;
+          width: 40px; }
+        html body #page #content .header .main-navigation .menu-toggle:before {
+          color: #78b800;
+          content: "\e9bd";
+          display: block;
+          font-size: 42px;
+          text-align: center; }
+        html body #page #content .header .main-navigation .menu-toggle-2 {
+          background: url(images/image-11.png);
+          cursor: pointer;
+          display: block;
+          height: 40px;
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          width: 40px; }
+        html body #page #content .header .main-navigation .menu-block {
+          left: auto;
+          padding: 0;
           position: static;
           width: 100%; }
-      html body #page #colophon .pickup .texts {
-        float: none;
-        width: 100%; }
-        html body #page #colophon .pickup .texts .text-1 {
-          line-height: normal;
-          padding: 0;
+          html body #page #content .header .main-navigation .menu-block .site-branding {
+            display: none;
+            height: 300px;
+            padding: 0;
+            width: 300px; }
+          html body #page #content .header .main-navigation .menu-block .menu {
+            margin: 0 auto;
+            padding: 0 45px;
+            width: 300px; }
+        html body #page #content .header .main-navigation .texts {
+          display: block; }
+        html body #page #content .header .main-navigation.toggled .menu-block {
+          padding: 0 0 50px; }
+          html body #page #content .header .main-navigation.toggled .menu-block .site-branding {
+            display: block; }
+        html body #page #content .header .logo {
+          padding: 12px;
+          position: static;
+          top: auto;
+          right: auto;
           text-align: center; }
-        html body #page #colophon .pickup .texts .text-2 {
-          line-height: normal;
-          padding: 0 0 12px; }
-  html body.toggled #page #content .header {
-    background: #719539; }
-    html body.toggled #page #content .header .main-navigation .texts {
+          html body #page #content .header .logo img {
+            display: block;
+            margin: 0 auto; }
+      html body #page #content .banner-2 {
+        height: auto; }
+        html body #page #content .banner-2 .reasons {
+          float: none;
+          padding: 12px 12px;
+          text-align: center; }
+        html body #page #content .banner-2 .guarantees {
+          float: none;
+          padding: 12px 12px;
+          text-align: center;
+          margin: 0 auto;
+          max-width: 480px; }
+          html body #page #content .banner-2 .guarantees .guarantee {
+            display: inline-block;
+            float: none;
+            width: 28%; }
+      html body #page #content .banner-3 .image {
+        float: none;
+        height: auto;
+        margin: 70px 0 36px;
+        max-width: 100%; }
+        html body #page #content .banner-3 .image > img {
+          margin: -40px 0 0;
+          width: 122px; }
+        html body #page #content .banner-3 .image .inner {
+          padding: 20px 20px 20px 130px; }
+          html body #page #content .banner-3 .image .inner img {
+            height: 100%; }
+      html body #page #content .banner-3 .tripadvisor {
+        margin: 0 0 36px; }
+      html body #page #content #primary .offer {
+        margin: 0 0 12px; }
+        html body #page #content #primary .offer .image {
+          float: none;
+          margin: 0 0 12px;
+          width: 100%; }
+          html body #page #content #primary .offer .image .meta {
+            display: none; }
+        html body #page #content #primary .offer .coupon {
+          float: none;
+          margin: 0 auto;
+          width: 100%; }
+      html body #page #colophon .pickup {
+        background: #78b800;
+        height: auto;
+        width: 100%; }
+        html body #page #colophon .pickup .image {
+          width: 100%; }
+          html body #page #colophon .pickup .image img {
+            margin: 0;
+            position: static;
+            width: 100%; }
+        html body #page #colophon .pickup .texts {
+          float: none;
+          width: 100%; }
+          html body #page #colophon .pickup .texts .text-1 {
+            line-height: normal;
+            padding: 0;
+            text-align: center; }
+          html body #page #colophon .pickup .texts .text-2 {
+            line-height: normal;
+            padding: 0 0 12px; }
+    html body.toggled #page #masthead {
+      left: 0;
+      top: 0; }
+      html body.toggled #page #masthead .menu {
+        display: block; }
+    html body.toggled #page #content .header {
+      background: #719539; }
+      html body.toggled #page #content .header .main-navigation .texts {
+        display: none; }
+    html body.toggled #page #content .banner {
       display: none; }
-  html body.toggled #page #content .banner {
-    display: none; }
-  html body.toggled #page #content .banner-2 {
-    display: none; }
-  html body.toggled #page #content .banner-3 {
-    display: none; }
-  html body.toggled #page #content #primary {
-    display: none; }
-  html body.toggled #page #colophon {
-    display: none; } }
+    html body.toggled #page #content .banner-2 {
+      display: none; }
+    html body.toggled #page #content .banner-3 {
+      display: none; }
+    html body.toggled #page #content #primary {
+      display: none; }
+    html body.toggled #page #colophon {
+      display: none; }
+    html body.toggled-2 #page {
+          /*#masthead {
+            @include clearfix;
+            background: $color_background;
+            left: 0;
+            min-height: 100%;
+            top: 0;
+            z-index: 1;
+            width: 100%;
+
+            .menu {
+              display: block;
+              margin: 0 auto;
+              width: 300px;
+
+              .menu-item {
+                background: 0;
+                height: auto;
+                line-height: normal;
+                margin: 0;
+                padding: 0;
+                width: auto;
+
+                a {
+                  color: #fff;
+                  font-size: 18px;
+                  line-height: 1.6em;
+                  @include transform(rotate(0));
+                }
+              }
+            }
+          }*/ }
+      html body.toggled-2 #page #content .header .main-navigation .menu-block .menu-menu-1-container {
+        display: none; }
+      html body.toggled-2 #page #content .header .main-navigation .menu-block .menu-menu-2-container {
+        display: block; } }
 
 /*# sourceMappingURL=custom.css.map */

@@ -37,8 +37,11 @@ $color_green: #78b800;
 */
 
 html {
+  min-height: 100%;
+
   body {
     background: $color_background url(images/background.jpg) center top;
+    min-height: 100%;
 
     #page {
       position: relative;
@@ -119,6 +122,12 @@ html {
                     font-size: 18px;
                   }
                 }
+              }
+
+              /* Hide second instance of right menu */
+
+              .menu-menu-2-container {
+                display: none;
               }
             }
 
