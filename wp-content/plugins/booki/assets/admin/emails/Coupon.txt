@@ -1,0 +1,17 @@
+<p>
+Dear %customerName%,
+<br>
+You have received a coupon. You can redeem this coupon during checkout. 
+</p>
+<p>
+Just enter the code in the box provided, and click on the redeem button.
+<br>
+The coupon code is: %code%
+</p>
+<p>
+Do not hesitate to contact us with any questions you might have.
+<br>
+Thanks again for your business!
+<br>
+%siteName%
+</p>

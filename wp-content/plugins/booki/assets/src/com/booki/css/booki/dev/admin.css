@@ -1,0 +1,148 @@
+.booki-callout {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 3px solid #eee;
+}
+.booki-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.booki-callout p:last-child {
+  margin-bottom: 0;
+}
+
+/* Variations */
+.booki-callout-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+  border-right: 1px solid;
+}
+.booki-callout-danger h4 {
+  color: #b94a48;
+}
+.booki-callout-warning {
+  background-color: #F8F8F8;
+  border-color: #8a6d3b;
+  color: #8a6d3b;
+  border-right: 1px solid;
+}
+.booki-callout-warning h4 {
+  color: #8a6d3b;
+}
+.booki-callout-info {
+  background-color: #d9edf7;
+  border-color: #1CBBDB;
+  color: #31708f;
+  border-right: 1px solid;
+}
+.booki-callout-info h4 {
+  color: #34789a;
+}
+
+.booki-callout-success{
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+.booki-callout-success h4{
+	 color: #3c763d;
+}
+.booki-callout-default{
+	background-color: #F5F5F5;
+	border-color: #999;
+	border-right: 1px solid;
+}
+.booki-callout-default h4 {
+  color: #797979;
+}
+
+.booki-content-box {
+  position: relative;
+  padding: 45px 15px 15px;
+  margin: 0 -15px 15px;
+  background-color: #fafafa;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+  border-color: #e5e5e5 #eee #eee;
+  border-style: solid;
+  border-width: 1px 0;
+}
+
+.booki-content-box:after {
+  content: "Booki";
+  position: absolute;
+  top:  15px;
+  left: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #bbb;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.booki-content-box + .highlight {
+  margin: -15px -15px 15px;
+  border-radius: 0;
+  border-width: 0 0 1px;
+}
+
+@media (min-width: 768px) {
+  .booki-content-box {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #ddd;
+    border-radius: 4px 4px 0 0;
+    box-shadow: none;
+  }
+  .booki-content-box + .highlight {
+    margin-top: -16px;
+    margin-left: 0;
+    margin-right: 0;
+    border-width: 1px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+
+/* Undo width of container */
+.booki-content-box .container {
+  width: auto;
+}
+
+.booki-stats-block{
+	text-align: center;
+}
+.booki-stats-block h1, .booki-stats-block h1.badge{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 4em;
+	background: #428bca;
+	color: #ffffff;
+}
+.booki-stats-separator{
+	border-right: 3px solid #428bca;
+}
+.booki-stats-separator-equal-height{
+	border-right: 3px solid #428bca;
+	min-height: 230px;
+}
+
+/*we don't want un-necessary borders around our tables in history and stats pages*/
+.wp-list-table.booki.table.booki-grid.table{
+	border-width: 0;
+}
+.wp-list-table.booki.table.booki-grid.table th
+, .wp-list-table.booki.table.booki-grid.table td{
+	border-width: 1px 0 1px 0;
+}
+.wp-list-table.booki.table.booki-grid.table th{
+	border-width: 0;
+}
+
+.booki .booki-borderless-detailsview{
+	border-width: 0;
+}
+.booki ul.dropdown-menu li{
+	padding: 0;
+}

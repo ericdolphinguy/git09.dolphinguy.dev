@@ -1,0 +1,689 @@
+<div class="wizard tab-pane active" id="step1">
+	<script type="text/template" id="projects-template">
+		<div class="form-group createnew">
+		  <label class="col-lg-4 control-label" for="projects"><%= Booki.resx.PROJECT_TAB_PROJECT_NAME_LABEL %></label>
+			<div class="col-lg-8">
+				<select name="name" class="form-control">
+					<option value="-1"><%= Booki.resx.PROJECT_TAB_CREATE_NEW_LABEL %></option>
+					<% _.each( models, function( item, i ){ %>
+						<% if(typeof(item.get("id")) === "number"){ %>
+							<option value="<%=item.get("id")%>"<%=selectedId === item.get("id") ? " selected" : ""%>><%=item.get("name")%></option>
+						<% } %>
+					<% }); %>
+				</select>
+			</div>
+		</div>
+	</script>
+	<script type="text/template" id="project-template">
+		<% if(typeof(model.id) === "number"){ %>
+		<div class="form-group">
+			<label class="col-lg-4 control-label"><%= Booki.resx.PROJECT_TAB_SHORT_CODE_LABEL %></label>
+			<div class="col-lg-8">
+				 <p class="form-control-static">[booki-booking id="<%=model.id%>"]</p>
+			</div>
+		</div>
+		<% } %>
+		<div class="form-group name">
+			<label class="col-lg-4 control-label" for="name"><%= Booki.resx.PROJECT_TAB_NAME_LABEL %></label>
+			<div class="col-lg-8">
+				<input name="name" type="text" 
+					class="form-control booki_parsley_validated" 
+					data-parsley-required="true" 
+					data-parsley-pattern="[^<>'"`]+$"
+					placeholder="Your project name" 
+					value="<%=model.name%>" />
+			</div>
+		</div>
+			<% if(typeof(model.id) === "number"){ %>
+		<div class="form-group">
+			<div class="col-lg-8 col-lg-offset-4">
+				<a data-toggle="collapse" href=".collapseDuplicateProject" class="btn btn-default">
+					<i class="glyphicon glyphicon-plus-sign"></i>
+					<%= Booki.resx.PROJECT_TAB_DUPLICATE_PROJECT %>
+				</a>
+			</div>
+		</div>
+		<div class="accordion-body">
+			<div class="collapseDuplicateProject collapse">
+				<div class="booki-callout booki-callout-info">
+					<h4><%= Booki.resx.PROJECT_TAB_PROJECT_DUPLICATE_HEADING %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_PROJECT_DUPLICATE_INFO %></p>
+				</div>
+				<div class="form-group">
+					<label class="col-lg-4 control-label"><%= Booki.resx.PROJECT_TAB_DUPLICATE_PROJECT_LABEL %></label>
+					<div class="col-lg-8">
+						 <div class="input-group">
+							<input id="duplicateProjectName" 
+									name="duplicateProjectName" 
+									data-parsley-pattern="[^<>'"`]+$"
+									type="text" 
+									placeholder="New Project Name" 
+									class="form-control" />
+							<div class="input-group-btn">
+								<button class="duplicateProject btn btn-primary">
+									<i class="glyphicon glyphicon-play-circle"></i>
+									<%= isNew ? Booki.resx.PROJECT_TAB_PROJECT_DUPLICATE_LABEL : Booki.resx.PROJECT_TAB_PROJECT_DUPLICATE_LABEL %>
+								</button>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="duplicate-project progress progress-striped active hide">
+							<div class="progress-bar"  role="progressbar" aria-valuenow="100" 
+								aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<% } %>
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.PROJECT_TAB_BOOKING_MODE_HEADING %></h4>
+			<p><%= Booki.resx.PROJECT_TAB_BOOKING_MODE_INFO %></p>
+		</div>
+		<div class="form-group bookingMode">
+			<label class="col-lg-4 control-label" for="bookingMode">
+				<%= Booki.resx.PROJECT_TAB_BOOKING_MODE_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select name="bookingMode" class="form-control">
+					<option value="0" <%= model.bookingMode === Booki.BookingMode.reservation ? " selected" : ""%>><%= Booki.resx.PROJECT_TAB_RESERVATION %></option>
+					<option value="1" <%= model.bookingMode === Booki.BookingMode.appointment ? " selected" : ""%>><%= Booki.resx.PROJECT_TAB_APPOINTMENT %></option>
+				</select>
+			</div>
+		</div>
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.PROJECT_TAB_BOOKING_DAYS_LIMIT_HEADING %></h4>
+			<p><%= Booki.resx.PROJECT_TAB_BOOKING_DAYS_LIMIT_INFO %></p>
+		</div>
+		<div class="form-group bookingDaysLimit">
+			<label class="col-lg-4 control-label" for="bookingDaysLimit">
+				<%= Booki.resx.PROJECT_TAB_BOOKING_DAYS_LIMIT_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<input name="bookingDaysLimit" 
+					type="text" 
+					class="form-control booki_parsley_validated" 
+					data-parsley-type="digits" 
+					placeholder="1"
+					data-parsley-required="true"
+					data-parsley-min="1"
+					value="<%=model.bookingDaysLimit%>" />
+			</div>
+		</div>
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.PROJECT_TAB_BOOKING_DAYS_MINIMUM_HEADING %></h4>
+			<p><%= Booki.resx.PROJECT_TAB_BOOKING_DAYS_MINIMUM_INFO %></p>
+		</div>
+		<div class="form-group bookingDaysMinimum">
+			<label class="col-lg-4 control-label" for="bookingDaysMinimum">
+				<%= Booki.resx.PROJECT_TAB_BOOKING_DAYS_MINIMUM_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<input name="bookingDaysMinimum" 
+					type="text" 
+					class="form-control booki_parsley_validated" 
+					data-parsley-type="digits" 
+					placeholder="1"
+					data-parsley-required="true"
+					value="<%=model.bookingDaysMinimum%>" />
+			</div>
+		</div>
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.PROJECT_TAB_CALENDAR_MODE_LABEL %></h4>
+			<p><%= Booki.resx.PROJECT_TAB_CALENDAR_MODE_INFO %></p>
+		</div>
+		<div class="form-group calendarstyle">
+		  <label class="col-lg-4 control-label" for="calendarMode">
+				<%= Booki.resx.PROJECT_TAB_CALENDAR_MODE_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select id="calendarMode" name="calendarMode" class="form-control input-lg">
+					<option value="0" <%= model.calendarMode === Booki.CalendarMode.popup ? " selected" : ""%>><%= Booki.resx.PROJECT_TAB_CALENDAR_MODE_POPUP %></option>
+					<option value="1" <%= model.calendarMode === Booki.CalendarMode.inline ? " selected" : ""%>><%= Booki.resx.PROJECT_TAB_CALENDAR_MODE_INLINE %></option>
+					<option value="2" <%= model.calendarMode === Booki.CalendarMode.range ? " selected" : ""%>><%= Booki.resx.PROJECT_TAB_CALENDAR_MODE_RANGE %></option>
+					<option value="3" <%= model.calendarMode === Booki.CalendarMode.nextDayCheckout ? " selected" : ""%>><%= Booki.resx.PROJECT_TAB_CALENDAR_MODE_NEXT_DAY_CHECKOUT %></option>
+				</select>
+			</div>
+		</div>
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.PROJECT_TAB_TAGGING_HEADING %></h4>
+			<p><%= Booki.resx.PROJECT_TAB_TAGGING_INFO %></p>
+		</div>
+		<div class="form-group">
+			<label class="col-lg-4 control-label" for="tag">
+				<%= Booki.resx.PROJECT_TAB_TAG_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select name="tag" data-parsley-selectone="tag" data-parsley-trigger="change focusout" class="form-control booki_parsley_validated">
+					<option value="-1">Create new</option>
+					<% _.each( tags, function( item, i ){ %>
+						<option value="<%= item.get('name') %>" <%= item.get('name') == model.tag ? 'selected' : '' %>><%= item.get('name') %></option>
+					<% }); %>
+				</select>
+			</div>
+		</div>
+		<% if(typeof(model.id) === "number" && model.tag){ %>
+		<div class="form-group">
+			<label class="col-lg-4 control-label">Short Code</label>
+			<div class="col-lg-8">
+				 <p class="form-control-static">
+[booki-list tags="<%= model.tag%>" heading="<%= Booki.resx.PROJECT_TAB_LISTING_HEADING_LABEL%>" fromlabel="<%= Booki.resx.PROJECT_TAB_LISTING_FROM_LABEL%>" tolabel="<%= Booki.resx.PROJECT_TAB_LISTING_TO_LABEL%>" perpage="5" fullpager="true" enablesearch="true" enableitemheading="false"]
+					</p>
+			</div>
+		</div>
+		<% } %>
+		<div class="form-group newtag <%= model.tag ? 'hide' : '' %>">
+			<div class="col-lg-8 col-md-offset-4">
+				<input name="tag" type="text" 
+					class="form-control booki_parsley_validated" 
+					data-parsley-maxlength="45"
+					placeholder="<%= Booki.resx.PROJECT_TAB_ENTER_NEW_TAG_PLACEHOLDER %>" />
+			</div>
+		</div>
+		<% if(typeof(model.id) === "number"){ %>
+			<div class="booki-callout booki-callout-info">
+				<h4><%= Booki.resx.PROJECT_TAB_OPTIONALS_BOOKING_MODE_HEADING %></h4>
+				<p><%= Booki.resx.PROJECT_TAB_OPTIONALS_BOOKING_MODE_INFO %></p>
+			</div>
+			<div class="form-group">
+				<div class="col-lg-8 col-md-offset-4">
+					<div class="radio">
+						<input type="radio" name="optionalsBookingMode" value="0"  <%= model.optionalsBookingMode == Booki.OptionalsBookingMode.eachBooking ? "checked" : "" %> />
+						<%= Booki.resx.PROJECT_TAB_BOOKING_MODE_EACH_BOOKING_LABEL %>	
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-lg-8 col-md-offset-4">
+					<div class="radio">
+						<input type="radio" name="optionalsBookingMode" value="1" <%= model.optionalsBookingMode == Booki.OptionalsBookingMode.eachDay ? "checked" : "" %> />
+						<%= Booki.resx.PROJECT_TAB_BOOKING_MODE_EACH_DAY_LABEL %>	
+					</div>
+				</div>
+			</div>
+			<div class="booki-callout booki-callout-info">
+				<h4><%= Booki.resx.PROJECT_TAB_OPTIONALS_LISTING_MODE_HEADING %></h4>
+				<p><%= Booki.resx.PROJECT_TAB_OPTIONALS_LISTING_MODE_INFO %></p>
+			</div>
+			<div class="form-group">
+				<div class="col-lg-8 col-md-offset-4">
+					<div class="radio">
+						<input type="radio" name="optionalsListingMode" value="1" <%= model.optionalsListingMode == Booki.OptionalsListingMode.radioButtonList ? "checked" : "" %> />
+						<%= Booki.resx.PROJECT_TAB_RADIO_BUTTON_LIST %>	
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-lg-8 col-md-offset-4">
+					<div class="radio">
+						<label>
+						<input type="radio" name="optionalsListingMode" value="0"  <%= model.optionalsListingMode == Booki.OptionalsListingMode.checkboxList ? "checked" : "" %> />
+						<%= Booki.resx.PROJECT_TAB_CHECKBOX_LIST_LABEL %>
+						</label>
+					</div>
+				</div>
+			</div>
+			<%if(model.optionalsListingMode == Booki.OptionalsListingMode.checkboxList){%>
+			<div class="form-group">
+				<label class="col-lg-4 control-label" for="optionalsMinimumSelection">
+					<%= Booki.resx.PROJECT_TAB_OPTIONALS_MINIMUM_SELECTION_LABEL %>
+				</label>
+				<div class="col-lg-8">
+					<input name="optionalsMinimumSelection" type="text" 
+						class="form-control booki_parsley_validated" 
+						data-parsley-type="digits" 
+						placeholder="0"
+						data-parsley-min="0"
+						value="<%=model.optionalsMinimumSelection%>" />
+				</div>
+			</div>
+			<%}%>
+		<%}%>
+		<div class="form-group">
+			<div class="col-lg-8">
+				<a data-toggle="collapse" href=".collapseProjectListingSettings" class="btn btn-default">
+					<i class="glyphicon glyphicon-plus-sign"></i>
+					<%= Booki.resx.PROJECT_TAB_LISTING_SETTINGS %>
+				</a>
+			</div>
+		</div>
+		<div class="accordion-body">
+			<div class="collapseProjectListingSettings collapse">
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_DESCRIPTION_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_DESCRIPTION_TITLE %></p>
+				</div>
+				<div class="form-group">
+					<label class="col-lg-4 control-label" for="description">
+						<%= Booki.resx.PROJECT_TAB_DESCRIPTION_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<textarea name="description" 
+							rows="15"
+							class="form-control"><%=model.description%></textarea>
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_PREVIEW_IMAGE_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_PREVIEW_IMAGE_TITLE %></p>
+				</div>
+				<div class="form-group previewUrl">
+					<label class="col-lg-4 control-label" for="previewUrl">
+						<%= Booki.resx.PROJECT_TAB_PREVIEW_IMAGE_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="previewUrl" type="hidden" 
+							value="<%=model.previewUrl%>" />
+						<div class="preview-thumbnail <%=model.previewUrl ? "" : "hide" %>" style="background-image: url('<%=model.previewUrl %>')"
+							data-toggle="modal" data-target="#imageGalleryModal">
+							<button type="button" class="close">&times;</button>
+						</div>
+						<div class="preview-thumbnail-default <%=model.previewUrl ? "hide" : "" %>" data-toggle="modal" data-target="#imageGalleryModal"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-lg-8">
+				<a data-toggle="collapse" href=".collapseGeneralSettings" class="btn btn-default">
+					<i class="glyphicon glyphicon-plus-sign"></i>
+					<%= Booki.resx.PROJECT_TAB_GENERAL_SETTINGS %>
+				</a>
+			</div>
+		</div>
+		<div class="accordion-body">
+			<div class="collapseGeneralSettings collapse">
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_STATUS_HEADING %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_STATUS_INFO %></p>
+				</div>
+				<div class="form-group">
+					<div class="col-lg-8 col-md-offset-4">
+						<div class="radio">
+							<input type="radio" name="status" value="1"  <%= model.status == Booki.ProjectStatus.running ? "checked" : "" %> />
+							<%= Booki.resx.PROJECT_TAB_STATUS_RUNNING %>	
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-lg-8 col-md-offset-4">
+						<div class="radio">
+							<input type="radio" name="status" value="0" <%= model.status == Booki.ProjectStatus.stopped ? "checked" : "" %> />
+							<%= Booki.resx.PROJECT_TAB_STATUS_STOPPED %>	
+						</div>
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_NOTIFY_USER_EMAIL_LIST_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_NOTIFY_USER_EMAIL_LIST_TITLE %></p>
+				</div>
+				<div class="form-group">
+					<label class="col-lg-4 control-label" for="notifyUserEmailList">
+						<%= Booki.resx.PROJECT_TAB_NOTIFY_USER_EMAIL_LIST_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<textarea name="notifyUserEmailList" 
+							class="form-control"><%=model.notifyUserEmailList%></textarea>
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_DEFAULT_STEP_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_DEFAULT_STEP_TITLE %></p>
+				</div>
+				<div class="form-group defaultStep">
+					<label class="col-lg-4 control-label" for="defaultStep">
+						<%= Booki.resx.PROJECT_TAB_DEFAULT_STEP_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<select name="defaultStep" class="form-control">
+							<option value="0" <%= model.defaultStep === Booki.ProjectStep.bookingForm ? " selected" : ""%>><%= Booki.resx.PROJECT_TAB_BOOKING_FORM %></option>
+							<option value="1" <%= model.defaultStep === Booki.ProjectStep.customFormFields ? " selected" : ""%>><%= Booki.resx.PROJECT_TAB_CUSTOM_FORM_FIELDS %></option>
+						</select>
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_BOOKING_WIZARD_MODE_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_BOOKING_WIZARD_MODE_TITLE %></p>
+				</div>
+				<div class="form-group">
+					<label class="col-lg-4 control-label" for="bookingWizardMode">
+						<%= Booki.resx.PROJECT_TAB_BOOKING_WIZARD_MODE_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<select name="bookingWizardMode" class="form-control">
+							<option value="0" <%= model.bookingWizardMode === Booki.BookingWizardMode.tabs ? " selected" : ""%>><%= Booki.resx.PROJECT_TAB_TABS_LABEL %></option>
+							<option value="1" <%= model.bookingWizardMode === Booki.BookingWizardMode.linear ? " selected" : ""%>><%= Booki.resx.PROJECT_TAB_LINEAR_LABEL %></option>
+						</select>
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_HIDE_SELECTED_DAYS_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_HIDE_SELECTED_DAYS_TITLE %></p>
+				</div>
+				<div class="form-group">
+					<div class="col-lg-8 col-md-offset-4">
+						<div class="checkbox">
+							<label>
+							<input type="checkbox" name="hideSelectedDays" <%= model.hideSelectedDays ? "checked" : "" %> />
+							<%= Booki.resx.PROJECT_TAB_HIDE_SELECTED_DAYS_LABEL %>	
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-lg-8">
+				<a data-toggle="collapse" href=".collapseBookingControlLabelSettings" class="btn btn-default">
+					<i class="glyphicon glyphicon-plus-sign"></i>
+					<%= Booki.resx.PROJECT_TAB_CONTROL_LABEL_SETTINGS %>
+				</a>
+			</div>
+		</div>
+		<div class="accordion-body">
+			<div class="collapseBookingControlLabelSettings collapse">
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_BOOKING_TAB_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_BOOKING_TAB_TITLE %></p>
+				</div>
+				<div class="form-group bookingTabLabel">
+					<label class="col-lg-4 control-label" for="bookingTabLabel">
+						<%= Booki.resx.PROJECT_TAB_BOOKING_TAB_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="bookingTabLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.bookingTabLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_CUSTOM_FORM_TAB_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_CUSTOM_FORM_TAB_TITLE %></p>
+				</div>
+				<div class="form-group customFormTabLabel">
+					<label class="col-lg-4 control-label" for="customFormTabLabel">
+						<%= Booki.resx.PROJECT_TAB_CUSTOM_FORM_TAB_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="customFormTabLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.customFormTabLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_AVAILABLE_DAYS_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_AVAILABLE_DAYS_TITLE %></p>
+				</div>
+				<div class="form-group availableDaysLabel">
+					<label class="col-lg-4 control-label" for="availableDaysLabel">
+						<%= Booki.resx.PROJECT_TAB_AVAILABLE_DAYS_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="availableDaysLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.availableDaysLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_SELECTED_DAYS_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_SELECTED_DAYS_TITLE %></p>
+				</div>
+				<div class="form-group selectedDaysLabel">
+					<label class="col-lg-4 control-label" for="selectedDaysLabel">
+						<%= Booki.resx.PROJECT_TAB_SELECTED_DAYS_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="selectedDaysLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.selectedDaysLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_BOOKING_TIME_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_BOOKING_TIME_TITLE %></p>
+				</div>
+				<div class="form-group bookingTimeLabel">
+					<label class="col-lg-4 control-label" for="bookingTimeLabel">
+						<%= Booki.resx.PROJECT_TAB_BOOKING_TIME_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="bookingTimeLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.bookingTimeLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_OPTIONAL_ITEM_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_OPTIONAL_ITEM_TITLE %></p>
+				</div>
+				<div class="form-group optionalItemsLabel">
+					<label class="col-lg-4 control-label" for="optionalItemsLabel">
+						<%= Booki.resx.PROJECT_TAB_OPTIONAL_ITEM_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="optionalItemsLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.optionalItemsLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_NEXT_BUTTON_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_NEXT_BUTTON_TITLE %></p>
+				</div>
+				<div class="form-group nextLabel">
+					<label class="col-lg-4 control-label" for="nextLabel">
+						<%= Booki.resx.PROJECT_TAB_NEXT_BUTTON_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="nextLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"						
+							value="<%=model.nextLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_PREV_BUTTON_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_PREV_BUTTON_TITLE %></p>
+				</div>
+				<div class="form-group prevLabel">
+					<label class="col-lg-4 control-label" for="prevLabel">
+						<%= Booki.resx.PROJECT_TAB_PREV_BUTTON_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="prevLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.prevLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_ADD_TO_CART_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_ADD_TO_CART_TITLE %></p>
+				</div>
+				<div class="form-group addToCartLabel">
+					<label class="col-lg-4 control-label" for="addToCartLabel">
+						<%= Booki.resx.PROJECT_TAB_ADD_TO_CART_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="addToCartLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.addToCartLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_FROM_LABEL_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_FROM_LABEL_TITLE %></p>
+				</div>
+				<div class="form-group fromLabel">
+					<label class="col-lg-4 control-label" for="fromLabel">
+						<%= Booki.resx.PROJECT_TAB_FROM_LABEL_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="fromLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.fromLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_TO_LABEL_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_FROM_LABEL_TITLE %></p>
+				</div>
+				<div class="form-group toLabel">
+					<label class="col-lg-4 control-label" for="toLabel">
+						<%= Booki.resx.PROJECT_TAB_TO_LABEL_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="toLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.toLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_PROCEED_TO_LOGIN_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_PROCEED_TO_LOGIN_TITLE %></p>
+				</div>
+				<div class="form-group proceedToLoginLabel">
+					<label class="col-lg-4 control-label" for="proceedToLoginLabel">
+						<%= Booki.resx.PROJECT_TAB_PROCEED_TO_LOGIN_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="proceedToLoginLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.proceedToLoginLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_MAKE_BOOKING_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_MAKE_BOOKING_TITLE %></p>
+				</div>
+				<div class="form-group makeBookingLabel">
+					<label class="col-lg-4 control-label" for="makeBookingLabel">
+						<%= Booki.resx.PROJECT_TAB_MAKE_BOOKING_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="makeBookingLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.makeBookingLabel%>" />
+					</div>
+				</div>
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_BOOKING_LIMIT_LABEL %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_BOOKING_LIMIT_TITLE %></p>
+				</div>
+				<div class="form-group bookingLimitLabel">
+					<label class="col-lg-4 control-label" for="bookingLimitLabel">
+						<%= Booki.resx.PROJECT_TAB_BOOKING_LIMIT_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<input name="bookingLimitLabel" type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-maxlength="45"
+							value="<%=model.bookingLimitLabel%>" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-lg-8">
+				<a data-toggle="collapse" href=".collapseOptionalContent" class="btn btn-default">
+					<i class="glyphicon glyphicon-plus-sign"></i>
+					<%= Booki.resx.PROJECT_TAB_OPTIONAL_CONTENT %>
+				</a>
+			</div>
+		</div>
+		<div class="accordion-body">
+			<div class="collapseOptionalContent collapse">
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.PROJECT_TAB_CONTENT_HEADING %></h4>
+					<p><%= Booki.resx.PROJECT_TAB_CONTENT_INFO %></p>
+				</div>
+				<div class="form-group">
+					<label class="col-lg-4 control-label" for="contentTop">
+						<%= Booki.resx.PROJECT_TAB_CONTENT_TOP_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<textarea name="contentTop" 
+							rows="15"
+							class="form-control"><%=model.contentTop%></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-lg-4 control-label" for="contentBottom">
+						<%= Booki.resx.PROJECT_TAB_CONTENT_BOTTOM_LABEL %>
+					</label>
+					<div class="col-lg-8">
+						<textarea name="contentBottom" 
+							rows="15"
+							class="form-control"><%=model.contentBottom%></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-lg-8 col-md-offset-4">
+				<button class="update btn btn-primary">
+					<i class="glyphicon glyphicon-ok"></i>
+					<%= isNew ? Booki.resx.PROJECT_TAB_CREATE_BUTTON_LABEL : Booki.resx.PROJECT_TAB_UPDATE_BUTTON_LABEL %>
+				</button>
+				<button class="btn btn-danger" 
+						data-toggle="modal" data-target="#deleteProjectModal"
+						<%= isNew ? "disabled" : "" %>>
+						<i class="glyphicon glyphicon-remove"></i>
+						<%= Booki.resx.PROJECT_TAB_DELETE_BUTTON_LABEL %>
+				</button>
+			</div>
+		</div>
+		<div class="modal fade" id="deleteProjectModal" tabindex="-1" role="dialog" aria-labelledby="deleteProjectModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="deleteProjectModalLabel"><%= Booki.resx.PROJECT_TAB_DELETE_PROJECT_HEADING %></h4>
+					</div>
+					<div class="modal-body">
+						<%= Booki.resx.PROJECT_TAB_DELETE_PROJECT_INFO %>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal"><%= Booki.resx.PROJECT_TAB_CLOSE_BUTTON_LABEL %></button>
+						<button type="button" class="delete btn btn-danger" data-dismiss="modal">
+							<i class="glyphicon glyphicon-trash"></i>
+							<%= Booki.resx.PROJECT_TAB_DELETE_BUTTON_LABEL %>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="imageGalleryModal" tabindex="-1" role="dialog" aria-labelledby="imageGalleryModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title"><%= Booki.resx.PROJECT_TAB_IMAGE_GALLERY_HEADING %></h4>
+					</div>
+					<div class="modal-body">
+						[image-gallery]
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal"><%= Booki.resx.PROJECT_TAB_CLOSE_BUTTON_LABEL %></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+	<div class="form-horizontal col-lg-12">
+		<div id="projects-view"></div>
+		<div id="project-view"></div>
+	</div>
+</div>

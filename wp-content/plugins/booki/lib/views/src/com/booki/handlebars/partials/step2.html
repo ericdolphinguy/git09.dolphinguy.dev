@@ -1,0 +1,657 @@
+<script type="text/template" id="formelement-template">
+	<div class="form-group">
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.FORM_BUILDER_TAB_CREATE_NEW_FORM_FIELD_HEADING %></h4>
+			<p><%= Booki.resx.FORM_BUILDER_TAB_CREATE_NEW_FORM_FIELD_INFO %></p>
+		</div>
+	</div>
+	<div class="form-group elementType">
+	  <label class="col-lg-4 control-label" for="elementType"><%= Booki.resx.FORM_BUILDER_TAB_ELEMENT_TYPE_LABEL %></label>
+		<div class="col-lg-8">
+			<select name="elementType" class="form-control">
+				<% _.each( elementTypes, function( item, i ){ %>
+					<option value="<%=i%>"<%=model.elementType === i ? " selected" : ""%>><%=item%></option>
+				<% }); %>
+			</select>
+		</div>
+	</div>
+	<%if (supportsValueAttribute){%>
+	<div class="form-group">
+	  <label class="col-lg-4 control-label" for="label"><%= Booki.resx.FORM_BUILDER_TAB_LABEL_LABEL %></label>
+		<div class="col-lg-8">
+			<input name="label" 
+					type="text" 
+					class="form-control booki_parsley_validated" 
+					data-parsley-required="true" 
+					value="<%= model.label%>" />
+		</div>
+	</div>
+	<%}%>
+	<%if (model.elementType !== Booki.ElementType.dropdownlist &&
+				model.elementType !== Booki.ElementType.listbox &&
+				model.elementType !== Booki.ElementType.checkbox){%>
+		<div class="form-group">
+			<div class="col-lg-12">
+				<div class="booki-callout booki-callout-warning">
+					<h4>
+						<% if(model.elementType === 13){
+							print(Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_URL_LABEL);
+						}else if(supportsValueAttribute){
+							print(Booki.resx.FORM_BUILDER_TAB_VALUE_HEADING);
+						}else{
+							print(Booki.resx.FORM_BUILDER_TAB_CONTENT_HEADING);
+						}%>
+					</h4>
+					<p>
+						<% if(model.elementType === 13){
+							print(Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_URL_INFO);
+						}else if(supportsValueAttribute){
+							print(Booki.resx.FORM_BUILDER_TAB_VALUE_INFO);
+						}else{
+							print(Booki.resx.FORM_BUILDER_TAB_CONTENT_INFO);
+						}%>
+					<p>
+				</div>
+			</div>
+		</div>
+		<div class="form-group value">
+			<label class="col-lg-4 control-label">
+				<% if(model.elementType === 13){
+					print(Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_URL_LABEL);
+				}else if(supportsValueAttribute){
+					print(Booki.resx.FORM_BUILDER_TAB_VALUE_LABEL);
+				}else{
+					print(Booki.resx.FORM_BUILDER_TAB_CONTENT_LABEL);
+				}%>
+			</label>
+			<div class="col-lg-8">
+				<input type="text" 
+						name="value" 
+						class="form-control booki_parsley_validated"
+						value="<%= model.value%>" />
+			</div>
+		</div>
+	<%}%>
+	<div class="booki-callout booki-callout-warning">
+		<h4><%= Booki.resx.FORM_BUILDER_TAB_CLASSNAME_LABEL %></h4>
+		<p><%= Booki.resx.FORM_BUILDER_TAB_CLASSNAME_TITLE %></p>
+	</div>
+	<div class="form-group className">
+	  <label class="col-lg-4 control-label" for="className">
+			<%= Booki.resx.FORM_BUILDER_TAB_CLASSNAME_LABEL %>
+		</label>
+		<div class="col-lg-8">
+			<input type="text"
+					class="form-control" 
+					name="className"
+					value="<%= model.className%>" />
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-lg-12">
+			<div class="booki-callout booki-callout-warning">
+				<h4><%= Booki.resx.FORM_BUILDER_TAB_COLUMN_INDEX_HEADING %></h4>
+				<p><%= Booki.resx.FORM_BUILDER_TAB_COLUMN_INDEX_INFO %></p>
+			</div>
+		</div>
+	</div>
+	<div class="form-group colIndex">
+		<label class="col-lg-4 control-label" for="colIndex">
+			<%= Booki.resx.FORM_BUILDER_TAB_COLUMN_INDEX_LABEL %>
+		</label>
+		<div class="col-lg-8">
+			<select name="colIndex" data-parsley-selectone="colIndex" data-parsley-trigger="change" class="form-control booki_parsley_validated">
+				<option value="-1"><%= Booki.resx.FORM_BUILDER_TAB_CREATE_NEW_DEFAULT_SELECTION %></option>
+				<% _.each( cols, function( item, i ){ %>
+					<option value="<%= item %>" <%= item == model.colIndex ? 'selected' : '' %>><%= item %></option>
+				<% }); %>
+			</select>
+		</div>
+	</div>
+	<div class="form-group newcolIndex <%= !colIndexShow ? 'hide' : '' %>">
+		<div class="col-lg-8 col-md-offset-4">
+			<input name="colIndex" 
+					type="text" 
+					class="form-control booki_parsley_validated input-mini" 
+					data-parsley-type="digits" 
+					data-parsley-min="1" 
+					data-parsley-max="12" 
+					value="<%= !model.colIndex ? '' : model.colIndex %>" />
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-lg-12">
+			<div class="booki-callout booki-callout-warning">
+				<h4><%= Booki.resx.FORM_BUILDER_TAB_ROW_INDEX_HEADING %></h4>
+				<p><%= Booki.resx.FORM_BUILDER_TAB_ROW_INDEX_INFO %></p>
+			</div>
+		</div>
+	</div>
+		<div class="form-group rowIndex">
+		<label class="col-lg-4 control-label" for="rowIndex">
+			<%= Booki.resx.FORM_BUILDER_TAB_ROW_INDEX_LABEL %>
+		</label>
+		<div class="col-lg-8">
+			<select name="rowIndex" data-parsley-selectone="rowIndex" data-parsley-trigger="change" class="form-control booki_parsley_validated">
+				<option value="-1"><%= Booki.resx.FORM_BUILDER_TAB_CREATE_NEW_DEFAULT_SELECTION %></option>
+				<% _.each( rows, function( item, i ){ %>
+					<option value="<%= item %>" <%= item == model.rowIndex ? 'selected' : '' %>><%= item %></option>
+				<% }); %>
+			</select>
+		</div>
+	</div>
+
+	<div class="form-group newrowIndex <%= !rowIndexShow ? 'hide' : '' %>"">
+		<div class="col-lg-8 col-md-offset-4">
+			<input name="rowIndex" 
+					type="text" 
+					class="form-control booki_parsley_validated" 
+					data-parsley-type="digits" 
+					data-parsley-min="1" 
+					value="<%= !model.rowIndex ? '' : model.rowIndex %>" />
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-lg-12">
+			<div class="booki-callout booki-callout-warning">
+				<h4><%= Booki.resx.FORM_BUILDER_TAB_DISPLAY_ONLY_ONCE_HEADING %></h4>
+				<p><%= Booki.resx.FORM_BUILDER_TAB_DISPLAY_ONLY_ONCE_INFO %></p>
+			</div>
+		</div>
+	</div>
+	<div class="form-group once">
+		<div class="col-lg-8 col-md-offset-4">
+			<div class="checkbox">
+				<label>
+					<input name="once" type="checkbox" <%=model.once ? "checked" : ""%> /> <%= Booki.resx.FORM_BUILDER_TAB_DISPLAY_ONLY_ONCE_LABEL %>
+				</label>
+			</div>
+		</div>
+	</div>
+	<div class="form-group lineSeparator">
+		<div class="col-lg-8 col-md-offset-4">
+		   <div class="checkbox">
+				<label>
+					<input name="lineSeparator" type="checkbox" <%= model.lineSeparator ? " checked" : ""%> /><%= Booki.resx.FORM_BUILDER_TAB_ADD_LINE_SEPARATOR_LABEL %>
+				</label>
+			</div>
+		</div>
+	</div>
+	<%if (model.elementType === Booki.ElementType.checkbox ||
+			model.elementType === Booki.ElementType.radiobutton){%>
+		<div class="form-group defaultselection">
+			<div class="col-lg-8 col-md-offset-4">
+			   <div class="checkbox">
+				<label>
+					<input name="defaultselection" type="checkbox" <%=model.bindingData &&  model.bindingData[0] ? "checked" : ""%> /> <%= Booki.resx.FORM_BUILDER_TAB_CHECKED_BY_DEFAULT_LABEL %>
+				</label>
+				</div>
+			</div>
+		</div>
+	<%}%>
+	<%if (model.elementType === Booki.ElementType.dropdownlist ||
+				model.elementType === Booki.ElementType.listbox){%>
+		<fieldset>
+			<div class="col-lg-12">
+				<div class="booki-callout booki-callout-warning">
+					<h4><%= Booki.resx.FORM_BUILDER_TAB_DATA_SOURCE_HEADING %></h4>
+					<p><%= Booki.resx.FORM_BUILDER_TAB_DATA_SOURCE_INFO %></p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-md-8">
+				<div class="form-group dataItem">
+					<label class="col-lg-4 control-label" for="dataItem"><%= Booki.resx.FORM_BUILDER_TAB_VALUE_LABEL %></label>
+					<div class="col-lg-8">
+						<input type="text" 
+								name="dataItem" 
+								class="form-control booki_parsley_validated" 
+								placeholder="<%= Booki.resx.FORM_BUILDER_TAB_DATAITEM_PLACEHOLDER %>" />
+					</div>
+				</div>
+				<div class="form-group value">
+					<label class="col-lg-4 control-label"><%= Booki.resx.FORM_BUILDER_TAB_DEFAULT_SELECTION %></label>
+					<div class="col-lg-8">
+						<input type="text" 
+								class="form-control"
+								name="value"
+								value="<%= model.value%>" 
+								placeholder="<%= Booki.resx.FORM_BUILDER_TAB_DEFAULT_VALUE_PLACEHOLDER %>" disabled />
+					</div>
+				</div>
+				<div class="form-group datasource-error hide">
+					<div class="alert alert-warning"><%= Booki.resx.FORM_BUILDER_TAB_DATASOURCE_ERROR_MSG %></div>
+				</div>
+				<div class="form-group">
+					<div class="col-lg-8 col-md-offset-4">
+						<div class="btn-toolbar">
+							  <div class="btn-group datasource">
+								<button type="button" class="add btn btn-primary" title="<%= Booki.resx.FORM_BUILDER_TAB_ADD_VALUE %>"><i class="glyphicon glyphicon-plus"></i></button>
+								<button type="button" class="remove btn btn-danger" title="<%= Booki.resx.FORM_BUILDER_TAB_REMOVE_TITLE %>"><i class="glyphicon glyphicon-minus"></i></button>
+								<button type="button" class="select btn btn-default" title="<%= Booki.resx.FORM_BUILDER_TAB_MAKE_DEFAULT_SELECTION_TITLE %>"><i class="glyphicon glyphicon-ok"></i></button>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		  <div class="col-md-4">
+			<div class="form-group bindingData">
+				<div>
+					<%var selectedValue = !model.value ? model.bindingData[0] : model.value%>
+					<select size="7" 
+							name="bindingData" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-trigger="change focusin focusout"
+							data-parsley-required="true"
+							multiple>
+						<% _.each( model.bindingData, function( item, i ){ %>
+							<option value="<%=i%>"<%=selectedValue === item ? " selected" : ""%>><%=item%></option>
+						<% }); %>
+					</select>
+				</div>
+			</div>
+		  </div>
+		</fieldset>
+	<%}%>
+	
+	<%if (model.elementType === Booki.ElementType.textbox ||
+				model.elementType === Booki.ElementType.textarea){%>
+	<fieldset>
+		<legend><%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_VALIDATION %> - <small><%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_BASIC_CONSTRAINT %></small></legend>
+			<div class="form-group email">
+				<div class="col-lg-8 col-md-offset-4">
+					<div class="checkbox">
+						<label>
+							<input name="email" class="validation" type="checkbox" <%= toBool(model.validation.email) ? " checked" : ""%> /> 
+							<span><%= Booki.resx.FORM_BUILDER_TAB_MATCH_EMAIL_LABEL %></span>
+						<label>
+					</div>
+				</div>
+			</div>
+			<div class="form-group url">
+				<div class="col-lg-8 col-md-offset-4">
+					<div class="checkbox">
+						<label>
+						<input name="url" class="validation" type="checkbox" <%= toBool(model.validation.url) ? " checked" : ""%> /> 
+						<span><%= Booki.resx.FORM_BUILDER_TAB_MATCH_URL_LABEL %></span>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="form-group required">
+				<div class="col-lg-8 col-md-offset-4">
+				   <div class="checkbox">
+						<label>
+							<input name="required" class="validation" type="checkbox" <%= toBool(model.validation.required) ? " checked" : ""%> /> Input is required
+						</label>
+					</div>
+				</div>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend><%= Booki.resx.FORM_BUILDER_TAB_CONSTRAINT_HEADING %></legend>
+			<div class="form-group entrytype">
+				<label class="col-lg-4 control-label"><%= Booki.resx.FORM_BUILDER_TAB_ALLOWED_VALUE_LABEL %></label>
+				<div class="col-lg-8">
+					<select name="entrytype" class="form-control validation">
+						<option value="none"><%= Booki.resx.FORM_BUILDER_TAB_ANY_VALUE_OPTION %></option>
+						<option value="digits" <%= toBool(model.validation.digits) ? " selected" : ""%>><%= Booki.resx.FORM_BUILDER_TAB_ONLY_DIGITS_OPTION %></option>
+						<option value="number" <%= toBool(model.validation.number) ? " selected" : ""%>><%= Booki.resx.FORM_BUILDER_TAB_ONLY_NUMBERS_OPTION %></option>
+						<option value="alphanum" <%= toBool(model.validation.alphanum) ? " selected" : ""%>><%= Booki.resx.FORM_BUILDER_TAB_ONLY_ALPHA_NUMERIC_OPTION %></option>
+					</select>
+				</div>
+			</div>
+			<%if (!toBool(model.validation.digits) && !toBool(model.validation.number)){%>
+			<div class="form-group minLength">
+			  <label class="col-lg-4 control-label" for="minLength">
+			  <%= Booki.resx.FORM_BUILDER_TAB_MIN_LENGTH_LABEL %>
+			  <i class="glyphicon glyphicon-question-sign help"
+							data-toggle="tooltip" 
+							data-placement="right" 
+							data-original-title="<%= Booki.resx.FORM_BUILDER_TAB_MIN_LENGTH_TITLE %>"></i>
+			  </label>
+				<div class="col-lg-8">
+					<input name="minLength" 
+							class="form-control validation booki_parsley_validated" 
+							data-parsley-trigger="change focusout" 
+							data-parsley-type="digits" 
+							type="text" 
+							value="<%= parseDefault(model.validation.minLength, 0)%>" />
+				</div>
+			</div>
+			<div class="form-group maxLength">
+			  <label class="col-lg-4 control-label" for="maxLength">
+			  <%= Booki.resx.FORM_BUILDER_TAB_MAX_LENGTH_LABEL %>
+			  <i class="glyphicon glyphicon-question-sign help"
+							data-toggle="tooltip" 
+							data-placement="right" 
+							data-original-title="<%= Booki.resx.FORM_BUILDER_TAB_MAX_LENGTH_TITLE %>"></i>
+			  </label>
+				<div class="col-lg-8">
+					<input name="maxLength" 
+							class="form-control validation booki_parsley_validated" 
+							data-parsley-trigger="change focusout" 
+							data-parsley-type="digits" 
+							type="text" 
+							value="<%= parseDefault(model.validation.maxLength, 0)%>" />
+				</div>
+			</div>
+		<%}%>
+		<%if (toBool(model.validation.digits) || toBool(model.validation.number)){%>
+			<div class="form-group min">
+			  <label class="col-lg-4 control-label" for="min">
+				<%= Booki.resx.FORM_BUILDER_TAB_MIN_LABEL %>
+				<i class="glyphicon glyphicon-question-sign help"
+							data-toggle="tooltip" 
+							data-placement="right" 
+							data-original-title="<%= Booki.resx.FORM_BUILDER_TAB_MIN_TITLE %>"></i>
+			  </label>
+				<div class="col-lg-8">
+					<input name="min" 
+							class="form-control validation booki_parsley_validated" 
+							data-parsley-trigger="change focusout" 
+							data-parsley-type="<%= toBool(model.validation.number) ? 'number' : 'digits'%>" type="text" value="<%= parseDefault(model.validation.min)%>" />
+				</div>
+			</div>
+			<div class="form-group max">
+			  <label class="col-lg-4 control-label" for="label">
+				<%= Booki.resx.FORM_BUILDER_TAB_MAX_LABEL %>
+				<i class="glyphicon glyphicon-question-sign help"
+					data-toggle="tooltip" 
+					data-placement="right" 
+					data-original-title="<%= Booki.resx.FORM_BUILDER_TAB_MAX_TITLE %>"></i>
+				</label>
+				<div class="col-lg-8">
+					<input name="max" 
+							class="form-control validation booki_parsley_validated" 
+							data-parsley-trigger="change focusout" 
+							data-parsley-type="<%= toBool(model.validation.number) ? 'number' : 'digits'%>" type="text" value="<%= parseDefault(model.validation.max)%>" />
+				</div>
+			</div>
+			<%}%>
+			<div class="form-group regex">
+			  <label class="col-lg-4 control-label" for="regex">
+				<%= Booki.resx.FORM_BUILDER_TAB_REGEX_LABEL %>
+				<i class="glyphicon glyphicon-question-sign help"
+						data-toggle="tooltip" 
+						data-placement="right"  
+						data-original-title="<%= Booki.resx.FORM_BUILDER_TAB_REGEX_TITLE %>"></i>
+			  </label>
+				<div class="col-lg-8">
+					<input name="regex" 
+							class="form-control validation" 
+							type="text" 
+							placeholder="Regex" 
+							value="<%= parseDefault(model.validation.regex)%>" />
+				</div>
+			</div>
+	</fieldset>
+	<%}%>
+	<%if (model.elementType === Booki.ElementType.textbox && toBool(model.validation.email)){%> 
+		<div class="form-group">
+			<div class="col-lg-12">
+				<div class="booki-callout booki-callout-info">
+					<h4><%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_EMAIL_CAPABILITY_HEADING %></h4>
+					<p><%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_EMAIL_CAPABILITY_INFO %></p>
+				</div>
+			</div>
+		</div>
+		<div class="form-group once">
+			<div class="col-lg-8 col-md-offset-4">
+				 <label class="radio">
+					<input name="capability" type="radio" value="0" <%=model.capability === 0 ? "checked" : ""%> /> <%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_CAPABILITY_NONE_LABEL %>
+				</label>
+			   <label class="radio">
+					<input name="capability" type="radio" value="1" <%=model.capability === 1 ? "checked" : ""%> /> <%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_CAPABILITY_EMAIL_LABEL %>
+				</label>
+				<label class="radio">
+					<input name="capability" type="radio" value="2" <%=model.capability === 2 ? "checked" : ""%> /> <%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_CAPABILITY_REGISTER_THROUGH_EMAIL_LABEL %>
+				</label>
+			</div>
+		</div>
+	<%}else if(model.elementType === Booki.ElementType.textbox){%>
+				<div class="form-group">
+			<div class="col-lg-12">
+				<div class="booki-callout booki-callout-info">
+					<h4><%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_NAME_CAPABILITY_HEADING %></h4>
+					<p><%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_NAME_CAPABILITY_INFO %></p>
+				</div>
+			</div>
+		</div>
+		<div class="form-group once">
+			<div class="col-lg-8 col-md-offset-4">
+				 <label class="radio">
+					<input name="capability" type="radio" value="0" <%=model.capability === 0 ? "checked" : ""%> /> <%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_CAPABILITY_NONE_LABEL %>
+				</label>
+			   	<label class="radio">
+					<input name="capability" type="radio" value="3" <%=model.capability === 3 ? "checked" : ""%> /> <%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_CAPABILITY_FIRSTNAME_LABEL %>
+				</label>
+				<label class="radio">
+					<input name="capability" type="radio" value="4" <%=model.capability === 4 ? "checked" : ""%> /> <%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_CAPABILITY_LASTNAME_LABEL %>
+				</label>
+			</div>
+		</div>
+	<%}%>
+	<hr />
+	<div class="form-group">
+		<div class="col-lg-8 col-md-offset-4">
+			<div class="btn-toolbar">
+				<div class="btn-group main">
+					<button type="button" class="createnew btn btn-default">
+						<i class="glyphicon glyphicon-refresh"
+								data-toggle="tooltip" 
+								data-placement="right" 
+								data-original-title="<%= Booki.resx.FORM_BUILDER_TAB_NEW_RECORD_TITLE %>"></i>
+					</button>
+					<button type="button" class="add btn btn-primary" title="<%= Booki.resx.FORM_BUILDER_TAB_ADD_TITLE %>">
+						<i class="glyphicon glyphicon-plus"
+							data-toggle="tooltip" 
+							data-placement="right" 
+							data-original-title="<%= Booki.resx.FORM_BUILDER_TAB_ADD_NEW_FORM_ELEMENT_TITLE %>"></i>
+					</button>
+					<button type="button" class="update btn btn-primary" title="<%= Booki.resx.FORM_BUILDER_TAB_UPDATE_TITLE %>">
+						<i class="glyphicon glyphicon-ok"></i>
+						<%= Booki.resx.FORM_BUILDER_TAB_UPDATE_LABEL %>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
+<script type="text/template" id="formelements-template">
+	<%if(models.length > 0){%>
+	<div class="col-lg-12">
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.FORM_BUILDER_TAB_EDIT_FORM_ELEMENT_HEADING %></h4>
+			<p><%= Booki.resx.FORM_BUILDER_TAB_EDIT_FORM_ELEMENT_INFO %>
+				<button class="btn btn-primary" data-toggle="modal" data-target="#prevModal"><%= Booki.resx.FORM_BUILDER_TAB_QUICK_PREVIEW_LABEL %></button>
+			</p>
+		</div>
+	</div>
+	<%} else{%>
+	<div class="col-lg-12">
+		<div class="booki-callout booki-callout-danger">
+			<h4><%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_ERROR_HEADING %></h4>
+			<p><%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_ERROR_INFO %></p>
+		</div>
+	</div>
+	<% } %>
+	<%if(isDirty){%>
+	<div class="col-lg-12 alert alert-block">
+		<%= Booki.resx.FORM_BUILDER_TAB_FORM_ELEMENT_UNSAVED_CHANGES_INFO %>
+		<button type="button" class="save btn btn-primary pull-right"><%= Booki.resx.FORM_BUILDER_TAB_SAVE_LABEL %></button>
+	</div>
+	<%}%>
+	<%
+		var rows = [];
+		_.each( models, function( item, i ){
+			var rowIndex = item.get("rowIndex");
+			if(!rows[rowIndex]){
+				rows[rowIndex] = [];
+			}
+			rows[rowIndex].push(item);
+			rows[rowIndex].sort(function(a,b){
+				return a.get("colIndex") > b.get("colIndex");
+			});
+		});
+	%>
+	<% _.each( rows, function( cols ){ %>
+		<div class="clearfix">
+			<% var length = cols.length
+				, colIndex = Math.floor(12 / length);
+	
+			_.each( cols, function( item, i ){ 
+					var elementType = item.get("elementType")
+						, useLabel = ([0,1,2,3].indexOf(elementType) !== -1)
+						, extraLabel = ([4,5,13].indexOf(elementType) !== -1);
+				%>
+				<div class="col-lg-12 col-lg-highlight">
+					<div class="form-group">
+						<%if (useLabel){%>
+						<label class="col-lg-12 control-label"><%= item.get("label")%></label>
+						<%}%>
+						<div class="col-lg-12">
+							<div <%if (extraLabel){%>
+								class="<%= ([4,13].indexOf(elementType)!== -1 ? "checkbox" : "radio")%>"
+								<%}%>>
+								<%if (extraLabel){%>
+									<label class="<%= ([4,13].indexOf(elementType)!== -1 ? "checkbox" : "radio")%>">
+								<%}%>
+								<%= item.createElement()%>
+								<%if (elementType === Booki.ElementType.tc && item.get("value")){%>
+									<a href="<%= item.get("value")%>" target="_blank"><%= item.get("label")%></a>
+								<%}else if (extraLabel){%>
+									<%= item.get("label")%>
+								</label>
+								<%}%>
+							</div>
+						</div>
+						<div class="clearfix booki-vertical-gap-xs"></div>
+						<div class="col-lg-12">
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<button class="edit btn btn-primary" value="<%= item.get("id")%>">
+										<i class="glyphicon glyphicon-edit"
+											data-toggle="tooltip" 
+											data-placement="right" 
+											data-original-title="<%= Booki.resx.FORM_BUILDER_TAB_EDIT_FIELD_TITLE %>"></i>
+									</button>
+									<button class="delete btn btn-danger" 
+										data-toggle="modal" data-target="#deleteFormElementModal"
+										value="<%= item.get("id")%>">
+										<i class="glyphicon glyphicon-remove"
+											data-toggle="tooltip" 
+											data-placement="right" 
+											data-original-title="<%= Booki.resx.FORM_BUILDER_TAB_DELETE_FIELD_TITLE %>"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<%});%>
+		</div>
+	<% }); %>
+<div class="modal fade" id="deleteFormElementModal" tabindex="-1" role="dialog" aria-labelledby="deleteFormElementModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="deleteFormElementModalLabel"><%= Booki.resx.FORM_BUILDER_TAB_DELETE_FIELD_HEADING %></h4>
+			</div>
+			<div class="modal-body">
+				<%= Booki.resx.FORM_BUILDER_TAB_DELETE_FIELD_INFO %>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal"><%= Booki.resx.PROJECT_TAB_CLOSE_BUTTON_LABEL %></button>
+				<button type="button" class="delete-form-element btn btn-danger" data-dismiss="modal"><%= Booki.resx.PROJECT_TAB_DELETE_BUTTON_LABEL %></button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="prevModal" tabindex="-1" role="dialog" aria-labelledby="prevModalLabel" aria-hidden="true">
+	<div class="modal-dialog prev-modal">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="prevModalLabel"><%= Booki.resx.FORM_BUILDER_TAB_QUICK_PREVIEW_HEADING %></h4>
+			</div>
+			<div class="modal-body">
+				<% _.each( rows, function( cols ){ %>
+					<div class="clearfix">
+						<% var length = cols.length
+							, colIndex = Math.floor(12 / length);
+				
+						_.each( cols, function( item, i ){ 
+								var elementType = item.get("elementType")
+									, useLabel = ([0,1,2,3].indexOf(elementType) !== -1)
+									, extraLabel = ([4,5,13].indexOf(elementType) !== -1);
+							%>
+							<div class="col-lg-<%= colIndex %>">
+								<div class="form-group">
+									<%if (useLabel){%>
+									<label class="col-lg-4 control-label"><%= item.get("label")%></label>
+									<%}%>
+									<div class="<%= useLabel ? "col-lg-8" : "col-lg-12" %> <%= extraLabel ? "col-lg-offset-4" : ""%>">
+										<div <%if (extraLabel){%>
+													class="<%= ([4,13].indexOf(elementType)!== -1 ? "checkbox" : "radio")%>"
+											<%}%>>
+											<%if (extraLabel){%>
+											<label class="<%= (elementType === Booki.ElementType.checkbox ? "checkbox" : "radio")%>">
+											<%}%>
+											<%= item.createElement()%>
+											<%if (elementType === Booki.ElementType.tc && item.get("value")){%>
+												<a href="<%= item.get("value")%>" target="_blank"><%= item.get("label")%></a>
+											<%}else if (extraLabel){%>
+												<%= item.get("label")%>
+											</label>
+											<%}%>
+										</div>
+									</div>
+								</div>
+							</div>
+						<%});%>
+					</div>
+				<% }); %>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal"><%= Booki.resx.PROJECT_TAB_CLOSE_BUTTON_LABEL %></button>
+			</div>
+		</div>
+	</div>
+</div>
+</script>
+<script type="text/template" id="formelement-sidenav-template">
+	<div class="booki-vertical-gap"></div>
+	<ul class="nav nav-pills nav-stacked formbuilder-tab">
+		<li class="active">
+			<a href="#formelement-view" data-toggle="tab">
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<%= Booki.resx.FORM_BUILDER_TAB_CREATE_FORM_FIELD_HEADING%>
+			</a>
+		</li>
+		<li>
+			<a href="#formelements-view" data-toggle="tab">
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<%= Booki.resx.FORM_BUILDER_TAB_ALL_FORM_FIELDS_LABEL %> <span class="badge"><%= model.get("count")%></span>
+			</a>
+		</li>
+	</ul>
+</script>
+<div class="wizard tab-pane" id="step2">
+	<div class="form-horizontal">
+		<div class="col-md-8">
+			<div class="tab-content">
+				<div class="tab-pane active" id="formelement-view">
+					<!--formelement-template -->
+				</div>
+				<div class="tab-pane" id="formelements-view">
+					<!--formelements-template -->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4" id="formelement-sidenav-view">
+			<!-- formelement-sidenav-template -->
+		</div>
+	</div>
+</div>

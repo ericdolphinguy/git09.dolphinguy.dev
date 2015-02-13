@@ -1,0 +1,23 @@
+<p>
+Dear %customerName%,
+<br>
+Thank you for booking with us. Your order ID is #%orderId%.
+</p>
+%orderDetails%
+<br>
+%orderAddtionalInfo%
+<p>
+Your booking will be confirmed after the invoice is paid. To pay follow the link below:
+<br>
+%invoicePaymentLink%
+</p>
+<p>
+You may download an invoice in PDF format at the following url:
+<br>
+%invoiceDownloadLink%
+</p>
+<p>
+Do not hesitate to contact us with any questions you might have.
+<br>
+Thanks again for your business!
+</p>

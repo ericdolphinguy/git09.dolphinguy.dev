@@ -1,0 +1,4 @@
+
+            /*use this file to your current library externs(the
+            bits in your api you do not want renamed by the closure
+            compiler)*/

@@ -1,0 +1,50 @@
+// Core variables and mixins
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\variables.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\mixins.less";
+
+// Reset
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\normalize.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\print.less";
+
+// Core CSS
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\scaffolding.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\type.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\code.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\grid.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\tables.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\forms.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\buttons.less";
+
+// Components
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\component-animations.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\glyphicons.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\dropdowns.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\button-groups.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\input-groups.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\navs.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\navbar.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\breadcrumbs.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\pagination.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\pager.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\labels.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\badges.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\jumbotron.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\thumbnails.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\alerts.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\progress-bars.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\media.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\list-group.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\panels.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\wells.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\close.less";
+
+// Components w/ JavaScript
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\modals.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\tooltip.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\popovers.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\carousel.less";
+
+// Utility classes
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\utilities.less";
+@import "C:\wamp\www\ProjectBookingCalendar\wp-content\plugins\booki\assets\src\com\booki\css\bootstrap3\responsive-utilities.less";
+

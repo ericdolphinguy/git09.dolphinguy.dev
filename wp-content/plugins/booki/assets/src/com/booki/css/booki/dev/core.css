@@ -1,0 +1,304 @@
+.list-group-item > .booki-cart-button {
+  float: right;
+}
+.booki button.booki-cart-checkout{
+	background: transparent;
+	border: 0;
+	padding: 0;
+}
+.booki button.booki-cart-checkout:hover{
+	background: none;
+}
+.booki button.booki-book-more
+, .booki button.booki-empty-cart
+, .booki button.booki-make-booking
+, .booki button.booki-cart-checkout
+, .booki button.booki-booking-back
+, .booki button.booki-booking-next
+, .booki button.booki-create-booking
+, .booki button.booki-add-to-cart
+, .booki button.booki-make-booking
+, .booki a.booki-proceed
+, .booki a.booki-go-to-checkout{
+	float: left;
+	margin: 2px;
+}
+
+.booki-cart-price-align,
+.booki-cart-totals-row {
+  text-align: right;
+}
+.booki-cart-item {
+  padding-right: 2px;
+}
+.booki-remove-horizontal-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.booki-coupon-info {
+  margin-top: 10px;
+}
+.booki-redeem-button {
+  padding-right: 0;
+  padding-left: 0;
+}
+.dropdown-button {
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+}
+.dropdown-button:hover {
+  background: #428BCA;
+}
+/**
+	@templateName: booki-minicart.php
+*/
+.booki-minicart {
+  color: #000;
+}
+.booki-minicart.dropdown-menu{
+	min-width: 315px;
+	font-size: 8pt;
+}
+.booki-vertical-gap {
+  margin: 20px 0;
+}
+.booki-vertical-gap-xs {
+  margin: 10px 0;
+}
+.booki-gap-right {
+  margin-right: 5px;
+}
+.booki-gap-top{
+	margin-top: 5px;
+}
+.booki-gap-bottom{
+	margin-bottom: 5px;
+}
+.booki button.booki-styleless-btn
+, .booki a.booki-styleless-btn {
+  border-width: 0;
+  background: transparent;
+  text-align: left;
+  border-radius: 0;
+}
+.booki .dropdown-menu>li>a.booki-styleless-btn{
+	padding: 6px 12px;
+}
+/**
+	booking-form.php template
+*/
+.form-control.booki-datepicker[readonly]
+, .form-control.booki-single-datepicker[readonly]
+, .form-control.booki-single-datepicker-from[readonly]
+, .form-control.booki-datepicker-from[readonly]
+, .form-control.booki-datepicker-to[readonly] {
+  cursor: text;
+  background-color: #ffffff;
+}
+
+input.form-control.booki-readonly-field[readonly]{
+	cursor: not-allowed;
+	background-color: #eee;
+}
+.booki .form-horizontal .control-label.booki-text-align-left{
+	text-align: left;
+}
+
+.booki ul.booki-dates {
+	width: 100%;
+	min-height: 42px;
+	max-height: 260px;
+	overflow: auto;
+	list-style: none;
+	position: relative;
+	background: #dcdcdc;
+	padding: 0;
+}
+
+.booki-outer-border {
+	border: 1px solid #DDD;
+}
+
+.booki-dates-heading {
+  margin: 10px 0;
+}
+.booki-dates>li {
+  min-width: 250px;
+  position: relative;
+  left: -100%;
+  padding: 5px 0;
+  margin: 2px;
+  background: #f2f2f2;
+  border: 1px solid #BDBDBD;
+  text-align: right;
+  webkit-transition: 1s;
+  moz-transition: 1s;
+  o-transition: 1s;
+  ms-transition: 1s;
+  transition: 1s;
+}
+li.booki-slide-in {
+  webkit-transition: 1s;
+  moz-transition: 1s;
+  o-transition: 1s;
+  ms-transition: 1s;
+  transition: 1s;
+  left: 0;
+}
+.booki-dates li:hover {
+  background: #FFFFFF;
+}
+.booki-dates-single li {
+  background: #f2f2f2;
+}
+.booki-dates li i {
+  cursor: pointer;
+}
+.booki-dates span,
+.booki-dates i {
+  margin: 0 10px;
+}
+.booki-grid.table {
+  margin-bottom: 5px;
+}
+.booki-no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+/**
+	@template: timezonecontrol.php
+*/
+.booki-timezone-control .collapseTimezone {
+  margin-top: 5px;
+}
+/**
+	@template: checkoutgrid.php
+*/
+.booki-redeem-button {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.table .sorting-indicator {
+  display: block;
+  visibility: visible;
+}
+.booki-vertical-align-middle {
+  vertical-align: middle;
+}
+/*booki list.php*/
+.booki-project-list-heading{
+	font-weight: bold;
+}
+
+.booki-project-list-thumbnail {
+  margin: 0 10px 10px 0;
+}
+.booki-list-widget img{
+	/*firefox has issues, helping*/
+	width: 100%;
+}
+/*bootstrap overrides*/
+.booki-wizard-footer {
+  border-radius: 0;
+}
+.row.clearmargin {
+  margin-left: 0;
+  margin-right: 0;
+}
+/**
+	override bootstrap. eg: default twentyeleven theme in wordpress
+	applies styling to ul/ol, which messes up our tabs. So protecting
+	against this.
+*/
+a.input-lg {
+  /*appears to be a bug in bootstrap, so we patch it up for hyperlinks*/
+
+  padding: 10px 16px;
+}
+
+.booki ul
+, .booki ol
+, .booki ul.booki-dates
+, .booki ul.nav.nav-tabs
+, .booki ul.booki-optionals-list.list-group {
+	margin: 0 0 10px 0;
+}
+.booki ul li
+, .booki ol li
+, .booki ul.nav.nav-tabs li
+, .booki ul.booki-optionals-list.list-group li
+{
+	padding: 10px 15px;
+}
+.booki ul.nav.nav-tabs>li{
+	padding: 0;
+}
+.booki ul li:before
+, .booki ol li:before
+, .booki ul.booki-dates li:before
+, .booki ul.nav.nav-tabs li:before
+, .booki ul.booki-optionals-list.list-group li:before{
+	content: normal;
+}
+.booki ul.nav.nav-tabs {
+  margin-bottom: 0;
+}
+
+.booki ul ul
+, .booki ol ul
+, .booki ul ol
+, .booki ol ol {
+	margin-bottom: 0;
+}
+
+.booki.tab-content {
+  padding: 10px;
+}
+
+.booki.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+
+.booki-strike{
+	text-decoration: line-through;
+}
+.booki option.booki-option-disabled{
+	color: #C7C7C7;
+}
+/*some plugins mess with our buttons, lets fix:*/
+.btn-3d .booki button:after
+{
+	content: normal !important;
+}
+
+.booki hr.booki-compact {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.booki hr.booki-compact.booki-short{
+	width: 200px;
+}
+.booki hr.booki-compact.booki-short:before,
+.booki hr.booki-compact.booki-short:after {
+  content: " ";
+  display: table;
+}
+
+.booki .table-striped > tbody > tr.booki-details-heading
+, .booki .table-striped > tbody > tr.booki-details-heading td {
+  background-color: transparent;
+  border-width: 0;
+}
+
+li.list-group-item.booki-optionals-heading.active {
+	color: #A7A7A7;
+	background-color: #F5F5F5;
+	border-color: #CCCCCC;
+}
+
+ul.booki-ul-list, ul.booki-ul-list li{
+	list-style-type: none;
+}

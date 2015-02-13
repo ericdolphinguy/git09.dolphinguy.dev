@@ -1,0 +1,163 @@
+.booki-half-rule {
+	width: 100px;
+	margin: 40px auto;
+}
+
+h1.booki-align-left
+, h2.booki-align-left
+, h3.booki-align-left
+, h4.booki-align-left
+, h5.booki-align-left
+, h6.booki-align-left
+, p.booki-align-left
+, .booki-align-left{ 
+	text-align: left; 
+}
+
+h1.booki-align-center
+, h2.booki-align-center
+, h3.booki-align-center
+, h4.booki-align-center
+, h5.booki-align-center
+, h6.booki-align-center
+, p.booki-align-center
+, .booki-align-center{ 
+	text-align: center; 
+}
+
+h1.booki-align-right
+, h2.booki-align-right
+, h3.booki-align-right
+, h4.booki-align-right
+, h5.booki-align-right
+, h6.booki-align-right
+, p.booki-align-right
+, .booki-align-right{ 
+	text-align: right; 
+}
+
+h1.booki-overline
+, h2.booki-overline
+, h3.booki-overline
+, h4.booki-overline
+, h5.booki-overline
+, h6.booki-overline
+, p.booki-overline
+, .booki-overline{
+	text-decoration: overline;
+}
+
+h1.booki-underline
+, h2.booki-underline
+, h3.booki-underline
+, h4.booki-underline
+, h5.booki-underline
+, h6.booki-underline
+, p.booki-underline
+, .booki-underline{
+	text-decoration: underline;
+}
+
+h1.booki-italic
+, h2.booki-italic
+, h3.booki-italic
+, h4.booki-italic
+, h5.booki-italic
+, h6.booki-italic
+, p.booki-italic
+, .booki-italic{
+	font-style: italic; 
+}
+
+h1.booki-bold
+, h2.booki-bold
+, h3.booki-bold
+, h4.booki-bold
+, h5.booki-bold
+, h6.booki-bold
+, p.booki-bold
+, .booki-bold{
+	font-weight: bold; 
+}
+
+h1.booki-capitalize
+, h2.booki-capitalize
+, h3.booki-capitalize
+, h4.booki-capitalize
+, h5.booki-capitalize
+, h6.booki-capitalize
+, p.booki-capitalize
+, .booki-capitalize{
+	text-transform: capitalize; 
+}
+
+h1.booki-uppercase
+, h2.booki-uppercase
+, h3.booki-uppercase
+, h4.booki-uppercase
+, h5.booki-uppercase
+, h6.booki-uppercase
+, p.booki-uppercase
+, .booki-uppercase{
+	text-transform: uppercase; 
+}
+
+h1.booki-background-black
+, h2.booki-background-black
+, h3.booki-background-black
+, h4.booki-background-black
+, h5.booki-background-black
+, h6.booki-background-black
+, p.booki-background-black
+, .booki-background-black{
+	background: #000;
+	color: #ffffff;
+}
+
+h1.booki-background-red
+, h2.booki-background-red
+, h3.booki-background-red
+, h4.booki-background-red
+, h5.booki-background-red
+, h6.booki-background-red
+, p.booki-background-red
+, .booki-background-red{
+	background: red;
+	color: #000;
+}
+
+h1.booki-background-green
+, h2.booki-background-green
+, h3.booki-background-green
+, h4.booki-background-green
+, h5.booki-background-green
+, h6.booki-background-green
+, p.booki-background-green
+, .booki-background-green{
+	background: green;
+	color: #ffffff;
+}
+
+h1.booki-background-blue
+, h2.booki-background-blue
+, h3.booki-background-blue
+, h4.booki-background-blue
+, h5.booki-background-blue
+, h6.booki-background-blue
+, p.booki-background-blue
+, .booki-background-blue{
+	background: blue;
+	color: #ffffff;
+}
+
+h1.booki-background-yellow
+, h2.booki-background-yellow
+, h3.booki-background-yellow
+, h4.booki-background-yellow
+, h5.booki-background-yellow
+, h6.booki-background-yellow
+, p.booki-background-yellow
+, .booki-background-yellow{
+	background: yellow;
+	color: #000;
+}

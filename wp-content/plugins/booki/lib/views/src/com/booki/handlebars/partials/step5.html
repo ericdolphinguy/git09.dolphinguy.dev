@@ -1,0 +1,189 @@
+<script type="text/template" id="cascadinglist-template">
+	<div class="col-lg-12">
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.CASCADING_LIST_HEADING %></h4>
+			<p><%= Booki.resx.CASCADING_LIST_INFO %></p>
+		</div>
+		<div class="form-group">
+			<label class="col-lg-4 control-label" for="cascadingLists"><%= Booki.resx.CASCADING_LIST_SELECT_LABEL %></label>
+			<div class="col-lg-8">
+				<select 
+						name="cascadingLists" 
+						class="form-control booki_parsley_validated" 
+						data-parsley-trigger="change">
+						<option value="-1"><%=Booki.resx.CASCADING_LIST_CREATE_NEW_LABEL%></option>
+					<% _.each( models, function( item, i ){ %>
+						<option value="<%=item.id%>"<%=item.id === model.id ? " selected" : ""%>><%=item.label%></option>
+					<% }); %>
+				</select>
+			</div>
+		</div>
+		<div class="form-group name">
+			<label class="col-lg-4 control-label" for="label"><%= Booki.resx.CASCADING_LIST_TAB_LABEL_LABEL %></label>
+			<div class="col-lg-8">
+				<input name="label" type="text" 
+					class="form-control booki_parsley_validated" 
+					data-parsley-required="true" 
+					data-parsley-maxlength="45"
+					data-parsley-trigger="change"
+					placeholder="Your lists heading" 
+					value="<%=model.label%>" />
+			</div>
+		</div>
+		<div class="form-group name">
+			<div class="col-lg-8 col-lg-offset-4">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" class="booki_parsley_validated"
+								name="isRequired"
+								<%= model.isRequired ? "checked" : "" %>/>
+						<%= Booki.resx.CASCADING_LIST_IS_REQUIRED_INFO %>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-lg-8 col-md-offset-4">
+				<button class="update btn btn-primary">
+					<i class="glyphicon glyphicon-ok"></i>
+					<%= isNew ? Booki.resx.CASCADING_LIST_CREATE_BUTTON_LABEL : Booki.resx.CASCADING_LIST_UPDATE_BUTTON_LABEL %>
+				</button>
+				<button class="btn btn-danger" 
+						data-toggle="modal" data-target="#deleteCascadingListModal"
+						<%= isNew ? "disabled" : "" %>>
+						<i class="glyphicon glyphicon-remove"></i>
+						<%= Booki.resx.CASCADING_LIST_DELETE_BUTTON_LABEL %>
+				</button>
+			</div>
+		</div>
+	  </div>
+	  <div class="modal fade" id="deleteCascadingListModal" tabindex="-1" role="dialog" aria-labelledby="deleteCascadingListModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="deleteCascadingListModalLabel"><%= Booki.resx.CASCADING_LIST_DELETE_HEADING %></h4>
+					</div>
+					<div class="modal-body">
+						<%= Booki.resx.CASCADING_LIST_DELETE_INFO %>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal"><%= Booki.resx.CASCADING_LIST_CLOSE_BUTTON_LABEL %></button>
+						<button type="button" class="delete btn btn-danger" data-dismiss="modal">
+							<i class="glyphicon glyphicon-trash"></i>
+							<%= Booki.resx.CASCADING_LIST_DELETE_BUTTON_LABEL %>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+</script>
+<script type="text/template" id="cascadingitem-template">
+	<div class="col-lg-12">
+		<hr/>
+		<fieldset>
+			<div class="booki-callout booki-callout-warning">
+				<h4><%= Booki.resx.CASCADING_LIST_TAB_DATASOURCE_HEADING %></h4>
+				<p><%= Booki.resx.CASCADING_LIST_TAB_DATASOURCE_INFO %></p>
+			</div>
+			<div class="clearfix"></div>
+			<div class="form-group">
+				<label class="col-lg-4 control-label" for="value"><%= Booki.resx.CASCADING_LIST_TAB_VALUE_LABEL %></label>
+				<div class="col-lg-8">
+					<input type="text" 
+							name="value" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-required="true"
+							data-parsley-maxlength="45"
+							data-parsley-trigger="change"
+							placeholder="<%= Booki.resx.CASCADING_LIST_TAB_DATAITEM_PLACEHOLDER %>"
+							value="<%= model.value%>" />
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-lg-4 control-label" for="value"><%= Booki.resx.CASCADING_LIST_COST_LABEL %></label>
+				<div class="col-lg-8">
+					<div class="input-group">
+						<span class="input-group-addon" title="<%= localization.currency %>"><%= localization.currencySymbol %></span>
+						<input class="form-control booki_parsley_validated" 
+								name="cost"   
+								data-parsley-trigger="change focusout"
+								data-parsley-min="0"
+								data-parsley-pattern="^\d+(\.\d{1,2})?$"
+								data-parsley-error-message="<%= Booki.resx.CASCADING_LIST_COST_ERROR %>"
+								data-parsley-errors-container="#cost-error-container"
+								type="text" 
+								placeholder="0.00" 
+								value="<%= accounting.unformat(model.cost, localization.decimalPoint) %>"
+								/>
+					</div>
+					<div id="cost-error-container"></div>
+				</div>
+			</div>
+			<div class="form-group datasource-error hide">
+				<div class="alert alert-warning"><%= Booki.resx.CASCADING_LIST_TAB_DATASOURCE_ERROR_MSG %></div>
+			</div>
+			<div class="form-group">
+				<div class="col-lg-8 col-md-offset-4">
+					<div class="btn-toolbar">
+						  <div class="btn-group datasource">
+							<button type="button" class="new btn btn-primary" <%= isNew ? "disabled" : "" %> title="<%= Booki.resx.CASCADING_LIST_TAB_REFRESH_LABEL %>"><i class="glyphicon glyphicon-refresh"></i></button>
+							<button type="button" class="add btn btn-primary" <%= !isNew || model.listId === null ? "disabled" : "" %> title="<%= Booki.resx.CASCADING_LIST_TAB_ADD_VALUE_LABEL %>"><i class="glyphicon glyphicon-plus"></i></button>
+							<button type="button" class="remove btn btn-danger" <%= isNew ? "disabled" : "" %> title="<%= Booki.resx.CASCADING_LIST_TAB_REMOVE_LABEL %>"><i class="glyphicon glyphicon-minus"></i></button>
+						  </div>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-lg-4 control-label" for="value"><%= Booki.resx.CASCADING_LIST_ITEM_LABEL %></label>
+				<div class="col-lg-8">
+					<select size="7" 
+							name="cascadingItems" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-trigger="change focusin focusout"  
+							data-parsley-minoptions="1"
+							multiple>
+						<% _.each( models, function( item, i ){ %>
+							<%if (item.id !== null){%>
+							<option value="<%=item.id%>"<%=item.id === model.id ? " selected" : ""%>><%=item.value%></option>
+							<%}%>
+						<% }); %>
+					</select>
+				</div>
+			</div>
+			<div class="booki-callout booki-callout-warning">
+				<h4><%= Booki.resx.CASCADING_LIST_ITEM_RELATION_HEADING %></h4>
+				<p><%= Booki.resx.CASCADING_LIST_ITEM_RELATION_INFO %></p>
+			</div>
+			<div class="form-group">
+				<label class="col-lg-4 control-label" for="parentId"><%= Booki.resx.CASCADING_LIST_SELECT_RELATION_PARENT_LABEL %></label>
+				<div class="col-lg-8">
+					<select 
+							name="parentId" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-trigger="change"
+							 <%= !isNew ? "": "disabled"   %>>
+							<option value="-1"><%=Booki.resx.CASCADING_LIST_SELECT_RELATION_LABEL%></option>
+						<% _.each( cascadingLists, function( item, i ){ %>
+							<%if(item.id !== model.listId){%>
+							<option value="<%=item.id%>"<%=item.id === model.parentId ? " selected" : ""%>><%=item.label%></option>
+							<%}%>
+						<% }); %>
+					</select>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-lg-8 col-md-offset-4">
+					<button class="update btn btn-primary" <%= !isNew ? "": "disabled"   %>>
+						<i class="glyphicon glyphicon-ok"></i>
+						<%= Booki.resx.CASCADING_LIST_UPDATE_BUTTON_LABEL %>
+					</button>
+				</div>
+			</div>
+		</fieldset>
+	</div>
+</script>
+<div class="wizard tab-pane" id="step5">
+    <div id="cascadinglist-view" class="form-horizontal"></div>
+	<div id="cascadingitem-view" class="form-horizontal"></div>
+</div>

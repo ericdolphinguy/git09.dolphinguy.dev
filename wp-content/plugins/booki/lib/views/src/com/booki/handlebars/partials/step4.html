@@ -1,0 +1,94 @@
+<script type="text/template" id="optionals-template">
+	<div class="col-md-12">
+		<div class="col-md-8">
+			<div class="booki-callout booki-callout-warning">
+				<h4><%= Booki.resx.OPTIONALS_TAB_HEADING %></h4>
+				<p><%= Booki.resx.OPTIONALS_TAB_INFO %></p>
+			</div>
+			<div class="form-group name">
+			  <label class="col-md-4 control-label" for="name"><%= Booki.resx.OPTIONALS_TAB_ITEM_NAME_LABEL %></label>
+				<div class="col-md-8">
+					<input name="name" 
+							type="text" 
+							class="form-control booki_parsley_validated" 
+							data-parsley-required="true" 
+							data-parsley-pattern="[^<>'"`]+$"
+							placeholder="Item name" 
+							value="<%=model.name%>" />
+				</div>
+			</div>
+			<div class="form-group cost">
+			  <label class="col-md-4 control-label" for="cost">
+					<%= Booki.resx.OPTIONALS_TAB_COST_LABEL %>
+			  </label>
+				<div class="col-md-8">
+					<div class="input-group">
+						<span class="input-group-addon" title="<%= localization.currency %>"><%= localization.currencySymbol %></span>
+						<input class="form-control booki_parsley_validated" 
+								name="cost"   
+								data-parsley-trigger="change focusout"
+								data-parsley-min="0"
+								data-parsley-pattern="^\d+(\.\d{1,2})?$"
+								data-parsley-error-message="<%= Booki.resx.OPTIONALS_TAB_COST_ERROR %>"
+								data-parsley-errors-container="#cost-error-container"
+								type="text" 
+								placeholder="0.00" 
+								value="<%= accounting.unformat(model.cost, localization.decimalPoint) %>" />
+					</div>
+					<div id="cost-error-container"></div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-8 col-md-offset-4">
+					<div class="btn-toolbar">
+						<div class="btn-group">
+							<button class="createnew btn btn-primary">
+								<i class="glyphicon glyphicon-refresh" 
+									data-toggle="tooltip" 
+									data-placement="right" 
+									data-original-title="<%= Booki.resx.OPTIONALS_TAB_NEW_INFO %>"></i>
+							</button>
+							<button class="add btn btn-primary">
+								<i class="glyphicon glyphicon-plus"
+								data-toggle="tooltip" 
+								data-placement="right" 
+								data-original-title="<%= Booki.resx.OPTIONALS_TAB_ADD_NEW_INFO %>"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="booki-vertical-gap"></div>
+			<div class="form-group">
+				<div class="col-md-12">
+					<select multiple class="form-control optionals-listbox" size="6">
+						<% _.each( models, function( item, i ){ %>
+						<option value="<%=item.get("id")%>" <%=item.get("id") === model.id ? " selected": "" %>>
+							<%= item.get("name") + " - " + accounting.formatMoney(item.get("cost"), localization.currencySymbol, 2, localization.thousandsSep, localization.decimalPoint) + " " + localization.currency%>
+						</option>
+						<% }); %>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<hr />
+		<div class="form-group">
+			<div class="col-lg-8 col-md-offset-4">
+				<button class="update btn btn-primary" title="Save">
+					<i class="glyphicon glyphicon-ok"></i>
+					<%= Booki.resx.OPTIONALS_TAB_UPDATE_LABEL %>
+				</button>
+				<button class="delete btn btn-danger" title="Delete">
+					<i class="glyphicon glyphicon-remove"></i>
+					<%= Booki.resx.OPTIONALS_TAB_DELETE_LABEL %>
+				</button>
+			</div>
+		</div>
+	</div>
+</script>
+<div class="wizard tab-pane" id="step4">
+    <div id="optionals-view" class="form-horizontal"></div>
+</div>

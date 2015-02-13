@@ -1,0 +1,6 @@
+var Booki = function(){};
+Booki.Admin = function(){};
+Booki.Project = function(){};
+Booki.Projects = function(){};
+Booki.Calendar = function(){};
+Booki.Booking = function(){};

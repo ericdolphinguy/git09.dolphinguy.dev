@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--
+	Build script created for Booki by Alessandro Zifiglio.
+	Copyright @ 2014. All rights reserved. http://www.booki.io
+-->
+<project name="structured" default="handlebars">
+  <!-- all values pointing to files and folders are case sensitive -->
+  <!-- dist-->
+  <regexp id="folderstructure" pattern="^(.+)[\\\/]([^\\\/]+)$" />
+  <!-- src-->
+  
+  <property name="src.dir" value="${basedir}/src/com/booki" />
+  <property name="src.dir.static" value="${src.dir}/static" />
+  <property name="src.dir.handlebars" value="${src.dir}/handlebars" />
+  <property name="src.dir.file.handlebars.hash" value="${src.dir.handlebars}/hash.hbs" />
+  <property name="src.dir.file.handlebars.partial" value="${src.dir.handlebars}/partial.hbs" />
+  
+  <property name="relative.src.dir.home" value="${basedir}/static" />
+  <property name="relative.src.dir.static" value="${basedir}/src/com/booki/static" />
+  <property name="relative.src.file.handlebars.base" value="${basedir}/src/com/booki/handlebars/base.hbs" />
+  <property name="relative.src.file.handlebars.hash" value="${basedir}/src/com/booki/handlebars/hash.hbs" />
+  <property name="relative.src.file.handlebars.partials" value="${basedir}/src/com/booki/handlebars/partial.hbs" />
+  <property name="relative.src.dir.handlebars.partials" value="${basedir}/src/com/booki/handlebars/partials/" />
+  
+  <property name="tools.dir" value="../../../../../../../../Apps/devel/tools" />
+  
+  <property name="phantomjs.handlebars.parser"
+  value="${tools.dir}/phantomjs/run-handlebars-parser.js" />
+  
+  <!-- compiler tools-->
+  <property name="files.to.exclude" value="" />
+  <!-- we are using tasks available in ant-contrib, a separate project: 
+    Tasks used so far : 
+    1) For task -->
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+    <classpath>
+      <pathelement location="${tools.dir}/ant-contrib-0.6.jar" />
+    </classpath>
+  </taskdef>
+   <target name="handlebars" depends="create-folder-structure">
+	<if>
+		<not>
+			<available file="${src.dir.file.handlebars.hash}" />
+		</not>
+		<then>
+			<echo message="Creating hash file at ${src.dir.handlebars} for the handlebars templating engine" />
+			<echo file="${src.dir.file.handlebars.hash}">{}</echo>
+		</then>
+	</if>
+	<if>
+		<not>
+			<available file="${src.dir.file.handlebars.partial}" />
+		</not>
+		<then>
+			<echo message="Creating a partial file at ${src.dir.file.handlebars.partial} for the handlebars templating engine" />
+			<echo file="${src.dir.file.handlebars.partial}">{}</echo>
+		</then>
+	</if>
+	<if>
+		<not>
+			<available file="${src.dir.handlebars}/README.txt" />
+		</not>
+		<then>
+			<echo message="Creating a base template file at ${src.dir.handlebars}/README.txt for the handlebars templating engine" />
+			<echo file="${src.dir.handlebars}/README.txt">
+Your handlebar context information for handlebars goes in ${src.dir.file.handlebars.hash} as a JSON string.
+Your handlebar partials information for handlebars goes in ${src.dir.file.handlebars.partial} as a JSON string. 
+You can also add entire files containing handlebar partials to parse within separate *.hbs files but these need to be included
+inside the partials folder. The name of the partial is the filename less extension eg: base.hbs ( the name of this partial is base ).
+Your handlebar base template information for handlebars goes in ${src.dir.handlebars.partials}. 
+The handbar base template is going to be inherited by all your pages where you would override values in this base template in each of your pages.
+You don't have to do anything ofcourse. The build script takes care of everything else.
+			</echo>
+		</then>
+	</if>
+	<exec executable="phantomjs">
+		<arg value="${phantomjs.handlebars.parser}"/>
+		<arg value="${relative.src.dir.static}" />
+		<arg value="${relative.src.file.handlebars.hash}" />
+		<arg value="${relative.src.file.handlebars.partials}" />
+		<arg value="${relative.src.dir.handlebars.partials}" />
+		<arg value="${relative.src.dir.home}" />
+		<arg value="${relative.src.dir.static}" />
+	</exec> 
+ </target>
+  <target name="create-folder-structure">
+	<echo message="making ${src.dir.static} directory" />
+    <mkdir dir="${src.dir.static}" />
+	<echo message="making ${src.dir.handlebars} directory" />
+    <mkdir dir="${src.dir.handlebars}" />
+	<echo message="making ${src.dir.handlebars}/partials directory" />
+    <mkdir dir="${src.dir.handlebars}/partials" />
+  </target>
+  <!-- 
+    References for each type/task used : 
+     http://ant.apache.org/manual/Types/mapper.html
+     http://ant.apache.org/manual/Tasks/apply.html
+     http://ant.apache.org/manual/Tasks/concat.html
+     http://ant.apache.org/manual/Types/dirset.html
+     http://ant.apache.org/manual/Types/fileset.html
+     http://ant.apache.org/manual/Tasks/delete.html
+     http://ant.apache.org/manual/Tasks/mkdir.html
+     http://ant.apache.org/manual/Tasks/zip.html
+     http://ant.apache.org/manual/Types/zipfileset.html
+     http://ant.apache.org/manual/Tasks/condition.html
+     http://ant-contrib.sourceforge.net/tasks/tasks/if.html
+     http://ant-contrib.sourceforge.net/tasks/tasks/for.html
+  -->
+</project>

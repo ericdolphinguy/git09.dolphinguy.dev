@@ -1,0 +1,5108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booki v1.0\n"
+"POT-Creation-Date: 2014-09-23 23:45+0100\n"
+"PO-Revision-Date: 2014-09-23 23:45+0100\n"
+"Last-Translator: Alessandro Zifiglio <support@typps.com>\n"
+"Language-Team: Alessandro Zifiglio <support@typps.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_;gettext;gettext_noop;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../lib/controller/BillSettlementController.php:51
+#: ../lib/controller/base/BaseCartController.php:40
+msgid "You can only apply 1 coupon at a time."
+msgstr "Você só pode aplicar um cupom de cada vez."
+
+#: ../lib/controller/BillSettlementController.php:54
+#: ../lib/controller/base/BaseCartController.php:43
+#, php-format
+msgid "Coupon is valid only on bookings that exceed %s."
+msgstr "Cupom válido apenas para reservas que excedam %s ."
+
+#: ../lib/controller/BillSettlementController.php:56
+#: ../lib/controller/base/BaseCartController.php:60
+msgid "Coupon has expired and is not valid anymore. No discount applied."
+msgstr "Cupom expirou e não é mais válido. Nenhum desconto aplicado."
+
+#: ../lib/controller/BillSettlementController.php:59
+#: ../lib/controller/base/BaseCartController.php:63
+msgid "Coupon is not valid. No discount applied."
+msgstr "Cupom não é válido. Nenhum desconto aplicado."
+
+#: ../lib/controller/BillSettlementController.php:96
+#: ../lib/controller/base/BaseCartController.php:255
+msgid ""
+"Coupon code is invalid and has been removed. Provide a valid coupon for "
+"discount or proceed without."
+msgstr ""
+"Código do cupom é inválido e foi removido. Fornecer um cupom válido para "
+"desconto ou prosseguir sem."
+
+#: ../lib/controller/BillSettlementController.php:108
+msgid "Payments are currently disabled. Contact us for further assistance."
+msgstr ""
+"Os pagamentos estão atualmente desativados. Entre em contato para obter mais "
+"assistência."
+
+#: ../lib/controller/CreateBookingController.php:36
+msgid "Email is invalid"
+msgstr "E-mail inválido"
+
+#: ../lib/controller/base/BaseCartController.php:55
+#: ../lib/controller/base/BaseCartController.php:268
+#, fuzzy
+msgid ""
+"Coupon code is invalid and has been removed. You are trying to apply a "
+"coupon code that is not valid on one of the bookings in your cart. Provide a "
+"valid coupon for discount or proceed without."
+msgstr ""
+"Código do cupom é inválido e foi removido. Fornecer um cupom válido para "
+"desconto ou prosseguir sem."
+
+#: ../lib/controller/base/BaseCartController.php:284
+msgid ""
+"We received your booking successfully. We shall contact you shortly. Thanks!"
+msgstr ""
+"Recebemos a sua reserva com sucesso. Vamos entrar em contato com você em "
+"breve. Obrigado!"
+
+#: ../lib/controller/base/BaseCartController.php:288
+#, fuzzy, php-format
+msgid ""
+"We received your booking successfully. We tried sending you an invoice but "
+"apparently we are not able to \n"
+"\t\t\tsend emails at this time. To expedite contact us with your orderId "
+"{%d}. Thanks!"
+msgstr ""
+"Recebemos a sua reserva com sucesso. Nós tentamos enviar-lhe uma fatura mas "
+"aparentemente não somos capaz de \n"
+"\t\t\tenviar emails neste momento. Para agilizar contato conosco com seu "
+"orderId {%d}. Obrigado!"
+
+#: ../lib/controller/base/BaseCartController.php:293
+msgid ""
+"We received your booking successfully. An invoice has been emailed to you. "
+"Please check your inbox or your spam folder!"
+msgstr ""
+"Recebemos a sua reserva com sucesso. Uma factura foi enviada para você. Por "
+"favor, verifique sua caixa de entrada ou pasta de spam!"
+
+#: ../lib/controller/utils/BookingFormParser.php:38
+msgid "Booking date is required or is in an invalid format."
+msgstr ""
+
+#: ../lib/controller/utils/BookingFormParser.php:88
+#, php-format
+msgid "You must make atleast %d selections"
+msgstr "Você deve fazer pelo menos %d seleções"
+
+#: ../lib/controller/utils/BookingFormParser.php:101
+msgid ""
+"A minimum of 1 time slots required. If there are no time slots available, "
+"try a different date."
+msgstr ""
+
+#: ../lib/controller/utils/BookingFormParser.php:104
+#, fuzzy, php-format
+msgid "A minimum of %d time slots required."
+msgstr "Número mínimo de seleções opcionais necessários"
+
+#: ../lib/controller/utils/BookingFormParser.php:107
+#, php-format
+msgid "You cannot select more than %d time slots."
+msgstr ""
+
+#: ../lib/controller/utils/BookingFormParser.php:179
+msgid "You must select atleast one item from the dropdown list"
+msgstr "Você deve selecionar pelo menos um item da lista suspensa"
+
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:11
+#: ../lib/domainmodel/entities/Order.php:215
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:5
+msgid "Pending Approval"
+msgstr "Aprovação Pendente"
+
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:13
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:7
+msgid "Approved Booking"
+msgstr "Reserva Aprovada"
+
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:15
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:9
+msgid "Cancelled Booking"
+msgstr "Reserva cancelada"
+
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:17
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:37
+#: ../lib/domainmodel/entities/Order.php:219
+#: ../lib/infrastructure/handlers/bookingscsvhandler.php:44
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:101
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:184
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:141
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:255
+#: ../lib/infrastructure/ui/lists/UserOrderList.php:184
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:11
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:33
+#: ../lib/views/managebookings.php:372
+#: ../lib/views/partials/bookingdetails.php:463
+msgid "Refunded"
+msgstr "Reembolsado"
+
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:19
+#: ../lib/domainmodel/entities/Order.php:217
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:13
+msgid "Pending User Cancel Request"
+msgstr "Aguardando cancelamento de pedido do usuário"
+
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:25
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:19
+msgid "info"
+msgstr "Mais informações"
+
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:27
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:21
+msgid "success"
+msgstr "sucesso"
+
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:29
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:23
+msgid "danger"
+msgstr "perigo"
+
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:31
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:25
+msgid "warning"
+msgstr "aviso"
+
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:39
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:35
+msgid "Pending Cancel Request"
+msgstr "Aguardando pedido de cancelamento"
+
+#: ../lib/domainmodel/base/EntityBookingElementBase.php:41
+#: ../lib/infrastructure/utils/ContextMenuHelper.php:37
+msgid "Booking Cancelled"
+msgstr "Reservas Canceladas"
+
+#: ../lib/domainmodel/entities/Order.php:221
+msgid "Approved"
+msgstr "Aprovado"
+
+#: ../lib/domainmodel/entities/Project.php:167
+#: ../lib/views/createprojects.php:152
+msgid "Booking"
+msgstr "Reservas"
+
+#: ../lib/domainmodel/entities/Project.php:170
+#: ../lib/views/createprojects.php:153
+msgid "Details"
+msgstr "Detalhes"
+
+#: ../lib/domainmodel/entities/Project.php:173
+#: ../lib/views/createprojects.php:155
+msgid "Selected days"
+msgstr "Dias selecionados"
+
+#: ../lib/domainmodel/entities/Project.php:176
+#: ../lib/views/createprojects.php:154
+msgid "Available days"
+msgstr "Dias Livre"
+
+#: ../lib/domainmodel/entities/Project.php:179
+#: ../lib/views/createprojects.php:159
+msgid "Back"
+msgstr "Anterior"
+
+#: ../lib/domainmodel/entities/Project.php:182
+#: ../lib/views/createprojects.php:158
+msgid "Next"
+msgstr "Próximo"
+
+#: ../lib/domainmodel/entities/Project.php:185
+#: ../lib/views/createprojects.php:160 ../lib/views/generalsettings.php:260
+#: ../lib/views/generalsettings.php:267
+msgid "Add to cart"
+msgstr "Adicionar ao carrinho  "
+
+#: ../lib/domainmodel/entities/Project.php:188
+#: ../lib/domainmodel/entities/Resx.php:155
+#: ../lib/views/createprojects.php:156
+msgid "Booking time"
+msgstr "Tempo de reserva"
+
+#: ../lib/domainmodel/entities/Project.php:191
+#: ../lib/views/createprojects.php:157
+msgid "Optional extras"
+msgstr "Opcionais"
+
+#: ../lib/domainmodel/entities/Project.php:194
+#: ../lib/infrastructure/ui/lists/ProjectList.php:140
+#: ../lib/views/createprojects.php:125 ../lib/views/createprojects.php:161
+#: ../lib/views/managebookings.php:299 ../lib/views/manageusers.php:390
+msgid "From"
+msgstr "De"
+
+#: ../lib/domainmodel/entities/Project.php:197
+#: ../lib/infrastructure/ui/lists/ProjectList.php:142
+#: ../lib/views/createprojects.php:127 ../lib/views/createprojects.php:162
+#: ../lib/views/managebookings.php:311 ../lib/views/manageusers.php:402
+msgid "To"
+msgstr "Para"
+
+#: ../lib/domainmodel/entities/Project.php:200
+#: ../lib/domainmodel/entities/Resx.php:171
+#: ../lib/views/createprojects.php:163
+msgid "Proceed"
+msgstr "Prosseguir"
+
+#: ../lib/domainmodel/entities/Project.php:203
+msgid "Make booking"
+msgstr "Fazer reserva"
+
+#: ../lib/domainmodel/entities/Project.php:206
+#: ../lib/views/createprojects.php:136
+#, php-format
+msgid "%d seats left. Hurry!"
+msgstr "%d assentos disponíveis. Depressa!"
+
+#: ../lib/domainmodel/entities/Resx.php:118
+#, php-format
+msgid "For your reference, your order id is #%s."
+msgstr "Para sua referência, sua ID de ordem é # %s ."
+
+#: ../lib/domainmodel/entities/Resx.php:119
+#, php-format
+msgid ""
+"You can view full details of your order at anytime in your order %s page."
+msgstr ""
+"Você pode ver todos os detalhes do seu pedido a qualquer momento em seu "
+"pedido %s página."
+
+#: ../lib/domainmodel/entities/Resx.php:120
+#: ../lib/views/partials/bookingdetails.php:412
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: ../lib/domainmodel/entities/Resx.php:121
+#: ../lib/views/createprojects.php:267
+#: ../lib/views/partials/bookingdetails.php:474
+msgid "Deposit"
+msgstr "Depósito"
+
+#: ../lib/domainmodel/entities/Resx.php:122
+#: ../lib/infrastructure/emails/NotificationEmailer.php:407
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:226
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:159
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:366
+#: ../lib/views/generalsettings.php:529 ../lib/views/generalsettings.php:536
+#: ../lib/views/managecoupons.php:213 ../lib/views/manageusers.php:300
+#: ../lib/views/partials/bookingdetails.php:454
+msgid "Discount"
+msgstr "Desconto"
+
+#: ../lib/domainmodel/entities/Resx.php:123
+#: ../lib/infrastructure/emails/NotificationEmailer.php:415
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:367
+#: ../lib/views/generalsettings.php:730 ../lib/views/generalsettings.php:736
+#: ../lib/views/partials/bookingdetails.php:445
+msgid "Tax"
+msgstr "Imposto"
+
+#: ../lib/domainmodel/entities/Resx.php:124
+#: ../lib/infrastructure/emails/NotificationEmailer.php:422
+#: ../lib/views/partials/bookingdetails.php:485
+msgid "Total"
+msgstr "Totais"
+
+#: ../lib/domainmodel/entities/Resx.php:125
+msgid "history"
+msgstr "história"
+
+#: ../lib/domainmodel/entities/Resx.php:126
+msgid "Congrats!"
+msgstr "Parabéns!"
+
+#: ../lib/domainmodel/entities/Resx.php:127
+#, php-format
+msgid "You got a %d%% discount!"
+msgstr "Você tem um %d%% de desconto!"
+
+#: ../lib/domainmodel/entities/Resx.php:128
+msgid "Book now"
+msgstr "Reserve já"
+
+#: ../lib/domainmodel/entities/Resx.php:129
+msgid "Book now, pay later"
+msgstr "Reserve agora, pague depois"
+
+#: ../lib/domainmodel/entities/Resx.php:130
+msgid "Booking for"
+msgstr "Reserva para"
+
+#: ../lib/domainmodel/entities/Resx.php:131
+msgid "Days Booked"
+msgstr "Dias Reservas"
+
+#: ../lib/domainmodel/entities/Resx.php:132
+msgid "Extras"
+msgstr "Extras"
+
+#: ../lib/domainmodel/entities/Resx.php:133
+#, php-format
+msgid "Discount %s"
+msgstr "Discount %s"
+
+#: ../lib/domainmodel/entities/Resx.php:134 ../lib/views/manageusers.php:282
+#: ../lib/views/manageusers.php:301 ../lib/views/manageusers.php:323
+msgid "Coupon"
+msgstr "Cupom"
+
+#: ../lib/domainmodel/entities/Resx.php:135
+msgid "Promotions"
+msgstr "Promoções"
+
+#: ../lib/domainmodel/entities/Resx.php:136
+msgid "from"
+msgstr ""
+
+#: ../lib/domainmodel/entities/Resx.php:137
+msgid "to"
+msgstr ""
+
+#: ../lib/domainmodel/entities/Resx.php:139
+#, fuzzy
+msgid "Some bookings are not available anymore and cannot be booked."
+msgstr ""
+"Algumas reservas não está mais disponível e ter sido removido do carrinho."
+
+#: ../lib/domainmodel/entities/Resx.php:140
+msgid ""
+"Please fill out all of the required fields and ensure there are no "
+"validation errors."
+msgstr ""
+"Por favor, preencha todos os campos necessários e garantir que não haja "
+"erros de validação."
+
+#: ../lib/domainmodel/entities/Resx.php:141
+msgid "You have added the last availabe booking to cart. Checkout ?"
+msgstr "Você adicionou o último reserva availabe ao carrinho. Checkout?"
+
+#: ../lib/domainmodel/entities/Resx.php:142
+msgid ""
+"You only need to pay a deposit to confirm your booking. The remainder needs "
+"to be paid on arrival."
+msgstr ""
+
+#: ../lib/domainmodel/entities/Resx.php:143
+msgid "Create booking"
+msgstr "Criar reserva"
+
+#: ../lib/domainmodel/entities/Resx.php:144
+msgid "Check out"
+msgstr "Fazer check-out "
+
+#: ../lib/domainmodel/entities/Resx.php:147
+#, fuzzy, php-format
+msgid ""
+"There was a problem processing your payment [%s]. Please try again, if "
+"problem persists contact support. We apologize for any inconvenience."
+msgstr ""
+"Houve um problema no processamento de seu pagamento [%s].\n"
+"\t\t\t\t\t\t\tPlease tentar de novo, se o problema persistir contate o "
+"suporte. Pedimos desculpas por qualquer inconveniente."
+
+#: ../lib/domainmodel/entities/Resx.php:148
+msgid "Your payment has been processed successfully."
+msgstr "Seu pagamento foi processado com sucesso."
+
+#: ../lib/domainmodel/entities/Resx.php:149
+msgid "Your booking will be confirmed shortly."
+msgstr "Sua reserva será confirmada em breve."
+
+#: ../lib/domainmodel/entities/Resx.php:150
+msgid ""
+"Some bookings are not available anymore and have been removed from cart."
+msgstr ""
+"Algumas reservas não está mais disponível e ter sido removido do carrinho."
+
+#: ../lib/domainmodel/entities/Resx.php:151
+#: ../lib/infrastructure/actions/Admin.php:175
+#: ../lib/infrastructure/ui/lists/ManageUserList.php:111
+#: ../lib/infrastructure/ui/lists/OrdersMadeAggregateList.php:44
+#: ../lib/views/managebookings.php:276
+#: ../lib/views/user/singlecolstatspartial.php:80
+#: ../lib/views/user/singlecolstatspartial.php:94
+#: ../lib/views/user/statspartial.php:76 ../lib/views/user/statspartial.php:92
+msgid "Bookings"
+msgstr "Reservas"
+
+#: ../lib/domainmodel/entities/Resx.php:152
+msgid "Bookings are exhausted."
+msgstr "As reservas estão esgotadas."
+
+#: ../lib/domainmodel/entities/Resx.php:153
+#: ../lib/infrastructure/emails/NotificationEmailer.php:310
+#: ../lib/views/createprojects.php:283 ../lib/views/createprojects.php:329
+#: ../lib/views/createprojects.php:352
+#: ../lib/views/partials/bookingdetails.php:138
+#: ../lib/views/partials/bookingdetails.php:148
+#: ../lib/views/partials/bookingdetails.php:246
+#: ../lib/views/partials/bookingdetails.php:256
+#: ../lib/views/partials/bookingdetails.php:354
+#: ../lib/views/partials/bookingdetails.php:364
+#: ../lib/views/templates/minicart.php:68
+#: ../lib/views/templates/minicart.php:136
+#: ../lib/views/templates/minicart.php:192
+#: ../lib/views/templates/minicart.php:244
+msgid "Cost"
+msgstr "Custo"
+
+#: ../lib/domainmodel/entities/Resx.php:154
+#: ../lib/views/partials/bookingdetails.php:68
+msgid "Booking date"
+msgstr "Data da reserva"
+
+#: ../lib/domainmodel/entities/Resx.php:156
+msgid "Timezone offset"
+msgstr "Deslocamento de fuso horário"
+
+#: ../lib/domainmodel/entities/Resx.php:157
+msgid "Deposit required now"
+msgstr ""
+
+#: ../lib/domainmodel/entities/Resx.php:158
+msgid "Amount due on arrival"
+msgstr ""
+
+#: ../lib/domainmodel/entities/Resx.php:159
+msgid "There are no items to checkout."
+msgstr "Não há itens para Caixa."
+
+#: ../lib/domainmodel/entities/Resx.php:160
+msgid "Enter Coupon Code"
+msgstr "Digite o Código de Cupom"
+
+#: ../lib/domainmodel/entities/Resx.php:161
+msgid "Redeem"
+msgstr "Redimir"
+
+#: ../lib/domainmodel/entities/Resx.php:162
+msgid "Remove coupon"
+msgstr "Remover cupão"
+
+#: ../lib/domainmodel/entities/Resx.php:163
+msgid "Help"
+msgstr "Ajuda"
+
+#: ../lib/domainmodel/entities/Resx.php:164
+msgid "How coupons work"
+msgstr "Como cupons trabalhar"
+
+#: ../lib/domainmodel/entities/Resx.php:165
+msgid "Enter your coupon code. To update your cart, click on redeem."
+msgstr ""
+"Digite o seu código de cupom. Para atualizar seu carrinho, clique em "
+"resgatar."
+
+#: ../lib/domainmodel/entities/Resx.php:166
+msgid ""
+"If you require a refund on an order placed using a coupon, the value of the "
+"coupon will not be refunded."
+msgstr ""
+"Se você precisar de um reembolso de uma encomenda utilizando um cupom, o "
+"valor do cupom não será reembolsado."
+
+#: ../lib/domainmodel/entities/Resx.php:167
+msgid "The coupons are valid for a limited period of time."
+msgstr "Os cupons são válidos por um período limitado de tempo."
+
+#: ../lib/domainmodel/entities/Resx.php:168
+msgid ""
+"We are authorized to proceed with payment. Please review the above booking "
+"and confirm payment."
+msgstr ""
+"Estamos autorizados a proceder com o pagamento. Reveja a reserva acima e "
+"confirmar o pagamento."
+
+#: ../lib/domainmodel/entities/Resx.php:169
+msgid "Empty cart"
+msgstr "Carrinho vazio"
+
+#: ../lib/domainmodel/entities/Resx.php:170
+msgid "Book more"
+msgstr "Livro mais"
+
+#: ../lib/domainmodel/entities/Resx.php:172
+msgid "Confirm and pay"
+msgstr "Confirme e pagar"
+
+#: ../lib/infrastructure/actions/Admin.php:101
+msgid ""
+"Booki has been tested to work with WordPress 3.0 or higher. We recommend you "
+"upgrade."
+msgstr ""
+"Booki foi testado para trabalhar com o WordPress 3.0 ou superior. Nós "
+"recomendamos que você atualize."
+
+#: ../lib/infrastructure/actions/Admin.php:101
+#, php-format
+msgid "Please <a href=\"%s\">upgrade WordPress</a> to a current version."
+msgstr ""
+"Por favor, <a href=\"%s\">atualizar WordPress </ a> para a versão atual."
+
+#: ../lib/infrastructure/actions/Admin.php:151
+msgid "Booki.io - A Booking Application from Mars"
+msgstr "Booki.io - uma aplicação de reserva de Marte"
+
+#: ../lib/infrastructure/actions/Admin.php:164
+msgid "Create/Edit new or existing booking projects"
+msgstr "Criar/Editar novos ou existentes projetos de reserva "
+
+#: ../lib/infrastructure/actions/Admin.php:165
+msgid "Projects"
+msgstr "Projetos"
+
+#: ../lib/infrastructure/actions/Admin.php:174
+msgid "Manage bookings made"
+msgstr "Gerenciar reservas feitas"
+
+#: ../lib/infrastructure/actions/Admin.php:184
+msgid "Create new booking manually"
+msgstr "Criar uma nova reserva manualmente"
+
+#: ../lib/infrastructure/actions/Admin.php:185
+#: ../lib/views/managebookings.php:260
+msgid "New bookings"
+msgstr "Novas reservas"
+
+#: ../lib/infrastructure/actions/Admin.php:194
+msgid "Manage discount coupons"
+msgstr "Gerenciar cupons de desconto"
+
+#: ../lib/infrastructure/actions/Admin.php:195
+#: ../lib/views/managecoupons.php:304
+msgid "Coupons"
+msgstr "Cupons"
+
+#: ../lib/infrastructure/actions/Admin.php:204
+msgid "Manage users"
+msgstr "Gestão dos usuarios"
+
+#: ../lib/infrastructure/actions/Admin.php:205
+#: ../lib/views/manageusers.php:116 ../lib/views/manageusers.php:195
+msgid "Users"
+msgstr "Usuários"
+
+#: ../lib/infrastructure/actions/Admin.php:224
+#: ../lib/infrastructure/actions/Admin.php:225
+msgid "Email Settings"
+msgstr "Definições de e-mail"
+
+#: ../lib/infrastructure/actions/Admin.php:234
+#: ../lib/infrastructure/actions/Admin.php:235
+msgid "Invoice Settings"
+msgstr "Configurações Fatura"
+
+#: ../lib/infrastructure/actions/Admin.php:244
+msgid "Edit string resources found in the booking form"
+msgstr ""
+
+#: ../lib/infrastructure/actions/Admin.php:245
+msgid "String Resources"
+msgstr ""
+
+#: ../lib/infrastructure/actions/Admin.php:254
+#: ../lib/infrastructure/actions/Admin.php:255
+#: ../lib/views/generalsettings.php:106
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: ../lib/infrastructure/actions/Admin.php:264
+msgid "User history --past bookings etc"
+msgstr "História do usuário - reservas passadas etc"
+
+#: ../lib/infrastructure/actions/Admin.php:265
+#: ../lib/views/user/historypartial.php:5
+msgid "History"
+msgstr "Histórico"
+
+#: ../lib/infrastructure/actions/Admin.php:274
+msgid "Logs errors returned by Paypal, Mailchimp and Email failures"
+msgstr "Registra erros retornados por Paypal, Mailchimp e falhas de e-mail"
+
+#: ../lib/infrastructure/actions/Admin.php:275
+msgid "Event log"
+msgstr "Registro de evento"
+
+#: ../lib/infrastructure/actions/Admin.php:285
+msgid "General statistics"
+msgstr "Estatísticas gerais"
+
+#: ../lib/infrastructure/actions/Admin.php:286
+#: ../lib/views/user/singlecolstatspartial.php:5
+#: ../lib/views/user/singlecolstatspartial.php:15
+#: ../lib/views/user/statspartial.php:9
+msgid "Stats"
+msgstr "Estatísticas"
+
+#: ../lib/infrastructure/actions/Admin.php:295
+#: ../lib/infrastructure/actions/Admin.php:296 ../lib/views/uninstall.php:32
+msgid "Uninstall"
+msgstr "Desinstalação"
+
+#: ../lib/infrastructure/actions/Register.php:67
+msgid "Register"
+msgstr "Registrar"
+
+#: ../lib/infrastructure/actions/Register.php:168
+#: ../lib/infrastructure/templates/BookingViewTmpl.php:12
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:74
+#: ../lib/views/createprojects.php:149
+msgid "Find a booking"
+msgstr "Localizar uma reserva"
+
+#: ../lib/infrastructure/actions/Register.php:169
+#: ../lib/infrastructure/templates/BookingViewTmpl.php:13
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:75
+#: ../lib/views/createprojects.php:150
+msgid "Check-in"
+msgstr "Check-in"
+
+#: ../lib/infrastructure/actions/Register.php:170
+#: ../lib/infrastructure/templates/BookingViewTmpl.php:14
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:76
+#: ../lib/views/createprojects.php:151
+msgid "Check-out"
+msgstr "Check Out "
+
+#: ../lib/infrastructure/ajax/TimezoneControlBridge.php:31
+msgid "Select new timezone"
+msgstr "Selecione novo fuso horário"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:226
+msgid "INVOICE"
+msgstr "FATURA"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:236
+#: ../lib/views/invoicesettings.php:81
+msgid "Address"
+msgstr "Endereço"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:240
+msgid "Tel"
+msgstr "Telefone"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:244
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:81
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:362
+#: ../lib/infrastructure/ui/lists/ManageUserList.php:110
+#: ../lib/views/invoicesettings.php:107 ../lib/views/manageusers.php:139
+msgid "Email"
+msgstr "E-mail"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:251
+msgid "STATUS: PAID"
+msgstr "STATUS: PAGO"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:253
+msgid "STATUS: UNPAID"
+msgstr "STATUS: NÃO REMUNERADO"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:259
+msgid "SOLD TO:"
+msgstr "Vendido a:"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:264
+msgid "EMAIL"
+msgstr "EMAIL:"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:267
+msgid "Coupon discount:"
+msgstr "Cupom de desconto:"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:271
+msgid "SALES TAX RATE:"
+msgstr "TAXA DE IMPOSTO DE VENDAS:"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:275
+msgid "ORDER NUMBER"
+msgstr "Número do pedido"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:277
+msgid "CUSTOMER NUMBER"
+msgstr "Número de cliente"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:279
+msgid "ORDER DATE"
+msgstr "Data ordem"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:306
+msgid "Dates"
+msgstr "Datas"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:331
+#: ../lib/views/generalsettings.php:124
+#: ../lib/views/partials/timezonecontrol.php:38
+#: ../lib/views/templates/timezonecontrol.php:41
+msgid "Timezone"
+msgstr "Fuso horário"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:386
+msgid "Payment due upon arrival"
+msgstr ""
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:392
+msgid "Advance deposit required now"
+msgstr "Depósito antecipado necessário agora"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:400
+msgid "Sub total"
+msgstr "Sub-total"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:441
+#: ../lib/views/partials/bookedformelements.php:6
+msgid "Additional Information"
+msgstr "Informações adicionais"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:447
+#: ../lib/views/partials/bookedformelements.php:11
+msgid "Field name"
+msgstr "Nome do campo"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:450
+#: ../lib/views/createprojects.php:171 ../lib/views/createprojects.php:173
+#: ../lib/views/createprojects.php:342
+#: ../lib/views/partials/bookedformelements.php:12
+msgid "Value"
+msgstr "Valor"
+
+#: ../lib/infrastructure/emails/NotificationEmailer.php:465
+msgid "Selected"
+msgstr "Selecionado"
+
+#: ../lib/infrastructure/handlers/bookingscsvhandler.php:40
+#: ../lib/infrastructure/handlers/bookingscsvhandler.php:42
+msgid "Un paid"
+msgstr "Un pago"
+
+#: ../lib/infrastructure/ui/BookingForm.php:286
+#: ../lib/views/templates/cascadingdropdownlists.php:23
+msgid "Select an item"
+msgstr "Selecione um item"
+
+#: ../lib/infrastructure/ui/BookingForm.php:287
+msgid "Payment due on arrival"
+msgstr ""
+
+#: ../lib/infrastructure/ui/CustomFormElements.php:30
+msgid "Value not required on multiple bookings for the same item"
+msgstr "Valor não é necessário em várias reservas para o mesmo item"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:74
+msgid "Total amount paid."
+msgstr "Valor total pago."
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:79
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:110
+msgid "Refunded amount."
+msgstr "Montante reembolsado."
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:93
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:133
+msgid "Order has been paid. Send a confirmation."
+msgstr "A ordem foi pago. Enviar confirmação."
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:94
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:134
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:270
+#: ../lib/infrastructure/ui/lists/UserOrderList.php:181
+#: ../lib/views/managebookings.php:362
+msgid "Paid"
+msgstr "Pago"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:100
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:140
+msgid "Payment has been refunded."
+msgstr "O pagamento foi devolvido."
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:107
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:147
+msgid ""
+"Payment has been partially refunded. You can refund the remainder by "
+"clicking refund."
+msgstr ""
+"O pagamento foi parcialmente reembolsado. Você pode reembolsar o restante "
+"clicando reembolso."
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:108
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:148
+msgid "Partially Refunded"
+msgstr "Parcialmente reembolsado"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:115
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:155
+msgid "Not yet paid. Try sending an invoice."
+msgstr "Ainda não pagos. Tente enviar a factura."
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:116
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:156
+#: ../lib/infrastructure/ui/lists/UserOrderList.php:178
+msgid "Pending"
+msgstr "Pendente"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:127
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:167
+msgid "Number of invoices emailed."
+msgstr "Número de faturas por e-mail."
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:128
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:170
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:168
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:241
+msgid "Invoice"
+msgstr "Fatura"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:139
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:179
+msgid "Number of refund notifications emailed."
+msgstr "Número de notificações de reembolso enviado por email."
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:140
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:180
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:228
+msgid "Refund"
+msgstr "Reembolso"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:156
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:60
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:197
+#: ../lib/infrastructure/ui/lists/ManageUserList.php:64
+#: ../lib/infrastructure/ui/lists/UserOrderList.php:106
+msgid "Select"
+msgstr "Selecionar"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:169
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:240
+msgid "Sends an invoice to the client with payment instructions."
+msgstr "Envia uma fatura para o cliente com as instruções de pagamento."
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:183
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:254
+msgid "Sends a refund confirmation email to user."
+msgstr "Envia um e-mail de confirmação de reembolso para o usuário."
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:222
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:360
+msgid "#"
+msgstr "#"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:223
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:363
+#: ../lib/infrastructure/ui/lists/OrdersMadeAggregateList.php:45
+#: ../lib/infrastructure/ui/lists/OrdersRefundAmountAggregateList.php:62
+#: ../lib/infrastructure/ui/lists/OrdersTotalAmountAggregateList.php:61
+msgid "Order Date"
+msgstr "Data do Pedido"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:224
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:364
+msgid "Payment Date"
+msgstr "Data de Pagamento"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:225
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:365
+msgid "Amount"
+msgstr "Valor"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:227
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:162
+msgid "Status"
+msgstr "Estado"
+
+#: ../lib/infrastructure/ui/lists/EditorApprovedOrderList.php:228
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:371
+msgid "Task"
+msgstr "Tarefa"
+
+#: ../lib/infrastructure/ui/lists/EventsLogList.php:66
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:302
+#: ../lib/infrastructure/ui/lists/ManageUserList.php:84
+#: ../lib/views/createprojects.php:144 ../lib/views/createprojects.php:334
+#: ../lib/views/createprojects.php:351 ../lib/views/managebookings.php:181
+#: ../lib/views/managecoupons.php:293 ../lib/views/manageusers.php:163
+#: ../lib/views/uninstall.php:70 ../lib/views/uninstall.php:113
+msgid "Delete"
+msgstr "Excluir"
+
+#: ../lib/infrastructure/ui/lists/EventsLogList.php:88
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:157
+msgid "#id"
+msgstr "#ID (identificador)"
+
+#: ../lib/infrastructure/ui/lists/EventsLogList.php:89
+msgid "Entry Date"
+msgstr "Data entrada"
+
+#: ../lib/infrastructure/ui/lists/EventsLogList.php:90
+msgid "Error"
+msgstr "Erro"
+
+#: ../lib/infrastructure/ui/lists/EventsLogList.php:91
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:165
+#: ../lib/infrastructure/ui/lists/UserOrderList.php:198
+msgid "Tasks"
+msgstr "Tarefas"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:80
+msgid "Send coupon to user via email"
+msgstr "Enviar cupom para o usuário por e-mail"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:103
+#, fuzzy
+msgid "Any project"
+msgstr "Projetos"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:106
+msgid "Regular"
+msgstr "Regular"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:106
+msgid "Super"
+msgstr "Super"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:116
+msgid "Coupon has expired!"
+msgstr "Cupom expirou!"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:116
+msgid "Expiration date"
+msgstr "Data de validade"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:126
+msgid "Discount provided by code"
+msgstr "Desconto fornecido pelo código"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:134
+msgid "The minimum booking required for coupon discount to apply."
+msgstr "A reserva mínima exigida para cupom de desconto a ser aplicada."
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:141
+msgid "The code to use for discount to apply."
+msgstr "O código a ser usado para o desconto a ser aplicada."
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:149
+msgid "The code is to be claimed by"
+msgstr "O código deve ser reivindicado por"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:150
+msgid "The code has not been used yet."
+msgstr "O código não foi utilizado ainda."
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:151
+msgid "Unused"
+msgstr "Não utiizado"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:158
+#: ../lib/views/createprojects.php:48 ../lib/views/managecoupons.php:141
+#: ../lib/views/manageusers.php:266
+#, fuzzy
+msgid "Project"
+msgstr "Projetos"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:160
+msgid "Order Min."
+msgstr "Encomende Min."
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:161
+msgid "Expiration"
+msgstr "Expiração"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:163
+#, fuzzy
+msgid "Coupon type"
+msgstr "Cupom"
+
+#: ../lib/infrastructure/ui/lists/ManageCouponList.php:164
+msgid "Code"
+msgstr "Código"
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:105
+msgid "Total amount paid, after discount."
+msgstr "Valor total pago, após desconto."
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:119
+msgid "Member"
+msgstr "Membro"
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:119
+msgid "Not member"
+msgstr "Não membro"
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:227
+msgid "days left before refund opportunity expires."
+msgstr "dias restantes antes de expirar oportunidade reembolso."
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:269
+msgid "Marks the order as paid."
+msgstr "Marca o fim como pago."
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:286
+msgid "Approve all items in this order."
+msgstr "Aprovar todos os itens nesta ordem."
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:287
+msgid "Approve"
+msgstr "Aprovar"
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:301
+msgid "Deletes this order."
+msgstr "Exclui este fim."
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:321
+msgid "Create user account for this user and register with system."
+msgstr "Criar uma conta de usuário para esse usuário e registre no sistema."
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:322
+#, fuzzy
+msgid "Register User"
+msgstr "Registrar"
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:333
+msgid "No user associated with booking. Create one ?"
+msgstr "Nenhum usuário associados com reserva. Criar um?"
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:334
+msgid "Add User"
+msgstr "Adicionar Usuário"
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:361
+#: ../lib/views/createprojects.php:56
+msgid "Name"
+msgstr "Nome"
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:368
+#: ../lib/infrastructure/ui/lists/UserOrderList.php:197
+msgid "Payment"
+msgstr "Pagamento"
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:369
+msgid "Registration"
+msgstr "Registro"
+
+#: ../lib/infrastructure/ui/lists/ManageOrderList.php:370
+msgid "Approval status"
+msgstr "Status de aprovação"
+
+#: ../lib/infrastructure/ui/lists/ManageUserList.php:47
+msgid "Name not provided"
+msgstr "Nome não fornecido"
+
+#: ../lib/infrastructure/ui/lists/ManageUserList.php:108
+msgid "ID"
+msgstr "Identificação "
+
+#: ../lib/infrastructure/ui/lists/ManageUserList.php:109
+#: ../lib/views/paypal.php:64
+msgid "Username"
+msgstr "Usuário"
+
+#: ../lib/infrastructure/ui/lists/OrdersRefundAmountAggregateList.php:60
+msgid "Refunds count"
+msgstr "Reembolsos contar"
+
+#: ../lib/infrastructure/ui/lists/OrdersRefundAmountAggregateList.php:61
+msgid "Refund Total"
+msgstr "Reembolso total"
+
+#: ../lib/infrastructure/ui/lists/OrdersTotalAmountAggregateList.php:59
+msgid "Total Amount"
+msgstr "Valor total"
+
+#: ../lib/infrastructure/ui/lists/OrdersTotalAmountAggregateList.php:60
+msgid "Total Discounts"
+msgstr "Total de Descontos"
+
+#: ../lib/infrastructure/ui/lists/ProjectList.php:125
+msgid "All bookings exhausted"
+msgstr "Todas as reservas esgotadas"
+
+#: ../lib/infrastructure/ui/lists/ProjectList.php:130
+#: ../lib/infrastructure/ui/lists/ProjectList.php:139
+msgid "Booking available from"
+msgstr "Disponível a partir da reserva"
+
+#: ../lib/infrastructure/ui/lists/UserOrderList.php:132
+msgid "Pay"
+msgstr "Pagar"
+
+#: ../lib/infrastructure/ui/lists/UserOrderList.php:151
+#, fuzzy
+msgid "A cancel request is given for all items in this order."
+msgstr "Aprovar todos os itens nesta ordem."
+
+#: ../lib/infrastructure/ui/lists/UserOrderList.php:152
+#: ../lib/views/managebookings.php:178 ../lib/views/managebookings.php:234
+#: ../lib/views/manageusers.php:160
+#: ../lib/views/partials/bookingdetails.php:183
+#: ../lib/views/partials/bookingdetails.php:289
+#: ../lib/views/partials/bookingdetails.php:397
+#: ../lib/views/partials/refundtransaction.php:155
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../lib/infrastructure/ui/lists/UserOrderList.php:195
+#, fuzzy
+msgid "order id"
+msgstr "Encomende Min."
+
+#: ../lib/infrastructure/ui/lists/UserOrderList.php:196
+msgid "Date"
+msgstr "Data"
+
+#: ../lib/infrastructure/ui/lists/base/List.php:66
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:633
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:1052
+#: ../lib/infrastructure/ui/lists/base/ULList.php:66
+#, fuzzy, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "Novo item..."
+msgstr[1] "Novo item..."
+
+#: ../lib/infrastructure/ui/lists/base/List.php:101
+#: ../lib/infrastructure/ui/lists/base/ULList.php:101
+#, php-format
+msgctxt "paging"
+msgid "of %1$s"
+msgstr "de %1$s"
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:270
+msgid "No items found."
+msgstr ""
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:396
+#, fuzzy
+msgid "Select bulk action"
+msgstr "Selecione um relacionamento"
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:398
+msgid "Bulk Actions"
+msgstr ""
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:408
+msgid "Apply"
+msgstr ""
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:494
+#, fuzzy
+msgid "Filter by date"
+msgstr "Filtrar por estado"
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:496
+#, fuzzy
+msgid "All dates"
+msgstr "Todos os usuários"
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:509
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:525
+msgid "List View"
+msgstr ""
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:526
+msgid "Excerpt View"
+msgstr ""
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:559
+#, fuzzy, php-format
+msgid "%s pending"
+msgstr "Pendente"
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:668
+#, fuzzy
+msgid "Select Page"
+msgstr "Selecionado"
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:675
+#, fuzzy, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "de %1$s"
+
+#: ../lib/infrastructure/ui/lists/base/ListTable.php:823
+#, fuzzy
+msgid "Select All"
+msgstr "Selecionar"
+
+#: ../lib/infrastructure/utils/Validator.php:15
+#, php-format
+msgid "%s: Field \"%s\" is required."
+msgstr "%s: O campo \"%s\" é necessário."
+
+#: ../lib/infrastructure/utils/Validator.php:16
+#, php-format
+msgid "%s: Field \"%s\" should not be blank."
+msgstr "%s: O campo \"%s\" não deve ficar em branco."
+
+#: ../lib/infrastructure/utils/Validator.php:17
+#, php-format
+msgid "%s: Field \"%s\" value is too short."
+msgstr "%s: O campo \"%s\" tem um valor muito curto."
+
+#: ../lib/infrastructure/utils/Validator.php:18
+#, php-format
+msgid "%s: Field \"%s\" value is too long."
+msgstr "%s: O campo \"%s\" valor é muito longo."
+
+#: ../lib/infrastructure/utils/Validator.php:19
+#, php-format
+msgid "%s: Field \"%s\" value is smaller than expected."
+msgstr "%s: O campo  \"%s\" valor é menor do que o esperado."
+
+#: ../lib/infrastructure/utils/Validator.php:20
+#, php-format
+msgid "%s: Field \"%s\" value is larger than expected."
+msgstr "%s: O campo  \"%s\" valor é maior do que o esperado."
+
+#: ../lib/infrastructure/utils/Validator.php:21
+#, php-format
+msgid "%s: Field \"%s\" is in valid."
+msgstr "%s: O campo  \"%s\" é um endereço válido."
+
+#: ../lib/infrastructure/utils/Validator.php:22
+#, php-format
+msgid "%s: Field \"%s\" value is not a valid email."
+msgstr "%s: O campo  \"%s\" valor não é um e-mail válido."
+
+#: ../lib/infrastructure/utils/Validator.php:23
+#, php-format
+msgid "%s: Field \"%s\" value is not a valid url."
+msgstr "%s: O campo \"%s\" valor não é uma URL válida."
+
+#: ../lib/infrastructure/utils/Validator.php:24
+#, php-format
+msgid "%s: Field \"%s\" value should be digits."
+msgstr "%s: O campo \"%s\" valor deve ser dígitos."
+
+#: ../lib/infrastructure/utils/Validator.php:25
+#, php-format
+msgid "%s: Field \"%s\" value should be a number."
+msgstr "%s: O campo  \"%s\" valor deve ser um número."
+
+#: ../lib/infrastructure/utils/Validator.php:26
+#, php-format
+msgid "%s: Field \"%s\" value can only contain alpha numeric characters."
+msgstr "%s: O campo  \"%s\" valor só pode conter caracteres alfanuméricos."
+
+#: ../lib/infrastructure/widgets/BasketWidget.php:13
+msgid "Booki - Basket/Cart"
+msgstr "Booki - Basket / carrinho"
+
+#: ../lib/infrastructure/widgets/BasketWidget.php:14
+msgid "Booki basket  --Allows you to embed the mini cart via a widget"
+msgstr "Booki cesta - Permite inserir o mini carrinho através de um widget"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:17
+msgid "Booki - Bookings listing"
+msgstr "Booki - Reservas de listagem"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:18
+msgid ""
+"Booki listings --Allows you to list projects based on their tag. If no tag "
+"is supplied, all projects are listed."
+msgstr ""
+"Listagens booki - Permite listar projetos com base em sua tag. Se nenhuma "
+"tag é fornecido, todos os projetos são listados."
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:90
+msgid "A comma separated list of tags. Leave blank to list all projects."
+msgstr ""
+"Separe as etiquetas usando um vírgula. Deixe em branco para listar todos os "
+"projetos."
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:91
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:103
+#, fuzzy
+msgid "Heading"
+msgstr "Pendente"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:115
+msgid "From label"
+msgstr "Do rótulo"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:127
+#, fuzzy
+msgid "To label"
+msgstr "Rótulo"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:138
+msgid "Heading field max length"
+msgstr "Comprimento máximo do campo do cabeçalho"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:139
+#, fuzzy
+msgid "Heading max length"
+msgstr "Comprimento Max"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:150
+msgid "Description field character length"
+msgstr "Descrição do campo do comprimento de caracteres "
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:151
+#, fuzzy
+msgid "Description max length"
+msgstr "Descrição"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:162
+msgid "Max records per page"
+msgstr "Máximo registros por página"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:163
+msgid "Records per page"
+msgstr "Registros por página"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:176
+msgid "Show full pager"
+msgstr "Mostrar página completa"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:182
+#, fuzzy
+msgid "Enable search"
+msgstr "Ativar este e-mail"
+
+#: ../lib/infrastructure/widgets/BookingsListWidget.php:188
+#, fuzzy
+msgid "Enable heading in item"
+msgstr "Ativar este e-mail"
+
+#: ../lib/views/createbookings.php:54
+msgid "Create bookings"
+msgstr "Criar reservas"
+
+#: ../lib/views/createbookings.php:55
+msgid "Create bookings manually and email them to user."
+msgstr "Criar reservas manualmente e enviá-las para o usuário."
+
+#: ../lib/views/createbookings.php:63
+msgid "The booking was created successfully and an email was sent."
+msgstr "A reserva foi criada com sucesso e um e-mail foi enviado."
+
+#: ../lib/views/createbookings.php:86
+#, fuzzy
+msgid ""
+"The booking will be emailed to the user email provided below. If payments "
+"are enabled then an invoice is emailed along with payment instructions.\n"
+"\t\t\t\t\t\t\tIf user is not already registered, then a new user is also "
+"created and login credentials along with invoice are emailed."
+msgstr ""
+"A reserva será enviada para o e-mail do usuário fornecido abaixo. Se os "
+"pagamentos são ativados então uma fatura é enviada, juntamente com as "
+"instruções de pagamento.\n"
+"\t\t\t\t\t\t\tSe usuário ainda não estiver registrado, em seguida, um novo "
+"usuário também é criado e as credenciais de login, juntamente com nota "
+"fiscal são enviado por email.\t"
+
+#: ../lib/views/createbookings.php:105
+msgid "Whoops! No more bookings available for selected project."
+msgstr "Gritos! Não há mais reservas disponíveis para o projeto selecionado."
+
+#: ../lib/views/createbookings.php:119
+msgid ""
+"Email not found. A new user will be created and the booking emailed along "
+"with the user account credentials."
+msgstr ""
+"E-mail não encontrado. Um novo usuário será criado e da reserva por e-mail, "
+"juntamente com as credenciais da conta de usuário."
+
+#: ../lib/views/createbookings.php:120
+msgid "User email found. Username is"
+msgstr "E-mail do usuário encontrado. Nome de usuário é"
+
+#: ../lib/views/createprojects.php:35
+msgid "Create, edit and delete projects"
+msgstr "Criar, editar e excluir projetos"
+
+#: ../lib/views/createprojects.php:36
+msgid ""
+"The basis for any bookings. It all takes place here. A project is how you "
+"define a unique booking."
+msgstr ""
+"A base para as reservas. Tudo acontece aqui. Um projeto é como você define "
+"uma reserva exclusiva."
+
+#: ../lib/views/createprojects.php:47
+msgid "Request in progress..."
+msgstr ""
+
+#: ../lib/views/createprojects.php:49 ../lib/views/createprojects.php:184
+#: ../lib/views/createprojects.php:345
+msgid "Create new"
+msgstr "Criar novo"
+
+#: ../lib/views/createprojects.php:50
+msgid "Short Code"
+msgstr "Short Code"
+
+#: ../lib/views/createprojects.php:51 ../lib/views/createprojects.php:54
+msgid "Duplicate project name"
+msgstr "Duplicar nome do projeto"
+
+#: ../lib/views/createprojects.php:52
+msgid "Duplicate project"
+msgstr "Duplicar projeto"
+
+#: ../lib/views/createprojects.php:53 ../lib/views/createprojects.php:142
+#: ../lib/views/createprojects.php:305 ../lib/views/createprojects.php:346
+#: ../lib/views/managecoupons.php:276
+msgid "Create"
+msgstr "Criar"
+
+#: ../lib/views/createprojects.php:55
+msgid ""
+"Supply a name for your duplicate project and hit create. This will create a "
+"duplicate of all the settings of the current project. This is especially "
+"helpful when you want to create a list of separate bookings, based off the "
+"current booking. The new duplicated project will contain everything from "
+"project settings, to form fields, booking calendar values and optionals. "
+"Cascading lists will be copied over too but the relationships will be reset. "
+"That means you will have to re-establish the relationships for cascading "
+"lists again."
+msgstr ""
+"Forneça um nome para o seu projeto duplicado e bateu criar. Isto irá criar "
+"uma duplicata de todas as configurações do projeto atual. Isso é "
+"especialmente útil quando você quer criar uma lista de reservas separadas, "
+"com base fora da reserva atual. O novo projeto duplicado irá conter tudo, "
+"desde as configurações do projeto, para formar campos, reserva de valores de "
+"calendário e opcionais. Listas em cascata será copiado também, mas as "
+"relações serão reiniciadas. Isso significa que você terá que restabelecer as "
+"relações para cascata listas novamente."
+
+#: ../lib/views/createprojects.php:57
+msgid "Attention: Booking mode"
+msgstr "Atenção: O modo de reserva"
+
+#: ../lib/views/createprojects.php:58
+msgid "Project status"
+msgstr "Da situação dos projetos"
+
+#: ../lib/views/createprojects.php:59
+msgid ""
+"A projects status can be \\\"running\\\", this means it will still serve "
+"bookings if there are available days OR the status can be \\\"stopped\\\", "
+"which means bookings won't be allowed regardless of bookings availability."
+msgstr ""
+"Um status projetos podem ser \\\"correndo\\\", isso significa que ainda vai "
+"servir reservas se há dias disponível ou o status pode ser \\\"parado\\\", o "
+"que significa que as reservas não serão permitidos independentemente de "
+"reservas disponibilidade."
+
+#: ../lib/views/createprojects.php:60
+msgid "Running"
+msgstr "Corrida"
+
+#: ../lib/views/createprojects.php:61
+msgid "Stopped"
+msgstr "Parado"
+
+#: ../lib/views/createprojects.php:62
+msgid ""
+"Reservation mode allows multiple users to book the same day and time slot "
+"intervals. Appointment mode on the other hand allows only one time bookings. "
+"Once a booking is made, the same day/time combinations won't be available "
+"for booking again."
+msgstr ""
+"Modo de reserva permite que múltiplos usuários para reservar o mesmo dia e "
+"intervalos de horário. Modo de nomeação, por outro lado permite que apenas "
+"uma reserva de tempo. Uma vez que a reserva é feita, as mesmas combinações "
+"de dia/hora não estarão disponíveis para reserva novamente."
+
+#: ../lib/views/createprojects.php:63
+msgid "Booking mode"
+msgstr "Modo de reserva"
+
+#: ../lib/views/createprojects.php:64
+msgid "Reservation"
+msgstr "Reserva"
+
+#: ../lib/views/createprojects.php:65
+msgid "Appointment"
+msgstr "Compromisso"
+
+#: ../lib/views/createprojects.php:66 ../lib/views/createprojects.php:68
+#, fuzzy
+msgid "Maximum booking days or time slots"
+msgstr "Mostrar reservado intervalos de tempo"
+
+#: ../lib/views/createprojects.php:67
+msgid ""
+"Provide the maximum number of days or time slots that can be booked in a "
+"single booking calendar. A value of 1, the default will not allow multiple "
+"selections i.e. only 1 day or time slot can be booked at a time. Note when "
+"selecting range calendar, ensure that this value is greater than 1."
+msgstr ""
+"Fornecer o número máximo de dias ou intervalos de tempo que pode ser "
+"reservado em uma única reserva de calendário. Valor de 1, é padrão e não "
+"permitirá várias seleções, ou seja, apenas 1 dia ou intervalo de tempo pode "
+"ser reservado por vez. Note ao selecionar um intervalo do calendário, "
+"verifique que este valor seja maior que 1."
+
+#: ../lib/views/createprojects.php:69 ../lib/views/createprojects.php:71
+#, fuzzy
+msgid "Minimum booking days or timeslots"
+msgstr "Número mínimo de seleções opcionais necessários"
+
+#: ../lib/views/createprojects.php:70
+#, fuzzy
+msgid ""
+"Provide the minimum number of days or timeslots that must be booked in a "
+"single booking calendar. A value of 0, the default means no minimum is "
+"applied."
+msgstr ""
+"Fornecer o número de dias que pode ser reservado em um único calendário "
+"reserva. Esta configuração é válida apenas em \\\"dia com base\\\" reservas "
+"configuráveis ​​no \\\"período de reserva\\\" guia."
+
+#: ../lib/views/createprojects.php:72
+#, fuzzy
+msgid ""
+"The bookings calendar can be either pop up, inline, range or next day "
+"checkout. A popup calendar is one where a textbox is used to show the "
+"selected date which pops up a calendar when clicked allowing date selection. "
+"Inline is when an always visible calendar is used. Range will give you a set "
+"of \\\"From\\\" and \\\"To\\\" popup calendars. Next day checkout gives you "
+"a range selector that counts the date diff between now and then instead of "
+"adding all days in the range."
+msgstr ""
+"O calendário de reservas pode ser pop up, inline ou intervalo. Um calendário "
+"pop-up é aquele em que uma caixa de texto é usado para mostrar a data "
+"selecionada que aparece um calendário quando clicado permitindo seleção de "
+"data. Em linha é quando um calendário sempre visível é usado. Gama, por "
+"outro lado lhe dará um conjunto de \\\"de\\\" e \\\"para\\\" calendários pop-"
+"up."
+
+#: ../lib/views/createprojects.php:73
+msgid "Calendar mode"
+msgstr "Modo Calendar"
+
+#: ../lib/views/createprojects.php:74
+msgid "Popup"
+msgstr "Popup"
+
+#: ../lib/views/createprojects.php:75
+msgid "Inline"
+msgstr "Em linha"
+
+#: ../lib/views/createprojects.php:76
+msgid "Range"
+msgstr "Taxa"
+
+#: ../lib/views/createprojects.php:77
+msgid "Next day check out"
+msgstr "Saída no próximo dia"
+
+#: ../lib/views/createprojects.php:78
+msgid "Tagging"
+msgstr "Tagging"
+
+#: ../lib/views/createprojects.php:79
+msgid ""
+"Tagging allows you to group common projects together. Grouped projects get "
+"listed using the booki-list shortcode or widget. Select an existing tag or "
+"create a new one to associate to this project."
+msgstr ""
+"Tagging permite agrupar projetos comuns em conjunto. Projetos agrupados "
+"obter listados usando o shortcode-list booki ou widget. Selecione uma tag "
+"existente ou criar um novo para associar a este projeto."
+
+#: ../lib/views/createprojects.php:80
+msgid "Tag"
+msgstr "Marcar"
+
+#: ../lib/views/createprojects.php:81
+msgid ""
+"A short description. This will be used along with the preview thumbnail when "
+"listing projects using the booki-list shortcode or widget."
+msgstr ""
+"Uma breve descrição. Isso vai ser usado junto com a miniatura de "
+"visualização ao listar projetos usando o shortcode-list booki ou widget."
+
+#: ../lib/views/createprojects.php:82
+msgid "Description"
+msgstr "Descrição"
+
+#: ../lib/views/createprojects.php:83
+msgid ""
+"A preview image used when listing projects using the booki-list shortcode or "
+"widget."
+msgstr ""
+"Uma imagem de visualização utilizado ao listar projetos usando o shortcode-"
+"list booki ou widget."
+
+#: ../lib/views/createprojects.php:84
+msgid "Preview image"
+msgstr "Visualizar imagem"
+
+#: ../lib/views/createprojects.php:85
+msgid "Project listing settings"
+msgstr "Configurações da lista Projeto"
+
+#: ../lib/views/createprojects.php:86
+msgid "Booking control label settings"
+msgstr "Reservas configurações de rótulo de controle"
+
+#: ../lib/views/createprojects.php:87
+msgid "Optional Lists and Optional Cascading Lists Booking Mode"
+msgstr "Listas de opcionais e listas em cascata opcionais Modo de reserva"
+
+#: ../lib/views/createprojects.php:88
+msgid ""
+"Optional Lists and Optional Cascading Lists  can apply to a single booking. "
+"Note that a single booking can contain multiple days and time slots if your "
+"booking allows selecting multiple days and time slots at the same time. "
+"Alternatively optionals can apply for each day/time slot selected."
+msgstr ""
+"Listas de opcionais e listas em cascata opcionais podem aplicar-se a uma "
+"única reserva. Note-se que uma única reserva pode conter vários dias e "
+"intervalos de tempo se a sua reserva permite selecionar vários dias e os "
+"horários ao mesmo tempo. Alternativamente opcionais podem se inscrever para "
+"cada slot dia / hora marcada."
+
+#: ../lib/views/createprojects.php:89
+msgid "General project settings"
+msgstr "As configurações gerais do projeto"
+
+#: ../lib/views/createprojects.php:90
+msgid "Each booking"
+msgstr "Cada reserva"
+
+#: ../lib/views/createprojects.php:91
+msgid "Each day or time slot selected"
+msgstr "Cada slot de dia ou de tempo selecionado"
+
+#: ../lib/views/createprojects.php:92
+msgid "Optionals listing mode"
+msgstr "Opcionais modo listagem"
+
+#: ../lib/views/createprojects.php:93
+msgid ""
+"Optional Lists can be presented in a checkbox list which is the default or "
+"in a radio button list. If a checkbox list is chosen, you can additionally "
+"set the minimum items to be checked, in order to proceed with the booking."
+msgstr ""
+"Listas opcionais podem ser apresentados em uma lista caixa de seleção que é "
+"o padrão ou em uma lista de botão de rádio. Se uma lista de caixa de seleção "
+"é escolhido, você pode também definir os itens mínimos a serem verificados, "
+"a fim de prosseguir com a reserva."
+
+#: ../lib/views/createprojects.php:94
+msgid "Checkbox List"
+msgstr "Lista Checkbox"
+
+#: ../lib/views/createprojects.php:95
+msgid "RadioButton List"
+msgstr "Lista RadioButton"
+
+#: ../lib/views/createprojects.php:96
+msgid "Minimum number of optional selections required"
+msgstr "Número mínimo de seleções opcionais necessários"
+
+#: ../lib/views/createprojects.php:97
+msgid "Enter new tag"
+msgstr "Digite o novo tag"
+
+#: ../lib/views/createprojects.php:98
+msgid "Booking wizard mode"
+msgstr "Modo de assistente de reserva"
+
+#: ../lib/views/createprojects.php:99
+msgid ""
+"The booking wizard can be split up in two tabs, one containing the booking "
+"calendar and optionals, while the other containing the custom form fields. "
+"This is the default. Alternatively you can combine it all and display "
+"everything linearly, in a top to bottom fashion."
+msgstr ""
+"O assistente de reserva pode ser dividido em duas guias, uma contendo o "
+"calendário reserva e opcionais, enquanto o outro contendo os campos do "
+"formulário personalizado. Este é o padrão. Alternativamente, você pode "
+"combinar tudo isso e mostrar tudo de forma linear, em uma parte superior de "
+"forma inferior."
+
+#: ../lib/views/createprojects.php:100
+msgid "Tabs"
+msgstr "abas"
+
+#: ../lib/views/createprojects.php:101
+msgid "Linear"
+msgstr "Linear"
+
+#: ../lib/views/createprojects.php:102
+msgid ""
+"If you set up custom form fields, then this option allows you to decide "
+"which form is shown first in the booking wizard."
+msgstr ""
+"Se você configurar os campos do formulário personalizado, em seguida, esta "
+"opção permite que você decida qual formulário é exibido pela primeira vez no "
+"assistente de reserva."
+
+#: ../lib/views/createprojects.php:103
+msgid "Default step"
+msgstr "Passo Padrão"
+
+#: ../lib/views/createprojects.php:104
+msgid "Booking form"
+msgstr "Formulário de Reserva"
+
+#: ../lib/views/createprojects.php:105
+msgid "Custom form fields"
+msgstr "Campos do formulário personalizado"
+
+#: ../lib/views/createprojects.php:106
+msgid "The label to use for the booking tab in the booking wizard."
+msgstr ""
+"O rótulo a ser usado para o separador de reserva, o assistente de reserva."
+
+#: ../lib/views/createprojects.php:107
+msgid "Booking tab caption"
+msgstr "Reservas legenda guia"
+
+#: ../lib/views/createprojects.php:108
+msgid ""
+"The caption to use for the custom form fields tab in the booking wizard."
+msgstr ""
+"A legenda a ser usada para o formulário personalizado guia Campos no "
+"assistente de reserva."
+
+#: ../lib/views/createprojects.php:109
+msgid "Custom form fields tab caption"
+msgstr "Formulário personalizado campos de legenda guia"
+
+#: ../lib/views/createprojects.php:110
+msgid "The label to use for available days field in the booking wizard."
+msgstr ""
+"O rótulo de usar para o campo dias disponíveis no assistente de reserva."
+
+#: ../lib/views/createprojects.php:111
+msgid "Available days field label"
+msgstr "Dias Livre rótulo do campo"
+
+#: ../lib/views/createprojects.php:112
+msgid "The label to use for the selected days field in the booking wizard."
+msgstr ""
+"O rótulo a ser usado para o campo dias selecionado no assistente de reserva."
+
+#: ../lib/views/createprojects.php:113
+msgid "Selected days field label"
+msgstr "Selecionado rótulo do campo dias"
+
+#: ../lib/views/createprojects.php:114
+msgid ""
+"The label to use for the booking time dropdown list field in the booking "
+"wizard."
+msgstr ""
+"O rótulo a ser usado para o campo de lista suspensa de tempo de reserva, o "
+"assistente de reserva."
+
+#: ../lib/views/createprojects.php:115
+msgid "Booking time field label"
+msgstr "Rótulo do campo tempo Booking"
+
+#: ../lib/views/createprojects.php:116
+msgid ""
+"The heading to use for the extra billable items checkbox list that allows "
+"selection of additional features whose cost add up to the total price in the "
+"booking wizard."
+msgstr ""
+"O título a ser usado para o faturável itens lista caixa extra que permite a "
+"seleção de recursos adicionais, cujo custo se somam ao preço total do "
+"assistente reserva."
+
+#: ../lib/views/createprojects.php:117
+msgid "Optional features heading"
+msgstr "Os recursos opcionais título"
+
+#: ../lib/views/createprojects.php:118
+msgid "The caption to use in the booking wizards next button."
+msgstr "A legenda para usar na reserva assistentes próximo botão."
+
+#: ../lib/views/createprojects.php:119
+msgid "Next button caption"
+msgstr "Próxima legenda do botão"
+
+#: ../lib/views/createprojects.php:120
+msgid "The caption to use in the booking wizards back button."
+msgstr "A legenda para usar na reserva assistentes de volta botão."
+
+#: ../lib/views/createprojects.php:121
+msgid "Back button caption"
+msgstr "Voltar legenda do botão"
+
+#: ../lib/views/createprojects.php:122
+msgid "The caption to use for the create booking button in the booking wizard."
+msgstr ""
+"A legenda a ser usada para criar o botão da reserva no assistente de reserva."
+
+#: ../lib/views/createprojects.php:123
+msgid "Create booking button caption"
+msgstr "Criar reserva legenda do botão"
+
+#: ../lib/views/createprojects.php:124
+msgid ""
+"The label to display in the \\\"From\\\" range field, when \\\"Calendar Mode"
+"\\\" is set to \\\"Range\\\"."
+msgstr ""
+"O rótulo a ser exibido na \\\"De\\\" campo de intervalo, quando \\"
+"\"Calendário Modo de\\\" está definido para \\\"Range\\\"."
+
+#: ../lib/views/createprojects.php:126
+msgid ""
+"The label to display in the \\\"To\\\" range field, when \\\"Calendar Mode\\"
+"\" is set to \\\"Range\\\"."
+msgstr ""
+"O rótulo a ser exibido na \\\"para\\\" campo de intervalo, quando \\"
+"\"Calendário Modo de\\\" está definido para \\\"Range\\\"."
+
+#: ../lib/views/createprojects.php:128
+msgid "Hide selected days"
+msgstr "Esconder dias selecionados"
+
+#: ../lib/views/createprojects.php:129
+msgid ""
+"When multiple days selection is enabled, a list of the selected is displayed "
+"under the booking calendar. Use this option to toggle the display of that "
+"list."
+msgstr ""
+"Quando a seleção vários dias está habilitado, a lista dos selecionados é "
+"exibido sob o calendário reserva. Use esta opção para alternar a exibição "
+"dessa lista."
+
+#: ../lib/views/createprojects.php:130
+msgid ""
+"Sets the label on the button in the booking. Button will show only when user "
+"is not logged in when cart system is disabled."
+msgstr ""
+"Define o rótulo do botão na reserva. Button vai mostrar apenas quando o "
+"usuário não está conectado, quando carrinho sistema é desativado."
+
+#: ../lib/views/createprojects.php:131
+msgid "Proceed to login label"
+msgstr "Vá para a sessão rótulo"
+
+#: ../lib/views/createprojects.php:132
+msgid ""
+"Sets the label on the button used to make the button. This is the button "
+"that will display when you disable payments and cart system."
+msgstr ""
+"Define o rótulo do botão usado para fazer o botão. Este é o botão que será "
+"exibida quando você desativar os pagamentos e compras sistema."
+
+#: ../lib/views/createprojects.php:133
+msgid "Make booking label"
+msgstr "Faça rótulo de reserva"
+
+#: ../lib/views/createprojects.php:134
+msgid "Available seats label"
+msgstr "Etiqueta assentos disponíveis"
+
+#: ../lib/views/createprojects.php:135
+msgid ""
+"Text used to display the number of available seats left. This option will "
+"apply when you set \\\"Available seats\\\" and check \\\"Display counter\\"
+"\", both options available in the booking period tab."
+msgstr ""
+"Texto usado para exibir o número de assentos disponíveis para a esquerda. "
+"Esta opção será aplicada quando você definir \\\"assentos disponíveis\" e "
+"verifique\\\"Display contador\\\", ambas as opções disponíveis na aba "
+"período de reserva."
+
+#: ../lib/views/createprojects.php:137
+msgid "Optional HTML content"
+msgstr "Conteúdo HTML Opcional"
+
+#: ../lib/views/createprojects.php:138
+msgid "Content above and below booking calendar"
+msgstr "Conteúdo acima e abaixo do calendário de reserva"
+
+#: ../lib/views/createprojects.php:139
+msgid ""
+"These settings allow you to insert HTML content above and below the booking "
+"calendar."
+msgstr ""
+"Essas configurações permitem que você insira o conteúdo HTML acima e abaixo "
+"o calendário reserva."
+
+#: ../lib/views/createprojects.php:140
+msgid "Content above booking calendar"
+msgstr "Conteúdo acima calendário reserva"
+
+#: ../lib/views/createprojects.php:141
+msgid "Content below booking calendar"
+msgstr "Conteúdo abaixo calendário reserva"
+
+#: ../lib/views/createprojects.php:143 ../lib/views/createprojects.php:234
+#: ../lib/views/createprojects.php:235 ../lib/views/createprojects.php:304
+#: ../lib/views/createprojects.php:333 ../lib/views/createprojects.php:347
+#: ../lib/views/managecoupons.php:283
+msgid "Update"
+msgstr "Atualizar"
+
+#: ../lib/views/createprojects.php:145
+msgid "Image Gallery"
+msgstr "Galeria de imagens"
+
+#: ../lib/views/createprojects.php:146 ../lib/views/createprojects.php:350
+#: ../lib/views/uninstall.php:86 ../lib/views/uninstall.php:109
+#: ../lib/views/partials/bookingdetails.php:178
+#: ../lib/views/partials/bookingdetails.php:284
+#: ../lib/views/partials/bookingdetails.php:392
+msgid "Close"
+msgstr "Fechar"
+
+#: ../lib/views/createprojects.php:147
+msgid "Delete Project"
+msgstr "Excluir projeto"
+
+#: ../lib/views/createprojects.php:148
+msgid ""
+"You are about to delete a project. You will lose any data associated to this "
+"project including all bookings made for this project. Are you sure ?"
+msgstr ""
+"Você está prestes a excluir um projeto. Você perderá todos os dados "
+"associados a este projeto, incluindo todas as reservas feitas para este "
+"projeto. Você tem certeza?"
+
+#: ../lib/views/createprojects.php:164
+msgid "Make a booking"
+msgstr "Faça uma reserva"
+
+#: ../lib/views/createprojects.php:165
+msgid "New Booking Notification Recipient(s)"
+msgstr "Nova Reserva Notificação Destinatário (s)"
+
+#: ../lib/views/createprojects.php:166
+msgid ""
+"Allows you to send new booking notifications to 1 or more people, who will "
+"become the intended recipient(s). Multiple recipients may be specified using "
+"a comma to separate each email address. i.e. someone@mydomain.com, "
+"another@somedomain.com, athird@somewhere.com"
+msgstr ""
+"Permite enviar notificações de novas reservas para uma ou mais pessoas, que "
+"se tornarão o destinatário (s). Vários destinatários podem ser especificados "
+"usando uma vírgula para separar cada endereço de e-mail. ie someone@mydomain."
+"com, another@somedomain.com, athird@somewhere.com"
+
+#: ../lib/views/createprojects.php:167
+msgid "Create new form field"
+msgstr "Criar um novo campo de formulário"
+
+#: ../lib/views/createprojects.php:168
+msgid ""
+"Custom form fields will be part of your booking form and allow you to "
+"collect additional information and will appear as an integral part of the "
+"booking process."
+msgstr ""
+"Campos do formulário personalizado será parte de seu formulário de reserva e "
+"lhe permitirá recolher informação adicional e será exibido como parte "
+"integrante do processo de reserva."
+
+#: ../lib/views/createprojects.php:169
+msgid "Element type"
+msgstr "Tipo de elemento"
+
+#: ../lib/views/createprojects.php:170 ../lib/views/createprojects.php:343
+msgid "Label"
+msgstr "Rótulo"
+
+#: ../lib/views/createprojects.php:172
+msgid ""
+"The initial value of this field. Setting the same value for multiple "
+"radiobutton elements will create a radiobutton group."
+msgstr ""
+"O valor inicial deste campo. Definindo o mesmo valor de vários elementos "
+"RadioButton vai criar um grupo de botão de opção."
+
+#: ../lib/views/createprojects.php:174
+msgid "Terms and Conditions Url"
+msgstr "Termos e Condições Url"
+
+#: ../lib/views/createprojects.php:175
+msgid ""
+"Provide the url to your terms and conditions page. If user does not check "
+"this field, validation will fail. Combine this with properly worded label "
+"set above, eg: Do you agree with our terms and conditions ?"
+msgstr ""
+"Fornecer a URL para os seus termos e condições página. Se o usuário não "
+"marque este campo, a validação irá falhar. Combine isso com a etiqueta "
+"devidamente redigido definido acima, por exemplo: Você concorda com os "
+"nossos termos e condições?"
+
+#: ../lib/views/createprojects.php:176 ../lib/views/createprojects.php:178
+msgid "Content"
+msgstr "Conteúdo"
+
+#: ../lib/views/createprojects.php:177
+msgid ""
+"The content for h1 through h6 elements are headings for the sections with "
+"which they are associated or just plain text if statictext was your "
+"selection in the \\\"Element type\\\" field."
+msgstr ""
+"O conteúdo para h1 através de elementos h6 são títulos para as seções com as "
+"quais estão associados ou apenas texto simples se StaticText era sua seleção "
+"na \\\"tipo de elemento\\\" campo."
+
+#: ../lib/views/createprojects.php:179
+msgid ""
+"Setting a class name allows you to quickly apply css styling to this field. "
+"You can also choose one of the following css classes to apply some "
+"formatting : [booki-align-left, booki-align-center, booki-align-right, booki-"
+"overline, booki-underline, booki-italic, booki-bold, booki-capitalize, booki-"
+"uppercase]"
+msgstr ""
+"Definir um nome de classe permite que você aplique rapidamente css estilo "
+"para esse campo. Você também pode escolher uma das seguintes classes css "
+"para aplicar alguma formatação: [booki-align-esquerda, centro-align-booki, "
+"booki-align-direita, booki-overline, booki-sublinhado, booki-itálico, booki-"
+"negrito, booki-capitalizar, booki-maiúscula]"
+
+#: ../lib/views/createprojects.php:180
+msgid "CSS class name"
+msgstr "Nome da classe CSS"
+
+#: ../lib/views/createprojects.php:181
+msgid "Column index"
+msgstr "Índice de coluna"
+
+#: ../lib/views/createprojects.php:182
+msgid ""
+"Enables multi-column grid. The form element will be placed at the supplied "
+"column index. Accepts values 1 - 12. Choose an existing column index from "
+"the dropdown list or create a new one. The layout will depend greatly on the "
+"screen estate available for the booking form. The smaller the space the more "
+"contrived it will appear. Hence we generally recommend single column layouts."
+msgstr ""
+"Permite grade multi-coluna. O elemento de forma será colocada no índice de "
+"coluna fornecido. Aceita valores 1 - 12. Escolha um índice de coluna "
+"existente na lista suspensa ou criar um novo. O layout vai depender muito do "
+"espólio de tela disponível para o formulário de reserva. Quanto menor o "
+"espaço o mais artificial que vai aparecer. Por isso geralmente recomendamos "
+"layouts de coluna única."
+
+#: ../lib/views/createprojects.php:183
+msgid "Column Index"
+msgstr "Índice de Coluna"
+
+#: ../lib/views/createprojects.php:185
+msgid "Row index"
+msgstr "Índice de linha"
+
+#: ../lib/views/createprojects.php:186
+msgid ""
+"The form element will be placed at the supplied row index. Choose an "
+"existing row index from the dropdown list or create a new one."
+msgstr ""
+"O elemento de forma será colocada no índice de linha fornecido. Escolha um "
+"índice de linha existente na lista suspensa ou criar um novo."
+
+#: ../lib/views/createprojects.php:187
+msgid "Row Index"
+msgstr "Índice Row"
+
+#: ../lib/views/createprojects.php:188
+msgid "Display only once"
+msgstr "Apresentar apenas uma vez"
+
+#: ../lib/views/createprojects.php:189
+msgid ""
+"When checked, this field is shown only the first time the user is making a "
+"booking. If user makes subsequent bookings i.e. adding more days to cart, it "
+"won't show. Use it to collect one time information."
+msgstr ""
+"Quando selecionado, este campo é mostrado apenas na primeira vez que o "
+"usuário está fazendo uma reserva. Se o usuário faz reservas subseqüentes ou "
+"seja, a adição de mais dias para compras, ele não vai aparecer. Use-o para "
+"coletar uma informação de tempo."
+
+#: ../lib/views/createprojects.php:190
+msgid "Display only once ( on multiple bookings)"
+msgstr "Mostrar apenas uma vez (em várias reservas)"
+
+#: ../lib/views/createprojects.php:191
+msgid "Add a line separator after this field"
+msgstr "Adicionar uma linha separadora após este campo"
+
+#: ../lib/views/createprojects.php:192
+msgid "Checked by default"
+msgstr "Marcada por padrão"
+
+#: ../lib/views/createprojects.php:193 ../lib/views/createprojects.php:335
+msgid "Data source"
+msgstr "Fonte de Dados"
+
+#: ../lib/views/createprojects.php:194
+msgid ""
+"The items you add to the listbox in this section will be data bound to the "
+"element. To make an item the default selection, select the item in the list "
+"and then click the \\\"Make default selection\\\" icon"
+msgstr ""
+"Os itens adicionados à caixa de listagem nesta seção serão dados ligados ao "
+"elemento. Para fazer um item a seleção padrão, selecione o item na lista e, "
+"em seguida, clique no botão \\\"Faça a seleção default\\\" ícone"
+
+#: ../lib/views/createprojects.php:195 ../lib/views/createprojects.php:337
+msgid "Data Item"
+msgstr "Item de dados"
+
+#: ../lib/views/createprojects.php:196
+msgid "Use this email field to auto register users"
+msgstr "Utilize este campo e-mail para os usuários do registo de automóveis"
+
+#: ../lib/views/createprojects.php:197
+msgid "These options allow you to provide some logic to email fields."
+msgstr ""
+"Estas opções permitem que você forneça alguma lógica para campos de e-mail."
+
+#: ../lib/views/createprojects.php:198
+msgid "Use this as first name or last name fields"
+msgstr "Use isso como primeiro nome ou sobrenome campos"
+
+#: ../lib/views/createprojects.php:199
+msgid ""
+"If you've disabled registration and just want to send user an email "
+"regarding their booking, the email will include this as either the customers "
+"first name or last name depending on selection below."
+msgstr ""
+"Se você tiver o registro desativado e só quero enviar um e-mail do usuário "
+"em relação a sua reserva, o e-mail irá incluir isso como quer a clientes "
+"primeiro nome ou sobrenome dependendo da seleção abaixo."
+
+#: ../lib/views/createprojects.php:200
+msgid "Just a regular textbox field"
+msgstr "Apenas um campo de caixa de texto normal"
+
+#: ../lib/views/createprojects.php:201
+#, fuzzy
+msgid ""
+"Use this email field to register the user. Registered users get first class "
+"treatment"
+msgstr ""
+"Utilize este campo e-mail para registrar o usuário. Os usuários registrados "
+"recebem tratamento de primeira classe."
+
+#: ../lib/views/createprojects.php:202
+msgid "Use this email field to send a one time notification to the user"
+msgstr ""
+"Utilize este campo e-mail para enviar uma notificação de uma só vez para o "
+"usuário"
+
+#: ../lib/views/createprojects.php:203
+#, fuzzy
+msgid "The value of this field is the first name or first name and last name"
+msgstr "O valor deste campo é o primeiro nome"
+
+#: ../lib/views/createprojects.php:204
+msgid "The value of this field is the last name"
+msgstr "O valor deste campo é o último nome"
+
+#: ../lib/views/createprojects.php:205
+msgid "Validation"
+msgstr "Validação"
+
+#: ../lib/views/createprojects.php:206
+msgid "Basic constraints"
+msgstr "Restrições básicas"
+
+#: ../lib/views/createprojects.php:207
+msgid "Default selection"
+msgstr "Seleção padrão"
+
+#: ../lib/views/createprojects.php:208
+msgid "Default value"
+msgstr "Valor padrão"
+
+#: ../lib/views/createprojects.php:209 ../lib/views/createprojects.php:338
+msgid "Your list cannot be empty. You need to add atleast 1 item."
+msgstr ""
+"Sua lista não pode ser vazio. Você precisa adicionar pelo menos um item."
+
+#: ../lib/views/createprojects.php:210 ../lib/views/createprojects.php:340
+msgid "Add value"
+msgstr "Agregar valor"
+
+#: ../lib/views/createprojects.php:211 ../lib/views/createprojects.php:341
+msgid "Remove"
+msgstr "Remover"
+
+#: ../lib/views/createprojects.php:212
+msgid "Make default selection"
+msgstr "Faça a seleção padrão"
+
+#: ../lib/views/createprojects.php:213
+msgid "Validation - Advanced constraints"
+msgstr "Validação - restrições avançadas"
+
+#: ../lib/views/createprojects.php:214
+msgid "Allowed value"
+msgstr "Valor permitido"
+
+#: ../lib/views/createprojects.php:215
+msgid "Any value"
+msgstr "Qualquer valor"
+
+#: ../lib/views/createprojects.php:216
+msgid "Allow only digits from 0-9 (Negatives values not allowed.)"
+msgstr "Permitir apenas dígitos de 0-9 (valores Negativos não é permitido.)"
+
+#: ../lib/views/createprojects.php:217
+msgid "Allow only numbers"
+msgstr "Permitir apenas números"
+
+#: ../lib/views/createprojects.php:218
+msgid "Allow only alphanumeric string"
+msgstr "Permitir somente seqüência alfanumérica"
+
+#: ../lib/views/createprojects.php:219
+msgid ""
+"Validates that the length of a string is at least as long as the given limit."
+msgstr ""
+"Valida a que o comprimento de uma cadeia de, pelo menos, tão longo quanto o "
+"limite determinado."
+
+#: ../lib/views/createprojects.php:220
+msgid "Min length"
+msgstr "Comprimento Min"
+
+#: ../lib/views/createprojects.php:221
+msgid ""
+"Validates that the length of a string is not larger than the given limit."
+msgstr ""
+"Valida que o comprimento de uma cadeia não é maior do que o limite "
+"estabelecido."
+
+#: ../lib/views/createprojects.php:222
+msgid "Max length"
+msgstr "Comprimento Max"
+
+#: ../lib/views/createprojects.php:223
+msgid "Validates given number is greater than this min number"
+msgstr "Valida dado número é maior do que este número min"
+
+#: ../lib/views/createprojects.php:224
+msgid "Min"
+msgstr "Minutos"
+
+#: ../lib/views/createprojects.php:225
+msgid "Validates given number is less than this max number."
+msgstr "Valida dado número é inferior a este número máx."
+
+#: ../lib/views/createprojects.php:226
+msgid "Max"
+msgstr "Máx"
+
+#: ../lib/views/createprojects.php:227
+msgid ""
+"Validates that a value matches a specific regular expression eg: validate a "
+"color hexadecimal code: [A-Fa-f0-9]{6}."
+msgstr ""
+"Valida que um valor corresponde a uma expressão regular específica, por "
+"exemplo: validar um código hexadecimal de cor: [A-Fa-f0-9] {6} ."
+
+#: ../lib/views/createprojects.php:228
+msgid "Regular expression (Regex)"
+msgstr "Expressões Regulares (Regex)"
+
+#: ../lib/views/createprojects.php:229 ../lib/views/createprojects.php:331
+msgid "New record"
+msgstr "Novo registro"
+
+#: ../lib/views/createprojects.php:230
+msgid "Add this new form element"
+msgstr "Adicionar este novo elemento de formulário"
+
+#: ../lib/views/createprojects.php:231
+msgid "Match an email"
+msgstr "Combine um e-mail"
+
+#: ../lib/views/createprojects.php:232
+msgid "Match a url"
+msgstr "Combine uma url"
+
+#: ../lib/views/createprojects.php:233
+msgid "Add"
+msgstr "Adicionar"
+
+#: ../lib/views/createprojects.php:236
+msgid "Edit or delete an existing field"
+msgstr "Editar ou excluir um campo existente"
+
+#: ../lib/views/createprojects.php:237
+msgid "An overview of all the custom form fields created for this project."
+msgstr ""
+"Uma visão geral de todos os campos do formulário personalizado criado para "
+"este projeto."
+
+#: ../lib/views/createprojects.php:238 ../lib/views/createprojects.php:247
+msgid "Quick preview"
+msgstr "Pré-visualização rápida"
+
+#: ../lib/views/createprojects.php:239
+msgid "Whoops!"
+msgstr "Opa!"
+
+#: ../lib/views/createprojects.php:240
+msgid "Just hold it there Mister! You have not created any form elements yet."
+msgstr ""
+"Apenas mantenha-o lá senhor! Você não criou quaisquer elementos de "
+"formulário ainda."
+
+#: ../lib/views/createprojects.php:241
+msgid "You have unsaved changes. Save changes now ?"
+msgstr "Você tem alterações não salvas. Salve as alterações agora?"
+
+#: ../lib/views/createprojects.php:242 ../lib/views/generalsettings.php:917
+#: ../lib/views/paypal.php:270 ../lib/views/resources.php:512
+#: ../lib/views/resources.php:514
+msgid "Save"
+msgstr "Salvar"
+
+#: ../lib/views/createprojects.php:243
+msgid "Edit field"
+msgstr "Editar campo"
+
+#: ../lib/views/createprojects.php:244
+msgid "Delete field"
+msgstr "Excluir campo"
+
+#: ../lib/views/createprojects.php:245
+msgid "Delete Field"
+msgstr "Excluir Campo"
+
+#: ../lib/views/createprojects.php:246
+msgid "You are about to delete a field. Are you sure ?"
+msgstr "Você está prestes a excluir um campo. Você tem certeza?"
+
+#: ../lib/views/createprojects.php:248
+msgid "Create form fields"
+msgstr "Criar campos do formulário"
+
+#: ../lib/views/createprojects.php:249
+msgid "All form fields"
+msgstr "Todos os campos do formulário"
+
+#: ../lib/views/createprojects.php:250
+msgid "Heads up"
+msgstr "Atenção"
+
+#: ../lib/views/createprojects.php:251
+msgid ""
+"You must save your changes or discard them to set \\\"Cost for special days\\"
+"\"?"
+msgstr ""
+"Você deve salvar as alterações ou descartá-las para definir \\\"O custo para "
+"dias especiais\\\"?"
+
+#: ../lib/views/createprojects.php:252
+msgid "Booking date range"
+msgstr "Intervalo de datas de reserva"
+
+#: ../lib/views/createprojects.php:253
+msgid ""
+"Specify the days you want to allow booking. Your users will be allowed to "
+"make bookings during a date period that falls within the following Start/End "
+"date.The cost is applied to each day within your selected period."
+msgstr ""
+"Especifique os dias em que você deseja permitir a reserva. Os usuários "
+"poderão fazer reservas durante um período de data que se enquadra no "
+"seguinte custo date.The Início / Fim é aplicada a cada dia dentro do seu "
+"período selecionado."
+
+#: ../lib/views/createprojects.php:254
+msgid "Start date"
+msgstr "Data de início"
+
+#: ../lib/views/createprojects.php:255
+msgid "End date"
+msgstr "Data de término"
+
+#: ../lib/views/createprojects.php:256
+#, fuzzy
+msgid "Booking start lapse"
+msgstr "Data da reserva"
+
+#: ../lib/views/createprojects.php:257
+msgid ""
+"Booking is allowed only in advance of the number of days set below i.e. if "
+"you set 1 day, then bookings are allowed only 1 day before the current date. "
+"A value of 0 does not set this restriction and is the default."
+msgstr ""
+"Reserva só é permitido antes do número de dias definidos abaixo ou seja, se "
+"você definir 1 dia, então as reservas são permitidas apenas 1 dia antes da "
+"data atual. O valor de 0 não define esta restrição e é o padrão."
+
+#: ../lib/views/createprojects.php:258
+#, fuzzy
+msgid "Booking allowed in advance of"
+msgstr "Reservas calendário"
+
+#: ../lib/views/createprojects.php:259
+msgid "Available seats"
+msgstr "Assentos disponíveis"
+
+#: ../lib/views/createprojects.php:260
+msgid ""
+"This option limits bookings to the provided value. This is useful when you "
+"have a finite number of bookings eg: limited rooms for rent or seats in a "
+"bus etc. When the number of bookings is reached, bookings will close for "
+"this project. The value you see appened next to the textbox below is the "
+"number of bookings currently made in this project. A value of zero does not "
+"limit bookings and is the default."
+msgstr ""
+"Esta opção limita as reservas para o valor fornecido. Isto é útil quando "
+"você tem um número finito de reservas por exemplo: quartos limitados para "
+"alugar ou assentos em um ônibus, etc Se o número de reservas é atingido, as "
+"reservas vão fechar para este projeto. O valor que você veja appened ao lado "
+"do texto abaixo é o número de reservas feitas atualmente no projeto. Um "
+"valor de zero não limita reservas e é o padrão."
+
+#: ../lib/views/createprojects.php:261
+msgid "Seats"
+msgstr "Assentos"
+
+#: ../lib/views/createprojects.php:262
+msgid "Deposits"
+msgstr "Depósitos"
+
+#: ../lib/views/createprojects.php:263
+#, fuzzy
+msgid "Minimum number of days to deposit"
+msgstr "Número mínimo de seleções opcionais necessários"
+
+#: ../lib/views/createprojects.php:264
+msgid ""
+"Booking starts from the first available date. If booking after the minimum "
+"number of days set below, then the deposit is required otherwise payment in "
+"full is required. The deposit value is a percentage value calculated from "
+"the total number of days."
+msgstr ""
+"Reserva começa a partir da primeira data disponível. Se feita a reserva após "
+"o número mínimo de dias definidos abaixo, então o depósito é exigido, caso "
+"contrário, o pagamento integral é necessário. O valor do depósito é um valor "
+"percentual calculado a partir do número total de dias."
+
+#: ../lib/views/createprojects.php:265
+msgid "Pay deposit if booking after"
+msgstr "Pagar depósito se feita a reserva após"
+
+#: ../lib/views/createprojects.php:266
+msgid "Days"
+msgstr "Dias"
+
+#: ../lib/views/createprojects.php:268
+msgid ""
+"The value you provide for deposit is percentage based which will be a "
+"percentage calculated from the overall cost of selected days. If the minimum "
+"days is provided, then the deposit is applicable if booking within the "
+"minimum days required above."
+msgstr ""
+
+#: ../lib/views/createprojects.php:269
+#, fuzzy
+msgid "Deposit value"
+msgstr "Valor padrão"
+
+#: ../lib/views/createprojects.php:270
+msgid ""
+"Based on the available seats setting above, a counter is displayed in the "
+"page showing the number of available bookings left."
+msgstr ""
+"Com base nos assentos disponíveis definição acima, um contador é exibido na "
+"página que mostra o número de reservas disponíveis para a esquerda."
+
+#: ../lib/views/createprojects.php:271
+msgid "Display counter"
+msgstr "Contador"
+
+#: ../lib/views/createprojects.php:272
+msgid "Days to exclude from range"
+msgstr "Dias para excluir do alcance"
+
+#: ../lib/views/createprojects.php:273
+msgid "Days to exclude from Date Range i.e. your day off, weekends etc"
+msgstr ""
+"Dias para excluir do intervalo de datas, ou seja, o seu dia de folga, fins "
+"de semana etc"
+
+#: ../lib/views/createprojects.php:274 ../lib/views/createprojects.php:322
+msgid "Week days"
+msgstr "Dias da semana"
+
+#: ../lib/views/createprojects.php:275
+msgid "Every Sunday"
+msgstr "Todos os domingos"
+
+#: ../lib/views/createprojects.php:276
+msgid "Every Monday"
+msgstr "TODA SEGUNDA FEIRA"
+
+#: ../lib/views/createprojects.php:277
+msgid "Every Tuesday"
+msgstr "Toda terça-feira"
+
+#: ../lib/views/createprojects.php:278
+msgid "Every Wednesday"
+msgstr "Toda quarta-feira"
+
+#: ../lib/views/createprojects.php:279
+msgid "Every Thursday"
+msgstr "Toda quinta-feira"
+
+#: ../lib/views/createprojects.php:280
+msgid "Every Friday"
+msgstr "Toda sexta-feira"
+
+#: ../lib/views/createprojects.php:281
+msgid "Every Saturday"
+msgstr "Todos os sábados"
+
+#: ../lib/views/createprojects.php:282
+msgid "Bookable days"
+msgstr "Dia reservado"
+
+#: ../lib/views/createprojects.php:284
+msgid "Applies the same cost to each day within selected period."
+msgstr "Aplica-se o mesmo custo para cada dia dentro do período selecionado."
+
+#: ../lib/views/createprojects.php:285 ../lib/views/createprojects.php:330
+msgid "Value has to be a valid currency. Only 2 decimal places allowed."
+msgstr "Valor tem de ser uma moeda válida. Apenas 2 casas decimais permitido."
+
+#: ../lib/views/createprojects.php:286
+msgid "Day vs time"
+msgstr "Dias vs tempo"
+
+#: ../lib/views/createprojects.php:287
+msgid ""
+"Day based booking applies cost to the entire day and users will be able to "
+"book an entire day at a time."
+msgstr ""
+"Dia baseado reserva aplica-se o custo para todo o dia e os usuários serão "
+"capazes de reservar um dia inteiro de uma vez."
+
+#: ../lib/views/createprojects.php:288
+msgid ""
+"Time based booking splits a day in equal time intervals based on the HH:MM "
+"selected. Users will be able to book for a certain time interval within a "
+"day. "
+msgstr ""
+"Tempo baseado reserva divide um dia em intervalos iguais de tempo com base "
+"no HH: MM selecionado. Os usuários serão capazes de reservar para um "
+"determinado intervalo de tempo dentro de um dia. "
+
+#: ../lib/views/createprojects.php:289
+msgid "Day based"
+msgstr "Dia baseado"
+
+#: ../lib/views/createprojects.php:290
+msgid "Time based"
+msgstr "Tempo com base"
+
+#: ../lib/views/createprojects.php:291
+msgid "Time"
+msgstr "Hora"
+
+#: ../lib/views/createprojects.php:292
+msgid ""
+"The time selected will be split into equal intervals i.e. selecting 01:00 "
+"will give you bookable time slots split evenly starting from 12:00am - "
+"1:00am, 1:00am - 2:00am, 2:00am - 3:00am and so forth. Likewise, selecting "
+"23:60 ( a 24 hour duration) will generate only a single timeslot where the "
+"user will be making bookings by the day instead of by day and time."
+msgstr ""
+"O tempo selecionado será dividido em intervalos iguais ou seja, selecionando "
+"01:00 lhe dará tempo reservado vagas dividido igualmente a partir de "
+"0:00-01:00, 1h00 - 02h00, 02h00-03h00 e assim por diante . Da mesma forma, a "
+"seleção de 23:60 (uma duração de 24 horas) vai gerar apenas um único "
+"intervalo de tempo em que o usuário estará fazendo reservas por dia em vez "
+"de dia e hora."
+
+#: ../lib/views/createprojects.php:293
+msgid "Hour"
+msgstr "Hora"
+
+#: ../lib/views/createprojects.php:294
+msgid "Minute"
+msgstr "Minuto"
+
+#: ../lib/views/createprojects.php:295
+msgid "Enables single hour:minute format"
+msgstr ""
+
+#: ../lib/views/createprojects.php:296
+msgid ""
+"When checked single hour:minute format will be used for the time slots. "
+"Otherwise, defaults to range format eg: hour:minute - hour:minute."
+msgstr ""
+
+#: ../lib/views/createprojects.php:297
+msgid "Enable single hour:minute format"
+msgstr ""
+
+#: ../lib/views/createprojects.php:298
+msgid "Split interval start time"
+msgstr "Dividir hora de início do intervalo"
+
+#: ../lib/views/createprojects.php:299
+msgid ""
+"When time slots are split, they will start the split at the following hour "
+"and minute interval selected. For example, if you selected 10:15, i.e. "
+"Hour:10 and minute:15, then the time slots split will begin at 10:15 and "
+"split time evenly for the entire day starting with 10:15. This allows you "
+"more accuracy. By default, the split will start from 00:00."
+msgstr ""
+"Quando intervalos de tempo são divididos, eles vão começar a divisão no "
+"seguinte hora e minuto do intervalo selecionado. Por exemplo, se você "
+"selecionou 10:15, ou seja Hour: 10 e minutos: 15, então o tempo de slots de "
+"dividir terá início às 10:15 e tempo dividido uniformemente durante todo o "
+"dia começando com 10:15. Isto permite-lhe mais precisão. Por padrão, a "
+"divisão terá início a partir das 00:00."
+
+#: ../lib/views/createprojects.php:300
+msgid "Hour interval start"
+msgstr "Hora de início do intervalo"
+
+#: ../lib/views/createprojects.php:301
+msgid "Minute interval start"
+msgstr "Início intervalo Minuto"
+
+#: ../lib/views/createprojects.php:302
+msgid "Bookable time slots"
+msgstr "Intervalos de tempo reservado"
+
+#: ../lib/views/createprojects.php:303
+msgid "Reset timeslot"
+msgstr "Repor timeslot"
+
+#: ../lib/views/createprojects.php:306
+msgid "Discard changes"
+msgstr "Descartar alterações"
+
+#: ../lib/views/createprojects.php:307
+msgid "Booking Period"
+msgstr "Período de reserva"
+
+#: ../lib/views/createprojects.php:308
+#, fuzzy
+msgid "Special days"
+msgstr "Dias selecionados"
+
+#: ../lib/views/createprojects.php:309
+msgid "Specify cost for special days"
+msgstr "Especifique custo para dias especiais"
+
+#: ../lib/views/createprojects.php:310
+msgid "Set costs for special days if your costs differ by day, i.e. season."
+msgstr ""
+"Definir os custos para dias especiais se os seus custos diferem por dia, "
+"isto é, temporada."
+
+#: ../lib/views/createprojects.php:311
+msgid "List of days within selected season"
+msgstr "Lista dos dias dentro de estação selecionada"
+
+#: ../lib/views/createprojects.php:312
+msgid "Select dates by"
+msgstr "Seleccione datas por"
+
+#: ../lib/views/createprojects.php:313
+msgid "Create new season"
+msgstr "Criar nova temporada"
+
+#: ../lib/views/createprojects.php:314
+msgid "Add season"
+msgstr "Adicionar temporada"
+
+#: ../lib/views/createprojects.php:315
+msgid "Season"
+msgstr "Estação"
+
+#: ../lib/views/createprojects.php:316
+msgid "Season name"
+msgstr "Temporada Nome"
+
+#: ../lib/views/createprojects.php:317
+msgid ""
+"You have un-named seasons which are no longer supported and will be "
+"deprecated soon."
+msgstr ""
+"Você tem estações sem nome que não são mais suportados e será preterido em "
+"breve."
+
+#: ../lib/views/createprojects.php:318
+msgid "Un-named"
+msgstr "Un-named"
+
+#: ../lib/views/createprojects.php:319
+msgid "Delete un-named"
+msgstr "Excluir sem nome"
+
+#: ../lib/views/createprojects.php:320
+#, fuzzy
+msgid "Days to exclude from list of days in selected season"
+msgstr "Lista dos dias dentro de estação selecionada"
+
+#: ../lib/views/createprojects.php:321
+msgid ""
+"Days to exclude by week day from list of days above. For example, if you "
+"want only mondays to be included in the list above, then select every other "
+"weekday below. If a weekday is checked below, this means either the weekday "
+"is excluded or the weekday is not available in the selected range and will "
+"not appear in the list of days above."
+msgstr ""
+
+#: ../lib/views/createprojects.php:323
+msgid "Delete season"
+msgstr "Excluir temporada"
+
+#: ../lib/views/createprojects.php:324
+msgid "Update season"
+msgstr "Atualize temporada"
+
+#: ../lib/views/createprojects.php:325
+msgid "No. of days for weekday found in selected date range."
+msgstr ""
+
+#: ../lib/views/createprojects.php:326
+msgid "Specify extra billable items"
+msgstr "Especifique itens extras faturáveis"
+
+#: ../lib/views/createprojects.php:327
+msgid ""
+"Bookings can allow extra billable items. These are displayed as a list of "
+"checkboxes and are an integral part of the booking process. "
+msgstr ""
+"As reservas podem permitir que itens faturáveis ​​extras. Estes são "
+"apresentados como uma lista de caixas de seleção e são parte integrante do "
+"processo de reserva. "
+
+#: ../lib/views/createprojects.php:328
+msgid "Optional Item Name"
+msgstr "Opcional Nome do item"
+
+#: ../lib/views/createprojects.php:332
+msgid "Add new optional"
+msgstr "Adicionar novo opcional"
+
+#: ../lib/views/createprojects.php:336
+msgid ""
+"The items you add to the listbox in this section below are the items that "
+"will show in your dropdownlist selected above. Note: don't set cost if cost "
+"does not apply. Costs of 0.00 will be ignored."
+msgstr ""
+"Os itens adicionados à caixa de listagem nesta seção abaixo estão os itens "
+"que irá mostrar em sua dropdownlist selecionado acima. Nota: não definir o "
+"custo se o custo não se aplica. Custos de 0.00 será ignorado."
+
+#: ../lib/views/createprojects.php:339
+msgid "New item"
+msgstr "Novo item..."
+
+#: ../lib/views/createprojects.php:344
+msgid "Select Cascading List"
+msgstr "Selecione Lista de Cascading"
+
+#: ../lib/views/createprojects.php:348
+msgid "Delete List"
+msgstr "Apagar Lista"
+
+#: ../lib/views/createprojects.php:349
+msgid ""
+"You are about to delete a list. You will also lose any cascading items "
+"related to this list. Are you sure ?"
+msgstr ""
+"Você está prestes a excluir uma lista. Você também vai perder todos os itens "
+"em cascata relacionados a esta lista. Você tem certeza?"
+
+#: ../lib/views/createprojects.php:353
+msgid "Value has to be a valid currency. Only 2 decimal places allowed"
+msgstr "Valor tem de ser uma moeda válida. Apenas 2 casas decimais permitido"
+
+#: ../lib/views/createprojects.php:354
+msgid "Dropdown list items"
+msgstr "Itens lista suspensa"
+
+#: ../lib/views/createprojects.php:355
+msgid "Select the parent list"
+msgstr "Escolha a lista pai"
+
+#: ../lib/views/createprojects.php:356
+msgid "Cascading list relationships"
+msgstr "Cascading relações lista"
+
+#: ../lib/views/createprojects.php:357
+#, fuzzy
+msgid ""
+"Use this section only after having created atleast 2 lists. This is where "
+"you set up relationships for the cascade. Select an item in the list above. "
+"Then select a list below and click the update button. Everytime the item "
+"from the list above is selected, the items from the list below will be "
+"loaded. Confused ? Me too!"
+msgstr ""
+"Use esta seção só depois de ter criado pelo menos 2 listas. Isto é onde você "
+"configura as relações para a cascata. Selecione um item na lista acima. Em "
+"seguida, selecione a lista abaixo. Toda vez que o item da lista acima é "
+"selecionado, os itens da lista abaixo será carregado. Confuso? Eu também!"
+
+#: ../lib/views/createprojects.php:358
+msgid "Select a relationship"
+msgstr "Selecione um relacionamento"
+
+#: ../lib/views/createprojects.php:359
+msgid "Is required (user needs to make a selection)"
+msgstr "É necessário (o usuário precisa fazer uma seleção)"
+
+#: ../lib/views/createprojects.php:360
+msgid "Auto loading Cascading Drop Down Lists"
+msgstr "Auto carregamento Cascading listas suspensas"
+
+#: ../lib/views/createprojects.php:361
+#, fuzzy
+msgid ""
+"Each list created will appear in your front end as a regular dropdown list. "
+"You can also create auto loading cascading lists. Cascading lists will auto "
+"populate a secondary list when an element in one list is selected. Note: For "
+"cascading lists you need to define at least 2 lists where one item in either "
+"of lists is related to the other. Confused ? Me too!"
+msgstr ""
+"Criar duas ou mais listas que auto preenchimento quando um elemento em uma "
+"lista é selecionado. Observação: Você precisa definir pelo menos duas listas "
+"onde um item em qualquer uma das listas está relacionado com o outro. "
+"Confuso? Eu também!"
+
+#: ../lib/views/emailsettings.php:45
+msgid "Email settings"
+msgstr "Configurações de e-mail"
+
+#: ../lib/views/emailsettings.php:46
+msgid "The system sends out emails based on specific events."
+msgstr "O sistema envia e-mails com base em eventos específicos."
+
+#: ../lib/views/emailsettings.php:55
+msgid "Template"
+msgstr "Modelo"
+
+#: ../lib/views/emailsettings.php:59
+msgid "Select a template"
+msgstr "Selecione um modelo"
+
+#: ../lib/views/emailsettings.php:74
+msgid "Enable this email"
+msgstr "Ativar este e-mail"
+
+#: ../lib/views/emailsettings.php:80
+msgid "Sender Name"
+msgstr "Nome do remetente"
+
+#: ../lib/views/emailsettings.php:84
+msgid "The name of company or person to show as the email sending party."
+msgstr "O nome da empresa ou pessoa para mostrar como o e-mail remetente."
+
+#: ../lib/views/emailsettings.php:98
+msgid "Sender Email"
+msgstr "Email Sender"
+
+#: ../lib/views/emailsettings.php:102
+msgid "The email address used as the sender when sending out emails."
+msgstr "O endereço de e-mail usado como remetente quando o envio de e-mails."
+
+#: ../lib/views/emailsettings.php:117
+msgid "Subject"
+msgstr "Assunto"
+
+#: ../lib/views/emailsettings.php:121
+msgid ""
+"If subject is not provided then the selected template name is used instead."
+msgstr ""
+"Se sujeito não é fornecido, em seguida, o nome do modelo selecionado é usado "
+"em seu lugar."
+
+#: ../lib/views/emailsettings.php:142
+msgid "Tokens"
+msgstr "Fichas"
+
+#: ../lib/views/emailsettings.php:143
+msgid ""
+"The following variables will be replaced by their actual values when the "
+"email is sent."
+msgstr ""
+"As seguintes variáveis ​​serão substituídos por seus valores reais quando o e-"
+"mail é enviado."
+
+#: ../lib/views/emailsettings.php:146
+msgid "Replaced with name of customer, if one exists in customers profile"
+msgstr "Substituído com o nome do cliente, se houver clientes em perfil"
+
+#: ../lib/views/emailsettings.php:147
+msgid "Replaced with name of admin, if one exists in the admins profile."
+msgstr "Substituído com o nome de admin, se existir no perfil administradores."
+
+#: ../lib/views/emailsettings.php:148
+msgid "Replaced with the order ID"
+msgstr "Substituído com o ID do pedido"
+
+#: ../lib/views/emailsettings.php:149
+msgid "Replaced with the date the order was made"
+msgstr "Substituído com a data em que o pedido foi feito"
+
+#: ../lib/views/emailsettings.php:150
+msgid "Replaced with the \"order details\""
+msgstr "Substituído com o \"detalhes do pedido\""
+
+#: ../lib/views/emailsettings.php:151
+msgid "Replaced with the \"order additional info\""
+msgstr "Substituído com o \"ordem adicional info\""
+
+#: ../lib/views/emailsettings.php:152
+msgid "The date or datetime of the day booked"
+msgstr "A data ou data e hora do dia reservado"
+
+#: ../lib/views/emailsettings.php:153
+msgid "The cost of the booked date"
+msgstr "O custo da data marcada"
+
+#: ../lib/views/emailsettings.php:154
+msgid "The optional item name"
+msgstr "O nome do item opcional"
+
+#: ../lib/views/emailsettings.php:155
+msgid "The optional item cost"
+msgstr "O custo do item opcional"
+
+#: ../lib/views/emailsettings.php:156
+msgid ""
+"Replaced with a link that redirects the user to paypal for payment of the "
+"invoice. This token is valid only on an \"invoice\" template."
+msgstr ""
+"Substituído com um link que redireciona o usuário para paypal para o "
+"pagamento da fatura. Este símbolo é válido apenas em um \"fatura\" do modelo."
+
+#: ../lib/views/emailsettings.php:157
+msgid ""
+"Replaced with a link that allows the user to download an invoice in PDF "
+"format from your site."
+msgstr ""
+"Substituído com um link que permite que o usuário faça o download de uma "
+"factura em formato PDF a partir de seu site."
+
+#: ../lib/views/emailsettings.php:158
+msgid "Replaced with the \"Site Title\" set in Settings > General."
+msgstr ""
+"Substituído com o \"Título do site\" definido em Configurações > Geral."
+
+#: ../lib/views/emailsettings.php:159
+msgid ""
+"Replaced with the coupon code. This token is only valid on a \"coupon\" "
+"template."
+msgstr ""
+"Substituído com o código do cupom. Este símbolo é válido apenas em um \"cupom"
+"\" do modelo."
+
+#: ../lib/views/emailsettings.php:160
+msgid ""
+"Replaced with the order url. Currently in use on the Booking Cancel Request "
+"template."
+msgstr ""
+
+#: ../lib/views/eventslog.php:29
+msgid "Events log"
+msgstr "Eventos log"
+
+#: ../lib/views/eventslog.php:30
+#, fuzzy
+msgid ""
+"An overview of all the errors thrown by services like Paypal and MailChimp "
+"and failed Emails. \n"
+"\t\t\tIf there are failures, they will show here. Messages are geeky "
+"var_dumps, feel free to ignore when in doubt."
+msgstr ""
+"Uma visão geral de todos os erros lançados por serviços como Paypal e "
+"MailChimp e e-mails falharam. \n"
+"\t\t\tSe há falhas, eles vão mostrar aqui. As mensagens são var_dumps geeky, "
+"sinta-se livre para ignorar quando em dúvida."
+
+#: ../lib/views/eventslog.php:37
+msgid ""
+"From time to time, make sure you clear events out. The data itself is of no "
+"use after reading through the log."
+msgstr ""
+"De tempos em tempos, certifique-se de limpar eventos fora. Os dados em si "
+"não tem qualquer utilidade depois de ler o log."
+
+#: ../lib/views/eventslog.php:41
+msgid "Clear Event Log"
+msgstr "Limpar Registro de Eventos"
+
+#: ../lib/views/generalsettings.php:75
+msgid "Sunday"
+msgstr "Domingo"
+
+#: ../lib/views/generalsettings.php:76
+msgid "Monday"
+msgstr "Segunda-feira"
+
+#: ../lib/views/generalsettings.php:77
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#: ../lib/views/generalsettings.php:78
+msgid "Wednesday"
+msgstr "Quarta-feira"
+
+#: ../lib/views/generalsettings.php:79
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+#: ../lib/views/generalsettings.php:80
+msgid "Friday"
+msgstr "Sexta-feira"
+
+#: ../lib/views/generalsettings.php:81
+msgid "Saturday"
+msgstr "Sábado"
+
+#: ../lib/views/generalsettings.php:82
+msgid "Default"
+msgstr "Padrão"
+
+#: ../lib/views/generalsettings.php:107
+msgid ""
+"These general settings apply to the entire booking system. Careful with what "
+"you wish for!"
+msgstr ""
+"Essas configurações gerais se aplicam a todo o sistema de reserva. Cuidado "
+"com o que você deseja!"
+
+#: ../lib/views/generalsettings.php:117
+msgid "Timezone, Date Format Settings"
+msgstr "Configurações de fuso horário, Data Format"
+
+#: ../lib/views/generalsettings.php:125
+msgid ""
+"This is your timezone. User selected booking time will adapt to this whose "
+"timezone offset will be based off. Make sure this is set to your current "
+"locations timezone."
+msgstr ""
+"Este é o seu fuso horário. Usuário selecionado tempo de reserva vai se "
+"adaptar a este cujo deslocamento de fuso horário será baseado. Certifique-se "
+"que isso é definido como seu atual fuso horário locais."
+
+#: ../lib/views/generalsettings.php:134
+msgid "Auto detect users timezone"
+msgstr "Auto detectar usuários fuso horário"
+
+#: ../lib/views/generalsettings.php:135
+msgid ""
+"When checked, the user's timezone is auto detected, otherwise the admin's "
+"timezone is used."
+msgstr ""
+"Quando marcado, fuso horário do usuário é detectada automaticamente, caso "
+"contrário, fuso horário do administrador é usado."
+
+#: ../lib/views/generalsettings.php:142
+msgid "Automatic"
+msgstr "Automático"
+
+#: ../lib/views/generalsettings.php:147 ../lib/views/generalsettings.php:155
+msgid "Enable user to change timezone"
+msgstr "Permitir que o usuário mudar fuso horário"
+
+#: ../lib/views/generalsettings.php:148
+msgid ""
+"When checked, bookings will allow user to change the time manually, via a "
+"set of unobtrusive dropdown lists."
+msgstr ""
+"Quando marcado, reservas permitirá que o usuário altere a hora manualmente, "
+"através de um conjunto de listas suspensas discretos."
+
+#: ../lib/views/generalsettings.php:160 ../lib/views/generalsettings.php:166
+msgid "Short date format"
+msgstr "Formato de data abreviada"
+
+#: ../lib/views/generalsettings.php:161
+#, fuzzy
+msgid ""
+"All date/time formatting is taken from the options set in WordPress general "
+"settings. Some areas however require\n"
+"\t\t\t\t\t\t\ta short date setting, which is taken from the option set below."
+msgstr ""
+"Toda a formatação de data / hora é retirado as opções definidas em "
+"configurações gerais do WordPress. No entanto, algumas áreas exigem\n"
+"\t\t\t\t\t\t\tuma definição de data abreviada, que é tomada a partir do "
+"conjunto de opções abaixo."
+
+#: ../lib/views/generalsettings.php:179 ../lib/views/generalsettings.php:184
+msgid "Calendar's first day of week"
+msgstr "O primeiro dia de calendário da semana"
+
+#: ../lib/views/generalsettings.php:180
+msgid "Sets the first day of week in the calendar used to pick bookings."
+msgstr ""
+"Define o primeiro dia da semana no calendário usado para escolher reservas."
+
+#: ../lib/views/generalsettings.php:198 ../lib/views/generalsettings.php:206
+msgid "Show Calendar buttons panel"
+msgstr "Painel Calendário botões"
+
+#: ../lib/views/generalsettings.php:199
+msgid ""
+"When checked, calendar will include a button for todays date selection and a "
+"done button for closing the popup."
+msgstr ""
+"Quando selecionado, o calendário irá incluir um botão para seleção de data "
+"de hoje e um botão feito para fechar o pop-up."
+
+#: ../lib/views/generalsettings.php:211 ../lib/views/generalsettings.php:219
+msgid "Display booked time slots"
+msgstr "Mostrar reservado intervalos de tempo"
+
+#: ../lib/views/generalsettings.php:212
+msgid ""
+"When checked, time slots that are booked are displayed in their respective "
+"dropdown list or listbox as disabled. This can be quite distracting to  your "
+"customers. Unchecking this option allows you to exclude booked time slots "
+"from the list."
+msgstr ""
+"Quando marcada, intervalos de tempo, que são reservadas são exibidas em sua "
+"respectiva lista suspensa ou caixa de listagem como desativado. Isso pode "
+"ser bastante perturbador para os seus clientes. Desmarcar essa opção permite "
+"excluir intervalos de tempo reservado a partir da lista."
+
+#: ../lib/views/generalsettings.php:229
+msgid "Cart Settings"
+msgstr "Compras Configurações"
+
+#: ../lib/views/generalsettings.php:236 ../lib/views/generalsettings.php:243
+msgid "Use Cart System"
+msgstr "Use Cart System"
+
+#: ../lib/views/generalsettings.php:237
+msgid ""
+"When unchecked, bookings made are immediately booked or paid for without "
+"adding to cart or going to a bookings summary page."
+msgstr ""
+"Quando desmarcada, reservas feitas são imediatamente reservado ou pago sem "
+"adicionar ao carrinho ou ir a uma página de reservas resumo."
+
+#: ../lib/views/generalsettings.php:248 ../lib/views/generalsettings.php:255
+msgid "Cart items with heading"
+msgstr "Compras itens com título"
+
+#: ../lib/views/generalsettings.php:249
+msgid ""
+"When checked, items in the cart are organized by project name used as the "
+"heading."
+msgstr ""
+"Quando marcada, itens no carrinho são organizados por nome do projeto usado "
+"como o título."
+
+#: ../lib/views/generalsettings.php:261
+msgid ""
+"When unchecked, clicking add to cart button will add the item and take you "
+"to the cart page instead of reloading the booking page for more bookings. "
+"When checked, make sure to add a Cart widget to your pages. This will allow "
+"your users to view activity while adding items to cart."
+msgstr ""
+"Quando desmarcada, clicando botão Adicionar ao carrinho irá adicionar o item "
+"e levá-lo para a página de carrinho em vez de recarregar a página de reserva "
+"para mais reservas. Quando marcado, certifique-se de adicionar um widget "
+"carrinho para suas páginas. Isso permitirá que seus usuários visualizem "
+"atividade ao adicionar itens ao carrinho."
+
+#: ../lib/views/generalsettings.php:272 ../lib/views/generalsettings.php:279
+msgid "Show price in booking"
+msgstr "Mostrar preço em reserva"
+
+#: ../lib/views/generalsettings.php:273
+msgid ""
+"When unchecked, price is removed from booking. Affects only the booking page "
+"and not the cart."
+msgstr ""
+"Quando desmarcada, o preço é removido da reserva. Afeta apenas a página de "
+"reserva e não o carro."
+
+#: ../lib/views/generalsettings.php:284 ../lib/views/generalsettings.php:292
+msgid "Enable payment during checkout"
+msgstr "Ativar o pagamento durante o checkout"
+
+#: ../lib/views/generalsettings.php:285
+#, fuzzy
+msgid ""
+"When checked, customers will be asked to make payments during checkout i.e. "
+"immediately redirected to paypal. \n"
+"\t\t\t\t\t\t\tThis setting only forces payments during the checkout process."
+msgstr ""
+"Quando marcada, os clientes serão convidados a fazer os pagamentos durante o "
+"checkout ou seja imediatamente redirecionadas para paypal. \n"
+"\t\t\t\t\t\t\tIsto só obriga pagamentos durante o processo de checkout."
+
+#: ../lib/views/generalsettings.php:297 ../lib/views/generalsettings.php:304
+msgid "Enable booking with and without payment"
+msgstr "Ativar reserva com e sem pagamento"
+
+#: ../lib/views/generalsettings.php:298
+msgid ""
+"When checked, a \"Book now\" button is enabled alongside the pay now with "
+"PayPal button. This setting takes effect only when the above \"Enable "
+"payment during checkout\" setting is checked as well."
+msgstr ""
+"Quando marcada, a \"Reserve agora\" botão é habilitado juntamente com o "
+"pagamento agora com o botão PayPal. Esta definição só tem efeito quando o "
+"acima \"Ativar pagamento durante o checkout\" cenário é verificado também."
+
+#: ../lib/views/generalsettings.php:309 ../lib/views/generalsettings.php:315
+msgid "Login page url"
+msgstr "Entrada página url"
+
+#: ../lib/views/generalsettings.php:310
+#, fuzzy
+msgid ""
+"In order for users to make bookings, login is a requirement. By default, the "
+"login page in WordPress is used. \n"
+"\t\t\t\t\t\t\tBy changing the Url below, you can redirect it to your custom "
+"login page instead."
+msgstr ""
+"Para que os usuários façam reservas, o login é uma exigência. Por padrão, a "
+"página de login em WordPress é usado. \n"
+"\t\t\t\t\t\t\tAlterando a URL abaixo, você pode redirecioná-lo para a página "
+"de login personalizada em vez."
+
+#: ../lib/views/generalsettings.php:343 ../lib/views/generalsettings.php:349
+msgid "Continue booking url"
+msgstr "Continuar reserva url"
+
+#: ../lib/views/generalsettings.php:344
+#, fuzzy
+msgid ""
+"This is where the continue button on the booking cart page takes you when "
+"clicked. \n"
+"\t\t\t\t\t\t\tBy default it goes to the referring page that lead you to the "
+"booking cart if one exists otherwise reloads the current page."
+msgstr ""
+"Este é o lugar onde o botão continuar na página de reserva carrinho leva "
+"você quando clicado.\n"
+"\t\t\t\t\t\t\tPor padrão, ele vai para a página de referência que levá-lo "
+"para o carro reserva, se existir outra forma recarrega a página atual."
+
+#: ../lib/views/generalsettings.php:361 ../lib/views/generalsettings.php:368
+msgid "Membership required to make booking"
+msgstr "Membership necessário para fazer reserva"
+
+#: ../lib/views/generalsettings.php:362
+msgid ""
+"When un-checked, users can make bookings and payment without registration."
+msgstr ""
+"Quando desmarcada, os usuários podem fazer reservas e pagamentos sem "
+"registro."
+
+#: ../lib/views/generalsettings.php:378
+msgid "Notifications, Confirmations and Invoices"
+msgstr "As notificações, confirmações e faturas"
+
+#: ../lib/views/generalsettings.php:385
+msgid "Auto confirm payment"
+msgstr "Pagamento confirmar Auto"
+
+#: ../lib/views/generalsettings.php:386
+msgid ""
+"Auto confirms payment after buyer is redirected from Paypal. If you leave "
+"this unchecked, buyer needs to re-confirm purchase after being redirected "
+"from Paypal i.e. just like on ebay, a two-step process."
+msgstr ""
+"Auto confirma pagamento após o comprador é redirecionado a partir do Paypal. "
+"Se você deixar esta opção desligada, o comprador precisa comprar re-"
+"confirmar depois de ser redirecionado de Paypal ou seja, assim como no ebay, "
+"um processo de duas etapas."
+
+#: ../lib/views/generalsettings.php:392
+msgid "Auto confirm order after returning from Paypal"
+msgstr "A ordem confirma Auto depois de voltar de Paypal"
+
+#: ../lib/views/generalsettings.php:397
+msgid "Confirm booking automatically after checkout"
+msgstr "Confirmar a reserva automaticamente após a finalização"
+
+#: ../lib/views/generalsettings.php:398
+#, fuzzy
+msgid ""
+"When checked, bookings made are approved and confirmed automatically after "
+"checkout or if payment is enabled,\n"
+"\t\t\t\t\t\t\tafter payment is received."
+msgstr ""
+"Quando marcado, as reservas feitas são aprovados e confirmada "
+"automaticamente após a finalização ou se o pagamento for habilitado, \n"
+"\t\t\t\t\t\t\tDepois pagamento é recebido."
+
+#: ../lib/views/generalsettings.php:405
+msgid ""
+"Approve and send confirmation email automatically after checkout or payment"
+msgstr ""
+"Aprovar e enviar e-mail de confirmação automaticamente após a finalização ou "
+"o pagamento"
+
+#: ../lib/views/generalsettings.php:410 ../lib/views/generalsettings.php:419
+msgid "Send invoice automatically during checkout"
+msgstr "Enviar fatura automaticamente durante o checkout"
+
+#: ../lib/views/generalsettings.php:411
+#, fuzzy
+msgid ""
+"When checked, an invoice is sent automatically after checkout. \n"
+"\t\t\t\t\t\t\t\t\tSpecifically when \"Enable payments during checkout\" "
+"option is unchecked \n"
+"\t\t\t\t\t\t\t\t\twhich implicitly means payment is to be made through an "
+"invoice."
+msgstr ""
+"Quando marcada, uma fatura é enviada automaticamente após a compra.\n"
+"\t\t\t\t\t\t\tSpecifically quando \"Ativar pagamentos durante o checkout\" "
+"opção está desmarcada \n"
+"\t\t\t\t\t\t\tonde implicitamente, o pagamento deve ser feito através de uma "
+"factura."
+
+#: ../lib/views/generalsettings.php:424 ../lib/views/generalsettings.php:431
+msgid "Send refund notification email automatically after a refund"
+msgstr ""
+"Enviar e-mail de notificação reembolso automaticamente após um reembolso"
+
+#: ../lib/views/generalsettings.php:425
+msgid ""
+"When checked, a notification email is sent automatically after a successful "
+"refund."
+msgstr ""
+"Quando selecionado, um e-mail de notificação é enviada automaticamente após "
+"um reembolso de sucesso."
+
+#: ../lib/views/generalsettings.php:436 ../lib/views/generalsettings.php:443
+msgid ""
+"Send booking is cancelled notification email automatically after a booking "
+"is cancelled"
+msgstr ""
+"Enviar a reserva for cancelada e-mail de notificação automaticamente após a "
+"reserva for cancelada"
+
+#: ../lib/views/generalsettings.php:437
+msgid ""
+"When checked, a notification email is sent automatically after booking has "
+"been cancelled by admin."
+msgstr ""
+"Quando selecionado, um e-mail de notificação é enviada automaticamente após "
+"a reserva foi cancelada por admin."
+
+#: ../lib/views/generalsettings.php:448
+msgid "Notify admin via email everytime a new booking is made"
+msgstr ""
+"Notifique-administrador por e-mail toda vez que uma nova reserva é feita"
+
+#: ../lib/views/generalsettings.php:449
+msgid ""
+"When checked, a notification email is sent to admin everytime a new booking "
+"is received."
+msgstr ""
+"Quando selecionado, um e-mail de notificação é enviada para toda "
+"administração uma nova reserva é recebido."
+
+#: ../lib/views/generalsettings.php:455
+msgid "Notify admin via email everytime a new booking is made."
+msgstr "Notifique-administrador por e-mail toda vez que uma nova reserva."
+
+#: ../lib/views/generalsettings.php:460 ../lib/views/generalsettings.php:467
+msgid "Notify user that their booking was received"
+msgstr "Notificar o usuário de que a sua reserva foi recebido"
+
+#: ../lib/views/generalsettings.php:461
+msgid ""
+"When checked, a notification email is sent to the user to confirm that their "
+"booking was successfully received."
+msgstr ""
+"Quando selecionado, um e-mail de notificação é enviada para o usuário para "
+"confirmar que a sua reserva foi recebido com sucesso."
+
+#: ../lib/views/generalsettings.php:472 ../lib/views/generalsettings.php:477
+msgid "Default owner of booking"
+msgstr "Proprietário padrão de reserva"
+
+#: ../lib/views/generalsettings.php:473
+msgid ""
+"Every booking made needs an owner. When a booking is made anonymously, "
+"without user login, i.e. when membership is not required, the default owner "
+"of this booking will be the user you set here until you later associate a "
+"user to the booking."
+msgstr ""
+"Cada reserva feita precisa de um dono. Quando a reserva é feita "
+"anonimamente, sem login do usuário, isto é, quando a adesão não é "
+"obrigatória, o proprietário padrão dessa reserva será o usuário que você "
+"definir aqui até mais tarde associar um usuário para a reserva."
+
+#: ../lib/views/generalsettings.php:488
+msgid "Email notifications TO:"
+msgstr "Notificações e-mail para:"
+
+#: ../lib/views/generalsettings.php:489
+msgid ""
+"If you have email notifications turned on, one is sent to the following "
+"address when a new booking is made."
+msgstr ""
+"Se você tiver notificações por email ligado, um é enviado para o seguinte "
+"endereço quando uma nova reserva."
+
+#: ../lib/views/generalsettings.php:493
+msgid "Email Notifications TO:"
+msgstr "Notificações e-mail para:"
+
+#: ../lib/views/generalsettings.php:510
+msgid "Discounts"
+msgstr "Descontos"
+
+#: ../lib/views/generalsettings.php:517 ../lib/views/generalsettings.php:524
+msgid "Enable coupons in shopping cart"
+msgstr "Ativar cupons no carrinho de compras"
+
+#: ../lib/views/generalsettings.php:518
+msgid ""
+"When checked, a textbox for collecting coupon codes is available in the "
+"shopping cart."
+msgstr ""
+"Quando selecionado, uma caixa de texto para a recolha de códigos de cupom "
+"está disponível no carrinho de compras."
+
+#: ../lib/views/generalsettings.php:531
+#, fuzzy
+msgid ""
+"A value in percentage to deduct from the actual cost set above. The discount "
+"is triggered based on the booking minimum property and applies to the total "
+"cost. The more one books, the less one pays! Keep in mind that discounts are "
+"disabled if a deposit is applicable."
+msgstr ""
+"Um valor em percentagem a deduzir do custo real ajustado acima. O desconto é "
+"acionado com base na propriedade reserva mínima e aplica-se o custo total. "
+"Quanto mais um livros, menos se paga!"
+
+#: ../lib/views/generalsettings.php:556 ../lib/views/generalsettings.php:562
+msgid "Booking minimum for discount"
+msgstr "Reserva mínima para desconto"
+
+#: ../lib/views/generalsettings.php:558
+msgid ""
+"The discount value will be applied based on the booking minimum. A value of "
+"0 will apply the discount without minimum booking restrictions. "
+msgstr ""
+"O valor do desconto será aplicado com base no mínimo de reserva. Um valor de "
+"0 irá aplicar o desconto sem restrições de reserva mínima. "
+
+#: ../lib/views/generalsettings.php:580
+msgid "Theme Options"
+msgstr "Opções do tema"
+
+#: ../lib/views/generalsettings.php:587 ../lib/views/generalsettings.php:593
+msgid "Theme"
+msgstr "Tema"
+
+#: ../lib/views/generalsettings.php:588
+#, fuzzy
+msgid ""
+"Custom themes you upload into your current themes/booki directory will show "
+"up here. \n"
+"\t\t\t\t\t\t\t\t\tMake sure you read the docs on how to achieve this."
+msgstr ""
+"Temas personalizados que você carrega em seu diretório themes/booki atual "
+"vai aparecer aqui.\n"
+"\t\t\t\t\t\t\tCertifique-se de que você leia a documentação sobre a forma de "
+"alcançar este objectivo."
+
+#: ../lib/views/generalsettings.php:604 ../lib/views/generalsettings.php:609
+msgid "Calendar theme"
+msgstr "Calendário tema"
+
+#: ../lib/views/generalsettings.php:605
+msgid ""
+"The theme used in the calendar controls during booking. For custom themes, "
+"refer to the documentation."
+msgstr ""
+"O tema usado no calendário controla durante a reserva. Para temas "
+"personalizados, consulte a documentação."
+
+#: ../lib/views/generalsettings.php:620
+msgid "Calendar Style Settings"
+msgstr "Configurações calendário do estilo"
+
+#: ../lib/views/generalsettings.php:621
+msgid ""
+"Flat - Removes default images set by jQuery-ui calendar and squares out the "
+"calendar removing border radius."
+msgstr ""
+"Plano - Remove imagens padrão definidos pelo calendário jQuery-ui e praças "
+"fora do calendário remover raio fronteira."
+
+#: ../lib/views/generalsettings.php:622
+msgid ""
+"Borderless - Removes default borders set by jQuery-ui calendar and adds a "
+"single 2px black border under the header."
+msgstr ""
+"Borderless - Remove fronteiras padrão definidos pelo calendário jQuery-ui e "
+"adiciona uma única borda preta 2px abaixo do cabeçalho."
+
+#: ../lib/views/generalsettings.php:628
+msgid "Flat"
+msgstr "Plano"
+
+#: ../lib/views/generalsettings.php:634
+msgid "Borderless"
+msgstr "Borderless"
+
+#: ../lib/views/generalsettings.php:639 ../lib/views/generalsettings.php:646
+msgid "Highlight Selected Optional Item"
+msgstr "Destaque Item Selecionado Opcional"
+
+#: ../lib/views/generalsettings.php:640
+msgid "Highlights the selected optional item."
+msgstr "Destaques do item opcional selecionado."
+
+#: ../lib/views/generalsettings.php:656
+msgid "Maintenance Options"
+msgstr "Opções de manutenção"
+
+#: ../lib/views/generalsettings.php:663
+msgid "Clear Event log"
+msgstr "Registro de eventos Limpar"
+
+#: ../lib/views/generalsettings.php:664
+msgid ""
+"The event log contains unexpected error messages due to Email, MailChimp or "
+"PayPal failures. There is no reason to keep these messages for longer than "
+"necessary. By default, it will be cleared every 7 days. A value of zero has "
+"no effect and event log messages will never be cleared automatically."
+msgstr ""
+"O log de eventos contém mensagens de erro inesperado devido a e-mail, falhas "
+"MailChimp ou Paypal. Não há nenhuma razão para manter essas mensagens por "
+"mais tempo do que o necessário. Por padrão, ela será limpa todos os 7 dias. "
+"Um valor de zero não tem qualquer efeito e as mensagens de log de eventos "
+"nunca serão apagados automaticamente."
+
+#: ../lib/views/generalsettings.php:668
+msgid "Clear Event log after"
+msgstr "Registro de eventos Limpar depois"
+
+#: ../lib/views/generalsettings.php:680
+msgid "Reference bootstrap style sheet"
+msgstr "Folha de estilo de inicialização de Referência"
+
+#: ../lib/views/generalsettings.php:681
+#, fuzzy
+msgid ""
+"When checked, bootstrap stylesheet is referenced. The booking system depend "
+"on this, so unless your theme already references bootstrap, do not "
+"uncheck. \n"
+"\t\t\t\t\t\t\tNote that the bootstrap version used is namespaced and will "
+"not conflict with your theme in use."
+msgstr ""
+"Quando marcado, estilo de bootstrap é referenciado. O sistema de reservas "
+"dependem deste, de modo a não ser que o seu tema já faz referência a "
+"inicialização, não desmarque.\n"
+"\t\t\t\t\t\t\tNOTE que a versão bootstrap utilizado está com namespace e não "
+"entrará em conflito com o seu tema em uso."
+
+#: ../lib/views/generalsettings.php:688
+msgid "Reference bootstrap style sheet include"
+msgstr "Folha de estilo de inicialização de Referência incluem"
+
+#: ../lib/views/generalsettings.php:693 ../lib/views/generalsettings.php:701
+msgid "Reference bootstrap JavaScript include"
+msgstr "Referência de bootstrap JavaScript incluir"
+
+#: ../lib/views/generalsettings.php:694
+#, fuzzy
+msgid ""
+"When checked, bootstrap JavaScript include is referenced. \n"
+"\t\t\t\t\t\t\t\t\tThe booking system depends on this, so unless your theme "
+"already references bootstrap, do not uncheck."
+msgstr ""
+"Quando marcado, de bootstrap JavaScript incluir é referenciado.\n"
+"\t\t\t\t\t\t\tO sistema de reservas depende disso, de modo a não ser que o "
+"seu tema já referências de inicialização, não desmarque."
+
+#: ../lib/views/generalsettings.php:706
+msgid "Debug mode"
+msgstr "Modo de depuração"
+
+#: ../lib/views/generalsettings.php:707
+msgid ""
+"When checked, Booki will reference debug versions of it's client side "
+"JavaScript/CSS files. Debug versions of the client side scripts are larger, "
+"so do not do this unless you have good reason for doing so."
+msgstr ""
+"Quando marcado, booki fará referência versões de depuração que é lado "
+"cliente arquivos JavaScript / CSS. As versões de depuração dos scripts do "
+"lado do cliente são maiores, por isso, não faça isso, a menos que você tenha "
+"uma boa razão para fazê-lo."
+
+#: ../lib/views/generalsettings.php:713
+msgid "Debug Mode"
+msgstr "Debug Mode"
+
+#: ../lib/views/generalsettings.php:723
+msgid "Misc Options"
+msgstr "Opções Diversos"
+
+#: ../lib/views/generalsettings.php:731
+#, fuzzy
+msgid ""
+"Tax is displayed in the shopping cart during checkout. \n"
+"\t\t\t\t\t\t\tWhen setting tax below, it has to be a percentage value, which "
+"is the value deducted from the total amount."
+msgstr ""
+"Imposto é exibido no carrinho de compras durante o checkout. \n"
+"\t\t\t\t\t\t\tQuando criação de imposto baixo, ele tem que ser um valor "
+"percentual, que é o valor deduzido do montante total."
+
+#: ../lib/views/generalsettings.php:753
+msgid "Time Selection"
+msgstr "Tempo Seleção"
+
+#: ../lib/views/generalsettings.php:754
+#, fuzzy
+msgid ""
+"How do you want users to select time in your bookings. The default is a "
+"Dropdown List. While the Dropdown list \n"
+"\t\t\t\t\t\t\tis compact and takes up only a single line, it does not allow "
+"multiple selections. Hence your users need to \n"
+"\t\t\t\t\t\t\tselect one slot at a time and add it to the cart. \n"
+"\t\t\t\t\t\t\tIf you want multiple selections in a single click, use the "
+"ListBox."
+msgstr ""
+"Como você quer que os usuários selecionem tempo em suas reservas. O padrão é "
+"uma lista suspensa. Enquanto a lista suspensa\n"
+"\t\t\t\t\t\t\ts compacto e ocupa apenas uma única linha, ele não permite que "
+"várias seleções. Por isso os usuários precisam para\n"
+"\t\t\t\t\t\t\tSeleccione um slot de cada vez e adicioná-lo ao carrinho. \n"
+"\t\t\t\t\t\t\tSe você quiser várias seleções em um único clique, use a caixa "
+"de listagem."
+
+#: ../lib/views/generalsettings.php:761
+msgid "Time selection"
+msgstr "Selecionar Tempo"
+
+#: ../lib/views/generalsettings.php:765
+msgid "Dropdown List"
+msgstr "Lista suspensa"
+
+#: ../lib/views/generalsettings.php:766
+msgid "ListBox"
+msgstr "ListBox"
+
+#: ../lib/views/generalsettings.php:771 ../lib/views/generalsettings.php:779
+msgid "Enable editors"
+msgstr "Ativar editores"
+
+#: ../lib/views/generalsettings.php:772
+#, fuzzy
+msgid ""
+"When checked, users in the \"Editors\" role are allowed to view and manage "
+"bookings. In particular, they are allowed to \n"
+"\t\t\t\t\t\t\tconfirm bookings by sending out confirmation emails, refund "
+"notifications for refunded bookings and send out an invoice for unpaid "
+"bookings."
+msgstr ""
+"Quando marcada, os usuários do \"Editors\" papel tem permissão para ver e "
+"gerenciar reservas. Em particular, eles são autorizados \n"
+"\t\t\t\t\t\t\ttconfirm reservas através do envio de e-mails de confirmação, "
+"notificações de reembolso para reservas reembolsado e enviar uma fatura para "
+"reservas não pagas."
+
+#: ../lib/views/generalsettings.php:784 ../lib/views/generalsettings.php:791
+msgid "Delete booking upon payment cancellation"
+msgstr "Excluir reserva mediante o cancelamento de pagamento"
+
+#: ../lib/views/generalsettings.php:785
+msgid ""
+"When checked, if user cancels during a PayPal checkout (on PayPals page they "
+"hit cancel instead of proceeding with payment), the order will also be "
+"deleted for good. If unchecked, user can access booking from their history "
+"page and attempt payment again."
+msgstr ""
+"Quando marcado, se o usuário cancela durante um checkout do PayPal (na "
+"página PayPals batem cancelar em vez de proceder com o pagamento), a ordem "
+"também será apagado para sempre. Se nada for feito, o usuário pode acessar "
+"sua página de reserva de história e tentar pagamento novamente."
+
+#: ../lib/views/generalsettings.php:796 ../lib/views/generalsettings.php:804
+msgid "Allow user to cancel their booking"
+msgstr "Permitir que o usuário cancelar a sua reserva"
+
+#: ../lib/views/generalsettings.php:797
+#, fuzzy
+msgid ""
+"When checked, allows a user to cancel their booking, if booking has not been "
+"confirmed yet.\n"
+"\t\t\t\t\t\t\tThis can be done directly by the user from their bookings "
+"history page."
+msgstr ""
+"Quando marcado, permite ao usuário cancelar sua reserva, se a reserva ainda "
+"não foi confirmada. \n"
+"\t\t\t\t\t\t\tIsto pode ser feito diretamente pelo usuário a partir de sua "
+"página de história reservas."
+
+#: ../lib/views/generalsettings.php:809 ../lib/views/generalsettings.php:815
+msgid "MailChimp API Key"
+msgstr "MailChimp API chave"
+
+#: ../lib/views/generalsettings.php:810
+#, fuzzy
+msgid ""
+"Your mailchimp API Key. This will allow you to upload your users to \n"
+"\t\t\t\t\t\t\t\t\tmailchimp along with freshly generated coupon codes per "
+"user."
+msgstr ""
+"A sua chave API MailChimp. Isto irá permitir que você envie seus usuários \n"
+"\t\t\t\t\t\t\tmailchimp juntamente com códigos de cupom recém gerados por "
+"usuário."
+
+#: ../lib/views/generalsettings.php:828 ../lib/views/generalsettings.php:835
+msgid "Order expiry"
+msgstr "Encomende expiração"
+
+#: ../lib/views/generalsettings.php:829
+#, fuzzy
+msgid ""
+"The number of days an unpaid order is still \n"
+"\t\t\t\t\t\t\t\t\tvalid and payable after booking is made. Unpaid orders "
+"will be automatically purged out of the system after expiry. \n"
+"\t\t\t\t\t\t\t\t\tA value of zero (the default) has no effect and unpaid "
+"orders will not expire."
+msgstr ""
+"O número de dias de uma ordem não remunerado ainda é \n"
+"\t\t\t\t\t\t\tvalid ea pagar após a reserva é feita. Encomendas não pagas "
+"serão removidos automaticamente do sistema após o termo. \n"
+"\t\t\t\t\t\t\tA valor de zero (o padrão) não tem nenhum efeito e encomendas "
+"não pagas não expira."
+
+#: ../lib/views/generalsettings.php:847 ../lib/views/generalsettings.php:854
+msgid "Use history page in dashboard"
+msgstr "Use a página da história em painel"
+
+#: ../lib/views/generalsettings.php:848
+msgid ""
+"When checked, the system will link to a history page in the back-end ( via "
+"dashboard). Unchecking this option will force the system to link to the "
+"history page in the front end. Be sure to include it in your menu if un-"
+"checked."
+msgstr ""
+"Quando marcado, o sistema irá ligar a uma página da história no back-end "
+"(via dashboard). Desmarcar esta opção irá forçar o sistema de ligação para a "
+"página de história no front-end. Certifique-se de incluí-lo em seu menu se "
+"desmarcado."
+
+#: ../lib/views/generalsettings.php:859
+#, fuzzy
+msgid "Display once form on multiple projects"
+msgstr "Mostrar apenas uma vez (em várias reservas)"
+
+#: ../lib/views/generalsettings.php:860
+msgid ""
+"When checked, if all your form fields have the \"Display once\" option "
+"checked, the setting will propagate to all projects that have display once."
+msgstr ""
+
+#: ../lib/views/generalsettings.php:866
+#, fuzzy
+msgid "Display once form"
+msgstr "Contador"
+
+#: ../lib/views/generalsettings.php:871 ../lib/views/generalsettings.php:878
+msgid "Disable back button cache"
+msgstr ""
+
+#: ../lib/views/generalsettings.php:872
+msgid ""
+"When checked, the browser will be forced to revalidate with the server in "
+"case a previous response of the page due to a postback is available. Note: "
+"This setting when checked will affect all pages on your site, so do this "
+"with caution and if you truly want to use the no-cache header directive. It "
+"is unchecked by default."
+msgstr ""
+
+#: ../lib/views/generalsettings.php:883
+msgid "Currency code and symbol"
+msgstr "Código da moeda e símbolo"
+
+#: ../lib/views/generalsettings.php:885
+msgid ""
+"If your not using PayPal and would rather provide the currency and currency "
+"symbol manually, set it below. Make sure \"Enable Payments\" is unchecked. "
+"When payments are enabled, currency and currency symbol are taken from the "
+"PayPal settings page."
+msgstr ""
+"Se você não usar o PayPal e preferem fornecer a moeda e símbolo de moeda "
+"manualmente, defina-o abaixo. Certifique-se de \"Ativar Pagamentos\" está "
+"desmarcada. Quando os pagamentos são habilitados, a moeda eo símbolo de "
+"moeda são tomadas a partir da página de configurações do PagSeguro."
+
+#: ../lib/views/generalsettings.php:890
+msgid "Currency Code"
+msgstr "Código da Moeda"
+
+#: ../lib/views/generalsettings.php:902
+msgid "Currency Symbol"
+msgstr "Símbolo de moeda"
+
+#: ../lib/views/invoicesettings.php:39
+msgid "Invoice settings"
+msgstr "Definições de factura"
+
+#: ../lib/views/invoicesettings.php:40
+msgid ""
+"The system sends out invoices based on specific events. The invoice will "
+"also include the information below if provided."
+msgstr ""
+"O sistema envia faturas com base em eventos específicos. A fatura também irá "
+"incluir as informações abaixo se fornecido."
+
+#: ../lib/views/invoicesettings.php:47
+msgid ""
+"These settings go in the PDF document which is attached to the invoice "
+"email. To change the message in the email, use the email settings page by "
+"selecting \"invoice\" in the template list."
+msgstr ""
+"Essas configurações vá no documento PDF que está anexado ao e-mail da "
+"fatura. Para alterar a mensagem no e-mail, use a página de configurações de "
+"e-mail, selecionando \"fatura\" na lista de modelos."
+
+#: ../lib/views/invoicesettings.php:53
+msgid "Company name"
+msgstr "Nome da empresa"
+
+#: ../lib/views/invoicesettings.php:61
+msgid "Your company name or your full name"
+msgstr "O nome da empresa ou seu nome completo"
+
+#: ../lib/views/invoicesettings.php:67
+msgid "Company number"
+msgstr "Número Empresa"
+
+#: ../lib/views/invoicesettings.php:72
+msgid "Your company number eg: VAT number"
+msgstr "Sua empresa número por exemplo: número de IVA"
+
+#: ../lib/views/invoicesettings.php:94
+msgid "Telephone"
+msgstr "Telefone"
+
+#: ../lib/views/invoicesettings.php:122
+msgid "Additional note"
+msgstr "Nota adicional"
+
+#: ../lib/views/invoicesettings.php:126
+msgid "Optional blob of text to appear under the invoice statement."
+msgstr "Blob opcional de texto a aparecer sob a declaração de fatura."
+
+#: ../lib/views/managebookings.php:148
+msgid "Manage Bookings"
+msgstr "Gerenciar reservas"
+
+#: ../lib/views/managebookings.php:149
+msgid ""
+"Confirm bookings, manually create new bookings, send out invoices and issue "
+"refunds"
+msgstr ""
+"Confirme reservas, crie manualmente novas reservas, enviar faturas e emitir "
+"reembolsos"
+
+#: ../lib/views/managebookings.php:158
+msgid "No errors were encountered while sending the email."
+msgstr "Sem erros foram encontrados durante o envio do e-mail."
+
+#: ../lib/views/managebookings.php:160
+#, fuzzy
+msgid ""
+"An error was encountered while sending the email. \n"
+"\t\t\t\t\t\t\t\tEnsure that sending emails works with your wordpress \n"
+"\t\t\t\t\t\t\t\tinstance and then try again."
+msgstr ""
+"Foi encontrado um erro ao enviar o e-mail. \n"
+"\t\t\t\t\t\t\t\tAssegure que o envio de e-mails funciona com o seu "
+"WordPress \n"
+"\t\t\t\t\t\t\t\tinstance e tente novamente."
+
+#: ../lib/views/managebookings.php:171
+msgid "Delete booking"
+msgstr "Excluir reserva"
+
+#: ../lib/views/managebookings.php:172
+msgid "You are about to delete a booking. Are you sure ?"
+msgstr "Você está prestes a excluir uma reserva. Você tem certeza?"
+
+#: ../lib/views/managebookings.php:195
+msgid ""
+"A new user was created and the login credentials were emailed to the user."
+msgstr ""
+"Um novo usuário se criou e as credenciais de login foram enviados por email "
+"ao usuário."
+
+#: ../lib/views/managebookings.php:196
+msgid "User was found in system."
+msgstr "O usuário foi encontrado no sistema."
+
+#: ../lib/views/managebookings.php:197
+msgid ""
+"Booking is now owned by the user and is also available in the users history "
+"page."
+msgstr ""
+"Reserva é agora propriedade do usuário e também está disponível na página da "
+"história usuários."
+
+#: ../lib/views/managebookings.php:207
+msgid "Assign ownership of booking to user"
+msgstr "Atribuir a propriedade de reserva para o usuário"
+
+#: ../lib/views/managebookings.php:209
+#, fuzzy
+msgid ""
+"Provide an email address. If user is not already registered, \n"
+"\t\t\t\t\t\tthen a new user is created and login credentials are emailed to "
+"the provided email address. The booking will be owned by this user where "
+"they can view the booking in their history page."
+msgstr ""
+"Fornecer um endereço de e-mail. Se as credenciais do usuário não estiver "
+"registrado, \n"
+"\t\t\t\t\t\t\tthen um novo usuário é criado e faça o login são enviadas para "
+"o endereço de e-mail fornecido. A reserva será possuído por este usuário "
+"onde podem ver a reserva em sua página da história."
+
+#: ../lib/views/managebookings.php:218 ../lib/views/partials/userinfo.php:2
+msgid "User email"
+msgstr "E-mail do usuário"
+
+#: ../lib/views/managebookings.php:237
+msgid "Add user"
+msgstr "Adicionar usuário"
+
+#: ../lib/views/managebookings.php:261
+msgid "Create new bookings manually and email them to a new or existing user"
+msgstr ""
+"Criar novas reservas manualmente e enviá-las para um usuário novo ou "
+"existente"
+
+#: ../lib/views/managebookings.php:265
+msgid "Select a project"
+msgstr "Selecionar um projeto"
+
+#: ../lib/views/managebookings.php:277
+msgid "Listing of all bookings made"
+msgstr "Listagem de todas as reservas feitas"
+
+#: ../lib/views/managebookings.php:287 ../lib/views/managecoupons.php:315
+#: ../lib/views/manageusers.php:378
+msgid "Advanced options"
+msgstr "Opções avançadas"
+
+#: ../lib/views/managebookings.php:295
+msgid "Filter by Booking Date"
+msgstr "Filtrar por reserva Data"
+
+#: ../lib/views/managebookings.php:326 ../lib/views/manageusers.php:417
+#: ../lib/views/templates/list.php:70
+msgid "Filter"
+msgstr "Filtro"
+
+#: ../lib/views/managebookings.php:334
+msgid "Filter by status"
+msgstr "Filtrar por estado"
+
+#: ../lib/views/managebookings.php:342
+msgid "No filter"
+msgstr "Sem filtro"
+
+#: ../lib/views/managebookings.php:352
+msgid "Pending (Unpaid)"
+msgstr "Pendente (não remunerado)"
+
+#: ../lib/views/managebookings.php:383
+msgid "Find bookings by user"
+msgstr "Localizar reservas por usuário"
+
+#: ../lib/views/managebookings.php:396 ../lib/views/manageusers.php:440
+msgid "Find"
+msgstr "Pesquisar"
+
+#: ../lib/views/managebookings.php:406 ../lib/views/managecoupons.php:323
+#: ../lib/views/manageusers.php:206
+msgid "Export"
+msgstr "Exportar"
+
+#: ../lib/views/managebookings.php:414
+msgid "All bookings"
+msgstr "Todas as reservas"
+
+#: ../lib/views/managebookings.php:424 ../lib/views/managecoupons.php:341
+#: ../lib/views/manageusers.php:226
+msgid "The current records only"
+msgstr "Somente os registros atuais"
+
+#: ../lib/views/managebookings.php:435 ../lib/views/managecoupons.php:352
+#: ../lib/views/manageusers.php:346
+msgid "Export to CSV file"
+msgstr "Exportar para arquivo CSV"
+
+#: ../lib/views/managebookings.php:436 ../lib/views/managecoupons.php:353
+msgid "CSV"
+msgstr "CSV"
+
+#: ../lib/views/managebookings.php:488 ../lib/views/managecoupons.php:387
+#: ../lib/views/manageusers.php:500
+msgid "User not found. Try again."
+msgstr "Usuário não encontrado. Tente novamente."
+
+#: ../lib/views/managebookings.php:489 ../lib/views/managecoupons.php:388
+#: ../lib/views/manageusers.php:501
+msgid "User found. Username is"
+msgstr "Usuário encontrado. Nome de usuário é"
+
+#: ../lib/views/managecoupons.php:71
+msgid "Manage coupons"
+msgstr "Gerenciar cupons"
+
+#: ../lib/views/managecoupons.php:72
+#, fuzzy
+msgid ""
+"Create coupons and email them to a user. \n"
+"\t\t\t\tIf you prefer to mass create and email coupons then get on the "
+"\"users\" page. \n"
+"\t\t\t\tYou'll be able to export users and coupons to MailChimp."
+msgstr ""
+"Criar cupons e enviá-las a um usuário.\n"
+"\t\t\t\t\t\t\tSe você preferir criar massa e cupons de e-mail, em seguida, "
+"pegar o \"usuários\" página. \n"
+"\t\t\t\t\t\t\tYou'll ser capaz de exportar usuários e cupons para MailChimp."
+
+#: ../lib/views/managecoupons.php:81
+msgid "Email coupon"
+msgstr "Coupon Email"
+
+#: ../lib/views/managecoupons.php:94
+msgid "Send Email"
+msgstr "Enviar e-mail"
+
+#: ../lib/views/managecoupons.php:109
+msgid ""
+"There was a problem creating the coupon. Most likely the coupon code already "
+"exists, try a unique combination."
+msgstr ""
+
+#: ../lib/views/managecoupons.php:114
+msgid "The coupon was created successfully."
+msgstr "O cupom foi criado com sucesso."
+
+#: ../lib/views/managecoupons.php:119
+msgid "The coupon was updated successfully."
+msgstr "O cupom foi atualizado com sucesso."
+
+#: ../lib/views/managecoupons.php:124
+msgid "The coupon was deleted successfully."
+msgstr "O cupom foi excluído com sucesso."
+
+#: ../lib/views/managecoupons.php:129
+msgid "The coupon was emailed successfully."
+msgstr "O cupom foi enviada com sucesso."
+
+#: ../lib/views/managecoupons.php:134
+msgid "Create new coupons"
+msgstr "Criar novos cupons"
+
+#: ../lib/views/managecoupons.php:135
+msgid ""
+"Create new coupons or edit an existing coupon. If a project is selected then "
+"the coupon will apply for that project only. Note: If user adds bookings "
+"from more than one project in cart, the coupon wont apply."
+msgstr ""
+
+#: ../lib/views/managecoupons.php:147 ../lib/views/manageusers.php:272
+msgid "Coupon applies to any project"
+msgstr ""
+
+#: ../lib/views/managecoupons.php:155 ../lib/views/manageusers.php:281
+msgid "Expiration Date"
+msgstr "Data de Expiração"
+
+#: ../lib/views/managecoupons.php:174
+#, fuzzy
+msgid "Attention: Coupon code"
+msgstr "Atenção: O modo de reserva"
+
+#: ../lib/views/managecoupons.php:175
+msgid ""
+"By default a GUID is generated for the coupon code. This has the benefit of "
+"being unique and you will avoid clashing with other coupons this way. If you "
+"decide to change the coupon code, eg: 10%OFF or something similar this is "
+"also possible, but to reuse the same name you will need to delete the older "
+"one."
+msgstr ""
+
+#: ../lib/views/managecoupons.php:180
+#, fuzzy
+msgid "Coupon code"
+msgstr "Digite o Código de Cupom"
+
+#: ../lib/views/managecoupons.php:194
+#, fuzzy
+msgid "Attention: Coupon type"
+msgstr "Atenção: O modo de reserva"
+
+#: ../lib/views/managecoupons.php:195
+msgid ""
+"A regular coupon is limited to one use only. After that one use i.e. after "
+"the user checks out using this code, it is no longer valid. A super coupon "
+"on the other hand will allow multiple uses until the expiration date."
+msgstr ""
+
+#: ../lib/views/managecoupons.php:200
+#, fuzzy
+msgid "Coupon Type"
+msgstr "Cupom"
+
+#: ../lib/views/managecoupons.php:233 ../lib/views/manageusers.php:322
+msgid "Order Minimum"
+msgstr "Mínima"
+
+#: ../lib/views/managecoupons.php:248
+#, fuzzy
+msgid "Attention: No. of coupons"
+msgstr "No. de cupões"
+
+#: ../lib/views/managecoupons.php:249
+msgid ""
+"If you set a value greater than the default value of 1, coupon type will "
+"default to regular and the coupon code will be autogenerated internally."
+msgstr ""
+
+#: ../lib/views/managecoupons.php:255
+msgid "No. of coupons"
+msgstr "No. de cupões"
+
+#: ../lib/views/managecoupons.php:305
+msgid "List of all coupons"
+msgstr "Lista de todos os cupons"
+
+#: ../lib/views/managecoupons.php:331
+msgid "All coupons"
+msgstr "Todos os cupons"
+
+#: ../lib/views/manageusers.php:117
+msgid "List and manage users that made bookings."
+msgstr "Liste e gerenciar usuários que fizeram reservas."
+
+#: ../lib/views/manageusers.php:125
+msgid "MailChimp export status"
+msgstr "Status de exportação MailChimp"
+
+#: ../lib/views/manageusers.php:126
+msgid "Emails added"
+msgstr "Emails adicionadas"
+
+#: ../lib/views/manageusers.php:135
+msgid "Error count"
+msgstr "A contagem de erros"
+
+#: ../lib/views/manageusers.php:140
+msgid "Error msg"
+msgstr "Msg de erro"
+
+#: ../lib/views/manageusers.php:153
+msgid "Delete booking made by user"
+msgstr "Excluir reserva feita pelo usuário"
+
+#: ../lib/views/manageusers.php:154
+msgid ""
+"You are about to delete all bookings made by this user. This is permanent. "
+"Are you sure ?"
+msgstr ""
+"Você está prestes a apagar todas as reservas feitas por este usuário. Este é "
+"permanente. Você tem certeza?"
+
+#: ../lib/views/manageusers.php:183
+msgid "User bookings"
+msgstr "Reservas do usuário"
+
+#: ../lib/views/manageusers.php:184
+msgid "List of bookings made by selected user."
+msgstr "Lista de reservas feitas por usuário selecionado."
+
+#: ../lib/views/manageusers.php:196
+msgid "List of all users that made bookings."
+msgstr "Lista de todos os usuários que fizeram reservas."
+
+#: ../lib/views/manageusers.php:207
+msgid "Export users/coupons to CSV or MailChimp"
+msgstr "Usuários Exportação / cupons para CSV ou MailChimp"
+
+#: ../lib/views/manageusers.php:216
+msgid "All users"
+msgstr "Todos os usuários"
+
+#: ../lib/views/manageusers.php:233
+msgid "Mailing list"
+msgstr "Lista de discussão"
+
+#: ../lib/views/manageusers.php:237
+msgid "Exports users displayed in the users grid to MailChimp."
+msgstr "Exportações usuários exibidos na grade de usuários MailChimp."
+
+#: ../lib/views/manageusers.php:248
+msgid "Select mailing list"
+msgstr "Selecione lista de discussão"
+
+#: ../lib/views/manageusers.php:256
+msgid "Attention"
+msgstr "Atenção"
+
+#: ../lib/views/manageusers.php:257
+#, fuzzy
+msgid ""
+"To export to MailChimp you'll have to first load the mailing list and select "
+"a list. \n"
+"\t\t\t\t\t\tIf you still see this alert, then double check your MailChimp "
+"API Key is set in \"General settings\" and verify if it is correct."
+msgstr ""
+"Para exportar para MailChimp você vai ter que carregar primeiro na lista de "
+"discussão e selecionar uma lista. \n"
+"\t\t\t\t\t\t\tSe você ainda vê esse alerta, em seguida, verifique o seu "
+"MailChimp API chave é definida em \"Configurações gerais\" e verifique se "
+"está correto."
+
+#: ../lib/views/manageusers.php:305
+msgid ""
+"A discount value greater than 0 must be provided, otherwise no coupons are "
+"generated."
+msgstr ""
+"Um valor de desconto maior que 0 deve ser fornecido, caso contrário nenhuma "
+"cupons são gerados."
+
+#: ../lib/views/manageusers.php:347
+msgid "To CSV"
+msgstr "Para CSV"
+
+#: ../lib/views/manageusers.php:353
+msgid "Export to MailChimp"
+msgstr "Exportar para MailChimp"
+
+#: ../lib/views/manageusers.php:354
+msgid "To MailChimp"
+msgstr "Para MailChimp"
+
+#: ../lib/views/manageusers.php:360
+msgid "Loads/reloads MailChimp mailing list in the dropdownlist above"
+msgstr "Cargas / recarrega lista MailChimp no dropdownlist acima"
+
+#: ../lib/views/manageusers.php:361
+msgid "Load mailing lists"
+msgstr "Listas de carga"
+
+#: ../lib/views/manageusers.php:368
+msgid "Coupon settings"
+msgstr "Configurações de Cupom"
+
+#: ../lib/views/manageusers.php:369
+msgid "Advanced"
+msgstr "Avançado"
+
+#: ../lib/views/manageusers.php:386
+msgid "Filter users by bookings made between"
+msgstr "Filtrar usuários por reservas feitas entre"
+
+#: ../lib/views/manageusers.php:425
+msgid "Find User by email"
+msgstr "Encontrar Usuário por e-mail"
+
+#: ../lib/views/paypal.php:47
+msgid "PayPal"
+msgstr "PayPal"
+
+#: ../lib/views/paypal.php:48
+msgid "Accept Payments Online with PayPal."
+msgstr "Aceitar pagamentos on-line com o PayPal."
+
+#: ../lib/views/paypal.php:70
+msgid "Password"
+msgstr "Senha"
+
+#: ../lib/views/paypal.php:76
+msgid "Signature"
+msgstr "Assinatura"
+
+#: ../lib/views/paypal.php:97 ../lib/views/partials/refundtransaction.php:113
+msgid "Currency"
+msgstr "Moeda"
+
+#: ../lib/views/paypal.php:111 ../lib/views/paypal.php:121
+msgid "Item category"
+msgstr "Categoria do item"
+
+#: ../lib/views/paypal.php:112
+#, fuzzy
+msgid ""
+"\"Digital\" requires that you are signed up with PayPal and have a business "
+"account in \n"
+"\t\t\t\t\t\t\t\t\torder to take advantage of what it offers. \n"
+"\t\t\t\t\t\t\t\t\tIt differs from \"Physical\" where you will have a better "
+"fee structure per transaction \n"
+"\t\t\t\t\t\t\t\t\tif your selling items at low cost and they are strictly "
+"digital goods. We really aren't experts with all things PayPal, \n"
+"\t\t\t\t\t\t\t\t\tso you will have to look this one up. \"Physical\" on the "
+"other hand will just work right off the bat, all you need is a PayPal "
+"account."
+msgstr ""
+"\"Digital\" requer que você se inscreveu com PayPal e ter uma conta "
+"empresarial no \n"
+"\t\t\t\t\t\t\t\t\torder para aproveitar o que ele oferece. \n"
+"\t\t\t\t\t\t\t\t\tdifere \"Física\", onde você terá uma estrutura de taxas "
+"por transação melhor \n"
+"\t\t\t\t\t\t\t\t\tse seus pontos de venda a baixo custo e são estritamente "
+"bens digitais. Nós realmente não são especialistas com todas as coisas "
+"PayPal, \n"
+"\t\t\t\t\t\t\t\t\tentao você terá que procurar um presente para cima. "
+"\"Física\", por outro lado vai funcionar logo de cara, tudo que você precisa "
+"é uma conta PayPal."
+
+#: ../lib/views/paypal.php:141
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: ../lib/views/paypal.php:142
+#, fuzzy
+msgid ""
+"The PayPal Sandbox is a self-contained, virtual testing environment that "
+"mimics the \n"
+"\t\t\t\t\t\t\t\t\tlive PayPal production environment. In order to use the "
+"sandbox, check the box below and in addition you'll have to manually FTP\n"
+"\t\t\t\t\t\t\t\t\tinto the config file that contains the live environment "
+"public URL endpoints."
+msgstr ""
+"O PayPal Sandbox é um ambiente de testes virtuais auto-suficiente que imita "
+"o\n"
+"\t\t\t\t\t\t\tlive PayPal ambiente de produção. Para utilizar a caixa de "
+"areia, marque a caixa abaixo e, além disso você terá que manualmente FTP \n"
+"\t\t\t\t\t\t\t tinto o arquivo de configuração que contém o ambiente público "
+"ao vivo endpoints URL."
+
+#: ../lib/views/paypal.php:155
+#, fuzzy
+msgid ""
+"When checked, all Paypal checkout requests will be \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tmade towards the Paypal Sandbox test environment: "
+"https://www.sandbox.paypal.com"
+msgstr ""
+"Quando marcada, todos os pedidos Paypal Checkout será \n"
+"\t\t\t\t\t\t\tmade para o ambiente de teste Paypal Sandbox: https://www."
+"sandbox. paypal.com"
+
+#: ../lib/views/paypal.php:166
+msgid "Business name"
+msgstr "Nome da empresa"
+
+#: ../lib/views/paypal.php:170
+msgid "Display in PayPal hosted checkout pages"
+msgstr "Exibição em PayPal hospedado páginas de pagamento"
+
+#: ../lib/views/paypal.php:178
+msgid "Custom page style"
+msgstr "Estilo de página personalizado"
+
+#: ../lib/views/paypal.php:182
+msgid "As configured in Merchant's account profile"
+msgstr "Conforme configurado no perfil da conta do comerciante"
+
+#: ../lib/views/paypal.php:191
+msgid "Header image URL"
+msgstr "Header URL da imagem"
+
+#: ../lib/views/paypal.php:195
+msgid "The image will appear at the top left of the payment page"
+msgstr "A imagem aparecerá no canto superior esquerdo da página de pagamento"
+
+#: ../lib/views/paypal.php:204
+msgid "Header border"
+msgstr "Borda do cabeçalho"
+
+#: ../lib/views/paypal.php:208
+msgid "Color is applied around header"
+msgstr "A cor é aplicada em torno do cabeçalho"
+
+#: ../lib/views/paypal.php:217
+msgid "Header background"
+msgstr "Plano de fundo do cabeçalho:"
+
+#: ../lib/views/paypal.php:221
+msgid "Color is applied in the header"
+msgstr "A cor é aplicada no cabeçalho"
+
+#: ../lib/views/paypal.php:230
+msgid "Page background"
+msgstr "Plano de fundo da página:"
+
+#: ../lib/views/paypal.php:234
+msgid "Color is applied on payment page"
+msgstr "Cor é aplicado na página de pagamento"
+
+#: ../lib/views/paypal.php:243
+msgid "Minicart border"
+msgstr "Minicart fronteira"
+
+#: ../lib/views/paypal.php:247
+msgid "Color applied in the Mini Cart on 1X flow"
+msgstr "Cor aplicada no Mini carrinho no fluxo de 1X"
+
+#: ../lib/views/paypal.php:256
+msgid "Logo image URL"
+msgstr "URL da imagem do logotipo"
+
+#: ../lib/views/paypal.php:260
+msgid "Image to appear above the mini-cart"
+msgstr "Imagem para aparecer acima do mini-carro"
+
+#: ../lib/views/paypal.php:272
+msgid "Reset to sandbox"
+msgstr "Reset to sandbox"
+
+#: ../lib/views/resources.php:34
+msgid "Edit string resources in the booking form"
+msgstr ""
+
+#: ../lib/views/resources.php:35
+msgid ""
+"These string resources are used throughout Booki in the front-end. Customize "
+"each field as desired here or through WPML."
+msgstr ""
+
+#: ../lib/views/resources.php:515
+#, fuzzy
+msgid "Reset"
+msgstr "Reserva"
+
+#: ../lib/views/uninstall.php:12
+msgid "All data has been cleared. Your spick and span, sparky!"
+msgstr "Todos os dados foram apagados. Seu novo em folha, Sparky!"
+
+#: ../lib/views/uninstall.php:33
+msgid ""
+"You are about to wipe out all data associated with booki. Attention: You "
+"cannot undo this operation."
+msgstr ""
+"Você está prestes a apagar todos os dados associados booki. Atenção: Você "
+"não pode desfazer esta operação."
+
+#: ../lib/views/uninstall.php:47
+#, fuzzy
+msgid ""
+"Clear all data but leave the booki tables intact. \n"
+"\t\t\t\t\tYou still lose everything, careful. Brings the plugin back to a "
+"fresh install."
+msgstr ""
+"Limpe todos os dados, mas deixar as mesas booki intacta.\n"
+"\t\t\t\t\t\t\tVocê ainda perder tudo, cuidado. Traz o plugin de volta para "
+"uma nova instalação."
+
+#: ../lib/views/uninstall.php:55 ../lib/views/uninstall.php:92
+msgid "Clear"
+msgstr "claro"
+
+#: ../lib/views/uninstall.php:63
+msgid ""
+"Just delete everything, tables included. You lose everything. Plugin will be "
+"deactivated."
+msgstr ""
+"Apenas apagar tudo, mesas incluídas. Você perde tudo. Plugin será desativado."
+
+#: ../lib/views/uninstall.php:80
+msgid "Clear all data in Booki"
+msgstr "Apagar todos os dados em booki"
+
+#: ../lib/views/uninstall.php:83
+msgid ""
+"Are you sure you want to clear all data in the Booki database tables ? You "
+"won't be able to undo this operation."
+msgstr ""
+"Tem certeza de que deseja apagar todos os dados nas tabelas de banco de "
+"dados booki? Você não será capaz de desfazer esta operação."
+
+#: ../lib/views/uninstall.php:103
+msgid "Delete Booki"
+msgstr "Excluir booki"
+
+#: ../lib/views/uninstall.php:106
+msgid ""
+"Are you sure you want to delete Booki ? You won't be able to undo this "
+"operation."
+msgstr ""
+"Tem certeza de que deseja excluir booki? Você não será capaz de desfazer "
+"esta operação."
+
+#: ../lib/views/partials/bookedformelements.php:7
+msgid "This is additional information collected during the booking process."
+msgstr ""
+"Esta é uma informação adicional recolhida durante o processo de reserva."
+
+#: ../lib/views/partials/bookedformelements.php:23
+msgid "Checked"
+msgstr "Verificado"
+
+#: ../lib/views/partials/bookingdetails.php:39
+msgid "Booking details"
+msgstr "Dados da reserva"
+
+#: ../lib/views/partials/bookingdetails.php:55
+#, php-format
+msgid "Booked dates and time slots for %s"
+msgstr "Datas reservadas e os horários para %s"
+
+#: ../lib/views/partials/bookingdetails.php:77
+msgid "Time based on the admin timezone"
+msgstr "Tempo com base no fuso horário de administração"
+
+#: ../lib/views/partials/bookingdetails.php:79
+msgid "Admin Timezone"
+msgstr "Fuso horário Administrador"
+
+#: ../lib/views/partials/bookingdetails.php:91
+msgid "Time based on customer timezone"
+msgstr "Tempo com base no fuso horário do cliente"
+
+#: ../lib/views/partials/bookingdetails.php:93
+msgid "Customer Timezone"
+msgstr "Fuso horário do cliente"
+
+#: ../lib/views/partials/bookingdetails.php:160
+msgid "No days booked."
+msgstr "No dia reservado."
+
+#: ../lib/views/partials/bookingdetails.php:171
+msgid "Cancel booked date confirmation"
+msgstr "Cancelar confirmação data marcada"
+
+#: ../lib/views/partials/bookingdetails.php:174
+msgid ""
+"When you cancel a booked date, the cost is deducted from the order total and "
+"the booked date is removed from the system. If there is only one date then "
+"the order is deleted."
+msgstr ""
+"Quando você cancelar um encontro reservado, o custo é deduzido do total do "
+"pedido e da data reservada é removido do sistema. Se houver apenas uma data, "
+"então a ordem é excluído."
+
+#: ../lib/views/partials/bookingdetails.php:175
+msgid "Booki does not keep records of cancelled bookings. Proceed ?"
+msgstr "Não booki não manter registros de reservas canceladas. Proceder?"
+
+#: ../lib/views/partials/bookingdetails.php:200
+#: ../lib/views/partials/bookingdetails.php:307
+#, php-format
+msgid "Optional/s for %s"
+msgstr "Opciona/s para %s"
+
+#: ../lib/views/partials/bookingdetails.php:267
+#: ../lib/views/partials/bookingdetails.php:375
+msgid "No optionals in booking."
+msgstr "Não há opcionais em reserva."
+
+#: ../lib/views/partials/bookingdetails.php:277
+msgid "Cancel optional item confirmation"
+msgstr "Cancelar confirmação artigo opcional"
+
+#: ../lib/views/partials/bookingdetails.php:280
+msgid ""
+"When you cancel an optional item, the cost is deducted from the order total "
+"and the optional item is removed from the system."
+msgstr ""
+"Quando você cancela um item opcional, o custo é deduzido do total do pedido "
+"eo item opcional é removido do sistema."
+
+#: ../lib/views/partials/bookingdetails.php:281
+msgid ""
+"Booki does not keep records of cancelled optional item selections. Proceed ?"
+msgstr ""
+"Não booki não manter registros de seleções de itens opcionais cancelados. "
+"Proceder?"
+
+#: ../lib/views/partials/bookingdetails.php:385
+msgid "Cancel cascading item confirmation"
+msgstr "Cancelar confirmação artigo em cascata"
+
+#: ../lib/views/partials/bookingdetails.php:388
+msgid ""
+"When you cancel an cascading item, the cost is deducted from the order total "
+"and the cascading item is removed from the system."
+msgstr ""
+"Quando você cancelar um item em cascata, o custo é deduzido do total do "
+"pedido eo item em cascata é removido do sistema."
+
+#: ../lib/views/partials/bookingdetails.php:389
+msgid ""
+"Booki does not keep records of cancelled cascading item selections. Proceed ?"
+msgstr ""
+"Não booki não manter registros de seleções de itens em cascata cancelados. "
+"Proceder?"
+
+#: ../lib/views/partials/bookingdetails.php:423
+msgid "Due on arrival"
+msgstr ""
+
+#: ../lib/views/partials/bookingdetails.php:434
+#, fuzzy
+msgid "Deposit Subtotal"
+msgstr "Valor padrão"
+
+#: ../lib/views/partials/refundtransaction.php:34
+#: ../lib/views/partials/refundtransaction.php:40
+msgid "Refund Status"
+msgstr "Reembolso Estado"
+
+#: ../lib/views/partials/refundtransaction.php:35
+msgid "Short Message:"
+msgstr "Mensagem curta:"
+
+#: ../lib/views/partials/refundtransaction.php:36
+msgid "Long Message:"
+msgstr "Longo Mensagem:"
+
+#: ../lib/views/partials/refundtransaction.php:41
+msgid "Net refund amount:"
+msgstr "Valor do reembolso líquido:"
+
+#: ../lib/views/partials/refundtransaction.php:43
+msgid "Fee refund amount:"
+msgstr "Taxa valor do reembolso:"
+
+#: ../lib/views/partials/refundtransaction.php:45
+msgid "Gross refund amount:"
+msgstr "Valor do reembolso bruto:"
+
+#: ../lib/views/partials/refundtransaction.php:47
+msgid "Total refunded amount:"
+msgstr "Montante total reembolsado:"
+
+#: ../lib/views/partials/refundtransaction.php:50
+msgid "Refund status:"
+msgstr "Status de reembolso:"
+
+#: ../lib/views/partials/refundtransaction.php:52
+msgid "Pending reason:"
+msgstr "Enquanto aguarda razão:"
+
+#: ../lib/views/partials/refundtransaction.php:61
+msgid "Refund transaction"
+msgstr "Transação Reembolso"
+
+#: ../lib/views/partials/refundtransaction.php:62
+#, fuzzy
+msgid ""
+"You can send refunds within 60 days of receiving a payment. Alternatively, "
+"you\n"
+"\t\t\tcan issue a refund directly through paypal, by going to the \n"
+"\t\t\tTransaction Details page for your transaction and clicking \"Issue a "
+"refund\"."
+msgstr ""
+"Você pode enviar reembolsos no prazo de 60 dias após ter recebido o "
+"pagamento. Alternativamente, você \n"
+"\t\t\tcan emitir um reembolso diretamente através de paypal, indo para o \n"
+"\t\t\tTransaction detalhes página para sua transação e clicar em \"Emitir um "
+"reembolso\"."
+
+#: ../lib/views/partials/refundtransaction.php:86
+msgid "Type of refund being made."
+msgstr "Tipo de reembolso a ser feito."
+
+#: ../lib/views/partials/refundtransaction.php:87
+msgid "Refund Type"
+msgstr "Tipo de Reembolso"
+
+#: ../lib/views/partials/refundtransaction.php:98
+#, fuzzy
+msgid ""
+"Amount to be refunded (If RefundType is full, do not set the amount). \n"
+"\t\t\t\t\t\tFor Decimal point use a dot [.] and Thousands sep use a comma [,]"
+msgstr ""
+"Valor a ser devolvido (Se RefundType está cheio, não defina a quantidade).\n"
+"\t\t\t\t\t\t\ttfor ponto decimal usar um ponto [.] E milhares setembro use "
+"uma vírgula [,]"
+
+#: ../lib/views/partials/refundtransaction.php:100
+msgid "Refund amount"
+msgstr "Montante da restituição"
+
+#: ../lib/views/partials/refundtransaction.php:111
+#, fuzzy
+msgid ""
+"Currency must be the same currency type used to make the \n"
+"\t\t\t\t\t\t\tpayment that is being refunded."
+msgstr ""
+"Moeda deve ser o mesmo tipo de moeda usado para fazer o \n"
+"\t\t\t\t\t\t\tpagamento que está sendo reembolsado."
+
+#: ../lib/views/partials/refundtransaction.php:124
+msgid "By default this will use any available funding source"
+msgstr ""
+"Por padrão, este irá utilizar qualquer fonte de financiamento disponíveis"
+
+#: ../lib/views/partials/refundtransaction.php:125
+msgid "Refund source"
+msgstr "Fonte de Reembolso"
+
+#: ../lib/views/partials/refundtransaction.php:130
+msgid "Use any available funding source"
+msgstr "Use qualquer fonte de financiamento disponíveis"
+
+#: ../lib/views/partials/refundtransaction.php:131
+msgid "Use the preferred funding source, as configured in the profile"
+msgstr ""
+"Use a fonte de financiamento preferencial, conforme configurado no perfil"
+
+#: ../lib/views/partials/refundtransaction.php:132
+msgid "Use the balance as the funding source"
+msgstr "Use o equilíbrio como a fonte de financiamento"
+
+#: ../lib/views/partials/refundtransaction.php:133
+msgid "Use the eCheck funding source"
+msgstr "Use a fonte de financiamento eCheck"
+
+#: ../lib/views/partials/refundtransaction.php:142
+#: ../lib/views/partials/refundtransaction.php:143
+msgid "Memo"
+msgstr "Memorando"
+
+#: ../lib/views/partials/refundtransaction.php:154
+msgid "Issue refund"
+msgstr "Reembolso Issue"
+
+#: ../lib/views/partials/restrictedmodewarning.php:4
+msgid "Plugin is in Restricted Mode"
+msgstr "Plugin é no modo restrito"
+
+#: ../lib/views/partials/restrictedmodewarning.php:5
+#, fuzzy
+msgid ""
+"The plugin is in restricted mode and some operations or features, depending "
+"on the page may have been disabled. \n"
+"\t\t\tPurchase product for fully working version."
+msgstr ""
+"O plugin está em modo restrito e algumas operações ou recursos, dependendo "
+"da página pode ter sido desativado. \n"
+"\t\t\tPurchase produto para a versão totalmente funcional."
+
+#: ../lib/views/partials/timezonecontrol.php:7
+#: ../lib/views/templates/timezonecontrol.php:10
+msgid "Current Timezone"
+msgstr "Fuso horário atual"
+
+#: ../lib/views/partials/timezonecontrol.php:12
+#: ../lib/views/templates/timezonecontrol.php:15
+msgid "Change Timezone"
+msgstr "Alterar o fuso horário"
+
+#: ../lib/views/partials/timezonecontrol.php:21
+#: ../lib/views/templates/timezonecontrol.php:24
+msgid "Timezone!"
+msgstr "Fuso horário!"
+
+#: ../lib/views/partials/timezonecontrol.php:21
+#: ../lib/views/templates/timezonecontrol.php:24
+msgid "Booking time will adapt to the timezone you select below."
+msgstr ""
+"Tempo de reserva vai se adaptar ao fuso horário que você selecionar abaixo."
+
+#: ../lib/views/partials/timezonecontrol.php:27
+#: ../lib/views/templates/timezonecontrol.php:30
+msgid "Region"
+msgstr "Região"
+
+#: ../lib/views/partials/timezonecontrol.php:31
+#: ../lib/views/templates/timezonecontrol.php:34
+msgid "Select a region"
+msgstr "Selecione um estado"
+
+#: ../lib/views/partials/timezonecontrol.php:52
+#: ../lib/views/templates/timezonecontrol.php:55
+msgid "Guess my timezone"
+msgstr "Acho que o meu fuso horário"
+
+#: ../lib/views/templates/bookingform.php:104
+#, fuzzy
+msgid "You can only book {0} days at a time. Excess days not applied."
+msgstr ""
+"Você só pode reservar {0} dias de cada vez. Tente remover uma reserva para "
+"reservar outro."
+
+#: ../lib/views/templates/bookingform.php:106
+#, fuzzy
+msgid "You can only book {0} slots at a time. Excess time not applied."
+msgstr ""
+"Você só pode reservar {0} dias de cada vez. Tente remover uma reserva para "
+"reservar outro."
+
+#: ../lib/views/templates/bookingform.php:141
+#: ../lib/views/templates/bookingform.php:174
+msgid "Exhausted!"
+msgstr "Exausta!"
+
+#: ../lib/views/templates/bookingform.php:141
+#, fuzzy
+msgid "All available slots have been added to cart. Check out ?"
+msgstr "Todos os slots disponíveis foram adicionados ao carrinho. Confira?"
+
+#: ../lib/views/templates/bookingform.php:149
+#, fuzzy
+msgid "Booked!"
+msgstr "Dias Reservas"
+
+#: ../lib/views/templates/bookingform.php:149
+#, fuzzy
+msgid "All available slots have been booked for this day."
+msgstr "Todos os slots disponíveis foram adicionados ao carrinho. Confira?"
+
+#: ../lib/views/templates/bookingform.php:174
+msgid "All Available days have been added to cart. Checkout ?"
+msgstr "Todos os dias sem ter sido adicionado ao carrinho. Checkout?"
+
+#: ../lib/views/templates/checkoutgrid.php:405
+msgid "Toggle Dropdown"
+msgstr "Alternar suspensa"
+
+#: ../lib/views/templates/master.php:14
+msgid "Humanics test, skip it"
+msgstr ""
+
+#: ../lib/views/templates/master.php:25 ../lib/views/templates/minicart.php:28
+msgid "Oops!"
+msgstr "Ops!"
+
+#: ../lib/views/templates/master.php:25
+msgid "All bookings exhausted."
+msgstr "Todas as reservas esgotadas."
+
+#: ../lib/views/templates/minicart.php:28
+msgid "Some items got booked by someone else before you could checkout."
+msgstr ""
+"Alguns itens foi reservado por outra pessoa antes que você poderia fazer o "
+"checkout."
+
+#: ../lib/views/templates/paypalcancelpaymentpartial.php:8
+msgid ""
+"Payment cancelled successfully! The order has been deleted as well. Thanks "
+"for trying to book with us. Hope to see you back."
+msgstr ""
+"O pagamento cancelado com sucesso! A ordem foi excluída também. Obrigado por "
+"tentar encomendar a nós. Esperamos vê-lo de volta."
+
+#: ../lib/views/templates/paypalcancelpaymentpartial.php:10
+msgid ""
+"Payment cancelled. The order is still available in your order history. If "
+"you change your mind, you can make payment directly through your order "
+"history page. Thankyou for booking with us."
+msgstr ""
+"O pagamento cancelado. A ordem ainda está disponível em seu histórico de "
+"pedidos. Se você mudar de idéia, você pode fazer o pagamento diretamente "
+"através de sua página histórico de pedidos. Agradecimento para a reserva com "
+"a gente."
+
+#: ../lib/views/templates/paypalcancelpaymentpartial.php:15
+msgid "Go to your order"
+msgstr "Vá para o seu fim"
+
+#: ../lib/views/templates/paypalcancelpaymentpartial.php:16
+msgid "history page"
+msgstr "History Page"
+
+#: ../lib/views/user/historypartial.php:6
+msgid "You need to login to view your history."
+msgstr "Você precisa fazer o login para ver o seu histórico."
+
+#: ../lib/views/user/historypartial.php:15
+msgid "User history"
+msgstr "História do usuário"
+
+#: ../lib/views/user/historypartial.php:16
+#, php-format
+msgid "Past bookings made by current user. YOU (%s)"
+msgstr "Reservas anteriores feitas pelo usuário atual. VOCÊ (%s)"
+
+#: ../lib/views/user/singlecolstatspartial.php:6
+msgid "You do not have the necessary permissions to view stats."
+msgstr "Você não tem as permissões necessárias para exibir estatísticas."
+
+#: ../lib/views/user/singlecolstatspartial.php:16
+#: ../lib/views/user/statspartial.php:10
+msgid "A brief overview of your bookings."
+msgstr "Uma breve visão geral de suas reservas."
+
+#: ../lib/views/user/singlecolstatspartial.php:16
+#: ../lib/views/user/statspartial.php:10
+msgid "A brief overview of bookings approved by you."
+msgstr "Um breve resumo de reservas aprovadas por você."
+
+#: ../lib/views/user/singlecolstatspartial.php:23
+#: ../lib/views/user/statspartial.php:19
+msgid "payments made"
+msgstr "pagamentos feitos"
+
+#: ../lib/views/user/singlecolstatspartial.php:27
+#: ../lib/views/user/statspartial.php:23
+msgid "payments pending"
+msgstr "pagamentos pendentes"
+
+#: ../lib/views/user/singlecolstatspartial.php:30
+#: ../lib/views/user/statspartial.php:26
+msgid "Purchasers are made, not born. --Henry Ford"
+msgstr "Os compradores são feitos, não nascem. - Henry Ford"
+
+#: ../lib/views/user/singlecolstatspartial.php:36
+#: ../lib/views/user/singlecolstatspartial.php:116
+#: ../lib/views/user/statspartial.php:32
+#: ../lib/views/user/statspartial.php:115
+msgid "Refunds"
+msgstr "Reembolsos"
+
+#: ../lib/views/user/singlecolstatspartial.php:39
+#: ../lib/views/user/statspartial.php:35
+msgid "Don't dwell on negativity."
+msgstr "Não me debruçar sobre a negatividade."
+
+#: ../lib/views/user/singlecolstatspartial.php:50
+#: ../lib/views/user/statspartial.php:46
+msgid "total bookings"
+msgstr "reservas totais"
+
+#: ../lib/views/user/singlecolstatspartial.php:54
+#: ../lib/views/user/statspartial.php:50
+msgid "total amount earned"
+msgstr "quantidade total auferida"
+
+#: ../lib/views/user/singlecolstatspartial.php:57
+#: ../lib/views/user/statspartial.php:53
+msgid ""
+"I do not love the money. What I love is the making of it. --Philip Armour"
+msgstr ""
+"Eu não amo o dinheiro. O que eu amo é a realização do mesmo. - Philip Armour"
+
+#: ../lib/views/user/singlecolstatspartial.php:63
+#: ../lib/views/user/statspartial.php:59
+msgid "total discounts given"
+msgstr "total de descontos concedidos"
+
+#: ../lib/views/user/singlecolstatspartial.php:81
+#: ../lib/views/user/statspartial.php:77
+msgid "Listing of all bookings approved by you"
+msgstr "Listagem de todas as reservas aprovadas por você"
+
+#: ../lib/views/user/singlecolstatspartial.php:95
+#: ../lib/views/user/statspartial.php:93
+msgid "Bookings made in the last 3 months"
+msgstr "As reservas feitas nos últimos 3 meses"
+
+#: ../lib/views/user/singlecolstatspartial.php:95
+#: ../lib/views/user/statspartial.php:93
+msgid "Bookings you approved in the last 3 months"
+msgstr "Reservas você aprovadas nos últimos 3 meses"
+
+#: ../lib/views/user/singlecolstatspartial.php:105
+#: ../lib/views/user/statspartial.php:103
+msgid "Sales"
+msgstr "Vendas"
+
+#: ../lib/views/user/singlecolstatspartial.php:106
+#: ../lib/views/user/statspartial.php:104
+msgid "Sales in the last 3 months"
+msgstr "Vendas nos últimos 3 meses"
+
+#: ../lib/views/user/singlecolstatspartial.php:106
+#: ../lib/views/user/statspartial.php:104
+msgid "Sales of bookings you approved in the last 3 months"
+msgstr "As vendas de reservas você aprovadas nos últimos 3 meses"
+
+#: ../lib/views/user/singlecolstatspartial.php:117
+#: ../lib/views/user/statspartial.php:116
+msgid "Refunds in the last 3 months"
+msgstr "Os reembolsos nos últimos 3 meses"
+
+#: ../lib/views/user/singlecolstatspartial.php:117
+#: ../lib/views/user/statspartial.php:116
+msgid "Refunded bookings you approved in the last 3 months"
+msgstr "Reservas reembolsado você aprovadas nos últimos 3 meses"
+
+#~ msgid "deposit"
+#~ msgstr "depósito"
+
+#~ msgid "Project name"
+#~ msgstr "Nome do projeto"
+
+#~ msgid ""
+#~ "If a value is provided, this ensures that the value is not just empty "
+#~ "space."
+#~ msgstr ""
+#~ "Se um valor for fornecido, o que garante que o valor não é apenas um "
+#~ "espaço vazio."
+
+#~ msgid "Entry cannot be blank"
+#~ msgstr "Entrada não pode ficar em branco"
+
+#~ msgid "Oh snap!"
+#~ msgstr "Oh pressão!"
+
+#~ msgid "Delete days"
+#~ msgstr "Excluir dias"
+
+#~ msgid "Select the parent list item"
+#~ msgstr "Selecione a lista de item pai"
+
+#, fuzzy
+#~ msgid ""
+#~ "Oops, some bookings are on a first come, first serve basis and have been "
+#~ "removed from your basket\n"
+#~ "\tbecause someone else snatched them before you got to conclude the "
+#~ "booking."
+#~ msgstr ""
+#~ "Opa, algumas reservas estão em um primeiro a chegar, primeiro a servir de "
+#~ "base e foram removidos do seu cesto \n"
+#~ "\tbecause alguém arrebatou-los antes de você chegar a concluir a reserva."
+
+#, fuzzy
+#~ msgid "project"
+#~ msgstr "Projetos"
+
+#~ msgid "status"
+#~ msgstr "status"
+
+#~ msgid "Attention: Booking days limit"
+#~ msgstr "Atenção: limite de dias de reserva"
+
+#~ msgid "Booking days limit"
+#~ msgstr "Limite de dias de reserva"
+
+#~ msgid "Booking calendar"
+#~ msgstr "Reservas calendário"
+
+#~ msgid "First Name"
+#~ msgstr "Primeiro Nome"
+
+#~ msgid "Last Name"
+#~ msgstr "Sobrenome"
+
+#~ msgid "Create new coupons or edit an existing coupon."
+#~ msgstr "Criar novos cupons ou editar um cupom existente."
+
+#~ msgid "Cost by season"
+#~ msgstr "Custo por temporada"

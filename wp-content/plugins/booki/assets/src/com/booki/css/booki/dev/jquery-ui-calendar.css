@@ -1,0 +1,89 @@
+
+/*some themes have issues with jquery-ui datepicker. 
+ensure their layers do not cover the datepicker by 
+setting a higher z-index order*/
+.booki-single-datepicker{
+	z-index: 100000;
+	position: relative;
+}
+.booki-inline-calendar{
+	position: static;
+}
+
+.booki-flat.booki-borderless .ui-datepicker-inline.ui-datepicker
+, .booki-flat.booki-borderless table.ui-datepicker-calendar{
+	border-width: 0;
+}
+
+.booki-flat.booki-borderless .ui-datepicker-header.ui-widget-header{
+	border-width: 0;
+	background-image: none;
+	border-bottom: 2px solid #000;
+}
+
+.booki-flat.booki-borderless table.ui-datepicker-calendar tbody tr td span
+, .booki-flat.booki-borderless table.ui-datepicker-calendar tbody tr td a{
+	border-width: 0;
+}
+
+.booki-flat.booki-borderless .ui-datepicker-buttonpane{
+	border-width: 0;
+	border-top: 2px solid #000;
+}
+
+.booki-flat.booki-borderless table.ui-datepicker-calendar tbody tr td{
+	width: auto;
+}
+
+.ui-datepicker.booki-flat.booki-borderless{
+	padding: .3em;
+}
+
+.booki-flat.booki-borderless  .ui-datepicker-inline .ui-datepicker-buttonpane button{
+	padding: .6em;
+}
+.booki-flat .ui-corner-all
+, .booki-flat .ui-corner-top
+, .booki-flat .ui-corner-right
+, .booki-flat .ui-corner-tr
+, .booki-flat .ui-corner-bottom
+, .booki-flat .ui-corner-left
+, .booki-flat .ui-corner-bl
+, .booki-flat .ui-corner-br{
+	border-radius: 0;
+}
+
+.booki-flat .ui-widget-header
+, .booki-flat .ui-state-default
+, .booki-flat .ui-widget-content .ui-state-default
+, .booki-flat .ui-widget-header .ui-state-default{
+	background-image: none;
+}
+
+.booki-inline-calendar .ui-datepicker td span
+, .booki-inline-calendar .ui-datepicker td a{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+@media (max-width: 767px) {
+	.booki-inline-calendar .ui-datepicker td span
+	, .booki-inline-calendar .ui-datepicker td a{
+		padding-top: .2em;
+		padding-bottom: .2em;
+	}
+}
+
+.booki-inline-calendar .ui-datepicker{
+	width: 100%;
+}
+
+.booki-flat .ui-datepicker-buttonpane.ui-widget-content button{
+	font-size: 0.7em;
+}
+
+.booki-flat .ui-datepicker-buttonpane.ui-widget-content button:before
+, .booki-flat .ui-datepicker-buttonpane.ui-widget-content button:after{
+	content: " ";
+	display: table;
+}

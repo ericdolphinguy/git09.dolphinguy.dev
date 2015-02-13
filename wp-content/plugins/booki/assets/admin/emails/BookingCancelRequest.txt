@@ -1,0 +1,12 @@
+<p>
+Dear agent/admin,
+<br>
+User has requested cancellation of the following order:
+<br>
+%orderUrl%
+</p>
+<p>
+Please note that the request could be for a single item in their order or the entire order.
+<br>
+You can approve the request or deny it.
+</p>

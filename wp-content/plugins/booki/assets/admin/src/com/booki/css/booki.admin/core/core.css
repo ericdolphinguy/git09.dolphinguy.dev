@@ -1,0 +1,251 @@
+.booki{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.428571429;
+}
+
+.admin-footer{
+	position: absolute;
+	bottom: 45px;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	margin-right:20px;
+	margin-left: 175px;
+}
+
+.duplicate-project.progress{
+	margin-top: 5px;
+}
+.checkbox {
+/**
+	override colors-fresh.css from wp
+*/
+	background: none;
+}
+/** override bootstrap as well*/
+.booki input[type="radio"]
+, .booki input[type="checkbox"] {
+	margin: 0;
+	margin-top: 1px \9;
+	line-height: normal;
+}
+
+.nav-tabs{
+	margin-top: 10px;
+}
+.footer.booki{
+	position: absolute;
+	bottom: 45px;
+}
+
+.center{
+	margin: 0 auto 0 auto;
+}
+/**
+	override bootstrap
+*/
+body{
+	background: transparent;
+}
+.wp-admin select[multiple].optionals-listbox {
+	height: 220px;
+}
+
+/*jquery-ui datepicker, selected dates*/
+.highlighted-day a.ui-state-default{
+    background: #bce08a;
+    border: 1px solid #aaaaaa;
+    color: #212121;
+    font-weight: normal
+}
+select.ui-datepicker-month, select.ui-datepicker-year{
+	padding: 0;
+	height: auto;
+}
+
+.icon-question-sign.help{
+	margin: 3px 0 0 0;
+}
+
+.cost-currency-label{
+	font-size: 12px;
+	margin: 0 10px;
+}
+
+div.preview-thumbnail, div.preview-thumbnail-default{
+	background-image: url('img/no-preview-thumbnail.png');
+	border: 2px solid #000;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}
+/**
+	@templateName: createprojects.php
+*/
+.image-picker-dialog{
+	overflow: auto;
+	width: 100%;
+	max-height: 300px;
+}
+/**
+	@templateName: managebookings.php
+*/
+.paging-input input.current-page{
+	width: 60px;
+	margin-bottom: 0;
+}
+
+.sorting-indicator{
+	display: block;
+	visibility: visible;
+}
+
+.remove-padding-left{
+	padding-left: 0;
+}
+.separator{
+	margin: 2px 0;
+}
+
+div.prev-modal{
+	width: auto;
+}
+/**
+	bootstrap overrides
+*/
+.booki .form-group legend{
+	padding: 5px;
+}
+.booki .form-horizontal .control-label {
+	/*text-align: left;*/
+}
+.booki .align-panel-lg{
+	margin-top: 80px;
+}
+.booki .form-control[disabled]
+, .booki .form-control[readonly]
+, .booki fieldset[disabled] .form-control {
+	cursor: text;
+	background-color: #FFFFFF;
+}
+/**
+	formelementview (form builder tab - preview)
+*/
+.col-lg-highlight{
+	border: 1px solid transparent;
+}
+.col-lg-highlight:hover{
+	border-color: #DADADA;
+	background: #E4FAFF;
+}
+/**
+	overrides jquery.minicolors.css
+*/
+.minicolors-swatch{
+	height: 34px;
+}
+.minicolors-panel{
+	z-index: 1;
+}
+/**
+	@description managecoupons.php
+*/
+.booki-code{
+	width:100px;
+	word-wrap:break-word;
+}
+ .managecoupons.createnew{
+	margin-top: 38px;
+}
+
+/**
+	manageusers.php & managebookings.php
+*/
+.mailchimp-status-body {
+	max-height: 300px;
+	width: 100%;
+	overflow: auto;
+}
+/**
+	@description userinfo.php template
+*/
+.booki-useremail{
+	margin: 5px 0;
+}
+/**
+	paypal.php template
+*/
+ol.paypal-instructions{
+	margin: 20px;
+}
+
+/**
+	Fixes grid dropdown buttons getting breaking up on smallscreen
+*/
+.column-bookingsCount
+, .column-tasks
+, .column-bookingsCount{
+	min-width: 150px;
+}
+/**
+	wordpress override default of 600px ( we want our pages responsive )
+*/
+body{
+	min-width: 310px;
+}
+
+/**
+	userinfo.php
+*/
+.useremail-info{
+	margin-top: 5px;
+}
+
+
+
+span.minicolors
+, span.minicolors-swatch
+, span.minicolors input{
+	float:left;
+}
+
+.grid-btn-group{
+	min-width: 136px;
+}
+
+/*override bootstrap modal-dialog*/
+.booki .modal-dialog.prev-modal{
+	width: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.booki pre.eventslog-data{
+	overflow: auto;
+	word-wrap: normal;
+	white-space: pre;
+	height: 150px;
+	margin: 0 10px;
+}
+
+ul.booki-token-listing>li{
+	padding: 0px;
+}
+
+
+.booki ul.nav.nav-pills.nav-stacked.calendar-tab li
+, .booki ul.nav.nav-pills.nav-stacked.formbuilder-tab li{
+	padding: 0;
+}
+
+.booki-progressbar.stretch {
+   width: 100%;
+}
+
+.booki-text-center{
+	text-align: center;
+}
+span.booki-day-label{
+	padding-left: 10px;
+}

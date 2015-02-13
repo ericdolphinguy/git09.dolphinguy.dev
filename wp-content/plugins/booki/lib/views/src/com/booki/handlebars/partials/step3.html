@@ -1,0 +1,901 @@
+<script type="text/template" id="calendar-template">
+	<%if(hasChanges){%>
+	<div class="col-lg-12 alert alert-warning fade in">
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+		<strong><%= Booki.resx.BOOKING_PERIOD_TAB_HEADS_UP %></strong> <%= Booki.resx.BOOKING_PERIOD_TAB_SAVE_DISCARD_CHANGES %>
+	</div>
+	<div class="clearfix booki-vertical-gap"></div>
+	<%}%>
+	<div class="booki-callout booki-callout-warning">
+		<h4><%= Booki.resx.BOOKING_PERIOD_TAB_BOOKING_DATE_RANGE_HEADING%></h4>
+		<p>
+			<%= Booki.resx.BOOKING_PERIOD_TAB_BOOKING_DATE_RANGE_INFO%>
+		</p>
+	</div>
+	<div class="form-group startdate">
+		<label class="col-lg-4 control-label" for="startdate"><%= Booki.resx.BOOKING_PERIOD_TAB_START_DATE_LABEL %></label>
+		<div class="col-lg-8">
+			<div class="input-group">
+				<input id="startdate" 
+						name="startdate" 
+						type="text" 
+						placeholder="Start date" 
+						class="form-control read-and-write" 
+						readonly="readonly" 
+						value="<%= context.formatDate(model.startDate)%>" />
+				<label class="input-group-addon" 
+						for="startdate">
+						<i class="glyphicon glyphicon-calendar"></i>
+				</label>
+			</div>
+		</div>
+	</div>
+	<div class="form-group enddate">
+	  <label class="col-lg-4 control-label" for="enddate"><%= Booki.resx.BOOKING_PERIOD_TAB_END_DATE_LABEL %></label>
+		<div class="col-lg-8">
+			<div class="input-group">
+				<input id="enddate" 
+						name="enddate" 
+						type="text" 
+						placeholder="End date" 
+						class="form-control" 
+						readonly="true" 
+						value="<%= context.formatDate(model.endDate)%>" />
+				<label class="input-group-addon" 
+						for="enddate">
+						<i class="glyphicon glyphicon-calendar"></i>
+				</label>
+			</div>
+		</div>
+	</div>
+	<div class="booki-callout booki-callout-warning">
+		<h4><%= Booki.resx.BOOKING_PERIOD_TAB_BOOKING_START_LAPSE_HEADING%></h4>
+		<p>
+			<%= Booki.resx.BOOKING_PERIOD_TAB_BOOKING_START_LAPSE_INFO%>
+		</p>
+	</div>
+	<div class="form-group">
+		<label class="col-lg-4 control-label" for="bookingStartLapse"><%= Booki.resx.BOOKING_PERIOD_TAB_BOOKING_START_LAPSE_LABEL %></label>
+		<div class="col-lg-8">
+			<div class="input-group">
+					<input id="bookingStartLapse" 
+							name="bookingStartLapse" 
+							type="text" 
+							placeholder="0"
+							data-parsley-type="digits"						
+							class="form-control booki_parsley_validated"
+							data-parsley-errors-container="#calendar-view .booking-start-lapse-error-container"
+							value="<%= model.bookingStartLapse%>" />
+					<label class="input-group-addon" 
+							for="bookingStartLapse">
+							<%= Booki.resx.BOOKING_PERIOD_TAB_DAYS_LABEL%>
+					</label>
+			</div>
+			<div class="booking-start-lapse-error-container"></div>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-lg-8">
+			<a data-toggle="collapse" href=".collapseCalendarSeatsGroup" class="btn btn-default">
+				<i class="glyphicon glyphicon-plus-sign"></i>
+				<%= Booki.resx.BOOKING_PERIOD_TAB_SEAT_LABEL %>
+			</a>
+		</div>
+	</div>
+	<div class="accordion-body">
+		<div class="collapseCalendarSeatsGroup collapse">
+			<div class="booki-callout booki-callout-warning">
+				<h4><%= Booki.resx.BOOKING_PERIOD_TAB_BOOKING_LIMIT_HEADING%></h4>
+				<p>
+					<%= Booki.resx.BOOKING_PERIOD_TAB_BOOKING_LIMIT_INFO%>
+				</p>
+			</div>
+			<div class="form-group">
+				<label class="col-lg-4 control-label" for="bookingLimit"><%= Booki.resx.PROJECT_TAB_BOOKING_LIMIT_LABEL %></label>
+				<div class="col-lg-8">
+					<div class="input-group">
+						<input id="bookingLimit" 
+								name="bookingLimit" 
+								type="text" 
+								placeholder="0"
+								data-parsley-type="digits"						
+								class="form-control booki_parsley_validated" 
+								data-parsley-errors-container="#bookinglimit-error-container"
+								value="<%= model.bookingLimit%>" />
+						<label class="input-group-addon" 
+								for="bookingLimit">
+								<%= model.currentBookingCount%>
+						</label>
+					</div>
+					<div id="bookinglimit-error-container"></div>
+				</div>
+			</div>
+			<div class="booki-callout booki-callout-warning">
+				<h4><%= Booki.resx.BOOKING_PERIOD_TAB_DISPLAY_COUNTER_LABEL%></h4>
+				<p><%= Booki.resx.BOOKING_PERIOD_TAB_DISPLAY_COUNTER_INFO%></p>
+			</div>
+			<div class="form-group">
+				<div class="col-lg-8 col-lg-offset-4">
+					<div class="checkbox">
+						<label>
+							<input name="displayCounter" type="checkbox" <%= model.displayCounter ? "checked" : "" %> /><%= Booki.resx.BOOKING_PERIOD_TAB_DISPLAY_COUNTER_LABEL %>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-lg-8">
+			<a data-toggle="collapse" href=".calendarDepositGroup" class="btn btn-default">
+				<i class="glyphicon glyphicon-plus-sign"></i>
+				<%= Booki.resx.BOOKING_PERIOD_TAB_DEPOSIT_LABEL %>
+			</a>
+		</div>
+	</div>
+	<div class="accordion-body">
+		<div class="calendarDepositGroup collapse">
+			<div class="booki-callout booki-callout-warning">
+				<h4><%= Booki.resx.BOOKING_PERIOD_TAB_MIN_DAYS_DEPOSIT_HEADING%></h4>
+				<p>
+					<%= Booki.resx.BOOKING_PERIOD_TAB_MIN_DAYS_DEPOSIT_INFO%>
+				</p>
+			</div>
+			<div class="form-group">
+				<label class="col-lg-4 control-label" for="minNumDaysDeposit"><%= Booki.resx.BOOKING_PERIOD_TAB_MIN_DAYS_DEPOSIT_LABEL %></label>
+				<div class="col-lg-8">
+					<div class="input-group">
+							<input id="minNumDaysDeposit" 
+									name="minNumDaysDeposit" 
+									type="text" 
+									placeholder="0"
+									data-parsley-type="digits"						
+									class="form-control booki_parsley_validated" 
+									data-parsley-errors-container="#calendar-view .min-num-days-error-container"
+									value="<%= model.minNumDaysDeposit%>" />
+							<label class="input-group-addon" 
+									for="minNumDaysDeposit">
+									<%= Booki.resx.BOOKING_PERIOD_TAB_DAYS_LABEL%>
+							</label>
+					</div>
+					<div class="min-num-days-error-container"></div>
+				</div>
+			</div>
+			<div class="booki-callout booki-callout-warning">
+				<h4><%= Booki.resx.BOOKING_PERIOD_TAB_DEPOSIT_HEADING%></h4>
+				<p>
+					<%= Booki.resx.BOOKING_PERIOD_TAB_DEPOSIT_INFO%>
+				</p>
+			</div>
+			<div class="form-group">
+				<label class="col-lg-4 control-label" for="deposit"><%= Booki.resx.BOOKING_PERIOD_TAB_DEPOSIT_VALUE_LABEL %></label>
+				<div class="col-lg-8">
+					<div class="input-group">
+						<input id="deposit" 
+								name="deposit" 
+								type="text" 
+								placeholder="0.00"
+								min="0"
+								data-parsley-max="100"
+								data-parsley-pattern="^\d+(\.\d{1,2})?$"
+								data-parsley-errors-container="#calendar-view .deposit-error-container"
+								class="form-control booki_parsley_validated" 
+								value="<%= model.deposit%>" />
+						<label class="input-group-addon" 
+								for="deposit">
+								%
+						</label>
+					</div>
+					<div class="deposit-error-container"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="booki-callout booki-callout-warning">
+		<h4><%= Booki.resx.BOOKING_PERIOD_TAB_EXCLUDE_RANGE_HEADING %></h4>
+		<p><%= Booki.resx.BOOKING_PERIOD_TAB_EXCLUDE_RANGE_INFO %></p>
+	</div>
+	<div class="form-group weekday">
+		<fieldset class="col-lg-6">
+			<legend><%= Booki.resx.BOOKING_PERIOD_TAB_WEEK_DAYS_HEADING %></legend>
+			<table class="table table-bordered">
+				<tr>
+					<td>
+						<div class="checkbox">
+							<label>
+								<input class="weekday booki_parsley_validated" data-parsley-maxcheck="6" data-parsley-errors-container="#calendar-view .weekday-error-container" 
+								name="weekday" type="checkbox" value="0" <%=model.weekDaysExcluded.indexOf(0) !== -1 ? "checked" : ""%>/>
+								<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_SUNDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<label>
+								<input class="weekday booki_parsley_validated" data-parsley-errors-container="#calendar-view .weekday-error-container" 
+								name="weekday" type="checkbox" value="1" <%=model.weekDaysExcluded.indexOf(1) !== -1 ? "checked" : ""%>/>
+								<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_MONDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<label>
+							<input class="weekday booki_parsley_validated" data-parsley-errors-container="#calendar-view .weekday-error-container" 
+							name="weekday" type="checkbox" value="2" <%=model.weekDaysExcluded.indexOf(2) !== -1 ? "checked" : ""%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_TUESDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<label>
+							<input class="weekday booki_parsley_validated" data-parsley-errors-container="#calendar-view .weekday-error-container" 
+							name="weekday" type="checkbox" value="3" <%=model.weekDaysExcluded.indexOf(3) !== -1 ? "checked" : ""%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_WEDNESDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<label>
+							<input class="weekday booki_parsley_validated" data-parsley-errors-container="#calendar-view .weekday-error-container" 
+							name="weekday" type="checkbox" value="4" <%=model.weekDaysExcluded.indexOf(4) !== -1 ? "checked" : ""%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_THURSDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<label>
+							<input class="weekday booki_parsley_validated" data-parsley-errors-container="#calendar-view .weekday-error-container" 
+							name="weekday" type="checkbox" value="5" <%=model.weekDaysExcluded.indexOf(5) !== -1 ? "checked" : ""%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_FRIDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<label>
+							<input 
+									class="weekday booki_parsley_validated" 
+									data-parsley-errors-container="#calendar-view .weekday-error-container" 
+									name="weekday" 
+									type="checkbox" 
+									value="6" <%=model.weekDaysExcluded.indexOf(6) !== -1 ? "checked" : ""%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_SATURDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div class="weekday-error-container"></div>
+		</fieldset>
+		<fieldset class="col-lg-5 col-lg-offset-1">
+			<legend><%= Booki.resx.BOOKING_PERIOD_TAB_BOOKABLE_DAYS_HEADING %></legend>
+			<div>
+				<select multiple name="dayslist" class="form-control days-list" size="7">
+					<% _.each( days, function( day, i ){ %>
+						<option value="<%=day%>"><%=day%></option>
+					<% }); %>
+				</select>
+			</div>
+			<div class="booki-gap-top"></div>
+			<div>
+				<div class="btn-toolbar">
+					<div class="btn-group">
+						<button type="button" disabled="disabled" class="remove-day btn btn-danger">
+							<i class="glyphicon glyphicon-remove"
+							data-toggle="tooltip" 
+							data-placement="right" 
+							data-original-title="Exclude day"></i>
+						</button>
+						<button type="button" <%= disableStatusDaysResetButton%> class="reset-day btn btn-warning">
+							<i class="glyphicon glyphicon-repeat"
+								data-toggle="tooltip" 
+								data-placement="right" 
+								data-original-title="Reset days"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</fieldset>
+	</div>
+	<div class="booki-callout booki-callout-warning">
+		<h4><%= Booki.resx.BOOKING_PERIOD_TAB_COST_HEADING %></h4>
+		<p>
+			<%= Booki.resx.BOOKING_PERIOD_TAB_COST_INFO %>
+		</p>
+	</div>
+	<div class="form-group cost">
+		<label class="col-lg-4 control-label" for="cost">
+			<%= Booki.resx.BOOKING_PERIOD_TAB_COST_HEADING %>
+		</label>
+		<div class="col-lg-8">
+			<div class="input-group">
+				<span class="input-group-addon" title="<%= localization.currency %>"><%= localization.currencySymbol %></span>
+				<input class="form-control booki_parsley_validated" 
+						name="cost"   
+						data-parsley-trigger="change focusout" 
+						data-parsley-min="0"
+						data-parsley-pattern="^\d+(\.\d{1,2})?$"
+						data-parsley-error-message="<%= Booki.resx.BOOKING_PERIOD_TAB_COST_ERROR %>"
+						data-parsley-errors-container="#calendar-view .cost-error-container"
+						type="text" 
+						placeholder="0.00" 
+						value="<%= accounting.unformat(model.cost, localization.decimalPoint) %>" />
+			</div>
+			<div class="clearfix"></div>
+			<div class="cost-error-container"></div>
+		</div>
+	</div>
+	<div class="booki-callout booki-callout-warning">
+		<h4><%= Booki.resx.BOOKING_PERIOD_TAB_DAY_OR_TIME_HEADING %></h4>
+		<div><strong><%= Booki.resx.BOOKING_PERIOD_TAB_DAY_BASED %></strong> : <%= Booki.resx.BOOKING_PERIOD_TAB_DAY_OR_TIME_INFO_PART1 %></div>
+		<div><strong><%= Booki.resx.BOOKING_PERIOD_TAB_TIME_BASED %></strong> : <%= Booki.resx.BOOKING_PERIOD_TAB_DAY_OR_TIME_INFO_PART2 %></div>
+	</div>
+	<div class="form-group byday">
+		<div class="col-lg-8 col-lg-offset-4">
+			<div class="radio">
+				<input name="period" type="radio" <%= model.period === Booki.Period.byDay ? "checked" : "" %> value="<%= Booki.Period.byDay %>" /><%= Booki.resx.BOOKING_PERIOD_TAB_DAY_BASED %>
+			</div>
+		</div>
+	</div>
+	<div class="form-group bytime">
+		<div class="col-lg-8 col-lg-offset-4">
+			<div class="radio">
+				<input name="period" type="radio" <%= model.period === Booki.Period.byTime ? "checked" : "" %> value="<%= Booki.Period.byTime %>" /><%= Booki.resx.BOOKING_PERIOD_TAB_TIME_BASED %>
+			</div>
+		</div>
+	</div>
+	<% if(model.period === Booki.Period.byTime){ %>
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.BOOKING_PERIOD_TAB_TIME_INTERVAL_HEADING %></h4>
+			<p><%= Booki.resx.BOOKING_PERIOD_TAB_TIME_INTERVAL_INFO %></p>
+		</div>
+		<div class="form-group">
+			<label class="col-lg-4 control-label" for="hourStartInterval">
+				<%= Booki.resx.BOOKING_PERIOD_TAB_HOUR_START_INTERVAL_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select id="hourStartInterval" name="hourStartInterval" class="form-control">
+					<% _.each( hours, function( hour, i ){ %>
+						<option value="<%=i%>"<%=model.hourStartInterval === i ? " selected" : ""%>><%=hour%></option>
+					<% }); %>
+				</select>
+			</div>
+		</div>	
+		<div class="form-group">
+			<label class="col-lg-4 control-label" for="minuteStartInterval">
+				<%= Booki.resx.BOOKING_PERIOD_TAB_MINUTE_START_INTERVAL_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select id="minuteStartInterval" name="minuteStartInterval" class="form-control">
+					<% _.each( minutes, function( minute, i ){ %>
+						<option value="<%=i%>"<%=model.minuteStartInterval === i ? " selected" : ""%>><%=minute%></option>
+					<% }); %>
+				</select>
+			</div>
+		</div>
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.BOOKING_PERIOD_TAB_TIME_HEADING %></h4>
+			<p><%= Booki.resx.BOOKING_PERIOD_TAB_TIME_INFO %></p>
+		</div>
+		<div class="form-group hours">
+			<label class="col-lg-4 control-label" for="hours">
+				<%= Booki.resx.BOOKING_PERIOD_TAB_HOUR_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select id="hours" name="hours" class="form-control">
+					<% _.each( hours, function( hour, i ){ %>
+						<option value="<%=i%>"<%=model.hours === i ? " selected" : ""%>><%=hour%></option>
+					<% }); %>
+				</select>
+			</div>
+		</div>	
+		<div class="form-group minutes">
+			<label class="col-lg-4 control-label" for="minutes">
+				<%= Booki.resx.BOOKING_PERIOD_TAB_MINUTE_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select id="minutes" name="minutes" class="form-control">
+					<% _.each( minutes, function( minute, i ){ %>
+						<option value="<%=i%>"<%=model.minutes === i ? " selected" : ""%>><%=minute%></option>
+					<% }); %>
+				</select>
+			</div>
+		</div>
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.BOOKING_PERIOD_TAB_ENABLE_SINGLE_HOUR_MINUTE_FORMAT_HEADING %></h4>
+			<p><%= Booki.resx.BOOKING_PERIOD_TAB_ENABLE_SINGLE_HOUR_MINUTE_FORMAT_INFO %></p>
+		</div>
+		<div class="form-group">
+			<div class="col-lg-8 col-lg-offset-4">
+				<div class="checkbox">
+					<label class="checkbox">
+						<input 
+								type="checkbox" 
+								name="enableSingleHourMinuteFormat" <%=model.enableSingleHourMinuteFormat ? "checked" : ""%>/>
+						<%= Booki.resx.BOOKING_PERIOD_TAB_ENABLE_SINGLE_HOUR_MINUTE_FORMAT_LABEL %>
+					</label>
+				</div>
+			</div>
+		</div>
+		<% if(model.timeSlots.length > 0){%>
+		<div class="form-group timelist">
+			<label class="col-lg-4 control-label" for="timelist">
+				<%= Booki.resx.BOOKING_PERIOD_TAB_BOOKABLE_TIME_SLOTS_LABEL %>
+				<i class="glyphicon glyphicon-question-sign help"
+							data-toggle="tooltip" 
+							data-placement="right" 
+							data-original-title="These bookable time slots are generated based on 
+									equal time splits from selected HH:MM"></i>
+			</label>
+			<div class="col-lg-8">
+				<select multiple="multiple" name="timelist" class="form-control time-list">
+					<% _.each( model.timeSlots, function( time, i ){ %>
+						<%if(model.timeExcluded.indexOf(time.value) === -1){%>
+							<option value="<%=time.value%>"><%=time.text%></option>
+						<%}%>
+					<% }); %>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-lg-8 col-md-offset-4">
+				<div class="btn-toolbar">
+					<div class="btn-group">
+						<button type="button" disabled="true" class="remove-time btn btn-danger">
+						<i class="glyphicon glyphicon-remove"
+							data-toggle="tooltip" 
+							data-placement="right" 
+							data-original-title="Exclude time slot"></i>
+						</button>
+						<button type="button" <%= disableStatusTimeResetButton%> class="reset-time btn btn-warning">
+						<i class="glyphicon glyphicon-repeat"
+							data-toggle="tooltip" 
+							data-placement="right" 
+							data-original-title="<%= Booki.resx.BOOKING_PERIOD_TAB_RESET_TIMESLOT_LABEL %>"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<%}%>
+	<%}%>
+	<hr />
+	<div class="form-group">
+		<div class="col-lg-8 col-md-offset-4">
+			<button type="button" class="update btn btn-primary"><i class="glyphicon glyphicon-ok"></i> <%= isNew ? Booki.resx.BOOKING_PERIOD_TAB_CREATE_LABEL : Booki.resx.BOOKING_PERIOD_TAB_UPDATE_LABEL %></button>
+			<button type="button" class="cancel btn btn-default" <%= hasChanges ? "": "disabled=disabled" %>><i class="glyphicon glyphicon-trash"></i> <%= Booki.resx.BOOKING_PERIOD_TAB_DISCARD_CHANGES_LABEL%></button>
+		</div>
+	</div>
+</div>
+</script>
+<script type="text/template" id="calendar-sidenav-template">
+	<div class="booki-vertical-gap"></div>
+	<ul class="nav nav-pills nav-stacked calendar-tab">
+		<li class="active">
+			<a href="#calendar-view" data-toggle="tab">
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<%= Booki.resx.BOOKING_PERIOD_TAB_BOOKING_PERIOD_LABEL %>
+			</a>
+		</li>
+		<li>
+			<a href="#calendar-day-view"
+				data-toggle="tab">
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<%= Booki.resx.BOOKING_PERIOD_TAB_COST_PER_DAY_LABEL %>
+			</a>
+		</li>
+	</ul>
+</script>
+<div class="wizard tab-pane" id="step3">
+		<div class="form-horizontal col-md-11">
+			<div class="form-horizontal">
+				<div class="col-md-8">
+					<div class="tab-content">
+						<div class="tab-pane active" id="calendar-view">
+							<!--calendar-template -->
+						</div>
+						<div class="tab-pane" id="calendar-day-view">
+							<!--calendar-day-template -->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4" id="calendar-sidenav-view">
+					<!-- calendar-sidenav-template -->
+				</div>
+			</div>
+		</div>
+</div>
+<script type="text/template" id="calendar-day-template">
+	<div class="booki-callout booki-callout-warning">
+		<h4><%= Booki.resx.BOOKING_PERIOD_TAB_COST_PER_DAY_HEADING %></h4>
+		<p><%= Booki.resx.BOOKING_PERIOD_TAB_COST_PER_DAY_INFO %></p>
+	</div>
+	<div class="form-group">
+		<label class="col-lg-4 control-label" for="selectedSeason">
+			<%= Booki.resx.BOOKING_PERIOD_TAB_SEASON %>
+		</label>
+		<div class="col-lg-8">
+			<select id="selectedSeason" name="selectedSeason" class="form-control">
+				<option value="0"><%=Booki.resx.BOOKING_PERIOD_TAB_CREATE_NEW_SEASON%></option>
+				<%if(hasUnnamedSeasons){%>
+				<option value="1" <%= selectedSeason == "1" ? "selected" : "" %>><%=Booki.resx.BOOKING_PERIOD_TAB_UNNAMED_SEASON%></option>
+				<%}%>
+				<% _.each( seasons, function( model, i ){ %>
+					<%if(model.seasonName){%>
+					<option value="<%=model.seasonName%>" <%= selectedSeason == model.seasonName ? "selected" : "" %>><%=model.seasonName%></option>
+					<%}%>
+				<% }); %>
+			</select>
+		</div>
+	</div>
+	<%if(selectedSeason === "1"){%>
+		<div class="form-group">
+			<div class="col-lg-8 col-md-offset-4">
+				<div class="alert alert-warning">
+					<%=Booki.resx.BOOKING_PERIOD_TAB_NAMELESS_SEASON_INFO%>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-lg-8 col-md-offset-4">
+				<button type="button" class="delete btn btn-danger delete-nameless-days">
+					<i class="glyphicon glyphicon-remove"></i>
+					<%= Booki.resx.BOOKING_PERIOD_TAB_NAMELESS_SEASON_LABEL %>
+				</button>
+			</div>
+		</div>
+	<%} else{%>
+		<%if(selectedSeason === "0"){%>
+		<div class="form-group">
+			<label class="col-lg-4 control-label" for="cdstartdate"><%= Booki.resx.BOOKING_PERIOD_TAB_START_DATE_LABEL %></label>
+			<div class="col-lg-8">
+				<div class="input-group">
+					<input id="cdstartdate" 
+							name="cdstartdate" 
+							type="text" 
+							class="form-control read-and-write" 
+							readonly="readonly" />
+					<label class="input-group-addon" 
+							for="cdstartdate">
+							<i class="glyphicon glyphicon-calendar"></i>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+		  <label class="col-lg-4 control-label" for="cdenddate"><%= Booki.resx.BOOKING_PERIOD_TAB_END_DATE_LABEL %></label>
+			<div class="col-lg-8">
+				<div class="input-group">
+					<input id="cdenddate" 
+							name="cdenddate" 
+							type="text" 
+							class="form-control" 
+							readonly="true" />
+					<label class="input-group-addon" 
+							for="cdenddate">
+							<i class="glyphicon glyphicon-calendar"></i>
+					</label>
+				</div>
+			</div>
+		</div>
+		<%}%>
+		<div class="form-group">
+			 <label class="col-lg-4 control-label" for="seasondayslist">
+				<%= Booki.resx.BOOKING_PERIOD_TAB_SELECTED_DAYS_LIST_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select multiple name="seasondayslist" class="form-control booki_parsley_validated" size="7" 
+					data-parsley-trigger="change focusin focusout"
+					data-parsley-required="true"
+					data-parsley-errors-container="#calendar-day-view .season-dayslist-error-container" >
+					<% _.each( models, function( model, i ){ %>
+						<option value="<%=model.day%>" <%=i === 0 ? " selected" : ""%>><%=context.formatDate(model.day)%></option>
+					<% }); %>
+				</select>
+				<div class="season-dayslist-error-container"></div>
+			</div>
+		</div>
+	<%if(selectedSeason === "0"){%>
+	<div class="booki-callout booki-callout-warning">
+		<h4><%= Booki.resx.BOOKING_PERIOD_TAB_EXCLUDE_RANGE_HEADING %></h4>
+		<p><%= Booki.resx.BOOKING_PERIOD_TAB_EXCLUDE_RANGE_INFO %></p>
+	</div>
+	<div class="form-group">
+		 <label class="col-lg-4 control-label">
+			<%= Booki.resx.BOOKING_PERIOD_TAB_WEEK_DAYS_HEADING %>
+		</label>
+		<div class="col-lg-8">
+			<table class="table table-bordered">
+				<tr>
+					<td>
+						<div class="checkbox">
+							<span class="badge pull-right" title="<%= Booki.resx.BOOKING_PERIOD_TAB_WEEK_DAY_COUNT %>"><%=context.weekDaysCount(0)%></span>
+							<label>
+							<input class="calendardayweek" 
+							type="checkbox" name="0" <%=context.weekDayAvailable(0) ? "" : "checked"%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_SUNDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<span class="badge pull-right" title="<%= Booki.resx.BOOKING_PERIOD_TAB_WEEK_DAY_COUNT %>"><%=context.weekDaysCount(1)%></span>
+							<label>
+							<input class="calendardayweek" 
+							type="checkbox" name="1" <%=context.weekDayAvailable(1) ? "" : "checked"%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_MONDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<span class="badge pull-right" title="<%= Booki.resx.BOOKING_PERIOD_TAB_WEEK_DAY_COUNT %>"><%=context.weekDaysCount(2)%></span>
+							<label>
+							<input class="calendardayweek"
+							type="checkbox" name="2"  <%=context.weekDayAvailable(2) ? "" : "checked"%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_TUESDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<span class="badge pull-right" title="<%= Booki.resx.BOOKING_PERIOD_TAB_WEEK_DAY_COUNT %>"><%=context.weekDaysCount(3)%></span>
+							<label>
+							<input class="calendardayweek"
+							type="checkbox" name="3"  <%=context.weekDayAvailable(3) ? "" : "checked"%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_WEDNESDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<span class="badge pull-right" title="<%= Booki.resx.BOOKING_PERIOD_TAB_WEEK_DAY_COUNT %>"><%=context.weekDaysCount(4)%></span>
+							<label>
+							<input class="calendardayweek"
+							type="checkbox" name="4"  <%=context.weekDayAvailable(4) ? "" : "checked"%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_THURSDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<span class="badge pull-right" title="<%= Booki.resx.BOOKING_PERIOD_TAB_WEEK_DAY_COUNT %>"><%=context.weekDaysCount(5)%></span>
+							<label>
+							<input class="calendardayweek"
+							type="checkbox" name="5"  <%=context.weekDayAvailable(5) ? "" : "checked"%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_FRIDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox">
+							<span class="badge pull-right" title="<%= Booki.resx.BOOKING_PERIOD_TAB_WEEK_DAY_COUNT %>"><%=context.weekDaysCount(6)%></span>
+							<label>
+							<input 
+									class="calendardayweek" 
+									type="checkbox" 
+									name="6"  <%=context.weekDayAvailable(6) ? "" : "checked"%>/>
+							<span class="booki-day-label"><%= Booki.resx.BOOKING_PERIOD_TAB_EVERY_SATURDAY %></span>
+							</label>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<%}%>
+	<div class="form-group">
+		<label class="col-lg-4 control-label" for="seasonName">
+			<%= Booki.resx.BOOKING_PERIOD_TAB_SEASON_NAME_LABEL %>
+		</label>
+		<div class="col-lg-8">
+			<input id="seasonName" 
+					name="seasonName"
+					data-parsley-required="true"
+					data-parsley-trigger="change focusout"
+					data-parsley-pattern="[^<>'"`]+$"						
+					data-parsley-minlength="3"
+					type="text" 
+					class="form-control booki_parsley_validated" 
+					value="<%= model.seasonName%>" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-lg-4 control-label" for="cost">
+			<%= Booki.resx.BOOKING_PERIOD_TAB_COST_HEADING %>
+		</label>
+		<div class="col-lg-8">
+			<div class="input-group">
+				<span class="input-group-addon" title="<%= localization.currency %>"><%= localization.currencySymbol %></span>
+				<input class="form-control booki_parsley_validated" 
+							name="cost" 
+							data-parsley-required="true"  
+							data-parsley-trigger="change focusout"
+							data-parsley-min="0"								
+							data-parsley-pattern="^\d+(\.\d{1,2})?$"
+							data-parsley-error-message="<%= Booki.resx.BOOKING_PERIOD_TAB_COST_ERROR %>"
+							data-parsley-errors-container="#calendar-day-view .cost-error-container"
+							type="text" 
+							placeholder="0.00" 
+							value="<%= accounting.unformat(model.cost, localization.decimalPoint)%>" />
+			</div>
+			<div class="cost-error-container"></div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-lg-4 control-label" for="minNumDaysDeposit"><%= Booki.resx.BOOKING_PERIOD_TAB_MIN_DAYS_DEPOSIT_LABEL %></label>
+		<div class="col-lg-8">
+			<div class="input-group">
+					<input id="minNumDaysDeposit" 
+							name="minNumDaysDeposit" 
+							type="text" 
+							placeholder="0"
+							data-parsley-type="digits"					
+							data-parsley-errors-container="#calendar-day-view .min-num-days-error-container"
+							class="form-control booki_parsley_validated" 
+							value="<%= model.minNumDaysDeposit%>" />
+					<label class="input-group-addon" 
+							for="minNumDaysDeposit">
+							<%= Booki.resx.BOOKING_PERIOD_TAB_DAYS_LABEL%>
+					</label>
+			</div>
+			<div class="min-num-days-error-container"></div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-lg-4 control-label" for="deposit"><%= Booki.resx.BOOKING_PERIOD_TAB_DEPOSIT_VALUE_LABEL %></label>
+		<div class="col-lg-8">
+			<div class="input-group">
+				<input id="deposit" 
+						name="deposit" 
+						type="text" 
+						placeholder="0.00"
+						min="0"
+						data-parsley-pattern="^\d+(\.\d{1,2})?$"
+						data-parsley-max="100"
+						data-parsley-errors-container="#calendar-day-view .deposit-error-container"
+						class="form-control booki_parsley_validated" 
+						value="<%= model.deposit%>" />
+				<label class="input-group-addon" 
+						for="deposit">
+						%
+				</label>
+			</div>
+			<div class="deposit-error-container"></div>
+		</div>
+	</div>
+	<%if(context.period === Booki.Period.byTime){%>
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.BOOKING_PERIOD_TAB_TIME_INTERVAL_HEADING %></h4>
+			<p><%= Booki.resx.BOOKING_PERIOD_TAB_TIME_INTERVAL_INFO %></p>
+		</div>
+		<div class="form-group">
+			<label class="col-lg-4 control-label" for="hourStartInterval">
+				<%= Booki.resx.BOOKING_PERIOD_TAB_HOUR_START_INTERVAL_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select id="hourStartInterval" name="hourStartInterval" class="form-control">
+					<% _.each( hours, function( hour, i ){ %>
+						<option value="<%=i%>"<%=model.hourStartInterval === i ? " selected" : ""%>><%=hour%></option>
+					<% }); %>
+				</select>
+			</div>
+		</div>	
+		<div class="form-group">
+			<label class="col-lg-4 control-label" for="minuteStartInterval">
+				<%= Booki.resx.BOOKING_PERIOD_TAB_MINUTE_START_INTERVAL_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select id="minuteStartInterval" name="minuteStartInterval" class="form-control">
+					<% _.each( minutes, function( minute, i ){ %>
+						<option value="<%=i%>"<%=model.minuteStartInterval === i ? " selected" : ""%>><%=minute%></option>
+					<% }); %>
+				</select>
+			</div>
+		</div>
+		<div class="booki-callout booki-callout-warning">
+			<h4><%= Booki.resx.BOOKING_PERIOD_TAB_TIME_HEADING %></h4>
+			<p><%= Booki.resx.BOOKING_PERIOD_TAB_TIME_INFO %></p>
+		</div>
+		<div class="form-group hours">
+			<label class="col-lg-4 control-label" for="hours">
+				<%= Booki.resx.BOOKING_PERIOD_TAB_HOUR_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select id="hours" name="hours" class="form-control">
+					<% _.each( hours, function( hour, i ){ %>
+						<option value="<%=i%>"<%=model.hours === i ? " selected" : ""%>><%=hour%></option>
+					<% }); %>
+				</select>
+			</div>
+		</div>	
+		<div class="form-group minutes">
+			<label class="col-lg-4 control-label" for="minutes">
+				<%= Booki.resx.BOOKING_PERIOD_TAB_MINUTE_LABEL %>
+			</label>
+			<div class="col-lg-8">
+				<select id="minutes" name="minutes" class="form-control">
+					<% _.each( minutes, function( minute, i ){ %>
+						<option value="<%=i%>"<%=model.minutes === i ? " selected" : ""%>><%=minute%></option>
+					<% }); %>
+				</select>
+			</div>
+		</div>
+		<% if(model.timeSlots.length > 0){%>
+		<div class="form-group timelist">
+			<label class="col-lg-4 control-label" for="timelist">
+				<%= Booki.resx.BOOKING_PERIOD_TAB_BOOKABLE_TIME_SLOTS_LABEL %>
+				<i class="glyphicon glyphicon-question-sign help"
+								data-toggle="tooltip" 
+								data-placement="right" 
+								data-original-title="These bookable time slots are generated based on equal time splits from selected HH:MM"></i>
+			</label>
+			<div class="col-lg-8">
+				<select multiple="multiple" name="timelist" class="form-control time-list">
+					<% _.each( model.timeSlots, function( time, i ){ %>
+						<%if(model.timeExcluded.indexOf(time.value) === -1){%>
+							<option value="<%=time.value%>"><%=time.text%></option>
+						<%}%>
+					<% }); %>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-lg-8 col-md-offset-4">
+				<div class="btn-toolbar">
+					<div class="btn-group">
+						<button type="button" disabled="true" class="remove-time btn btn-danger">
+						<i class="glyphicon glyphicon-remove"
+							data-toggle="tooltip" 
+							data-placement="right" 
+							data-original-title="Exclude time slot"></i>
+						</button>
+						<button type="button" <%= disableStatusTimeResetButton%> class="reset-time btn btn-warning">
+						<i class="glyphicon glyphicon-repeat"
+							data-toggle="tooltip" 
+							data-placement="right" 
+							data-original-title="<%= Booki.resx.BOOKING_PERIOD_TAB_RESET_TIMESLOT_LABEL %>"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<%}%>
+	<%}%>
+	<hr />
+	<div class="form-group">
+		<div class="col-lg-8 col-md-offset-4">
+			<button type="button" class="<%= isNew ? "create" : "update" %> btn btn-primary"><i class="glyphicon glyphicon-ok"></i> <%= isNew ? Booki.resx.BOOKING_PERIOD_TAB_ADD_SEASON : Booki.resx.BOOKING_PERIOD_TAB_UPDATE_SEASON_LABEL %></button>
+			<button type="button" <%= disableStatusDeleteButton %> class="delete btn btn-danger"><i class="glyphicon glyphicon-remove"></i> <%= Booki.resx.BOOKING_PERIOD_TAB_DELETE_SEASON_LABEL %></button>
+		</div>
+	</div>
+	<%}%>
+</script>

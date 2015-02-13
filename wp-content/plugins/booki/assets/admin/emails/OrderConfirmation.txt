@@ -1,0 +1,16 @@
+<p>
+Dear %customerName%,
+<br>
+Your order #%orderId%, made on %orderDate% has been received successfully and your bookings are approved.
+</p>
+<p>
+For your reference, your order is detailed below :
+</p>
+%orderDetails%
+<br>
+%orderAddtionalInfo%
+<p>
+Do not hesitate to contact us with any questions you might have.
+<br>
+Thanks again for your business!
+</p>

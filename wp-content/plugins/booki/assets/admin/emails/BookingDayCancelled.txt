@@ -1,0 +1,10 @@
+<p>
+Dear %customerName%,
+<br>
+Your booking for %bookedDateTime% has been cancelled.
+</p>
+<p>
+Do not hesitate to contact us with any questions you might have.
+<br>
+Thanks again for your business!
+</p>

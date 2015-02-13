@@ -1,0 +1,14 @@
+<p>
+Dear %adminName%,
+<br>
+A new booking #%orderId%, has been made on %orderDate%.
+</p>
+<p>
+As a quick reference, the order is detailed below :
+</p>
+%orderDetails%
+<br>
+%orderAddtionalInfo%
+<p>
+If the booking requires manual confirmation, you can confirm it through your Booki control panel under the "Bookings" Menu option.
+</p>

@@ -1,0 +1,21 @@
+<p>
+Dear %customerName%,
+<br>
+Thank you for making a booking with us. Your order ID is #%orderId%.
+</p>
+<p>
+We have received the order and will process it shortly. For your reference, your order is detailed below :
+</p>
+%orderDetails%
+<br>
+%orderAddtionalInfo%
+<p>
+You may download an invoice in PDF format at the following url:
+<br>
+%invoiceDownloadLink%
+</p>
+<p>
+Do not hesitate to contact us with any questions you might have.
+<br>
+Thanks again for your business!
+</p>

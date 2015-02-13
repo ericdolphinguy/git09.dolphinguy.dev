@@ -1,0 +1,37 @@
+
+{{#block "tabbable"}}
+<div class="tabbable booki">
+	<ul class="nav nav-tabs wizard-tab">
+		<li class="active"><a href="#step1" data-toggle="tab">Projects</a></li>
+		<li class="disabled"><a href="#step2" data-toggle="tab">Form builder</a></li>
+		<li class="disabled"><a href="#step3" data-toggle="tab">Booking period</a></li>
+		<li class="disabled"><a href="#step4" data-toggle="tab">Optional Lists</a></li>
+		<li class="disabled"><a href="#step5" data-toggle="tab">Optional Cascading Lists</a></li>
+	</ul>
+	<div class="tab-content">
+		<div class="booki-vertical-gap"></div>
+		{{#block "content"}}{{/block}}
+		<div class="clearfix"></div>
+		<div class="modal" id="progressModal" tabindex="-1" role="dialog" aria-labelledby="progressModalLabel" aria-hidden="true">
+			<div class="modal-dialog progress-modal">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title booki-text-center" id="progressModalLabel">LOADING REQUEST...</h4>
+					</div>
+					<div class="modal-body">
+						<div class="clearfix"></div>
+						<p><span>url:</span><span class="progress-url"></span></p>
+						<p><span>method:</span><span class="progress-method"></span></p>
+						<div class="progress progress-striped">
+							<div class="booki-progressbar progress-bar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{/block}}
+{{#block "footer"}}
+{{/block}}
+{{#block "footerscripts"}}{{/block}}

@@ -1,0 +1,521 @@
+changeset 2.6d
+	Bug fix: regression bug. Selected time slots and timezone weren't showing in admin backend correctly.
+changeset 2.6c
+	Bug Fix: Emails now correctly show additional days/time slots per optional item/optional cascading list item.
+Changeset 2.6a-2.6b
+	Bug Fix: checkboxes created using custom form builder now work correctly.
+	Improved: fixed layout issues with checkboxes/radiobuttons since our last upgrade of bootstrap.
+	Improved: value field in form builder now forces a value for radiobuttons and has proper validation.
+	Bug Fix: csv export generated now correctly outputs optionals
+	Bug Fix: when adding multiple projects to cart, all project's optionals are now correctly displayed in the order summary and email.
+
+Changeset 2.6
+This is a maintenance release!
+Bug fix: regression bug --create new booking manually from backend was broken.
+Bug fix: event log clears correctly now after expiry x days.
+Improvement: Timeslot dropdownlist is now disabled when no slots are available for the day.
+Improvement: Updated bootstrap from bootstrap-3.0 to bootstrap-3.2
+
+Changeset 2.5
+Bug fix: Regression bug in date range selections.
+
+Changeset 2.4
+Bug fix: Selecting date format DD.MM.YYYY resulted in clientside error
+	--when a date range was selected. 
+Bug fix: regression in create bookings page (admin dashboard)
+	--fixed a coding error which threw a warning.
+Bug fix: "Match a url" validation was broken.
+Improved: Date ranges now are aware of booked dates 
+	--that are in between the from/to range and 
+	--will not allow booking those dates.
+Improved: dynamic strings that contained quotes were escaped,
+	--this is because of magic quotes enabled. We're stripping slashes now regardless.
+Improved: booki-list does not use tables anymore and 
+	--layout inconsistencies in firefox fixed. 
+Improved: Upgraded admin area to use latest version of backbone.
+	--this brings a better experience in themes that force backbone.
+Improved: project list now has a new property "Enable Item Heading".
+	--lets you add the project name when a project in the grid is selected.
+Improved: if all timeslots are before the current time i.e. 
+	--i.e. no more time slots left, a message is displayed.
+	
+Changeset 2.3
+Bug fix: Setting "Maximum booking days or time slots" with time slots enabled.
+	--Allowed multiple days to be selected. This is a bug, fixed.
+Updated: parsleyjs translations.
+Improved: cascading list label was missing WPML translation.
+
+Changeset 2.2
+Bug fix: Resource strings wasn't applying the changes.
+
+Changeset 2.1
+Bug fix: Regression bug, Booki-list wasn't showing the description.
+Bug fix: Booking approvals on anonymous users wasn't sending the email. Fixed.
+
+Changeset 1.9/2.0
+Added: initial WPML support. This is still ongoing
+	--as we're waiting for the folks at WPML to finish testing booki.
+Added: String Resources page in backend.
+	--You can now quickly customize all text fields 
+	--found in the booking form and checkout cart.
+Added: Support for non range time slots 
+Added: an option to set no-cache setting 
+	now available in the "General Settings" page.
+Improved: Cascading lists. Now these can be used
+	as regular dropdownlists with cost and you
+	can have as many as you like. 
+Improved: Paypal sandbox does not require manual 
+		--changes in config file anymore.
+Improved: admin backend, now has modal blocking progress.
+Improved: manual approvals/cancellation of non-registered users
+	--now non registered users will receive notifications as expected
+	--without requiring you to register the user first.
+Improved: timezone inconsistencies 
+	--when selecting booking in admin panel
+Improved: timezone region list includes 
+	--only main regions/continents now.
+Improved: inline calendar now does not 
+		--float over content but rather
+		--stays fixed on the page as it should.
+Improved: tax now shows in the inital form
+	--if tax is enabled.
+Improved: added check for valid date/time (serverside) during booking.
+
+Bug fix: Regression, registered users appeared to be non-members.
+	--had a typo in the field name.
+Bug fix: clientside error handling on booki-list search.
+Bug fix:  Form elements min/max validation containing values of zero broke validation
+
+Changeset 1.8
+Fixed: Regression bug in csv export.
+	--Affected also bookings page,
+		wasn't showing correctly if 
+		user is registered or not.
+Improved: Display of firstname, lastname, email in bookings page
+	--for non registered users.
+	
+Changeset 1.7
+Added: New "Display Once Form" setting in "General Settings".
+	--When using multiple projects that have display once form fields
+	--those fields will need to filled only the first time.
+Improved: Refunds.
+	--Items marked as payed manually
+	--now allow manual refunds.
+	--Items with zero cost cannot be refunded.
+Improved: minimum days/time slots requirement
+		--now respected in checkout cart. cannot remove.
+Improved: required optionals and cascades
+		--now respected in checkout cart. cannot remove.
+Improved: time slots don't allow booking past time for the day.
+Fixed: Regression bug Agents receive their emails as always.
+Fixed: Regression bug that affects setups where
+	--the cart is disabled. Fixed now.
+Improved: when a time lapse is set, 
+	if we are on the last time slot it is rendered now.
+	
+Changeset 1.6
+Fixed: Regression bug that invovles cascading optionals.
+Improved: paypal checkout page, 
+	--time slot maintain selected timezone and padding.
+Improved: paypal button is now correctly disabled when:
+			--total cost is zero, while cart is disabled.
+
+Changeset 1.5
+Added : check in / next day check out
+Added: Can now set minimum no. of days required
+Added: Can now set minimum no. of time slots required.
+Added: Can now set a maximum no. of time slots allowed.
+Added: Refine selected days with a week selector for special days.
+Added: Set custom coupon codes and
+		--Super coupon valid for more than single use
+		--limited only by expiration date.
+Improved: csv export of each booking now includes
+	--comma separted list of projectNames
+	--comma separated list of booking dates and time slots
+	--comma separated list of optional selections
+	--comma separated list of cascading item selections
+Improved: Project deletion.
+Improved: Allows entering special characters (å, ä, ö ...and so forth) in 
+	--project name, optional name, cascading list name etc.
+Improved: order calculations on large values, 
+	--including discounts and tax.
+Improved: deposits
+
+Fixed: typo in the code. Was throwing a warning
+	--with WP_DEBUG enabled. 
+Fixed: Corrected large discounts
+	--where applied discount on paypal checkout was wrong.
+Fixed: Corrected Tax
+Fixed: If user somehow circumvents clientside validation
+	--serverside validation catches it, but the errors 
+	--weren't showing. Now they will.
+Fixed: we don't call get_current_screen() anymore.
+Fixed: firefox radio button groups weren't getting selected.	
+
+Changeset 1.4.9
+Improved: Added firstname+lastname+email in bookings view even if user is not registered 
+	--and added a new "register user" option in this view that allows to
+	--register the user with this information directly because booki likes
+	--registered users and gives preferential treatment!
+Improved: Better handling of user submitted data
+Fixed: exporting coupons to csv was broken
+		--added more information in the csv. 
+Fixed: calculation of time lapse a (little?) off by one day :D
+Fixed: A warning was thrown in the user history page.
+
+Changeset 1.4.8
+Added: Deposits (useful for bed & breakfast bookings)
+	--min no. of days to trigger deposit
+	--deposit is a percentage value of the selected bookings
+Added: booking start lapse.
+	--A number of days you can set before bookings are allowed.
+	--minimum is 1 day.
+Added: one click option to cancel all bookings within 
+	--single order in user history.
+Added: notifications for user initiated cancel request.
+	--now admin or agents get notifications for these requests.
+Added: Honeypot capcha support to fight spam
+Added: Portuguese language file.
+	--thanks to one of our greatest users (Daniel) :D
+Added: Project level discount coupons.
+	--You can now make a discount coupon valid for 
+	--only certain projects.
+Improved: continue url, now goes to the 
+	--destination page set in "General settings".
+Improved: Fixes issues in multi-site setup
+		--where bookings never get deleted
+		--even though they were deleted from
+		--the backend. Now fixed.
+Improved: Removed newlines from emails for better
+	--interoperability with third party email template plugins
+	--because some plugins love to replace newline with <br>.
+Improved: Removed newlines from short-code generated output
+	--because some themes love to replace newline with <br>.
+Improved: Cascading lists now included in agent emails.
+Improved: subtle validation bulletlist styling inconsistency.
+Improved: New booking notifications to admin/agents sent only 
+		--if payment completed when payment is enabled.
+Improved: Booking period with 0 cost now allows payment
+	--i.e. if optionals/cascading lists contain a cost greater than 0.
+Improved: excluded dates in booking period allowed booking?
+	--Apparently, fixed.
+Improved: Global discounts. Now applies the discount when
+	--a discount or a minimum is provided in general settings
+	--correctly.	
+Fixed: Coupon discounts not applied correctly on large values.
+Fixed: Date formatting issues in php 5.2
+Fixed: Validation in backend. 
+	--regressions caused by updating parsley. All good now.
+Fixed: Admin user selection in "General Settings"
+	--now shows the selected user in the
+	--dropdown list if selection changes.
+Fixed: Appointment based booking.
+	--Excluded weekdays now remain excluded, period.
+Fixed: deleting bookings made by user, appear to still show
+		--that the days are available, when actually deleted.
+Fixed: Some themes override our version of bootstrap with older versions, fixed.
+
+Changeset 1.4.7a 
+Fixed: html no longer gets stripped from the description.
+Fixed: Regression bug in radio button, attributes missing in form builder. Solved.
+Fixed: Regression bug in dropdownlist when switching from preview, 
+	--extra space added for each item. Solved.
+Fixed: updated translation files to reflect the changes in string changes introduced in 1.4.7
+Fixed: admin users page csv export 
+	--and search filter was broken, all working now.
+Changeset 1.4.7 - 22/06/2014
+Added: Support for seasonal costs
+Added: non blocking validation error is displayed
+		--when switching tabs
+Added: optionally combine booking form and custom form 
+		--all in one
+		--removes tabs.
+Added: option to hide selected days in multi-select/range select option.
+Added: single click approve/cancel multiple days/timeslots & optionals
+Added: Manually mark payments as paid (for payments on arrival)
+Added: Included firstname/lastname and email fields 
+		--directly in bookings view ( for admin)
+Removed: Forced validation when switching tabs.
+
+Fixed: Tax rounding up and not maintaining float value.
+Fixed: header already set error when clearing Booki.
+Fixed: uninstalling now correctly redirects to the plugins page.
+Fixed: Date format containing period (Y.m.d)
+Fixed regression bug: coupon codes not working.
+Fixed regression bug: "Display only once" setting in 
+		--form builder was broken after parsley update.
+Improvement: Email notifications weren't being made on
+			--some wordpress setups, now fixed.
+Improvement: firstname and lastname included in new user created profile
+	--if this information is available.
+Improvement: Changed session timeout to 30minute intervals for the booki cart.
+
+Changeset 1.4.6 - 12/06/2014
+Added: Terms and Conditions field
+	--to the form builder.
+Upgraded: Parsley, the validation framework
+	--used by Booki has been updated to the
+	latest 2.0 version
+Added: Translations for parsley validation
+Added: Options settable in booking period tab:
+	Added: Booking limitations based on
+		--number of bookings settable
+		--in booking period.
+	Added: a counter representing the number
+		--of bookings left.
+Added: option in the project tab to 
+		--change the label of the booking 
+		--counter, defaults to:
+		--%d seats left. Hurry!
+Added: Multi-instance support
+	--you can now add more than one booki item
+	--to the same page
+Added: You can now insert custom html content
+	--before the booking calendar and
+	--after the booking calendar.
+	--This new setting is available in the projects tab.
+Fixed: date range in booki-list
+		--it's now locale sensitive
+		--calendar now uses flat style
+		--and all other settings, if
+		--this is enabled in general settings.
+Fixed: date formatting bugs in booki-list
+Fixed: Approval/Cancellation of bookings
+	--had lots of incongruency
+Improved: Refreshed details view 
+	--looks a bit more compact now
+	
+Changeset 1.4.5b - 06/06/2014
+Fixed regression in stats page.
+	--had a warning for missing argument.
+Fixed a regression for PayPal. 
+	--Sandbox was enabled by default in config file.
+Changeset 1.4.5a - 05/06/2014
+Fixed regression bug in validation. Tabs were blocked.
+Changeset 1.4.5 - 05/06/2014
+Added: Cascading dropdown list (A new form of optionals)
+	--includes new ui to create and manage cascades
+	--behaves just like the optionals but loads
+		--elements based on parent list selection.
+Improved: Booking was successfully received notification
+Fixed: When setting first day of week, 
+		--the buttons panel was activated instead.
+Fixed: checkboxlist and radiobuttonlist default selections.
+Fixed: checkboxlist default selection when:
+		--booking mode is "Every booking"
+Removed: author credits from admin pages footer
+		--ego had gotten the best of me, but no more :)
+Improved: our calendar now renders better
+Improved: made some of the css selectors stronger
+			--to avoid overriding
+Fixed: costs over 1000 which
+	--got truncated at the thousand separator.
+Fixed: some themes had issues with 
+		--jquery ui datepicker.
+Fixed: with some themes our dropdownlists 
+		--appeared chewed up. Solved.
+Fixed: validation now correctly stops you from
+	switching tabs, if there are
+	validation errors.
+Fixed: some dateformats ignored excluded days.
+
+Changeset  1.4.4 - 20/05/2014
+Added a new setting for optionals : 
+[.] Apply to each booking - A booking can be a collection of days and time slots ( default)
+[.] Apply to each day / time slot
+Added a new setting for optionals :
+[.] checkbox list --can select multiple items
+[.] radiobutton list --single selection
+Added a new setting for optionals :
+[.] Validation - minimum number of items to be checked from list
+Added selection highlighting for optional item:
+	--Setting available in general settings
+	--under themes.
+Added new template for successful booking:
+	--Email now sent when booking is made.
+	--Previously, email was sent only 
+	--when booking was confirmed
+Added complete translation in Italian
+Fixed: some bugs in appointment based calendar
+	--booked dates that didn't include timeslots 
+	--now get disabled correctly.
+Fixed: Mini cart regression bug
+
+Changeset 1.4.3d - 23/05/2014
+Added compatibility for MyISAM data table formats.
+	-previously we supported only InnoDB
+Fixed: a little bug in day based appointment bookings.
+
+Changeset 1.4.3 - 19/05/2014
+Fixed: Regression bug in datepicker when setting booking period.
+		-This is due to having added datepicker localization, fixed!
+
+Changeset 1.4.3 - 18/05/2014
+Added: Custom textbox form field for emails can now be used to
+	-register user in the background. User will be sent login credentials
+	-along with notifications and have booking history.
+	-Alternatively use the email to send a one time off booking notification.
+	-No user registration takes place in this case. Uses a new email template.
+Added: Interval for timeslot splits. Now split with precision.
+Added: Datepicker localization. Now picks up language from your wordpress locale.
+Added: More date formats to choose from in "General Settings".
+Added: Option to change currency, when payments are disabled.
+Added: Booki pages now work on short-codes by default.
+Added: For those that don't want to enable Payments, 
+		-you can change currency & symbol in General Settings.
+Improved: Appointment based booking. 
+Improved: "Book now" in cart when anonymous bookings was enabled.
+Removed: Booki handler pages that got registered. Cleaner, better.
+Removed: Booki pages dont use custom templates anymore.
+Removed: Templating in favor of short-codes. Easier, faster, better.
+Removed: Custom page via short-code section in General settings.
+		-No longer needed. Automated when upgrading or installing first time.
+Fixed: Reworked how we retrieve user info from wp_user tables.
+Fixed: Bug in invoices.
+Fixed: Setting currency values was formatted wrongly.
+
+
+
+Changeset 1.4.2 - 11/05/2014
+Added: Project duplication.
+Added: Book and pay *now* or pay *later*. Now available together.
+Added: Option to not show booked timeslots.
+Added: booki-cart shortcode.
+Added: booki-bill shortcode.
+Added: booki-ppconfirmation shortcode.
+Added: booki-ppcancel shortcode.
+Added: booki-itemdetails shortcode.
+Added: booki-history shortcode.
+Added: booki-stats shortcode.
+Fixed: Appointment based bookings.
+Fixed: Timezone was still showing in booking details after disabling.
+Fixed: Inline-calendar on mobile looking good now.
+Fixed: long date formats now use your wordpress localization settings.
+Fixed: Some WP installs dont return the default timezone but rather gmt_offset.
+Fixed: Long date formats used throughout booki are locale sensitive now.
+
+Changeset 1.4.1 - 06/05/2014
+Added: popup calendars now get flat styled.
+Added: You can set the firstday in calendar now.
+Added: New option on PayPal settings. Item category digital/physical.
+Improvement: Templates, can include only* the template you want now.
+Fix: Paypal was using sandbox even when wanting to go live.
+Fix: When add to cart was unchecked, the same page reloaded instead. 
+Fix: Optional items was missing the heading, brought it back.
+
+
+Changeset 1.4 - 04/05/2014
+Added: an email field on projects for new bookings notifications.
+Improved: Grouped all options in the General settings page. Cleaner. Easier. Faster.
+Improved: Grouped common options in the project tab. Cleaner. Easier, Better.
+Improved: redirection from Login/registration.
+Improved: Booking details view in dashboard. Now contains project name.
+Deprecated: the option "redirect to cart after login". Booki handles this auto now.
+Enabled: Opened up Booki custom page options in WordPress page editor.
+Enabled: Booki custom pages now allow editing content and title in wp page editor.
+Fixed: confirmation+notification, if payments are disabled & auto confirm bookings enabled.
+Fixed: A regression bug in the image gallery used on the project tab.
+Fixed: Email notifications included the wrong total after discount.
+Added: Emails now include the project name of the booking.
+Workflow fix: Upon login/registration, sending user back to the booking cart.
+WordPress 3.9 tested.
+
+Changeset 1.3.3c - 01/05/2014
+--1.3.3.a and 1.3.3.b were internal revision builds we used to test with some of our users.
+NEW FEATURE: Added custom pages for user history and editor stats. 
+NEW FEATURE: Added option to take you straight to the cart page when adding item to cart.
+NEW FEATURE: Added option to set an admin user by email. System will use this if it can't retrieve one.
+ADDED: Added option to select who owns anonymous bookings by default. 
+ADDED: Added option to provide the email of who gets notification when new booking are made.
+
+Fixed: "send invoice" button from showing for non-registered users.
+Fixed: Excluding weekdays didn't exclude the days in the calendar, fixed.
+Fixed: When booking days limit > 1, selected date now gets added to selected days list correctly.
+Fixed: some wp setups don't return admin user, tsk tsk! Reclaimed.
+Fixed: in bookings the field "status" is now labelled "payment" as it reflects payment status. 
+
+Changeset 1.3.2 - 29/04/2014
+Fixed MailChimp conflicts with other plugins.
+Fixed a WP_DEBUG time warning.
+Fixed a bug that occurred when you enable payments and switch off cart.
+Enhanced css to resist 3rd party plugins css disrupting functionality.
+Fixed a datetime conversion bug, specifically when date format was dd/mm/yyyy again!
+
+Changeset 1.3 - 28/04/2016
++NEW FEATURE : Editors now get bookings claimed to them when they approve one. 
++New FEATURE : Editors now get a stats page of their approvals.
++NEW FEATURE : Provide discounts without coupons. Based on a minimum bookings rule.
++NEW FEATURE : Added one step booking. Cart system is optional & can be set in global settings.
++NEW FEATURE : Anonymous bookings, you now have a membershipRequired option in global settings.
++Removed prices in booking. Uncheck "include price" setting in global settings.
++Checkout button now available on both tabs when booking.
++Fixed bug : in calendar where days older than current day weren't disabled
++Fixed bug : Auto Approval of booking was not approving the optional items.
++Fixed bug : bookings would cause app to choke when date format was dd/mm/yyyy
++Fixed layout in the minicart widget, specifically project groupings.
++Fixed buttons layout in the cart check out page.
++Fixed asp_tags flag issues being turned on some webhosts.
++Improved our selectors priority to safe guard from themes overriding plugins styles.
++Fixed inconsistencies in discounts throughout Booki.
++Fixed billsettlement page layout to fit the entire screenestate.
++Fixed bug : booking total updated with discount too early.
++Incremented project description field.
+
+Changeset 1.2.1 23/04/2014 
+Namespaced OAuth library that PayPal library uses. 
+Fixed the Uninstaller, wasn't deactivating the plugin nor deleting the tables. 
+Ensured that the plugin initializes on 'after_setup_theme' and not 'plugins_loaded'.
+
+Change set 1.2 - 16/04/2014
++Fixed the carts total count from incrementing when an item
+	was added that's already been booked.
++Fixed bug in the "Booking period" tab.
+	+Bookable time slots get generated on select element change now as in original design.
++Fixed any conflict that can occur with other plugins when we reference third party libs like PayPal, MailChimp and TCPDF.
++NEW FEATURE: A range picker for bookings. We now have 3 types of calendar modes you can choose from; Popup, Inline and Range.
+	+selected range of days get inserted into the custom list.
++NEW FEATURE: Added option to select multiple time slots at the same time.
+	- we now allow a select list*, a dropdown list or a checkbox list for time slots selection.
++Fixed a bug where the booked day was getting selected by the calendar even though it was disabled.
++When an item is removed from the selected days list, 
+	- the min/max dates are displayed in the respective calendars correctly.
++Booking was always disabled on the final day. We now take account of the last day as well.
++Disabled backspace on booking calendar fields.
++Calendar and all relevant fields now remain disabled when all available days are added to cart.
++Improved appointment based bookings. Reworked some of the logic to ensure a better workflow and clarity.
+	+Now, when the current selected date has no time slots, the next date that follows is automatically selected.
+	+ToDO: If all bookings are exhausted and there are no time slots left, 
+		- the booking reflects this and displays a message
+		- as opposed to showing a disabled calendar. Now you just see a message.
++Fixed progressbar when timeslots are loaded via an ajax request.
++Fixed some inconsistencies in the timezone switcher.
++Checkout button was enabled, even when there were no items added to cart. Fixed.
++When deleting a project, the orders table remained orphaned. This is fixed now.
++Minicart had clickable icons in the dropdown. This doesn't work well with dropdowns. 
+	-Icons in minicart don't popup a dialog with additional message now.
++Stopped time in minicart from breaking into a new line.
++Fixed cart page layout on Firefox.
++Applied scrollbars to minicart in case we have too many items in them.
+	-Now if the dropdown list of the minicart gets longer than 500px, a scrollbar is added.
++Added some preformatting classes in Booki which you can use with the form builder
+	- eg: booki-align-left, booki-align-center, booki-align-right etc
++Refactored code.
++Updated language files.
++Updated template files.
++Updated documentation
+
+Change set 1.1 - 15/04/2014
++Upgraded the simple booking cart to a rich one.
++Now it lists all booked items in a dropdownlist.
++You can remove items from the cart.
++It is always visible even when there aren't any bookings.
++It remains disabled when there aren't any bookings.
++Created a better workflow for adding items to cart.
+	+Added a new add to cart button to bookings. 
+		+Now the checkout button only takes you to cart
+		+The add to cart button adds an item to cart, visible in the booking cart.
+Fixed css styling of the "Book now" and "Proceed" buttons in the checkout page.
++Fixed a bug in Appointment bookings which had time slots.
++Appointment bookings now disable days in the date picker when one is already added to cart.
+	+This is a workflow improvement to the previous version.
++Fixed a date formatting bug when chosing a shortdate format other than default.

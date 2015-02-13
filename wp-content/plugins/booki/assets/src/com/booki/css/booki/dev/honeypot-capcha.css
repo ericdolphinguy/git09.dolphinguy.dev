@@ -1,0 +1,7 @@
+/*
+ "off-left" technique to absolutely positioning the hidden element outside the viewport.
+*/
+.booki-name-field{
+	position: absolute !important;
+	left: -9999px !important;
+}

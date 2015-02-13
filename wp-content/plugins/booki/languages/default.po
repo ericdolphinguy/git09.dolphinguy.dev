@@ -1,0 +1,4445 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booki v1.0\n"
+"POT-Creation-Date: 2014-09-23 23:45+0100\n"
+"PO-Revision-Date: 2014-09-23 23:45+0100\n"
+"Last-Translator: Alessandro Zifiglio <support@typps.com>\n"
+"Language-Team: Alessandro Zifiglio <support@typps.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\Booki\\wp-content\\plugins\\booki\n"
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/BillSettlementController.php:51
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/base/BaseCartController.php:40
+msgid "You can only apply 1 coupon at a time."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/BillSettlementController.php:54
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/base/BaseCartController.php:43
+#, php-format
+msgid "Coupon is valid only on bookings that exceed %s."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/BillSettlementController.php:56
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/base/BaseCartController.php:60
+msgid "Coupon has expired and is not valid anymore. No discount applied."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/BillSettlementController.php:59
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/base/BaseCartController.php:63
+msgid "Coupon is not valid. No discount applied."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/BillSettlementController.php:96
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/base/BaseCartController.php:255
+msgid ""
+"Coupon code is invalid and has been removed. Provide a valid coupon for "
+"discount or proceed without."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/BillSettlementController.php:108
+msgid "Payments are currently disabled. Contact us for further assistance."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/CreateBookingController.php:36
+msgid "Email is invalid"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/base/BaseCartController.php:55
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/base/BaseCartController.php:268
+msgid ""
+"Coupon code is invalid and has been removed. You are trying to apply a "
+"coupon code that is not valid on one of the bookings in your cart. Provide a "
+"valid coupon for discount or proceed without."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/base/BaseCartController.php:284
+msgid ""
+"We received your booking successfully. We shall contact you shortly. Thanks!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/base/BaseCartController.php:288
+#, php-format
+msgid ""
+"We received your booking successfully. We tried sending you an invoice but "
+"apparently we are not able to \n"
+"\t\t\tsend emails at this time. To expedite contact us with your orderId "
+"{%d}. Thanks!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/base/BaseCartController.php:293
+msgid ""
+"We received your booking successfully. An invoice has been emailed to you. "
+"Please check your inbox or your spam folder!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/utils/BookingFormParser.php:38
+msgid "Booking date is required or is in an invalid format."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/utils/BookingFormParser.php:88
+#, php-format
+msgid "You must make atleast %d selections"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/utils/BookingFormParser.php:101
+msgid ""
+"A minimum of 1 time slots required. If there are no time slots available, "
+"try a different date."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/utils/BookingFormParser.php:104
+#, php-format
+msgid "A minimum of %d time slots required."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/utils/BookingFormParser.php:107
+#, php-format
+msgid "You cannot select more than %d time slots."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/controller/utils/BookingFormParser.php:179
+msgid "You must select atleast one item from the dropdown list"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:11
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Order.php:215
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:5
+msgid "Pending Approval"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:13
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:7
+msgid "Approved Booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:15
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:9
+msgid "Cancelled Booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:17
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:37
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Order.php:219
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/handlers/bookingscsvhandler.php:44
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:101
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:184
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:141
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:255
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/UserOrderList.php:184
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:11
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:33
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:372
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:463
+msgid "Refunded"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:19
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Order.php:217
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:13
+msgid "Pending User Cancel Request"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:25
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:19
+msgid "info"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:27
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:21
+msgid "success"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:29
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:23
+msgid "danger"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:31
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:25
+msgid "warning"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:39
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:35
+msgid "Pending Cancel Request"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/base/EntityBookingElementBase.php:41
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/ContextMenuHelper.php:37
+msgid "Booking Cancelled"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Order.php:221
+msgid "Approved"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:167
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:152
+msgid "Booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:170
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:153
+msgid "Details"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:173
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:155
+msgid "Selected days"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:176
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:154
+msgid "Available days"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:179
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:159
+msgid "Back"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:182
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:158
+msgid "Next"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:185
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:160
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:260
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:267
+msgid "Add to cart"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:188
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:155
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:156
+msgid "Booking time"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:191
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:157
+msgid "Optional extras"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:194
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ProjectList.php:140
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:125
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:161
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:299
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:390
+msgid "From"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:197
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ProjectList.php:142
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:127
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:162
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:311
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:402
+msgid "To"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:200
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:171
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:163
+msgid "Proceed"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:203
+msgid "Make booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Project.php:206
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:136
+#, php-format
+msgid "%d seats left. Hurry!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:118
+#, php-format
+msgid "For your reference, your order id is #%s."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:119
+#, php-format
+msgid ""
+"You can view full details of your order at anytime in your order %s page."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:120
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:412
+msgid "Subtotal"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:121
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:267
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:474
+msgid "Deposit"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:122
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:407
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:226
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:159
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:366
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:529
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:536
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:213
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:300
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:454
+msgid "Discount"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:123
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:415
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:367
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:730
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:736
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:445
+msgid "Tax"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:124
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:422
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:485
+msgid "Total"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:125
+msgid "history"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:126
+msgid "Congrats!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:127
+#, php-format
+msgid "You got a %d%% discount!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:128
+msgid "Book now"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:129
+msgid "Book now, pay later"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:130
+msgid "Booking for"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:131
+msgid "Days Booked"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:132
+msgid "Extras"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:133
+#, php-format
+msgid "Discount %s"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:134
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:282
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:301
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:323
+msgid "Coupon"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:135
+msgid "Promotions"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:136
+msgid "from"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:137
+msgid "to"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:139
+msgid "Some bookings are not available anymore and cannot be booked."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:140
+msgid ""
+"Please fill out all of the required fields and ensure there are no "
+"validation errors."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:141
+msgid "You have added the last availabe booking to cart. Checkout ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:142
+msgid ""
+"You only need to pay a deposit to confirm your booking. The remainder needs "
+"to be paid on arrival."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:143
+msgid "Create booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:144
+msgid "Check out"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:147
+#, php-format
+msgid ""
+"There was a problem processing your payment [%s]. Please try again, if "
+"problem persists contact support. We apologize for any inconvenience."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:148
+msgid "Your payment has been processed successfully."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:149
+msgid "Your booking will be confirmed shortly."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:150
+msgid ""
+"Some bookings are not available anymore and have been removed from cart."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:151
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:175
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageUserList.php:111
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/OrdersMadeAggregateList.php:44
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:276
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:80
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:94
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:76
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:92
+msgid "Bookings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:152
+msgid "Bookings are exhausted."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:153
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:310
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:283
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:329
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:352
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:138
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:148
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:246
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:256
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:354
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:364
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/minicart.php:68
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/minicart.php:136
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/minicart.php:192
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/minicart.php:244
+msgid "Cost"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:154
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:68
+msgid "Booking date"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:156
+msgid "Timezone offset"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:157
+msgid "Deposit required now"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:158
+msgid "Amount due on arrival"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:159
+msgid "There are no items to checkout."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:160
+msgid "Enter Coupon Code"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:161
+msgid "Redeem"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:162
+msgid "Remove coupon"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:163
+msgid "Help"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:164
+msgid "How coupons work"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:165
+msgid "Enter your coupon code. To update your cart, click on redeem."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:166
+msgid ""
+"If you require a refund on an order placed using a coupon, the value of the "
+"coupon will not be refunded."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:167
+msgid "The coupons are valid for a limited period of time."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:168
+msgid ""
+"We are authorized to proceed with payment. Please review the above booking "
+"and confirm payment."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:169
+msgid "Empty cart"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:170
+msgid "Book more"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/domainmodel/entities/Resx.php:172
+msgid "Confirm and pay"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:101
+msgid ""
+"Booki has been tested to work with WordPress 3.0 or higher. We recommend you "
+"upgrade."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:101
+#, php-format
+msgid "Please <a href=\"%s\">upgrade WordPress</a> to a current version."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:151
+msgid "Booki.io - A Booking Application from Mars"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:164
+msgid "Create/Edit new or existing booking projects"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:165
+msgid "Projects"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:174
+msgid "Manage bookings made"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:184
+msgid "Create new booking manually"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:185
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:260
+msgid "New bookings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:194
+msgid "Manage discount coupons"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:195
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:304
+msgid "Coupons"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:204
+msgid "Manage users"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:205
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:116
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:195
+msgid "Users"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:224
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:225
+msgid "Email Settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:234
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:235
+msgid "Invoice Settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:244
+msgid "Edit string resources found in the booking form"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:245
+msgid "String Resources"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:254
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:255
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:106
+msgid "General Settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:264
+msgid "User history --past bookings etc"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:265
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/historypartial.php:5
+msgid "History"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:274
+msgid "Logs errors returned by Paypal, Mailchimp and Email failures"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:275
+msgid "Event log"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:285
+msgid "General statistics"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:286
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:5
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:15
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:9
+msgid "Stats"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:295
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Admin.php:296
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:32
+msgid "Uninstall"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Register.php:67
+msgid "Register"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Register.php:168
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/templates/BookingViewTmpl.php:12
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/widgets/BookingsListWidget.php:74
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:149
+msgid "Find a booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Register.php:169
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/templates/BookingViewTmpl.php:13
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/widgets/BookingsListWidget.php:75
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:150
+msgid "Check-in"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/actions/Register.php:170
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/templates/BookingViewTmpl.php:14
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/widgets/BookingsListWidget.php:76
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:151
+msgid "Check-out"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ajax/TimezoneControlBridge.php:31
+msgid "Select new timezone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:226
+msgid "INVOICE"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:236
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:81
+msgid "Address"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:240
+msgid "Tel"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:244
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:81
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:362
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageUserList.php:110
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:107
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:139
+msgid "Email"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:251
+msgid "STATUS: PAID"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:253
+msgid "STATUS: UNPAID"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:259
+msgid "SOLD TO:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:264
+msgid "EMAIL"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:267
+msgid "Coupon discount:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:271
+msgid "SALES TAX RATE:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:275
+msgid "ORDER NUMBER"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:277
+msgid "CUSTOMER NUMBER"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:279
+msgid "ORDER DATE"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:306
+msgid "Dates"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:331
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:124
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/timezonecontrol.php:38
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/timezonecontrol.php:41
+msgid "Timezone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:386
+msgid "Payment due upon arrival"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:392
+msgid "Advance deposit required now"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:400
+msgid "Sub total"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:441
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookedformelements.php:6
+msgid "Additional Information"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:447
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookedformelements.php:11
+msgid "Field name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:450
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:171
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:173
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:342
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookedformelements.php:12
+msgid "Value"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/emails/NotificationEmailer.php:465
+msgid "Selected"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/handlers/bookingscsvhandler.php:40
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/handlers/bookingscsvhandler.php:42
+msgid "Un paid"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/BookingForm.php:286
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/cascadingdropdownlists.php:23
+msgid "Select an item"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/BookingForm.php:287
+msgid "Payment due on arrival"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/CustomFormElements.php:30
+msgid "Value not required on multiple bookings for the same item"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:74
+msgid "Total amount paid."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:79
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:110
+msgid "Refunded amount."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:93
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:133
+msgid "Order has been paid. Send a confirmation."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:94
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:134
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:270
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/UserOrderList.php:181
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:362
+msgid "Paid"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:100
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:140
+msgid "Payment has been refunded."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:107
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:147
+msgid ""
+"Payment has been partially refunded. You can refund the remainder by "
+"clicking refund."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:108
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:148
+msgid "Partially Refunded"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:115
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:155
+msgid "Not yet paid. Try sending an invoice."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:116
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:156
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/UserOrderList.php:178
+msgid "Pending"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:127
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:167
+msgid "Number of invoices emailed."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:128
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:170
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:168
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:241
+msgid "Invoice"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:139
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:179
+msgid "Number of refund notifications emailed."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:140
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:180
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:228
+msgid "Refund"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:156
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:60
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:197
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageUserList.php:64
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/UserOrderList.php:106
+msgid "Select"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:169
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:240
+msgid "Sends an invoice to the client with payment instructions."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:183
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:254
+msgid "Sends a refund confirmation email to user."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:222
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:360
+msgid "#"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:223
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:363
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/OrdersMadeAggregateList.php:45
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/OrdersRefundAmountAggregateList.php:62
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/OrdersTotalAmountAggregateList.php:61
+msgid "Order Date"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:224
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:364
+msgid "Payment Date"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:225
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:365
+msgid "Amount"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:227
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:162
+msgid "Status"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EditorApprovedOrderList.php:228
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:371
+msgid "Task"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EventsLogList.php:66
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:302
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageUserList.php:84
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:144
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:334
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:351
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:181
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:293
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:163
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:70
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:113
+msgid "Delete"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EventsLogList.php:88
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:157
+msgid "#id"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EventsLogList.php:89
+msgid "Entry Date"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EventsLogList.php:90
+msgid "Error"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/EventsLogList.php:91
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:165
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/UserOrderList.php:198
+msgid "Tasks"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:80
+msgid "Send coupon to user via email"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:103
+msgid "Any project"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:106
+msgid "Regular"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:106
+msgid "Super"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:116
+msgid "Coupon has expired!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:116
+msgid "Expiration date"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:126
+msgid "Discount provided by code"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:134
+msgid "The minimum booking required for coupon discount to apply."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:141
+msgid "The code to use for discount to apply."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:149
+msgid "The code is to be claimed by"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:150
+msgid "The code has not been used yet."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:151
+msgid "Unused"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:158
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:48
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:141
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:266
+msgid "Project"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:160
+msgid "Order Min."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:161
+msgid "Expiration"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:163
+msgid "Coupon type"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageCouponList.php:164
+msgid "Code"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:105
+msgid "Total amount paid, after discount."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:119
+msgid "Member"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:119
+msgid "Not member"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:227
+msgid "days left before refund opportunity expires."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:269
+msgid "Marks the order as paid."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:286
+msgid "Approve all items in this order."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:287
+msgid "Approve"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:301
+msgid "Deletes this order."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:321
+msgid "Create user account for this user and register with system."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:322
+msgid "Register User"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:333
+msgid "No user associated with booking. Create one ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:334
+msgid "Add User"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:361
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:56
+msgid "Name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:368
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/UserOrderList.php:197
+msgid "Payment"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:369
+msgid "Registration"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageOrderList.php:370
+msgid "Approval status"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageUserList.php:47
+msgid "Name not provided"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageUserList.php:108
+msgid "ID"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ManageUserList.php:109
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:64
+msgid "Username"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/OrdersRefundAmountAggregateList.php:60
+msgid "Refunds count"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/OrdersRefundAmountAggregateList.php:61
+msgid "Refund Total"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/OrdersTotalAmountAggregateList.php:59
+msgid "Total Amount"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/OrdersTotalAmountAggregateList.php:60
+msgid "Total Discounts"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ProjectList.php:125
+msgid "All bookings exhausted"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ProjectList.php:130
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/ProjectList.php:139
+msgid "Booking available from"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/UserOrderList.php:132
+msgid "Pay"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/UserOrderList.php:151
+msgid "A cancel request is given for all items in this order."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/UserOrderList.php:152
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:178
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:234
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:160
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:183
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:289
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:397
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:155
+msgid "Cancel"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/UserOrderList.php:195
+msgid "order id"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/UserOrderList.php:196
+msgid "Date"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/base/ListTable.php:396
+msgid "Select bulk action"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/base/ListTable.php:398
+msgid "Bulk Actions"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/base/ListTable.php:408
+msgid "Apply"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/base/ListTable.php:509
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/base/ListTable.php:525
+msgid "List View"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/base/ListTable.php:526
+msgid "Excerpt View"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/base/ListTable.php:559
+#, php-format
+msgid "%s pending"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/base/ListTable.php:668
+msgid "Select Page"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/ui/lists/base/ListTable.php:823
+msgid "Select All"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:15
+#, php-format
+msgid "%s: Field \"%s\" is required."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:16
+#, php-format
+msgid "%s: Field \"%s\" should not be blank."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:17
+#, php-format
+msgid "%s: Field \"%s\" value is too short."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:18
+#, php-format
+msgid "%s: Field \"%s\" value is too long."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:19
+#, php-format
+msgid "%s: Field \"%s\" value is smaller than expected."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:20
+#, php-format
+msgid "%s: Field \"%s\" value is larger than expected."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:21
+#, php-format
+msgid "%s: Field \"%s\" is in valid."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:22
+#, php-format
+msgid "%s: Field \"%s\" value is not a valid email."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:23
+#, php-format
+msgid "%s: Field \"%s\" value is not a valid url."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:24
+#, php-format
+msgid "%s: Field \"%s\" value should be digits."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:25
+#, php-format
+msgid "%s: Field \"%s\" value should be a number."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/utils/Validator.php:26
+#, php-format
+msgid "%s: Field \"%s\" value can only contain alpha numeric characters."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/widgets/BasketWidget.php:13
+msgid "Booki - Basket/Cart"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/widgets/BasketWidget.php:14
+msgid "Booki basket  --Allows you to embed the mini cart via a widget"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/widgets/BookingsListWidget.php:17
+msgid "Booki - Bookings listing"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/infrastructure/widgets/BookingsListWidget.php:18
+msgid ""
+"Booki listings --Allows you to list projects based on their tag. If no tag "
+"is supplied, all projects are listed."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createbookings.php:54
+msgid "Create bookings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createbookings.php:55
+msgid "Create bookings manually and email them to user."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createbookings.php:63
+msgid "The booking was created successfully and an email was sent."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createbookings.php:86
+msgid ""
+"The booking will be emailed to the user email provided below. If payments "
+"are enabled then an invoice is emailed along with payment instructions.\n"
+"\t\t\t\t\t\t\tIf user is not already registered, then a new user is also "
+"created and login credentials along with invoice are emailed."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createbookings.php:105
+msgid "Whoops! No more bookings available for selected project."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createbookings.php:119
+msgid ""
+"Email not found. A new user will be created and the booking emailed along "
+"with the user account credentials."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createbookings.php:120
+msgid "User email found. Username is"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:35
+msgid "Create, edit and delete projects"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:36
+msgid ""
+"The basis for any bookings. It all takes place here. A project is how you "
+"define a unique booking."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:47
+msgid "Request in progress..."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:49
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:184
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:345
+msgid "Create new"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:50
+msgid "Short Code"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:51
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:54
+msgid "Duplicate project name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:52
+msgid "Duplicate project"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:53
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:142
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:305
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:346
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:276
+msgid "Create"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:55
+msgid ""
+"Supply a name for your duplicate project and hit create. This will create a "
+"duplicate of all the settings of the current project. This is especially "
+"helpful when you want to create a list of separate bookings, based off the "
+"current booking. The new duplicated project will contain everything from "
+"project settings, to form fields, booking calendar values and optionals. "
+"Cascading lists will be copied over too but the relationships will be reset. "
+"That means you will have to re-establish the relationships for cascading "
+"lists again."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:57
+msgid "Attention: Booking mode"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:58
+msgid "Project status"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:59
+msgid ""
+"A projects status can be \\\"running\\\", this means it will still serve "
+"bookings if there are available days OR the status can be \\\"stopped\\\", "
+"which means bookings won't be allowed regardless of bookings availability."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:60
+msgid "Running"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:61
+msgid "Stopped"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:62
+msgid ""
+"Reservation mode allows multiple users to book the same day and time slot "
+"intervals. Appointment mode on the other hand allows only one time bookings. "
+"Once a booking is made, the same day/time combinations won't be available "
+"for booking again."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:63
+msgid "Booking mode"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:64
+msgid "Reservation"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:65
+msgid "Appointment"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:66
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:68
+msgid "Maximum booking days or time slots"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:67
+msgid ""
+"Provide the maximum number of days or time slots that can be booked in a "
+"single booking calendar. A value of 1, the default will not allow multiple "
+"selections i.e. only 1 day or time slot can be booked at a time. Note when "
+"selecting range calendar, ensure that this value is greater than 1."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:69
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:71
+msgid "Minimum booking days or timeslots"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:70
+msgid ""
+"Provide the minimum number of days or timeslots that must be booked in a "
+"single booking calendar. A value of 0, the default means no minimum is "
+"applied."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:72
+msgid ""
+"The bookings calendar can be either pop up, inline, range or next day "
+"checkout. A popup calendar is one where a textbox is used to show the "
+"selected date which pops up a calendar when clicked allowing date selection. "
+"Inline is when an always visible calendar is used. Range will give you a set "
+"of \\\"From\\\" and \\\"To\\\" popup calendars. Next day checkout gives you "
+"a range selector that counts the date diff between now and then instead of "
+"adding all days in the range."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:73
+msgid "Calendar mode"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:74
+msgid "Popup"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:75
+msgid "Inline"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:76
+msgid "Range"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:77
+msgid "Next day check out"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:78
+msgid "Tagging"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:79
+msgid ""
+"Tagging allows you to group common projects together. Grouped projects get "
+"listed using the booki-list shortcode or widget. Select an existing tag or "
+"create a new one to associate to this project."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:80
+msgid "Tag"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:81
+msgid ""
+"A short description. This will be used along with the preview thumbnail when "
+"listing projects using the booki-list shortcode or widget."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:82
+msgid "Description"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:83
+msgid ""
+"A preview image used when listing projects using the booki-list shortcode or "
+"widget."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:84
+msgid "Preview image"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:85
+msgid "Project listing settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:86
+msgid "Booking control label settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:87
+msgid "Optional Lists and Optional Cascading Lists Booking Mode"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:88
+msgid ""
+"Optional Lists and Optional Cascading Lists  can apply to a single booking. "
+"Note that a single booking can contain multiple days and time slots if your "
+"booking allows selecting multiple days and time slots at the same time. "
+"Alternatively optionals can apply for each day/time slot selected."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:89
+msgid "General project settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:90
+msgid "Each booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:91
+msgid "Each day or time slot selected"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:92
+msgid "Optionals listing mode"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:93
+msgid ""
+"Optional Lists can be presented in a checkbox list which is the default or "
+"in a radio button list. If a checkbox list is chosen, you can additionally "
+"set the minimum items to be checked, in order to proceed with the booking."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:94
+msgid "Checkbox List"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:95
+msgid "RadioButton List"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:96
+msgid "Minimum number of optional selections required"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:97
+msgid "Enter new tag"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:98
+msgid "Booking wizard mode"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:99
+msgid ""
+"The booking wizard can be split up in two tabs, one containing the booking "
+"calendar and optionals, while the other containing the custom form fields. "
+"This is the default. Alternatively you can combine it all and display "
+"everything linearly, in a top to bottom fashion."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:100
+msgid "Tabs"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:101
+msgid "Linear"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:102
+msgid ""
+"If you set up custom form fields, then this option allows you to decide "
+"which form is shown first in the booking wizard."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:103
+msgid "Default step"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:104
+msgid "Booking form"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:105
+msgid "Custom form fields"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:106
+msgid "The label to use for the booking tab in the booking wizard."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:107
+msgid "Booking tab caption"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:108
+msgid ""
+"The caption to use for the custom form fields tab in the booking wizard."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:109
+msgid "Custom form fields tab caption"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:110
+msgid "The label to use for available days field in the booking wizard."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:111
+msgid "Available days field label"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:112
+msgid "The label to use for the selected days field in the booking wizard."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:113
+msgid "Selected days field label"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:114
+msgid ""
+"The label to use for the booking time dropdown list field in the booking "
+"wizard."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:115
+msgid "Booking time field label"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:116
+msgid ""
+"The heading to use for the extra billable items checkbox list that allows "
+"selection of additional features whose cost add up to the total price in the "
+"booking wizard."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:117
+msgid "Optional features heading"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:118
+msgid "The caption to use in the booking wizards next button."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:119
+msgid "Next button caption"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:120
+msgid "The caption to use in the booking wizards back button."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:121
+msgid "Back button caption"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:122
+msgid "The caption to use for the create booking button in the booking wizard."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:123
+msgid "Create booking button caption"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:124
+msgid ""
+"The label to display in the \\\"From\\\" range field, when \\\"Calendar Mode"
+"\\\" is set to \\\"Range\\\"."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:126
+msgid ""
+"The label to display in the \\\"To\\\" range field, when \\\"Calendar Mode\\"
+"\" is set to \\\"Range\\\"."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:128
+msgid "Hide selected days"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:129
+msgid ""
+"When multiple days selection is enabled, a list of the selected is displayed "
+"under the booking calendar. Use this option to toggle the display of that "
+"list."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:130
+msgid ""
+"Sets the label on the button in the booking. Button will show only when user "
+"is not logged in when cart system is disabled."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:131
+msgid "Proceed to login label"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:132
+msgid ""
+"Sets the label on the button used to make the button. This is the button "
+"that will display when you disable payments and cart system."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:133
+msgid "Make booking label"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:134
+msgid "Available seats label"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:135
+msgid ""
+"Text used to display the number of available seats left. This option will "
+"apply when you set \\\"Available seats\\\" and check \\\"Display counter\\"
+"\", both options available in the booking period tab."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:137
+msgid "Optional HTML content"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:138
+msgid "Content above and below booking calendar"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:139
+msgid ""
+"These settings allow you to insert HTML content above and below the booking "
+"calendar."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:140
+msgid "Content above booking calendar"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:141
+msgid "Content below booking calendar"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:143
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:234
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:235
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:304
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:333
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:347
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:283
+msgid "Update"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:145
+msgid "Image Gallery"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:146
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:350
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:86
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:109
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:178
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:284
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:392
+msgid "Close"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:147
+msgid "Delete Project"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:148
+msgid ""
+"You are about to delete a project. You will lose any data associated to this "
+"project including all bookings made for this project. Are you sure ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:164
+msgid "Make a booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:165
+msgid "New Booking Notification Recipient(s)"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:166
+msgid ""
+"Allows you to send new booking notifications to 1 or more people, who will "
+"become the intended recipient(s). Multiple recipients may be specified using "
+"a comma to separate each email address. i.e. someone@mydomain.com, "
+"another@somedomain.com, athird@somewhere.com"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:167
+msgid "Create new form field"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:168
+msgid ""
+"Custom form fields will be part of your booking form and allow you to "
+"collect additional information and will appear as an integral part of the "
+"booking process."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:169
+msgid "Element type"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:170
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:343
+msgid "Label"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:172
+msgid ""
+"The initial value of this field. Setting the same value for multiple "
+"radiobutton elements will create a radiobutton group."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:174
+msgid "Terms and Conditions Url"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:175
+msgid ""
+"Provide the url to your terms and conditions page. If user does not check "
+"this field, validation will fail. Combine this with properly worded label "
+"set above, eg: Do you agree with our terms and conditions ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:176
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:178
+msgid "Content"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:177
+msgid ""
+"The content for h1 through h6 elements are headings for the sections with "
+"which they are associated or just plain text if statictext was your "
+"selection in the \\\"Element type\\\" field."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:179
+msgid ""
+"Setting a class name allows you to quickly apply css styling to this field. "
+"You can also choose one of the following css classes to apply some "
+"formatting : [booki-align-left, booki-align-center, booki-align-right, booki-"
+"overline, booki-underline, booki-italic, booki-bold, booki-capitalize, booki-"
+"uppercase]"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:180
+msgid "CSS class name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:181
+msgid "Column index"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:182
+msgid ""
+"Enables multi-column grid. The form element will be placed at the supplied "
+"column index. Accepts values 1 - 12. Choose an existing column index from "
+"the dropdown list or create a new one. The layout will depend greatly on the "
+"screen estate available for the booking form. The smaller the space the more "
+"contrived it will appear. Hence we generally recommend single column layouts."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:183
+msgid "Column Index"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:185
+msgid "Row index"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:186
+msgid ""
+"The form element will be placed at the supplied row index. Choose an "
+"existing row index from the dropdown list or create a new one."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:187
+msgid "Row Index"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:188
+msgid "Display only once"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:189
+msgid ""
+"When checked, this field is shown only the first time the user is making a "
+"booking. If user makes subsequent bookings i.e. adding more days to cart, it "
+"won't show. Use it to collect one time information."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:190
+msgid "Display only once ( on multiple bookings)"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:191
+msgid "Add a line separator after this field"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:192
+msgid "Checked by default"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:193
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:335
+msgid "Data source"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:194
+msgid ""
+"The items you add to the listbox in this section will be data bound to the "
+"element. To make an item the default selection, select the item in the list "
+"and then click the \\\"Make default selection\\\" icon"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:195
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:337
+msgid "Data Item"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:196
+msgid "Use this email field to auto register users"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:197
+msgid "These options allow you to provide some logic to email fields."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:198
+msgid "Use this as first name or last name fields"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:199
+msgid ""
+"If you've disabled registration and just want to send user an email "
+"regarding their booking, the email will include this as either the customers "
+"first name or last name depending on selection below."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:200
+msgid "Just a regular textbox field"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:201
+msgid ""
+"Use this email field to register the user. Registered users get first class "
+"treatment"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:202
+msgid "Use this email field to send a one time notification to the user"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:203
+msgid "The value of this field is the first name or first name and last name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:204
+msgid "The value of this field is the last name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:205
+msgid "Validation"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:206
+msgid "Basic constraints"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:207
+msgid "Default selection"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:208
+msgid "Default value"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:209
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:338
+msgid "Your list cannot be empty. You need to add atleast 1 item."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:210
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:340
+msgid "Add value"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:211
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:341
+msgid "Remove"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:212
+msgid "Make default selection"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:213
+msgid "Validation - Advanced constraints"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:214
+msgid "Allowed value"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:215
+msgid "Any value"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:216
+msgid "Allow only digits from 0-9 (Negatives values not allowed.)"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:217
+msgid "Allow only numbers"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:218
+msgid "Allow only alphanumeric string"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:219
+msgid ""
+"Validates that the length of a string is at least as long as the given limit."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:220
+msgid "Min length"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:221
+msgid ""
+"Validates that the length of a string is not larger than the given limit."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:222
+msgid "Max length"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:223
+msgid "Validates given number is greater than this min number"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:224
+msgid "Min"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:225
+msgid "Validates given number is less than this max number."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:226
+msgid "Max"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:227
+msgid ""
+"Validates that a value matches a specific regular expression eg: validate a "
+"color hexadecimal code: [A-Fa-f0-9]{6}."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:228
+msgid "Regular expression (Regex)"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:229
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:331
+msgid "New record"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:230
+msgid "Add this new form element"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:231
+msgid "Match an email"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:232
+msgid "Match a url"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:233
+msgid "Add"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:236
+msgid "Edit or delete an existing field"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:237
+msgid "An overview of all the custom form fields created for this project."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:238
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:247
+msgid "Quick preview"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:239
+msgid "Whoops!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:240
+msgid "Just hold it there Mister! You have not created any form elements yet."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:241
+msgid "You have unsaved changes. Save changes now ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:242
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:917
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:270
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/resources.php:512
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/resources.php:514
+msgid "Save"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:243
+msgid "Edit field"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:244
+msgid "Delete field"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:245
+msgid "Delete Field"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:246
+msgid "You are about to delete a field. Are you sure ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:248
+msgid "Create form fields"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:249
+msgid "All form fields"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:250
+msgid "Heads up"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:251
+msgid ""
+"You must save your changes or discard them to set \\\"Cost for special days\\"
+"\"?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:252
+msgid "Booking date range"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:253
+msgid ""
+"Specify the days you want to allow booking. Your users will be allowed to "
+"make bookings during a date period that falls within the following Start/End "
+"date.The cost is applied to each day within your selected period."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:254
+msgid "Start date"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:255
+msgid "End date"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:256
+msgid "Booking start lapse"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:257
+msgid ""
+"Booking is allowed only in advance of the number of days set below i.e. if "
+"you set 1 day, then bookings are allowed only 1 day before the current date. "
+"A value of 0 does not set this restriction and is the default."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:258
+msgid "Booking allowed in advance of"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:259
+msgid "Available seats"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:260
+msgid ""
+"This option limits bookings to the provided value. This is useful when you "
+"have a finite number of bookings eg: limited rooms for rent or seats in a "
+"bus etc. When the number of bookings is reached, bookings will close for "
+"this project. The value you see appened next to the textbox below is the "
+"number of bookings currently made in this project. A value of zero does not "
+"limit bookings and is the default."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:261
+msgid "Seats"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:262
+msgid "Deposits"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:263
+msgid "Minimum number of days to deposit"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:264
+msgid ""
+"Booking starts from the first available date. If booking after the minimum "
+"number of days set below, then the deposit is required otherwise payment in "
+"full is required. The deposit value is a percentage value calculated from "
+"the total number of days."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:265
+msgid "Pay deposit if booking after"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:266
+msgid "Days"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:268
+msgid ""
+"The value you provide for deposit is percentage based which will be a "
+"percentage calculated from the overall cost of selected days. If the minimum "
+"days is provided, then the deposit is applicable if booking within the "
+"minimum days required above."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:269
+msgid "Deposit value"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:270
+msgid ""
+"Based on the available seats setting above, a counter is displayed in the "
+"page showing the number of available bookings left."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:271
+msgid "Display counter"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:272
+msgid "Days to exclude from range"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:273
+msgid "Days to exclude from Date Range i.e. your day off, weekends etc"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:274
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:322
+msgid "Week days"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:275
+msgid "Every Sunday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:276
+msgid "Every Monday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:277
+msgid "Every Tuesday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:278
+msgid "Every Wednesday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:279
+msgid "Every Thursday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:280
+msgid "Every Friday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:281
+msgid "Every Saturday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:282
+msgid "Bookable days"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:284
+msgid "Applies the same cost to each day within selected period."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:285
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:330
+msgid "Value has to be a valid currency. Only 2 decimal places allowed."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:286
+msgid "Day vs time"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:287
+msgid ""
+"Day based booking applies cost to the entire day and users will be able to "
+"book an entire day at a time."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:288
+msgid ""
+"Time based booking splits a day in equal time intervals based on the HH:MM "
+"selected. Users will be able to book for a certain time interval within a "
+"day. "
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:289
+msgid "Day based"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:290
+msgid "Time based"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:291
+msgid "Time"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:292
+msgid ""
+"The time selected will be split into equal intervals i.e. selecting 01:00 "
+"will give you bookable time slots split evenly starting from 12:00am - "
+"1:00am, 1:00am - 2:00am, 2:00am - 3:00am and so forth. Likewise, selecting "
+"23:60 ( a 24 hour duration) will generate only a single timeslot where the "
+"user will be making bookings by the day instead of by day and time."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:293
+msgid "Hour"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:294
+msgid "Minute"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:295
+msgid "Enables single hour:minute format"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:296
+msgid ""
+"When checked single hour:minute format will be used for the time slots. "
+"Otherwise, defaults to range format eg: hour:minute - hour:minute."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:297
+msgid "Enable single hour:minute format"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:298
+msgid "Split interval start time"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:299
+msgid ""
+"When time slots are split, they will start the split at the following hour "
+"and minute interval selected. For example, if you selected 10:15, i.e. "
+"Hour:10 and minute:15, then the time slots split will begin at 10:15 and "
+"split time evenly for the entire day starting with 10:15. This allows you "
+"more accuracy. By default, the split will start from 00:00."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:300
+msgid "Hour interval start"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:301
+msgid "Minute interval start"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:302
+msgid "Bookable time slots"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:303
+msgid "Reset timeslot"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:306
+msgid "Discard changes"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:307
+msgid "Booking Period"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:308
+msgid "Special days"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:309
+msgid "Specify cost for special days"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:310
+msgid "Set costs for special days if your costs differ by day, i.e. season."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:311
+msgid "List of days within selected season"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:312
+msgid "Select dates by"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:313
+msgid "Create new season"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:314
+msgid "Add season"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:315
+msgid "Season"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:316
+msgid "Season name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:317
+msgid ""
+"You have un-named seasons which are no longer supported and will be "
+"deprecated soon."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:318
+msgid "Un-named"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:319
+msgid "Delete un-named"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:320
+msgid "Days to exclude from list of days in selected season"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:321
+msgid ""
+"Days to exclude by week day from list of days above. For example, if you "
+"want only mondays to be included in the list above, then select every other "
+"weekday below. If a weekday is checked below, this means either the weekday "
+"is excluded or the weekday is not available in the selected range and will "
+"not appear in the list of days above."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:323
+msgid "Delete season"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:324
+msgid "Update season"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:325
+msgid "No. of days for weekday found in selected date range."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:326
+msgid "Specify extra billable items"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:327
+msgid ""
+"Bookings can allow extra billable items. These are displayed as a list of "
+"checkboxes and are an integral part of the booking process. "
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:328
+msgid "Optional Item Name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:332
+msgid "Add new optional"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:336
+msgid ""
+"The items you add to the listbox in this section below are the items that "
+"will show in your dropdownlist selected above. Note: don't set cost if cost "
+"does not apply. Costs of 0.00 will be ignored."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:339
+msgid "New item"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:344
+msgid "Select Cascading List"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:348
+msgid "Delete List"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:349
+msgid ""
+"You are about to delete a list. You will also lose any cascading items "
+"related to this list. Are you sure ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:353
+msgid "Value has to be a valid currency. Only 2 decimal places allowed"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:354
+msgid "Dropdown list items"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:355
+msgid "Select the parent list"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:356
+msgid "Cascading list relationships"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:357
+msgid ""
+"Use this section only after having created atleast 2 lists. This is where "
+"you set up relationships for the cascade. Select an item in the list above. "
+"Then select a list below and click the update button. Everytime the item "
+"from the list above is selected, the items from the list below will be "
+"loaded. Confused ? Me too!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:358
+msgid "Select a relationship"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:359
+msgid "Is required (user needs to make a selection)"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:360
+msgid "Auto loading Cascading Drop Down Lists"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/createprojects.php:361
+msgid ""
+"Each list created will appear in your front end as a regular dropdown list. "
+"You can also create auto loading cascading lists. Cascading lists will auto "
+"populate a secondary list when an element in one list is selected. Note: For "
+"cascading lists you need to define at least 2 lists where one item in either "
+"of lists is related to the other. Confused ? Me too!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:45
+msgid "Email settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:46
+msgid "The system sends out emails based on specific events."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:55
+msgid "Template"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:59
+msgid "Select a template"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:74
+msgid "Enable this email"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:80
+msgid "Sender Name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:84
+msgid "The name of company or person to show as the email sending party."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:98
+msgid "Sender Email"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:102
+msgid "The email address used as the sender when sending out emails."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:117
+msgid "Subject"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:121
+msgid ""
+"If subject is not provided then the selected template name is used instead."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:142
+msgid "Tokens"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:143
+msgid ""
+"The following variables will be replaced by their actual values when the "
+"email is sent."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:146
+msgid "Replaced with name of customer, if one exists in customers profile"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:147
+msgid "Replaced with name of admin, if one exists in the admins profile."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:148
+msgid "Replaced with the order ID"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:149
+msgid "Replaced with the date the order was made"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:150
+msgid "Replaced with the \"order details\""
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:151
+msgid "Replaced with the \"order additional info\""
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:152
+msgid "The date or datetime of the day booked"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:153
+msgid "The cost of the booked date"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:154
+msgid "The optional item name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:155
+msgid "The optional item cost"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:156
+msgid ""
+"Replaced with a link that redirects the user to paypal for payment of the "
+"invoice. This token is valid only on an \"invoice\" template."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:157
+msgid ""
+"Replaced with a link that allows the user to download an invoice in PDF "
+"format from your site."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:158
+msgid "Replaced with the \"Site Title\" set in Settings > General."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:159
+msgid ""
+"Replaced with the coupon code. This token is only valid on a \"coupon\" "
+"template."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/emailsettings.php:160
+msgid ""
+"Replaced with the order url. Currently in use on the Booking Cancel Request "
+"template."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/eventslog.php:29
+msgid "Events log"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/eventslog.php:30
+msgid ""
+"An overview of all the errors thrown by services like Paypal and MailChimp "
+"and failed Emails. \n"
+"\t\t\tIf there are failures, they will show here. Messages are geeky "
+"var_dumps, feel free to ignore when in doubt."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/eventslog.php:37
+msgid ""
+"From time to time, make sure you clear events out. The data itself is of no "
+"use after reading through the log."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/eventslog.php:41
+msgid "Clear Event Log"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:75
+msgid "Sunday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:76
+msgid "Monday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:77
+msgid "Tuesday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:78
+msgid "Wednesday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:79
+msgid "Thursday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:80
+msgid "Friday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:81
+msgid "Saturday"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:82
+msgid "Default"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:107
+msgid ""
+"These general settings apply to the entire booking system. Careful with what "
+"you wish for!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:117
+msgid "Timezone, Date Format Settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:125
+msgid ""
+"This is your timezone. User selected booking time will adapt to this whose "
+"timezone offset will be based off. Make sure this is set to your current "
+"locations timezone."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:134
+msgid "Auto detect users timezone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:135
+msgid ""
+"When checked, the user's timezone is auto detected, otherwise the admin's "
+"timezone is used."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:142
+msgid "Automatic"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:147
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:155
+msgid "Enable user to change timezone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:148
+msgid ""
+"When checked, bookings will allow user to change the time manually, via a "
+"set of unobtrusive dropdown lists."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:160
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:166
+msgid "Short date format"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:161
+msgid ""
+"All date/time formatting is taken from the options set in WordPress general "
+"settings. Some areas however require\n"
+"\t\t\t\t\t\t\ta short date setting, which is taken from the option set below."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:179
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:184
+msgid "Calendar's first day of week"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:180
+msgid "Sets the first day of week in the calendar used to pick bookings."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:198
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:206
+msgid "Show Calendar buttons panel"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:199
+msgid ""
+"When checked, calendar will include a button for todays date selection and a "
+"done button for closing the popup."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:211
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:219
+msgid "Display booked time slots"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:212
+msgid ""
+"When checked, time slots that are booked are displayed in their respective "
+"dropdown list or listbox as disabled. This can be quite distracting to  your "
+"customers. Unchecking this option allows you to exclude booked time slots "
+"from the list."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:229
+msgid "Cart Settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:236
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:243
+msgid "Use Cart System"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:237
+msgid ""
+"When unchecked, bookings made are immediately booked or paid for without "
+"adding to cart or going to a bookings summary page."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:248
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:255
+msgid "Cart items with heading"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:249
+msgid ""
+"When checked, items in the cart are organized by project name used as the "
+"heading."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:261
+msgid ""
+"When unchecked, clicking add to cart button will add the item and take you "
+"to the cart page instead of reloading the booking page for more bookings. "
+"When checked, make sure to add a Cart widget to your pages. This will allow "
+"your users to view activity while adding items to cart."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:272
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:279
+msgid "Show price in booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:273
+msgid ""
+"When unchecked, price is removed from booking. Affects only the booking page "
+"and not the cart."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:284
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:292
+msgid "Enable payment during checkout"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:285
+msgid ""
+"When checked, customers will be asked to make payments during checkout i.e. "
+"immediately redirected to paypal. \n"
+"\t\t\t\t\t\t\tThis setting only forces payments during the checkout process."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:297
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:304
+msgid "Enable booking with and without payment"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:298
+msgid ""
+"When checked, a \"Book now\" button is enabled alongside the pay now with "
+"PayPal button. This setting takes effect only when the above \"Enable "
+"payment during checkout\" setting is checked as well."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:309
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:315
+msgid "Login page url"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:310
+msgid ""
+"In order for users to make bookings, login is a requirement. By default, the "
+"login page in WordPress is used. \n"
+"\t\t\t\t\t\t\tBy changing the Url below, you can redirect it to your custom "
+"login page instead."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:343
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:349
+msgid "Continue booking url"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:344
+msgid ""
+"This is where the continue button on the booking cart page takes you when "
+"clicked. \n"
+"\t\t\t\t\t\t\tBy default it goes to the referring page that lead you to the "
+"booking cart if one exists otherwise reloads the current page."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:361
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:368
+msgid "Membership required to make booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:362
+msgid ""
+"When un-checked, users can make bookings and payment without registration."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:378
+msgid "Notifications, Confirmations and Invoices"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:385
+msgid "Auto confirm payment"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:386
+msgid ""
+"Auto confirms payment after buyer is redirected from Paypal. If you leave "
+"this unchecked, buyer needs to re-confirm purchase after being redirected "
+"from Paypal i.e. just like on ebay, a two-step process."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:392
+msgid "Auto confirm order after returning from Paypal"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:397
+msgid "Confirm booking automatically after checkout"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:398
+msgid ""
+"When checked, bookings made are approved and confirmed automatically after "
+"checkout or if payment is enabled,\n"
+"\t\t\t\t\t\t\tafter payment is received."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:405
+msgid ""
+"Approve and send confirmation email automatically after checkout or payment"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:410
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:419
+msgid "Send invoice automatically during checkout"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:411
+msgid ""
+"When checked, an invoice is sent automatically after checkout. \n"
+"\t\t\t\t\t\t\t\t\tSpecifically when \"Enable payments during checkout\" "
+"option is unchecked \n"
+"\t\t\t\t\t\t\t\t\twhich implicitly means payment is to be made through an "
+"invoice."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:424
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:431
+msgid "Send refund notification email automatically after a refund"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:425
+msgid ""
+"When checked, a notification email is sent automatically after a successful "
+"refund."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:436
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:443
+msgid ""
+"Send booking is cancelled notification email automatically after a booking "
+"is cancelled"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:437
+msgid ""
+"When checked, a notification email is sent automatically after booking has "
+"been cancelled by admin."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:448
+msgid "Notify admin via email everytime a new booking is made"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:449
+msgid ""
+"When checked, a notification email is sent to admin everytime a new booking "
+"is received."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:455
+msgid "Notify admin via email everytime a new booking is made."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:460
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:467
+msgid "Notify user that their booking was received"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:461
+msgid ""
+"When checked, a notification email is sent to the user to confirm that their "
+"booking was successfully received."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:472
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:477
+msgid "Default owner of booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:473
+msgid ""
+"Every booking made needs an owner. When a booking is made anonymously, "
+"without user login, i.e. when membership is not required, the default owner "
+"of this booking will be the user you set here until you later associate a "
+"user to the booking."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:488
+msgid "Email notifications TO:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:489
+msgid ""
+"If you have email notifications turned on, one is sent to the following "
+"address when a new booking is made."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:493
+msgid "Email Notifications TO:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:510
+msgid "Discounts"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:517
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:524
+msgid "Enable coupons in shopping cart"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:518
+msgid ""
+"When checked, a textbox for collecting coupon codes is available in the "
+"shopping cart."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:531
+msgid ""
+"A value in percentage to deduct from the actual cost set above. The discount "
+"is triggered based on the booking minimum property and applies to the total "
+"cost. The more one books, the less one pays! Keep in mind that discounts are "
+"disabled if a deposit is applicable."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:556
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:562
+msgid "Booking minimum for discount"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:558
+msgid ""
+"The discount value will be applied based on the booking minimum. A value of "
+"0 will apply the discount without minimum booking restrictions. "
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:580
+msgid "Theme Options"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:587
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:593
+msgid "Theme"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:588
+msgid ""
+"Custom themes you upload into your current themes/booki directory will show "
+"up here. \n"
+"\t\t\t\t\t\t\t\t\tMake sure you read the docs on how to achieve this."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:604
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:609
+msgid "Calendar theme"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:605
+msgid ""
+"The theme used in the calendar controls during booking. For custom themes, "
+"refer to the documentation."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:620
+msgid "Calendar Style Settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:621
+msgid ""
+"Flat - Removes default images set by jQuery-ui calendar and squares out the "
+"calendar removing border radius."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:622
+msgid ""
+"Borderless - Removes default borders set by jQuery-ui calendar and adds a "
+"single 2px black border under the header."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:628
+msgid "Flat"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:634
+msgid "Borderless"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:639
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:646
+msgid "Highlight Selected Optional Item"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:640
+msgid "Highlights the selected optional item."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:656
+msgid "Maintenance Options"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:663
+msgid "Clear Event log"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:664
+msgid ""
+"The event log contains unexpected error messages due to Email, MailChimp or "
+"PayPal failures. There is no reason to keep these messages for longer than "
+"necessary. By default, it will be cleared every 7 days. A value of zero has "
+"no effect and event log messages will never be cleared automatically."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:668
+msgid "Clear Event log after"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:680
+msgid "Reference bootstrap style sheet"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:681
+msgid ""
+"When checked, bootstrap stylesheet is referenced. The booking system depend "
+"on this, so unless your theme already references bootstrap, do not "
+"uncheck. \n"
+"\t\t\t\t\t\t\tNote that the bootstrap version used is namespaced and will "
+"not conflict with your theme in use."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:688
+msgid "Reference bootstrap style sheet include"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:693
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:701
+msgid "Reference bootstrap JavaScript include"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:694
+msgid ""
+"When checked, bootstrap JavaScript include is referenced. \n"
+"\t\t\t\t\t\t\t\t\tThe booking system depends on this, so unless your theme "
+"already references bootstrap, do not uncheck."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:706
+msgid "Debug mode"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:707
+msgid ""
+"When checked, Booki will reference debug versions of it's client side "
+"JavaScript/CSS files. Debug versions of the client side scripts are larger, "
+"so do not do this unless you have good reason for doing so."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:713
+msgid "Debug Mode"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:723
+msgid "Misc Options"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:731
+msgid ""
+"Tax is displayed in the shopping cart during checkout. \n"
+"\t\t\t\t\t\t\tWhen setting tax below, it has to be a percentage value, which "
+"is the value deducted from the total amount."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:753
+msgid "Time Selection"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:754
+msgid ""
+"How do you want users to select time in your bookings. The default is a "
+"Dropdown List. While the Dropdown list \n"
+"\t\t\t\t\t\t\tis compact and takes up only a single line, it does not allow "
+"multiple selections. Hence your users need to \n"
+"\t\t\t\t\t\t\tselect one slot at a time and add it to the cart. \n"
+"\t\t\t\t\t\t\tIf you want multiple selections in a single click, use the "
+"ListBox."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:761
+msgid "Time selection"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:765
+msgid "Dropdown List"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:766
+msgid "ListBox"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:771
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:779
+msgid "Enable editors"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:772
+msgid ""
+"When checked, users in the \"Editors\" role are allowed to view and manage "
+"bookings. In particular, they are allowed to \n"
+"\t\t\t\t\t\t\tconfirm bookings by sending out confirmation emails, refund "
+"notifications for refunded bookings and send out an invoice for unpaid "
+"bookings."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:784
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:791
+msgid "Delete booking upon payment cancellation"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:785
+msgid ""
+"When checked, if user cancels during a PayPal checkout (on PayPals page they "
+"hit cancel instead of proceeding with payment), the order will also be "
+"deleted for good. If unchecked, user can access booking from their history "
+"page and attempt payment again."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:796
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:804
+msgid "Allow user to cancel their booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:797
+msgid ""
+"When checked, allows a user to cancel their booking, if booking has not been "
+"confirmed yet.\n"
+"\t\t\t\t\t\t\tThis can be done directly by the user from their bookings "
+"history page."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:809
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:815
+msgid "MailChimp API Key"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:810
+msgid ""
+"Your mailchimp API Key. This will allow you to upload your users to \n"
+"\t\t\t\t\t\t\t\t\tmailchimp along with freshly generated coupon codes per "
+"user."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:828
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:835
+msgid "Order expiry"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:829
+msgid ""
+"The number of days an unpaid order is still \n"
+"\t\t\t\t\t\t\t\t\tvalid and payable after booking is made. Unpaid orders "
+"will be automatically purged out of the system after expiry. \n"
+"\t\t\t\t\t\t\t\t\tA value of zero (the default) has no effect and unpaid "
+"orders will not expire."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:847
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:854
+msgid "Use history page in dashboard"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:848
+msgid ""
+"When checked, the system will link to a history page in the back-end ( via "
+"dashboard). Unchecking this option will force the system to link to the "
+"history page in the front end. Be sure to include it in your menu if un-"
+"checked."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:859
+msgid "Display once form on multiple projects"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:860
+msgid ""
+"When checked, if all your form fields have the \"Display once\" option "
+"checked, the setting will propagate to all projects that have display once."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:866
+msgid "Display once form"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:871
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:878
+msgid "Disable back button cache"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:872
+msgid ""
+"When checked, the browser will be forced to revalidate with the server in "
+"case a previous response of the page due to a postback is available. Note: "
+"This setting when checked will affect all pages on your site, so do this "
+"with caution and if you truly want to use the no-cache header directive. It "
+"is unchecked by default."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:883
+msgid "Currency code and symbol"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:885
+msgid ""
+"If your not using PayPal and would rather provide the currency and currency "
+"symbol manually, set it below. Make sure \"Enable Payments\" is unchecked. "
+"When payments are enabled, currency and currency symbol are taken from the "
+"PayPal settings page."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:890
+msgid "Currency Code"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/generalsettings.php:902
+msgid "Currency Symbol"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:39
+msgid "Invoice settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:40
+msgid ""
+"The system sends out invoices based on specific events. The invoice will "
+"also include the information below if provided."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:47
+msgid ""
+"These settings go in the PDF document which is attached to the invoice "
+"email. To change the message in the email, use the email settings page by "
+"selecting \"invoice\" in the template list."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:53
+msgid "Company name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:61
+msgid "Your company name or your full name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:67
+msgid "Company number"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:72
+msgid "Your company number eg: VAT number"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:94
+msgid "Telephone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:122
+msgid "Additional note"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/invoicesettings.php:126
+msgid "Optional blob of text to appear under the invoice statement."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:148
+msgid "Manage Bookings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:149
+msgid ""
+"Confirm bookings, manually create new bookings, send out invoices and issue "
+"refunds"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:158
+msgid "No errors were encountered while sending the email."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:160
+msgid ""
+"An error was encountered while sending the email. \n"
+"\t\t\t\t\t\t\t\tEnsure that sending emails works with your wordpress \n"
+"\t\t\t\t\t\t\t\tinstance and then try again."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:171
+msgid "Delete booking"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:172
+msgid "You are about to delete a booking. Are you sure ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:195
+msgid ""
+"A new user was created and the login credentials were emailed to the user."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:196
+msgid "User was found in system."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:197
+msgid ""
+"Booking is now owned by the user and is also available in the users history "
+"page."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:207
+msgid "Assign ownership of booking to user"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:209
+msgid ""
+"Provide an email address. If user is not already registered, \n"
+"\t\t\t\t\t\tthen a new user is created and login credentials are emailed to "
+"the provided email address. The booking will be owned by this user where "
+"they can view the booking in their history page."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:218
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/userinfo.php:2
+msgid "User email"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:237
+msgid "Add user"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:261
+msgid "Create new bookings manually and email them to a new or existing user"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:265
+msgid "Select a project"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:277
+msgid "Listing of all bookings made"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:287
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:315
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:378
+msgid "Advanced options"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:295
+msgid "Filter by Booking Date"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:326
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:417
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/list.php:70
+msgid "Filter"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:334
+msgid "Filter by status"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:342
+msgid "No filter"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:352
+msgid "Pending (Unpaid)"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:383
+msgid "Find bookings by user"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:396
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:440
+msgid "Find"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:406
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:323
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:206
+msgid "Export"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:414
+msgid "All bookings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:424
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:341
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:226
+msgid "The current records only"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:435
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:352
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:346
+msgid "Export to CSV file"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:436
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:353
+msgid "CSV"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:488
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:387
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:500
+msgid "User not found. Try again."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managebookings.php:489
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:388
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:501
+msgid "User found. Username is"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:71
+msgid "Manage coupons"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:72
+msgid ""
+"Create coupons and email them to a user. \n"
+"\t\t\t\tIf you prefer to mass create and email coupons then get on the "
+"\"users\" page. \n"
+"\t\t\t\tYou'll be able to export users and coupons to MailChimp."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:81
+msgid "Email coupon"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:94
+msgid "Send Email"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:109
+msgid ""
+"There was a problem creating the coupon. Most likely the coupon code already "
+"exists, try a unique combination."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:114
+msgid "The coupon was created successfully."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:119
+msgid "The coupon was updated successfully."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:124
+msgid "The coupon was deleted successfully."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:129
+msgid "The coupon was emailed successfully."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:134
+msgid "Create new coupons"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:135
+msgid ""
+"Create new coupons or edit an existing coupon. If a project is selected then "
+"the coupon will apply for that project only. Note: If user adds bookings "
+"from more than one project in cart, the coupon wont apply."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:147
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:272
+msgid "Coupon applies to any project"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:155
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:281
+msgid "Expiration Date"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:174
+msgid "Attention: Coupon code"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:175
+msgid ""
+"By default a GUID is generated for the coupon code. This has the benefit of "
+"being unique and you will avoid clashing with other coupons this way. If you "
+"decide to change the coupon code, eg: 10%OFF or something similar this is "
+"also possible, but to reuse the same name you will need to delete the older "
+"one."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:180
+msgid "Coupon code"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:194
+msgid "Attention: Coupon type"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:195
+msgid ""
+"A regular coupon is limited to one use only. After that one use i.e. after "
+"the user checks out using this code, it is no longer valid. A super coupon "
+"on the other hand will allow multiple uses until the expiration date."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:200
+msgid "Coupon Type"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:233
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:322
+msgid "Order Minimum"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:248
+msgid "Attention: No. of coupons"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:249
+msgid ""
+"If you set a value greater than the default value of 1, coupon type will "
+"default to regular and the coupon code will be autogenerated internally."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:255
+msgid "No. of coupons"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:305
+msgid "List of all coupons"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/managecoupons.php:331
+msgid "All coupons"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:117
+msgid "List and manage users that made bookings."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:125
+msgid "MailChimp export status"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:126
+msgid "Emails added"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:135
+msgid "Error count"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:140
+msgid "Error msg"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:153
+msgid "Delete booking made by user"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:154
+msgid ""
+"You are about to delete all bookings made by this user. This is permanent. "
+"Are you sure ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:183
+msgid "User bookings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:184
+msgid "List of bookings made by selected user."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:196
+msgid "List of all users that made bookings."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:207
+msgid "Export users/coupons to CSV or MailChimp"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:216
+msgid "All users"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:233
+msgid "Mailing list"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:237
+msgid "Exports users displayed in the users grid to MailChimp."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:248
+msgid "Select mailing list"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:256
+msgid "Attention"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:257
+msgid ""
+"To export to MailChimp you'll have to first load the mailing list and select "
+"a list. \n"
+"\t\t\t\t\t\tIf you still see this alert, then double check your MailChimp "
+"API Key is set in \"General settings\" and verify if it is correct."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:305
+msgid ""
+"A discount value greater than 0 must be provided, otherwise no coupons are "
+"generated."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:347
+msgid "To CSV"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:353
+msgid "Export to MailChimp"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:354
+msgid "To MailChimp"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:360
+msgid "Loads/reloads MailChimp mailing list in the dropdownlist above"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:361
+msgid "Load mailing lists"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:368
+msgid "Coupon settings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:369
+msgid "Advanced"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:386
+msgid "Filter users by bookings made between"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/manageusers.php:425
+msgid "Find User by email"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:47
+msgid "PayPal"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:48
+msgid "Accept Payments Online with PayPal."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:70
+msgid "Password"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:76
+msgid "Signature"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:97
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:113
+msgid "Currency"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:111
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:121
+msgid "Item category"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:112
+msgid ""
+"\"Digital\" requires that you are signed up with PayPal and have a business "
+"account in \n"
+"\t\t\t\t\t\t\t\t\torder to take advantage of what it offers. \n"
+"\t\t\t\t\t\t\t\t\tIt differs from \"Physical\" where you will have a better "
+"fee structure per transaction \n"
+"\t\t\t\t\t\t\t\t\tif your selling items at low cost and they are strictly "
+"digital goods. We really aren't experts with all things PayPal, \n"
+"\t\t\t\t\t\t\t\t\tso you will have to look this one up. \"Physical\" on the "
+"other hand will just work right off the bat, all you need is a PayPal "
+"account."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:141
+msgid "Sandbox"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:142
+msgid ""
+"The PayPal Sandbox is a self-contained, virtual testing environment that "
+"mimics the \n"
+"\t\t\t\t\t\t\t\t\tlive PayPal production environment. In order to use the "
+"sandbox, check the box below and in addition you'll have to manually FTP\n"
+"\t\t\t\t\t\t\t\t\tinto the config file that contains the live environment "
+"public URL endpoints."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:155
+msgid ""
+"When checked, all Paypal checkout requests will be \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tmade towards the Paypal Sandbox test environment: "
+"https://www.sandbox.paypal.com"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:166
+msgid "Business name"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:170
+msgid "Display in PayPal hosted checkout pages"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:178
+msgid "Custom page style"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:182
+msgid "As configured in Merchant's account profile"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:191
+msgid "Header image URL"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:195
+msgid "The image will appear at the top left of the payment page"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:204
+msgid "Header border"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:208
+msgid "Color is applied around header"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:217
+msgid "Header background"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:221
+msgid "Color is applied in the header"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:230
+msgid "Page background"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:234
+msgid "Color is applied on payment page"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:243
+msgid "Minicart border"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:247
+msgid "Color applied in the Mini Cart on 1X flow"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:256
+msgid "Logo image URL"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:260
+msgid "Image to appear above the mini-cart"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/paypal.php:272
+msgid "Reset to sandbox"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/resources.php:34
+msgid "Edit string resources in the booking form"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/resources.php:35
+msgid ""
+"These string resources are used throughout Booki in the front-end. Customize "
+"each field as desired here or through WPML."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/resources.php:515
+msgid "Reset"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:12
+msgid "All data has been cleared. Your spick and span, sparky!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:33
+msgid ""
+"You are about to wipe out all data associated with booki. Attention: You "
+"cannot undo this operation."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:47
+msgid ""
+"Clear all data but leave the booki tables intact. \n"
+"\t\t\t\t\tYou still lose everything, careful. Brings the plugin back to a "
+"fresh install."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:55
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:92
+msgid "Clear"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:63
+msgid ""
+"Just delete everything, tables included. You lose everything. Plugin will be "
+"deactivated."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:80
+msgid "Clear all data in Booki"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:83
+msgid ""
+"Are you sure you want to clear all data in the Booki database tables ? You "
+"won't be able to undo this operation."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:103
+msgid "Delete Booki"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/uninstall.php:106
+msgid ""
+"Are you sure you want to delete Booki ? You won't be able to undo this "
+"operation."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookedformelements.php:7
+msgid "This is additional information collected during the booking process."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookedformelements.php:23
+msgid "Checked"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:39
+msgid "Booking details"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:55
+#, php-format
+msgid "Booked dates and time slots for %s"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:77
+msgid "Time based on the admin timezone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:79
+msgid "Admin Timezone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:91
+msgid "Time based on customer timezone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:93
+msgid "Customer Timezone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:160
+msgid "No days booked."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:171
+msgid "Cancel booked date confirmation"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:174
+msgid ""
+"When you cancel a booked date, the cost is deducted from the order total and "
+"the booked date is removed from the system. If there is only one date then "
+"the order is deleted."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:175
+msgid "Booki does not keep records of cancelled bookings. Proceed ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:200
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:307
+#, php-format
+msgid "Optional/s for %s"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:267
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:375
+msgid "No optionals in booking."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:277
+msgid "Cancel optional item confirmation"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:280
+msgid ""
+"When you cancel an optional item, the cost is deducted from the order total "
+"and the optional item is removed from the system."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:281
+msgid ""
+"Booki does not keep records of cancelled optional item selections. Proceed ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:385
+msgid "Cancel cascading item confirmation"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:388
+msgid ""
+"When you cancel an cascading item, the cost is deducted from the order total "
+"and the cascading item is removed from the system."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:389
+msgid ""
+"Booki does not keep records of cancelled cascading item selections. Proceed ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:423
+msgid "Due on arrival"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/bookingdetails.php:434
+msgid "Deposit Subtotal"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:34
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:40
+msgid "Refund Status"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:35
+msgid "Short Message:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:36
+msgid "Long Message:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:41
+msgid "Net refund amount:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:43
+msgid "Fee refund amount:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:45
+msgid "Gross refund amount:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:47
+msgid "Total refunded amount:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:50
+msgid "Refund status:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:52
+msgid "Pending reason:"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:61
+msgid "Refund transaction"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:62
+msgid ""
+"You can send refunds within 60 days of receiving a payment. Alternatively, "
+"you\n"
+"\t\t\tcan issue a refund directly through paypal, by going to the \n"
+"\t\t\tTransaction Details page for your transaction and clicking \"Issue a "
+"refund\"."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:86
+msgid "Type of refund being made."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:87
+msgid "Refund Type"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:98
+msgid ""
+"Amount to be refunded (If RefundType is full, do not set the amount). \n"
+"\t\t\t\t\t\tFor Decimal point use a dot [.] and Thousands sep use a comma [,]"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:100
+msgid "Refund amount"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:111
+msgid ""
+"Currency must be the same currency type used to make the \n"
+"\t\t\t\t\t\t\tpayment that is being refunded."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:124
+msgid "By default this will use any available funding source"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:125
+msgid "Refund source"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:130
+msgid "Use any available funding source"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:131
+msgid "Use the preferred funding source, as configured in the profile"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:132
+msgid "Use the balance as the funding source"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:133
+msgid "Use the eCheck funding source"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:142
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:143
+msgid "Memo"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/refundtransaction.php:154
+msgid "Issue refund"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/restrictedmodewarning.php:4
+msgid "Plugin is in Restricted Mode"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/restrictedmodewarning.php:5
+msgid ""
+"The plugin is in restricted mode and some operations or features, depending "
+"on the page may have been disabled. \n"
+"\t\t\tPurchase product for fully working version."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/timezonecontrol.php:7
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/timezonecontrol.php:10
+msgid "Current Timezone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/timezonecontrol.php:12
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/timezonecontrol.php:15
+msgid "Change Timezone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/timezonecontrol.php:21
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/timezonecontrol.php:24
+msgid "Timezone!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/timezonecontrol.php:21
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/timezonecontrol.php:24
+msgid "Booking time will adapt to the timezone you select below."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/timezonecontrol.php:27
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/timezonecontrol.php:30
+msgid "Region"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/timezonecontrol.php:31
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/timezonecontrol.php:34
+msgid "Select a region"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/partials/timezonecontrol.php:52
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/timezonecontrol.php:55
+msgid "Guess my timezone"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/bookingform.php:104
+msgid "You can only book {0} days at a time. Excess days not applied."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/bookingform.php:106
+msgid "You can only book {0} slots at a time. Excess time not applied."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/bookingform.php:141
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/bookingform.php:174
+msgid "Exhausted!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/bookingform.php:141
+msgid "All available slots have been added to cart. Check out ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/bookingform.php:149
+msgid "Booked!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/bookingform.php:149
+msgid "All available slots have been booked for this day."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/bookingform.php:174
+msgid "All Available days have been added to cart. Checkout ?"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/checkoutgrid.php:405
+msgid "Toggle Dropdown"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/master.php:14
+msgid "Humanics test, skip it"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/master.php:25
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/minicart.php:28
+msgid "Oops!"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/master.php:25
+msgid "All bookings exhausted."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/minicart.php:28
+msgid "Some items got booked by someone else before you could checkout."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/paypalcancelpaymentpartial.php:8
+msgid ""
+"Payment cancelled successfully! The order has been deleted as well. Thanks "
+"for trying to book with us. Hope to see you back."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/paypalcancelpaymentpartial.php:10
+msgid ""
+"Payment cancelled. The order is still available in your order history. If "
+"you change your mind, you can make payment directly through your order "
+"history page. Thankyou for booking with us."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/paypalcancelpaymentpartial.php:15
+msgid "Go to your order"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/templates/paypalcancelpaymentpartial.php:16
+msgid "history page"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/historypartial.php:6
+msgid "You need to login to view your history."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/historypartial.php:15
+msgid "User history"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/historypartial.php:16
+#, php-format
+msgid "Past bookings made by current user. YOU (%s)"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:6
+msgid "You do not have the necessary permissions to view stats."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:16
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:10
+msgid "A brief overview of your bookings."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:16
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:10
+msgid "A brief overview of bookings approved by you."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:23
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:19
+msgid "payments made"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:27
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:23
+msgid "payments pending"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:30
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:26
+msgid "Purchasers are made, not born. --Henry Ford"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:36
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:116
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:32
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:115
+msgid "Refunds"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:39
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:35
+msgid "Don't dwell on negativity."
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:50
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:46
+msgid "total bookings"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:54
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:50
+msgid "total amount earned"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:57
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:53
+msgid ""
+"I do not love the money. What I love is the making of it. --Philip Armour"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:63
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:59
+msgid "total discounts given"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:81
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:77
+msgid "Listing of all bookings approved by you"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:95
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:93
+msgid "Bookings made in the last 3 months"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:95
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:93
+msgid "Bookings you approved in the last 3 months"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:105
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:103
+msgid "Sales"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:106
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:104
+msgid "Sales in the last 3 months"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:106
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:104
+msgid "Sales of bookings you approved in the last 3 months"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:117
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:116
+msgid "Refunds in the last 3 months"
+msgstr ""
+
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/singlecolstatspartial.php:117
+#: C:\wamp\www\Booki\wp-content\plugins\booki/lib/views/user/statspartial.php:116
+msgid "Refunded bookings you approved in the last 3 months"
+msgstr ""

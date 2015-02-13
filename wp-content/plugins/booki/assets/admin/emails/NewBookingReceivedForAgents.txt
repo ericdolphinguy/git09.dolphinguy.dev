@@ -1,0 +1,11 @@
+<p>
+Dear agent,
+<br>
+A new booking #%orderId%, has been made on %orderDate%.
+</p>
+<p>
+As a quick reference, the order is detailed below :
+</p>
+%orderDetails%
+<br>
+%orderAddtionalInfo%

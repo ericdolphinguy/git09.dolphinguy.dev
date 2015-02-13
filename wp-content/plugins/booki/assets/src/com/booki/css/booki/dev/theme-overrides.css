@@ -1,0 +1,50 @@
+/*twentyfourteen theme limits content via max-width, 
+makes no sense, so override it!*/
+div.site-content div.entry-header,
+div.site-content div.entry-content,
+div.site-content div.entry-summary,
+div.site-content div.entry-meta,
+.page-content {
+	margin: 0 auto;
+	max-width:100%;
+}
+.booki .ui-datepicker-calendar td{
+	padding: 1px;
+}
+
+.booki button.close {
+	float: right;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1;
+	padding: 1px 6px;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .2;
+	filter: alpha(opacity=20);
+	background-color: transparent;
+	border-width: 0;
+}
+
+.booki button.close:hover, .booki button.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: .5;
+	filter: alpha(opacity=50);
+	background-color: transparent;
+	border-width: 0;
+}
+
+.booki .nav>li>a
+, .booki a.btn{
+	text-decoration: none;
+}
+
+.booki.tab-content.form-horizontal div.form-group{
+	margin-bottom: 15px;
+}
+.widget-area .widget .booki-list-widget input
+{
+	border: 1px solid #ccc;
+}
