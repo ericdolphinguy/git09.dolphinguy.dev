@@ -67,7 +67,8 @@
 
 		<!-- Banner -->
 		<div class="banner">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/HrqXTHCGVEo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+			<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/HrqXTHCGVEo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
+			<iframe src="//player.vimeo.com/video/119495554" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 		<!-- End Banner -->
 
