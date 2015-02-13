@@ -310,9 +310,13 @@ html {
                   float: left; }
                   html body #page #content #primary .offer .image .boxes .box.box-1 {
                     background: #fff;
+                    border: 2px solid #5d9849;
                     height: 122px;
                     margin: 10px 0 10px 10px;
                     width: 148px; }
+                    html body #page #content #primary .offer .image .boxes .box.box-1 img {
+                      height: 100%;
+                      width: 100%; }
               html body #page #content #primary .offer .image .meta {
                 bottom: 54px;
                 position: absolute;

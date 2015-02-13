@@ -28,7 +28,7 @@ get_header(); ?>
 
 					<div class="boxes">
 						<div class="box box-1">
-
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
 
 						<div class="box box-2">
@@ -120,6 +120,7 @@ get_header(); ?>
 
 					<div class="boxes">
 						<div class="box box-1">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-zip-line-adventure-01-small.jpg" />
 
 						</div>
 
@@ -204,6 +205,7 @@ get_header(); ?>
 
 					<div class="boxes">
 						<div class="box box-1">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg"" />
 
 						</div>
 
@@ -288,6 +290,7 @@ get_header(); ?>
 
 					<div class="boxes">
 						<div class="box box-1">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01-small.jpg" />
 
 						</div>
 
@@ -372,6 +375,7 @@ get_header(); ?>
 
 					<div class="boxes">
 						<div class="box box-1">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-santa-maria-snorkeling-01-small.jpg" />
 
 						</div>
 
@@ -456,7 +460,7 @@ get_header(); ?>
 
 					<div class="boxes">
 						<div class="box box-1">
-
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cabo-dolphins-01-small.jpg" />
 						</div>
 
 						<div class="box box-2">
