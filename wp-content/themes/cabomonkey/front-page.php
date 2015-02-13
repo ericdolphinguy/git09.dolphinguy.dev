@@ -47,7 +47,7 @@ get_header(); ?>
 
 					<div class="meta">
 						<div class="qrcode">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cactus-atv-tours.png" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qr-cabomonkey-com-tours-cabo-san-lucas-cactus-atv-tours.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
@@ -140,7 +140,7 @@ get_header(); ?>
 
 					<div class="meta">
 						<div class="qrcode">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/outdoor-zipline-adventure.png" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qr-cabomonkey-com-tours-cabo-san-lucas-outdoor-zip-line-adventure.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
@@ -205,7 +205,7 @@ get_header(); ?>
 
 					<div class="boxes">
 						<div class="box box-1">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg"" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-outback-camel-safari-01-small.jpg"" />
 
 						</div>
 
@@ -225,7 +225,7 @@ get_header(); ?>
 
 					<div class="meta">
 						<div class="qrcode">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/outback-camel-safari.png" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qr-cabomonkey-com-tours-cabo-san-lucas-outback-camel-safari.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
@@ -310,7 +310,7 @@ get_header(); ?>
 
 					<div class="meta">
 						<div class="qrcode">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-yacht-rentals.png" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qr-cabomonkey-com-tours-cabo-san-lucas-cabo-sails.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
@@ -395,7 +395,7 @@ get_header(); ?>
 
 					<div class="meta">
 						<div class="qrcode">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/santa-maria-snorkeling.png" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qr-cabomonkey-com-tours-cabo-san-lucas-manta-scuba.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
@@ -479,7 +479,7 @@ get_header(); ?>
 
 					<div class="meta">
 						<div class="qrcode">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-dolphins.png" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qr-cabomonkey-com-tours-cabo-san-luca-cabo-dolphins.png" />
 						</div>
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
