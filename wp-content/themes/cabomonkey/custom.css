@@ -76,8 +76,8 @@ html {
                 background: url(images/logo.png) center center no-repeat;
                 background-size: 100% auto;
                 margin: 0 auto;
-                padding: 0 0 100%;
-                width: 100%; }
+                padding: 0 0 75%;
+                width: 75%; }
               html body #page #content .header .main-navigation .menu-block .menu {
                 padding: 0 28px; }
                 html body #page #content .header .main-navigation .menu-block .menu .menu-item {
@@ -85,7 +85,7 @@ html {
                   html body #page #content .header .main-navigation .menu-block .menu .menu-item a {
                     color: #fff;
                     font-family: "momstypewriterregular", serif;
-                    font-size: 18px; }
+                    font-size: 14px; }
               html body #page #content .header .main-navigation .menu-block .menu-menu-2-container {
                 display: none; }
             html body #page #content .header .main-navigation .texts {
