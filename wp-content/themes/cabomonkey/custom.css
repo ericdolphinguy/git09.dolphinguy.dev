@@ -294,6 +294,14 @@ html {
               html body #page #content #primary .offer .image > img {
                 height: 100%;
                 width: 100%; }
+              html body #page #content #primary .offer .image .title {
+                color: #fff;
+                font-family: "momstypewriterregular", serif;
+                font-size: 36px;
+                left: 0;
+                padding: 12px;
+                position: absolute;
+                top: 0; }
               html body #page #content #primary .offer .image .boxes {
                 bottom: 54px;
                 left: 0;

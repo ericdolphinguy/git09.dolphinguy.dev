@@ -22,6 +22,10 @@ get_header(); ?>
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01.jpg" />
 
+					<div class="title">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-3.png" />CACTUS ATV TOURS
+					</div>
+
 					<div class="boxes">
 						<div class="box box-1">
 
@@ -110,6 +114,10 @@ get_header(); ?>
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-zip-line-adventure-01.jpg" />
 
+					<div class="title">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-3.png" />OUTDOOR ZIP LINE ADVENTURE
+					</div>
+
 					<div class="boxes">
 						<div class="box box-1">
 
@@ -189,6 +197,10 @@ get_header(); ?>
 			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-outback-camel-safari-01.jpg" />
+
+					<div class="title">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-3.png" />OUTBACK & CAMEL SAFARI
+					</div>
 
 					<div class="boxes">
 						<div class="box box-1">
@@ -270,6 +282,10 @@ get_header(); ?>
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01.jpg" />
 
+					<div class="title">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-3.png" />CABO SAILS
+					</div>
+
 					<div class="boxes">
 						<div class="box box-1">
 
@@ -350,6 +366,10 @@ get_header(); ?>
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-santa-maria-snorkeling-01.jpg" />
 
+					<div class="title">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-3.png" />MANTA SCUBA
+					</div>
+
 					<div class="boxes">
 						<div class="box box-1">
 
@@ -429,6 +449,10 @@ get_header(); ?>
 			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cabo-dolphins-01.jpg" />
+
+					<div class="title">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-3.png" />CABO DOLPHINS
+					</div>
 
 					<div class="boxes">
 						<div class="box box-1">
