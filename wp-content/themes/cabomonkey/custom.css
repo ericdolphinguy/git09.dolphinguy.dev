@@ -21,7 +21,7 @@
 html {
   min-height: 100%; }
   html body {
-    background: #719539 url(images/background.jpg) center top;
+    background: #719539 url(images/background.jpg) center top fixed;
     min-height: 100%; }
     html body #page {
       position: relative; }
