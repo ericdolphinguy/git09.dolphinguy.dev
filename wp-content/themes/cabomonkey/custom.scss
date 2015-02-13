@@ -362,6 +362,23 @@ html {
                 width: 100%;
               }
 
+              .boxes {
+                bottom: 54px;
+                left: 0;
+                position: absolute;
+
+                .box {
+                  float: left;
+
+                  &.box-1 {
+                    background: #fff;
+                    height: 122px;
+                    margin: 10px 0 10px 10px;
+                    width: 148px;
+                  }
+                }
+              }
+
               .meta {
                 bottom: 54px;
                 position: absolute;

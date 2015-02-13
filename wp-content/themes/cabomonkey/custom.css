@@ -294,6 +294,17 @@ html {
               html body #page #content #primary .offer .image > img {
                 height: 100%;
                 width: 100%; }
+              html body #page #content #primary .offer .image .boxes {
+                bottom: 54px;
+                left: 0;
+                position: absolute; }
+                html body #page #content #primary .offer .image .boxes .box {
+                  float: left; }
+                  html body #page #content #primary .offer .image .boxes .box.box-1 {
+                    background: #fff;
+                    height: 122px;
+                    margin: 10px 0 10px 10px;
+                    width: 148px; }
               html body #page #content #primary .offer .image .meta {
                 bottom: 54px;
                 position: absolute;

@@ -21,6 +21,26 @@ get_header(); ?>
 				<!-- Big image on the left side. -->
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01.jpg" />
+
+					<div class="boxes">
+						<div class="box box-1">
+
+						</div>
+
+						<div class="box box-2">
+
+							<div id="TA_certificateOfExcellence614" class="TA_certificateOfExcellence">
+								<ul id="HNielMW" class="TA_links Nfvqg7HRzJP">
+									<li id="WfOiuYfixUS" class="BlzC8c">
+										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+									</li>
+								</ul>
+							</div>
+							<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=614&amp;locationId=1437325&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
+
+						</div>
+					</div>
+
 					<div class="meta">
 						<div class="qrcode">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cactus-atv-tours.png" />
@@ -89,6 +109,26 @@ get_header(); ?>
 			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-zip-line-adventure-01.jpg" />
+
+					<div class="boxes">
+						<div class="box box-1">
+
+						</div>
+
+						<div class="box box-2">
+
+							<div id="TA_certificateOfExcellence796" class="TA_certificateOfExcellence">
+								<ul id="gBrphHP49j" class="TA_links lq5yX2KXj">
+									<li id="wN9sFSysY0wc" class="1Hn7yll6">
+										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+									</li>
+								</ul>
+							</div>
+							<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=796&amp;locationId=1372071&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
+
+						</div>
+					</div>
+
 					<div class="meta">
 						<div class="qrcode">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/outdoor-zipline-adventure.png" />
@@ -149,6 +189,26 @@ get_header(); ?>
 			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-outback-camel-safari-01.jpg" />
+
+					<div class="boxes">
+						<div class="box box-1">
+
+						</div>
+
+						<div class="box box-2">
+
+							<div id="TA_certificateOfExcellence759" class="TA_certificateOfExcellence">
+								<ul id="cOJckZJfz" class="TA_links ukTls3mNbxN">
+									<li id="KnFxymzyh9" class="oIAV4wAIEaz">
+										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+									</li>
+								</ul>
+							</div>
+							<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=759&amp;locationId=801680&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
+
+						</div>
+					</div>
+
 					<div class="meta">
 						<div class="qrcode">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/outback-camel-safari.png" />
@@ -209,6 +269,26 @@ get_header(); ?>
 			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-yacht-rentals-01.jpg" />
+
+					<div class="boxes">
+						<div class="box box-1">
+
+						</div>
+
+						<div class="box box-2">
+
+							<div id="TA_certificateOfExcellence242" class="TA_certificateOfExcellence">
+								<ul id="9JiUm8j" class="TA_links ivXqj3">
+									<li id="tAEVg5" class="c3pA8sjjs">
+										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+									</li>
+								</ul>
+							</div>
+							<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=242&amp;locationId=1758961&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
+
+						</div>
+					</div>
+
 					<div class="meta">
 						<div class="qrcode">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-yacht-rentals.png" />
@@ -269,6 +349,26 @@ get_header(); ?>
 			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-santa-maria-snorkeling-01.jpg" />
+
+					<div class="boxes">
+						<div class="box box-1">
+
+						</div>
+
+						<div class="box box-2">
+
+							<div id="TA_certificateOfExcellence865" class="TA_certificateOfExcellence">
+								<ul id="RcDTQkAyA" class="TA_links BMAHTeSPr5VS">
+									<li id="4ojmKj9PZ" class="HieYbVaSy">
+										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+									</li>
+								</ul>
+							</div>
+							<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=865&amp;locationId=1522775&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
+
+						</div>
+					</div>
+
 					<div class="meta">
 						<div class="qrcode">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/santa-maria-snorkeling.png" />
@@ -329,6 +429,26 @@ get_header(); ?>
 			<div class="offer">
 				<div class="image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cabo-dolphins-01.jpg" />
+
+					<div class="boxes">
+						<div class="box box-1">
+
+						</div>
+
+						<div class="box box-2">
+
+							<div id="TA_excellent164" class="TA_excellent">
+								<ul id="4KXmBpd" class="TA_links NVVkcOtM">
+									<li id="EDeBt5xqO80V" class="b345smhYhOM">
+										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://e2.tacdn.com/img2/widget/tripadvisor_logo_115x18.gif" alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO"/></a>
+									</li>
+								</ul>
+							</div>
+							<script src="http://www.jscache.com/wejs?wtype=excellent&amp;uniq=164&amp;locationId=7306367&amp;lang=en_US&amp;display_version=2"></script>
+
+						</div>
+					</div>
+
 					<div class="meta">
 						<div class="qrcode">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-dolphins.png" />
