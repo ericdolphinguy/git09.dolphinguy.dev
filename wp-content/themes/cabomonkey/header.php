@@ -32,23 +32,29 @@
 
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 
-				<!-- Tried to use a div instead of button but the break the script. -->
+				<!-- left menu toggle -->
 				<button class="menu-toggle" aria-controls="menu" aria-expanded="false"></button>
 
-				<div class="chat">
-				</div><!-- .chat -->
+				<!-- chat button at the center top -->
+				<div class="chat"></div>
 
+				<!-- right menu toggle -->
 				<div class="menu-toggle-2"></div>
 
+				<!-- small logo to the right -->
 				<div class="logo">
 					<a href="<?php echo site_url('/'); ?>">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-2.png" />
 					</a>
-				</div><!-- .logo -->
+				</div>
 
 				<div class="menu-block">
+
+					<!-- Big logo on circle -->
 					<div class="site-branding">
-					</div><!-- .site-branding -->
+					</div>
+
+					<!-- 2 menus but only one will be visible at a time. -->
 					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 					<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>
 				</div>
@@ -58,15 +64,17 @@
 		</div>
 		<!-- End Content Header -->
 
-		<!-- Banner -->
+		<!-- Banner, large video -->
 		<div class="banner">
 <!--			<iframe src="//player.vimeo.com/video/119495554" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
 			<iframe src="" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 		<!-- End Banner -->
 
-		<!-- Banner 2 -->
+		<!-- Banner 2, text to the left and image buttons to the right. -->
 		<div class="banner-2">
+
+			<!-- Text with custom fonts. -->
 			<div class="reasons">
 				<div class="texts">
 					<div class="text text-1">3 REASONS YOU</div>
@@ -74,6 +82,8 @@
 					<div class="text text-3">FROM <span>CABOMONKEY!!!</span></div>
 				</div>
 			</div>
+
+			<!-- Image buttons (circles) -->
 			<div class="guarantees">
 				<div class="guarantee">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/good-weather.png" />
@@ -85,27 +95,37 @@
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/30-min-cancels.png" />
 				</div>
 			</div>
+
 		</div>
 		<!-- End Banner 2 -->
 
-		<!-- Banner 3 -->
+		<!-- Banner 3, cactus to the left and tripadvisor to the right. -->
 		<div class="banner-3">
+
 			<div class="image">
+
+				<!-- Cactus Image -->
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-6.png" />
 
+				<!-- White Text -->
 				<div class="inner">
 					<div class="texts">
 						<div class="text text-1">SUPERCHARGE YOUR VACATION!</div>
 						<div class="text text-2">CHOOSE CABOMONKEY!</div>
 					</div>
 				</div>
+
 			</div>
+
+			<!-- TripAdvisor Review -->
 			<div class="tripadvisor">
 
+				<!-- tripadvisor logo -->
 				<div class="tripadvisor_image">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 				</div>
 
+				<!-- Review widget -->
 				<div id="TA_cdswritereviewlg615" class="TA_cdswritereviewlg">
 					<ul id="AvarNuY" class="TA_links SfBMBEUlon">
 						<li id="Rjy2LZ" class="s5j7dus">
@@ -116,5 +136,6 @@
 				<script src="http://www.jscache.com/wejs?wtype=cdswritereviewlg&amp;uniq=615&amp;locationId=1148450&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
 
 			</div>
+
 		</div>
 		<!-- End Banner 3 -->
