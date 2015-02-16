@@ -545,10 +545,6 @@ html {
             width: 300px; }
         html body #page #content .header .main-navigation .texts {
           display: block; }
-        html body #page #content .header .main-navigation.toggled .menu-block {
-          padding: 0 0 50px; }
-          html body #page #content .header .main-navigation.toggled .menu-block .site-branding {
-            display: block; }
         html body #page #content .header .logo {
           padding: 12px;
           position: static;
@@ -627,45 +623,55 @@ html {
               padding: 0 0 12px; }
         html body #page #colophon .site-info {
           margin: 12px 0; }
-    html body.toggled #page #masthead {
-      display: none; }
-    html body.toggled #page #content .header {
-      background: #719539; }
-      html body.toggled #page #content .header .main-navigation .texts {
+    html body.toggled {
+      background-image: none; }
+      html body.toggled #page #masthead {
         display: none; }
-      html body.toggled #page #content .header .main-navigation .menu-menu-1-container {
-        display: block; }
-      html body.toggled #page #content .header .main-navigation .menu-menu-2-container {
+      html body.toggled #page #content .header {
+        background: #719539; }
+        html body.toggled #page #content .header .main-navigation .menu-block .site-branding {
+          display: block; }
+        html body.toggled #page #content .header .main-navigation .menu-block .texts {
+          display: none; }
+        html body.toggled #page #content .header .main-navigation .menu-block .menu-menu-1-container {
+          display: block; }
+        html body.toggled #page #content .header .main-navigation .menu-block .menu-menu-2-container {
+          display: none; }
+      html body.toggled #page #content .banner {
         display: none; }
-    html body.toggled #page #content .banner {
-      display: none; }
-    html body.toggled #page #content .banner-2 {
-      display: none; }
-    html body.toggled #page #content .banner-3 {
-      display: none; }
-    html body.toggled #page #content #primary {
-      display: none; }
-    html body.toggled #page #colophon {
-      display: none; }
-    html body.toggled-2 #page #masthead {
-      display: none; }
-    html body.toggled-2 #page #content .header {
-      background: #719539; }
-      html body.toggled-2 #page #content .header .main-navigation .texts {
+      html body.toggled #page #content .banner-2 {
         display: none; }
-      html body.toggled-2 #page #content .header .main-navigation .menu-block .menu-menu-1-container {
+      html body.toggled #page #content .banner-3 {
         display: none; }
-      html body.toggled-2 #page #content .header .main-navigation .menu-block .menu-menu-2-container {
-        display: block; }
-    html body.toggled-2 #page #content .banner {
-      display: none; }
-    html body.toggled-2 #page #content .banner-2 {
-      display: none; }
-    html body.toggled-2 #page #content .banner-3 {
-      display: none; }
-    html body.toggled-2 #page #content #primary {
-      display: none; }
-    html body.toggled-2 #page #colophon {
-      display: none; } }
+      html body.toggled #page #content #primary {
+        display: none; }
+      html body.toggled #page #colophon {
+        display: none; }
+    html body.toggled-2 {
+      background-image: none; }
+      html body.toggled-2 #page #masthead {
+        display: none; }
+      html body.toggled-2 #page #content .header {
+        background: #719539; }
+        html body.toggled-2 #page #content .header .main-navigation .texts {
+          display: none; }
+        html body.toggled-2 #page #content .header .main-navigation .menu-block .site-branding {
+          display: block; }
+        html body.toggled-2 #page #content .header .main-navigation .menu-block .texts {
+          display: none; }
+        html body.toggled-2 #page #content .header .main-navigation .menu-block .menu-menu-1-container {
+          display: none; }
+        html body.toggled-2 #page #content .header .main-navigation .menu-block .menu-menu-2-container {
+          display: block; }
+      html body.toggled-2 #page #content .banner {
+        display: none; }
+      html body.toggled-2 #page #content .banner-2 {
+        display: none; }
+      html body.toggled-2 #page #content .banner-3 {
+        display: none; }
+      html body.toggled-2 #page #content #primary {
+        display: none; }
+      html body.toggled-2 #page #colophon {
+        display: none; } }
 
 /*# sourceMappingURL=custom.css.map */

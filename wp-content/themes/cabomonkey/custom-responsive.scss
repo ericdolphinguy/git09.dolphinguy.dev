@@ -80,16 +80,6 @@
               .texts {
                 display: block;
               }
-
-              &.toggled {
-                .menu-block {
-                  padding: 0 0 50px;
-
-                  .site-branding {
-                    display: block;
-                  }
-                }
-              }
             }
 
             .logo {
@@ -229,6 +219,8 @@
       */
 
       &.toggled {
+        background-image: none;
+
         #page {
           #masthead {
             display: none;
@@ -239,16 +231,22 @@
               background: $color_background;
 
               .main-navigation {
-                .texts {
-                  display: none;
-                }
+                .menu-block {
+                  .site-branding {
+                    display: block;
+                  }
 
-                .menu-menu-1-container {
-                  display: block;
-                }
+                  .texts {
+                    display: none;
+                  }
 
-                .menu-menu-2-container {
-                  display: none;
+                  .menu-menu-1-container {
+                    display: block;
+                  }
+
+                  .menu-menu-2-container {
+                    display: none;
+                  }
                 }
               }
             }
@@ -282,6 +280,8 @@
       */
 
       &.toggled-2 {
+        background-image: none;
+
         #page {
           #masthead {
             display: none;
@@ -297,6 +297,14 @@
                 }
 
                 .menu-block {
+                  .site-branding {
+                    display: block;
+                  }
+
+                  .texts {
+                    display: none;
+                  }
+
                   .menu-menu-1-container {
                     display: none;
                   }

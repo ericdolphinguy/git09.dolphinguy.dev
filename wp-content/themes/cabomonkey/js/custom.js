@@ -1,8 +1,10 @@
 jQuery(document).ready(function($){
     $('.menu-toggle').click(function(){
+        $('body,#site-navigation').removeClass('toggled-2');
         $('body,#site-navigation').toggleClass('toggled');
     });
     $('.menu-toggle-2').click(function(){
-        $('body').toggleClass('toggled-2');
+        $('body,#site-navigation').removeClass('toggled-1');
+        $('body,#site-navigation').toggleClass('toggled-2');
     });
 });
