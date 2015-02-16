@@ -88,29 +88,6 @@ html {
                     font-size: 14px; }
               html body #page #content .header .main-navigation .menu-block .menu-menu-2-container {
                 display: none; }
-            html body #page #content .header .main-navigation .texts {
-              color: #fff;
-              display: none;
-              font-family: "dead_kansasregular", arial, sans-serif;
-              font-weight: normal;
-              line-height: normal;
-              text-shadow: 0 12px 12px rgba(0, 0, 0, 0.56); }
-              html body #page #content .header .main-navigation .texts .text-1 {
-                color: #71a807;
-                font-size: 72px;
-                margin: 0 0 12px; }
-              html body #page #content .header .main-navigation .texts .text-2 {
-                color: #ae926f;
-                font-size: 54px;
-                margin: 0 0 12px; }
-              html body #page #content .header .main-navigation .texts .text-3 {
-                color: #fec901;
-                font-size: 68px;
-                margin: 0 0 12px; }
-              html body #page #content .header .main-navigation .texts .text-4 {
-                font-family: "321impactregular", arial, sans-serif;
-                font-size: 33px;
-                margin: 0 0 12px; }
           html body #page #content .header .chat {
             background: url(images/chat-now.png) center center no-repeat;
             color: #fff;
@@ -543,8 +520,6 @@ html {
             margin: 0 auto;
             padding: 0 45px;
             width: 300px; }
-        html body #page #content .header .main-navigation .texts {
-          display: block; }
         html body #page #content .header .logo {
           padding: 12px;
           position: static;
@@ -631,8 +606,6 @@ html {
         background: #719539; }
         html body.toggled #page #content .header .main-navigation .menu-block .site-branding {
           display: block; }
-        html body.toggled #page #content .header .main-navigation .menu-block .texts {
-          display: none; }
         html body.toggled #page #content .header .main-navigation .menu-block .menu-menu-1-container {
           display: block; }
         html body.toggled #page #content .header .main-navigation .menu-block .menu-menu-2-container {
@@ -653,12 +626,8 @@ html {
         display: none; }
       html body.toggled-2 #page #content .header {
         background: #719539; }
-        html body.toggled-2 #page #content .header .main-navigation .texts {
-          display: none; }
         html body.toggled-2 #page #content .header .main-navigation .menu-block .site-branding {
           display: block; }
-        html body.toggled-2 #page #content .header .main-navigation .menu-block .texts {
-          display: none; }
         html body.toggled-2 #page #content .header .main-navigation .menu-block .menu-menu-1-container {
           display: none; }
         html body.toggled-2 #page #content .header .main-navigation .menu-block .menu-menu-2-container {

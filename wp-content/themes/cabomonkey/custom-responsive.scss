@@ -76,10 +76,6 @@
                   width: 300px;
                 }
               }
-
-              .texts {
-                display: block;
-              }
             }
 
             .logo {
@@ -236,10 +232,6 @@
                     display: block;
                   }
 
-                  .texts {
-                    display: none;
-                  }
-
                   .menu-menu-1-container {
                     display: block;
                   }
@@ -292,17 +284,9 @@
               background: $color_background;
 
               .main-navigation {
-                .texts {
-                  display: none;
-                }
-
                 .menu-block {
                   .site-branding {
                     display: block;
-                  }
-
-                  .texts {
-                    display: none;
                   }
 
                   .menu-menu-1-container {
