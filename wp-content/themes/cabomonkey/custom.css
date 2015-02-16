@@ -239,7 +239,9 @@ html {
             width: 362px;
             text-align: center; }
             html body #page #content .banner-3 .tripadvisor .tripadvisor_image {
-              padding: 0 0 12px; }
+              float: right;
+              padding: 0 0 12px;
+              width: 240px; }
               html body #page #content .banner-3 .tripadvisor .tripadvisor_image img {
                 width: 100px; }
             html body #page #content .banner-3 .tripadvisor > img {

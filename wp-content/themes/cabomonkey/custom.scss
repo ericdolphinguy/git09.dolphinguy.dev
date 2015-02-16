@@ -285,7 +285,9 @@ html {
             text-align: center;
 
             .tripadvisor_image {
+              float: right;
               padding: 0 0 12px;
+              width: 240px;
 
               img {
                 width: 100px;
