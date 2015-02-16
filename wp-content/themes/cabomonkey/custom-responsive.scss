@@ -171,7 +171,7 @@
                   .coupon_image {
                     display: block;
                     float: left;
-                    height: 100px;
+                    padding: 0 12px 0 0;
                     width: 50%;
 
                     img {
@@ -187,7 +187,16 @@
 
                 .tripadvisor {
                   float: right;
+                  padding: 0 0 0 12px;
                   width: 33.333%;
+
+                  .ta_image {
+                    display: none;
+                  }
+
+                  .TA_cdsratingsonlynarrow {
+                    width: 100%;
+                  }
                 }
               }
             }

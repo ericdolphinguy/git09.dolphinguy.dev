@@ -100,6 +100,7 @@ html {
             top: 22px;
             right: 36px; }
         html body #page #content .banner {
+          background: #ccb693;
           height: 0;
           position: relative;
           padding-bottom: 56.25%; }
@@ -587,7 +588,7 @@ html {
             html body #page #content #primary .offer .ticket-box .inner .coupon_image {
               display: block;
               float: left;
-              height: 100px;
+              padding: 0 12px 0 0;
               width: 50%; }
               html body #page #content #primary .offer .ticket-box .inner .coupon_image img {
                 width: 100%; }
@@ -596,7 +597,12 @@ html {
               width: 50%; }
           html body #page #content #primary .offer .ticket-box .tripadvisor {
             float: right;
+            padding: 0 0 0 12px;
             width: 33.333%; }
+            html body #page #content #primary .offer .ticket-box .tripadvisor .ta_image {
+              display: none; }
+            html body #page #content #primary .offer .ticket-box .tripadvisor .TA_cdsratingsonlynarrow {
+              width: 100%; }
       html body #page #colophon {
         padding: 0 12px; }
         html body #page #colophon .pickup {

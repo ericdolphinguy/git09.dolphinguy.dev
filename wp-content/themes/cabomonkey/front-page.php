@@ -18,19 +18,26 @@ get_header(); ?>
 			<!-- Every row is an offer-->
 			<div class="offer">
 
-				<!-- Big image on the left side. -->
+				<!-- Big image on the left side with other elements. -->
 				<div class="image">
+
+					<!-- the image -->
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01.jpg" />
 
+					<!-- image title with small logo -->
 					<div class="title">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-3.png" />CACTUS ATV TOURS
 					</div>
 
+					<!-- boxes to the lower left -->
 					<div class="boxes">
+
+						<!-- image -->
 						<div class="box box-1">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
 
+						<!-- tripadvisor widget -->
 						<div class="box box-2">
 
 							<div id="TA_certificateOfExcellence614" class="TA_certificateOfExcellence">
@@ -43,15 +50,22 @@ get_header(); ?>
 							<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=614&amp;locationId=1437325&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
 
 						</div>
+
 					</div>
 
+					<!-- qrcode and notes/warnings -->
 					<div class="meta">
+
+						<!-- image qrcode -->
 						<div class="qrcode">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qr-cabomonkey-com-tours-cabo-san-lucas-cactus-atv-tours.png" />
 						</div>
+
+						<!-- notes -->
 						<div class="notes">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image-12.png" />
 						</div>
+
 					</div>
 				</div>
 
@@ -61,10 +75,12 @@ get_header(); ?>
 					<!-- Trip advisor sub section. -->
 					<div class="tripadvisor">
 
+						<!-- tripadvisor logo -->
 						<div class="ta_image">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
 
+						<!-- first tripadvisor widget -->
 						<div id="TA_cdsratingsonlynarrow284" class="TA_cdsratingsonlynarrow">
 							<ul id="3Fmr3db9A" class="TA_links fEk91A83lN">
 								<li id="H4gSGF9cb" class="Bk8fQtzw9">
@@ -73,6 +89,16 @@ get_header(); ?>
 							</ul>
 						</div>
 						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=284&amp;locationId=1437325&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+
+						<!-- second tripadvisor widget -->
+						<div id="TA_certificateOfExcellence614" class="TA_certificateOfExcellence">
+							<ul id="HNielMW" class="TA_links Nfvqg7HRzJP">
+								<li id="WfOiuYfixUS" class="BlzC8c">
+									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+								</li>
+							</ul>
+						</div>
+						<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=614&amp;locationId=1437325&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
 
 					</div>
 
@@ -403,7 +429,6 @@ get_header(); ?>
 					<div class="boxes">
 						<div class="box box-1">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-santa-maria-snorkeling-01-small.jpg" />
-
 						</div>
 
 						<div class="box box-2">
