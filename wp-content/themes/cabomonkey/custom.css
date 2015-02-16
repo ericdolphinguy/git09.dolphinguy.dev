@@ -241,19 +241,17 @@ html {
             html body #page #content .banner-3 .tripadvisor .tripadvisor_image {
               float: right;
               padding: 0 0 12px;
-              width: 240px; }
+              width: 100%; }
               html body #page #content .banner-3 .tripadvisor .tripadvisor_image img {
                 width: 100px; }
-            html body #page #content .banner-3 .tripadvisor > img {
-              left: -120px;
-              position: absolute;
-              top: -90px;
-              z-index: 9; }
             html body #page #content .banner-3 .tripadvisor .TA_cdswritereviewlg {
-              background: #fff;
               float: right;
               height: 250px;
-              width: 240px; }
+              width: 100%; }
+              html body #page #content .banner-3 .tripadvisor .TA_cdswritereviewlg .widWRL {
+                background: #fff;
+                max-width: none;
+                width: 100%; }
         html body #page #content #primary {
           padding: 35px 0 0; }
           html body #page #content #primary .offer {

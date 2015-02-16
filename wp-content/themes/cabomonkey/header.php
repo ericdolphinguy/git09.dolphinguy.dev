@@ -106,8 +106,6 @@
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 				</div>
 
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/enrique.png" />
-
 				<div id="TA_cdswritereviewlg615" class="TA_cdswritereviewlg">
 					<ul id="AvarNuY" class="TA_links SfBMBEUlon">
 						<li id="Rjy2LZ" class="s5j7dus">
