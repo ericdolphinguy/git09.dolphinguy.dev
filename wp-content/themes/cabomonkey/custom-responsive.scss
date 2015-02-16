@@ -268,7 +268,9 @@
         #page {
 
           #masthead {
-            @include clearfix;
+            display: none;
+
+            /*@include clearfix;
             background: $color_background;
             display: block;
             left: 0;
@@ -298,7 +300,7 @@
                   @include transform(rotate(0));
                 }
               }
-            }
+            }*/
           }
 
           #content {
@@ -308,6 +310,16 @@
               .main-navigation {
                 .texts {
                   display: none;
+                }
+
+                .menu-block {
+                  .menu-menu-1-container {
+                    display: none;
+                  }
+
+                  .menu-menu-2-container {
+                    display: block;
+                  }
                 }
               }
             }
