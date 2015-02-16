@@ -356,12 +356,13 @@ html {
                   html body #page #content #primary .offer .coupon .tripadvisor .TA_cdsratingsonlynarrow .narrow {
                     width: 100%; }
               html body #page #content #primary .offer .coupon .inner {
-                background: #322a1f;
                 margin: 0 auto;
                 overflow: hidden;
                 width: 342px; }
                 html body #page #content #primary .offer .coupon .inner .coupon_image {
                   display: none; }
+                html body #page #content #primary .offer .coupon .inner .inner-2 {
+                  background: #322a1f; }
                 html body #page #content #primary .offer .coupon .inner .title {
                   color: #fec900;
                   font-family: "momstypewriterregular", serif;

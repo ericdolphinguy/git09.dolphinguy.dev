@@ -174,30 +174,36 @@ get_header(); ?>
 
 					</div>
 					<div class="inner">
-						<div class="title">
-							OUTDOOR ZIP LINE ADVENTURE
+						<div class="coupon_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
-						<div class="title-2">
-							The Adventure
-						</div>
-						<div class="text">
-							Exhilirating and exciting, our Outdoor Adventure combines amazing activities with the impressive scenery of Boca de la Sierra.
-							Zip line across canyons above a beautiful desert stream, rappel down a rock wall, traverse various
-						</div>
-						<div class="buttons clear">
-							<div class="details buttn">Details</div>
-							<div class="bookit buttn">Book It</div>
-						</div>
-						<div class="ticket">
-							<div class="adults">
-								<div class="price1">$150</div>
-								<div class="price2">$125</div>
-								<div class="category">ADULTS</div>
+
+						<div class="inner-2">
+							<div class="title">
+								OUTDOOR ZIP LINE ADVENTURE
 							</div>
-							<div class="kids">
-								<div class="price1">$100</div>
-								<div class="price2">$75</div>
-								<div class="category">KIDS</div>
+							<div class="title-2">
+								The Adventure
+							</div>
+							<div class="text">
+								Exhilirating and exciting, our Outdoor Adventure combines amazing activities with the impressive scenery of Boca de la Sierra.
+								Zip line across canyons above a beautiful desert stream, rappel down a rock wall, traverse various
+							</div>
+							<div class="buttons clear">
+								<div class="details buttn">Details</div>
+								<div class="bookit buttn">Book It</div>
+							</div>
+							<div class="ticket">
+								<div class="adults">
+									<div class="price1">$150</div>
+									<div class="price2">$125</div>
+									<div class="category">ADULTS</div>
+								</div>
+								<div class="kids">
+									<div class="price1">$100</div>
+									<div class="price2">$75</div>
+									<div class="category">KIDS</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -259,30 +265,36 @@ get_header(); ?>
 
 					</div>
 					<div class="inner">
-						<div class="title">
-							OUTBACK & CAMEL SAFARI
+						<div class="coupon_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
-						<div class="title-2">
-							The Adventure
-						</div>
-						<div class="text">
-							Outback Camel Safari takes you on a voyage of discovery as you journey away from the tourist areas and delve deeper into the stunning
-							outback and seduced wonders of the Baja peninsula. Enjoy spectacular views, a gentle
-						</div>
-						<div class="buttons clear">
-							<div class="details buttn">Details</div>
-							<div class="bookit buttn">Book It</div>
-						</div>
-						<div class="ticket">
-							<div class="adults">
-								<div class="price1">$150</div>
-								<div class="price2">$125</div>
-								<div class="category">ADULTS</div>
+
+						<div class="inner-2">
+							<div class="title">
+								OUTBACK & CAMEL SAFARI
 							</div>
-							<div class="kids">
-								<div class="price1">$100</div>
-								<div class="price2">$75</div>
-								<div class="category">KIDS</div>
+							<div class="title-2">
+								The Adventure
+							</div>
+							<div class="text">
+								Outback Camel Safari takes you on a voyage of discovery as you journey away from the tourist areas and delve deeper into the stunning
+								outback and seduced wonders of the Baja peninsula. Enjoy spectacular views, a gentle
+							</div>
+							<div class="buttons clear">
+								<div class="details buttn">Details</div>
+								<div class="bookit buttn">Book It</div>
+							</div>
+							<div class="ticket">
+								<div class="adults">
+									<div class="price1">$150</div>
+									<div class="price2">$125</div>
+									<div class="category">ADULTS</div>
+								</div>
+								<div class="kids">
+									<div class="price1">$100</div>
+									<div class="price2">$75</div>
+									<div class="category">KIDS</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -343,31 +355,37 @@ get_header(); ?>
 
 					</div>
 					<div class="inner">
-						<div class="title">
-							CABO SAILS
+						<div class="coupon_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
-						<div class="title-2">
-							The Adventure
-						</div>
-						<div class="text">
-							We operate a fleet of both sailing and motor yachts, all luxurious and in top condition.
-							Snorkeling, sunset cruises, sailing classes and whale watching excursions. All cruises by professional
-							crew dedicated to excellence.
-						</div>
-						<div class="buttons clear">
-							<div class="details buttn">Details</div>
-							<div class="bookit buttn">Book It</div>
-						</div>
-						<div class="ticket">
-							<div class="adults">
-								<div class="price1">$150</div>
-								<div class="price2">$125</div>
-								<div class="category">ADULTS</div>
+
+						<div class="inner-2">
+							<div class="title">
+								CABO SAILS
 							</div>
-							<div class="kids">
-								<div class="price1">$100</div>
-								<div class="price2">$75</div>
-								<div class="category">KIDS</div>
+							<div class="title-2">
+								The Adventure
+							</div>
+							<div class="text">
+								We operate a fleet of both sailing and motor yachts, all luxurious and in top condition.
+								Snorkeling, sunset cruises, sailing classes and whale watching excursions. All cruises by professional
+								crew dedicated to excellence.
+							</div>
+							<div class="buttons clear">
+								<div class="details buttn">Details</div>
+								<div class="bookit buttn">Book It</div>
+							</div>
+							<div class="ticket">
+								<div class="adults">
+									<div class="price1">$150</div>
+									<div class="price2">$125</div>
+									<div class="category">ADULTS</div>
+								</div>
+								<div class="kids">
+									<div class="price1">$100</div>
+									<div class="price2">$75</div>
+									<div class="category">KIDS</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -428,31 +446,37 @@ get_header(); ?>
 
 					</div>
 					<div class="inner">
-						<div class="title">
-							MANTA SCUBA
+						<div class="coupon_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
-						<div class="title-2">
-							The Adventure
-						</div>
-						<div class="text">
-							Santa Maria Bay in one of the premier snorkeling destinations in Cabo San Lucas Mexico.
-							The water at Santa Maria Cove is teeming with marine live and tropical fish.
-							Take a 30-minute boat ride to the snorkeling site
-						</div>
-						<div class="buttons clear">
-							<div class="details buttn">Details</div>
-							<div class="bookit buttn">Book It</div>
-						</div>
-						<div class="ticket">
-							<div class="adults">
-								<div class="price1">$150</div>
-								<div class="price2">$125</div>
-								<div class="category">ADULTS</div>
+
+						<div class="inner-2">
+							<div class="title">
+								MANTA SCUBA
 							</div>
-							<div class="kids">
-								<div class="price1">$100</div>
-								<div class="price2">$75</div>
-								<div class="category">KIDS</div>
+							<div class="title-2">
+								The Adventure
+							</div>
+							<div class="text">
+								Santa Maria Bay in one of the premier snorkeling destinations in Cabo San Lucas Mexico.
+								The water at Santa Maria Cove is teeming with marine live and tropical fish.
+								Take a 30-minute boat ride to the snorkeling site
+							</div>
+							<div class="buttons clear">
+								<div class="details buttn">Details</div>
+								<div class="bookit buttn">Book It</div>
+							</div>
+							<div class="ticket">
+								<div class="adults">
+									<div class="price1">$150</div>
+									<div class="price2">$125</div>
+									<div class="category">ADULTS</div>
+								</div>
+								<div class="kids">
+									<div class="price1">$100</div>
+									<div class="price2">$75</div>
+									<div class="category">KIDS</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -513,32 +537,38 @@ get_header(); ?>
 
 					</div>
 					<div class="inner">
-						<div class="title">
-							CABO DOLPHINS
+						<div class="coupon_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
-						<div class="title-2">
-							The Adventure
-						</div>
-						<div class="text">
-							There aren't many activities that top swimming with a dolphin!
-							When you are planning your trip put Cabo Dolphins on top of your list.
-							Swim with the dolphin centers in San Jose del Cabo and Cabo San Lucas.
-							Feel the thrill
-						</div>
-						<div class="buttons clear">
-							<div class="details buttn">Details</div>
-							<div class="bookit buttn">Book It</div>
-						</div>
-						<div class="ticket">
-							<div class="adults">
-								<div class="price1">$150</div>
-								<div class="price2">$125</div>
-								<div class="category">ADULTS</div>
+
+						<div class="inner-2">
+							<div class="title">
+								CABO DOLPHINS
 							</div>
-							<div class="kids">
-								<div class="price1">$100</div>
-								<div class="price2">$75</div>
-								<div class="category">KIDS</div>
+							<div class="title-2">
+								The Adventure
+							</div>
+							<div class="text">
+								There aren't many activities that top swimming with a dolphin!
+								When you are planning your trip put Cabo Dolphins on top of your list.
+								Swim with the dolphin centers in San Jose del Cabo and Cabo San Lucas.
+								Feel the thrill
+							</div>
+							<div class="buttons clear">
+								<div class="details buttn">Details</div>
+								<div class="bookit buttn">Book It</div>
+							</div>
+							<div class="ticket">
+								<div class="adults">
+									<div class="price1">$150</div>
+									<div class="price2">$125</div>
+									<div class="category">ADULTS</div>
+								</div>
+								<div class="kids">
+									<div class="price1">$100</div>
+									<div class="price2">$75</div>
+									<div class="category">KIDS</div>
+								</div>
 							</div>
 						</div>
 					</div>
