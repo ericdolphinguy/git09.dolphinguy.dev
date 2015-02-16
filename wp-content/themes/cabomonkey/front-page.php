@@ -60,6 +60,7 @@ get_header(); ?>
 
 					<!-- Trip advisor sub section. -->
 					<div class="tripadvisor">
+
 						<div class="ta_image">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
@@ -76,37 +77,45 @@ get_header(); ?>
 					</div>
 
 					<div class="inner">
-						<div class="title">
-							CACTUS ATV TOURS
-						</div>
-						<div class="title-2">
-							The Adventure
+						<div class="coupon_image">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
 
-						<div class="text">
-							Experience the awesomeness of Baja's desert landscape will blasting over permative trails on top of brand new 2013 and 2014 Razor Polaris or ATVs.
-							Enjoy spectacular views of the beach only 20 minutes from Cabo San Lucas.
-						</div>
-
-						<div class="buttons clear">
-							<div class="details buttn">Details</div>
-							<div class="bookit buttn">Book It</div>   
-						</div>
-
-						<!-- Ticket secion -->
-						<div class="ticket">
-							<div class="adults">
-								<div class="price1">$150</div>
-								<div class="price2">$125</div>
-								<div class="category">ADULTS</div>
+						<div class="inner-2">
+							<div class="title">
+								CACTUS ATV TOURS
 							</div>
-							<div class="kids">
-								<div class="price1">$100</div>
-								<div class="price2">$75</div>
-								<div class="category">KIDS</div>
+							<div class="title-2">
+								The Adventure
+							</div>
+
+							<div class="text">
+								Experience the awesomeness of Baja's desert landscape will blasting over permative trails on top of brand new 2013 and 2014 Razor Polaris or ATVs.
+								Enjoy spectacular views of the beach only 20 minutes from Cabo San Lucas.
+							</div>
+
+							<div class="buttons clear">
+								<div class="details buttn">Details</div>
+								<div class="bookit buttn">Book It</div>
+							</div>
+
+							<!-- Ticket secion -->
+							<div class="ticket">
+								<div class="adults">
+									<div class="price1">$150</div>
+									<div class="price2">$125</div>
+									<div class="category">ADULTS</div>
+								</div>
+								<div class="kids">
+									<div class="price1">$100</div>
+									<div class="price2">$75</div>
+									<div class="category">KIDS</div>
+								</div>
 							</div>
 						</div>
+
 					</div>
+
 				</div>
 			</div>
 

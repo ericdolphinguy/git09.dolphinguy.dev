@@ -326,6 +326,10 @@ html {
               padding: 10px;
               height: inherit;
               width: 362px; }
+              html body #page #content #primary .offer .coupon::after {
+                clear: both;
+                content: "";
+                display: table; }
               html body #page #content #primary .offer .coupon .tripadvisor {
                 background-size: auto 200%;
                 color: #fff;
@@ -356,6 +360,8 @@ html {
                 margin: 0 auto;
                 overflow: hidden;
                 width: 342px; }
+                html body #page #content #primary .offer .coupon .inner .coupon_image {
+                  display: none; }
                 html body #page #content #primary .offer .coupon .inner .title {
                   color: #fec900;
                   font-family: "momstypewriterregular", serif;
@@ -576,6 +582,22 @@ html {
           float: none;
           margin: 0 auto;
           width: 100%; }
+          html body #page #content #primary .offer .coupon .inner {
+            float: left;
+            width: 66.66%; }
+            html body #page #content #primary .offer .coupon .inner .coupon_image {
+              display: block;
+              float: left;
+              height: 100px;
+              width: 50%; }
+              html body #page #content #primary .offer .coupon .inner .coupon_image img {
+                width: 100%; }
+            html body #page #content #primary .offer .coupon .inner .inner-2 {
+              float: right;
+              width: 50%; }
+          html body #page #content #primary .offer .coupon .tripadvisor {
+            float: right;
+            width: 33.333%; }
       html body #page #colophon {
         padding: 0 12px; }
         html body #page #colophon .pickup {

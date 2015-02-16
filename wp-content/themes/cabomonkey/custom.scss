@@ -398,6 +398,7 @@ html {
 
             .coupon {
               background: #fec900;
+              @include clearfix;
               float: right;
               margin: -25px 0 0;
               padding: 10px;
@@ -441,6 +442,14 @@ html {
                 margin: 0 auto;
                 overflow: hidden;
                 width: 342px;
+
+                .coupon_image {
+                  display: none;
+                }
+
+                .inner-2 {
+
+                }
 
                 .title {
                   color: #fec900;
