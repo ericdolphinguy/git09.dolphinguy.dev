@@ -266,20 +266,41 @@
 
       &.toggled-2 {
         #page {
+
+          #masthead {
+            display: none;
+          }
+
           #content {
             .header {
-              .main-navigation {
-                .menu-block {
-                  .menu-menu-1-container {
-                    display: none;
-                  }
+              background: $color_background;
 
-                  .menu-menu-2-container {
-                    display: block;
-                  }
+              .main-navigation {
+                .texts {
+                  display: none;
                 }
               }
             }
+
+            .banner {
+              display: none;
+            }
+
+            .banner-2 {
+              display: none;
+            }
+
+            .banner-3 {
+              display: none;
+            }
+
+            #primary {
+              display: none;
+            }
+          }
+
+          #colophon {
+            display: none;
           }
 
           /*#masthead {

@@ -670,9 +670,21 @@ html {
               }
             }
           }*/ }
-      html body.toggled-2 #page #content .header .main-navigation .menu-block .menu-menu-1-container {
+      html body.toggled-2 #page #masthead {
         display: none; }
-      html body.toggled-2 #page #content .header .main-navigation .menu-block .menu-menu-2-container {
-        display: block; } }
+      html body.toggled-2 #page #content .header {
+        background: #719539; }
+        html body.toggled-2 #page #content .header .main-navigation .texts {
+          display: none; }
+      html body.toggled-2 #page #content .banner {
+        display: none; }
+      html body.toggled-2 #page #content .banner-2 {
+        display: none; }
+      html body.toggled-2 #page #content .banner-3 {
+        display: none; }
+      html body.toggled-2 #page #content #primary {
+        display: none; }
+      html body.toggled-2 #page #colophon {
+        display: none; } }
 
 /*# sourceMappingURL=custom.css.map */
