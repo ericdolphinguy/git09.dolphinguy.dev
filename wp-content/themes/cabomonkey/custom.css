@@ -534,7 +534,12 @@ html {
             height: 300px;
             padding: 0;
             width: 300px; }
+          html body #page #content .header .main-navigation .menu-block .menu-menu-1-container {
+            display: none; }
+          html body #page #content .header .main-navigation .menu-block .menu-menu-2-container {
+            display: none; }
           html body #page #content .header .main-navigation .menu-block .menu {
+            display: block;
             margin: 0 auto;
             padding: 0 45px;
             width: 300px; }
@@ -628,6 +633,10 @@ html {
       background: #719539; }
       html body.toggled #page #content .header .main-navigation .texts {
         display: none; }
+      html body.toggled #page #content .header .main-navigation .menu-menu-1-container {
+        display: block; }
+      html body.toggled #page #content .header .main-navigation .menu-menu-2-container {
+        display: none; }
     html body.toggled #page #content .banner {
       display: none; }
     html body.toggled #page #content .banner-2 {
@@ -639,38 +648,7 @@ html {
     html body.toggled #page #colophon {
       display: none; }
     html body.toggled-2 #page #masthead {
-      display: none;
-            /*@include clearfix;
-            background: $color_background;
-            display: block;
-            left: 0;
-            min-height: 100%;
-            position: static;
-            top: 0;
-            z-index: 1;
-            width: 100%;
-
-            .menu {
-              display: block;
-              margin: 0 auto;
-              width: 300px;
-
-              .menu-item {
-                background: 0;
-                height: auto;
-                line-height: normal;
-                margin: 0;
-                padding: 0;
-                width: auto;
-
-                a {
-                  color: #fff;
-                  font-size: 18px;
-                  line-height: 1.6em;
-                  @include transform(rotate(0));
-                }
-              }
-            }*/ }
+      display: none; }
     html body.toggled-2 #page #content .header {
       background: #719539; }
       html body.toggled-2 #page #content .header .main-navigation .texts {
