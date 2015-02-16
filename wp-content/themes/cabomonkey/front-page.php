@@ -55,8 +55,8 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<!-- The coupon/ticket section to the right. -->
-				<div class="coupon">
+				<!-- The ticket-box/ticket section to the right. -->
+				<div class="ticket-box">
 
 					<!-- Trip advisor sub section. -->
 					<div class="tripadvisor">
@@ -156,7 +156,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="coupon">
+				<div class="ticket-box">
 					<div class="tripadvisor">
 						<div class="ta_image">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
@@ -247,7 +247,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="coupon">
+				<div class="ticket-box">
 					<div class="tripadvisor">
 						<div class="ta_image">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
@@ -338,7 +338,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="coupon">
+				<div class="ticket-box">
 					<div class="tripadvisor">
 						<div class="ta_image">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
@@ -429,7 +429,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="coupon">
+				<div class="ticket-box">
 					<div class="tripadvisor">
 						<div class="ta_image">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
@@ -519,7 +519,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="coupon">
+				<div class="ticket-box">
 					<div class="tripadvisor">
 						<div class="ta_image">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
