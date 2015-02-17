@@ -360,13 +360,12 @@ html {
                   float: left;
 
                   &.box-1 {
-                    background: #fff;
-                    border: 2px solid #5d9849;
                     height: 122px;
                     margin: 10px 0 10px 10px;
                     width: 148px;
 
                     img {
+                      border: 2px solid #5d9849;
                       height: 100%;
                       width: 100%;
                     }
