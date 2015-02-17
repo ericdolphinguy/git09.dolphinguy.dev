@@ -105,7 +105,6 @@ get_header(); ?>
 					<div class="inner">
 
 						<div class="coupon_image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
 
 						<div class="inner-2">
@@ -200,9 +199,10 @@ get_header(); ?>
 
 
 					</div>
+
 					<div class="inner">
+
 						<div class="coupon_image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
 
 						<div class="inner-2">
@@ -292,8 +292,8 @@ get_header(); ?>
 
 					</div>
 					<div class="inner">
+
 						<div class="coupon_image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
 
 						<div class="inner-2">
@@ -382,8 +382,8 @@ get_header(); ?>
 
 					</div>
 					<div class="inner">
+
 						<div class="coupon_image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
 
 						<div class="inner-2">
@@ -472,8 +472,8 @@ get_header(); ?>
 
 					</div>
 					<div class="inner">
+
 						<div class="coupon_image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
 
 						<div class="inner-2">
@@ -563,8 +563,8 @@ get_header(); ?>
 
 					</div>
 					<div class="inner">
+
 						<div class="coupon_image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
 
 						<div class="inner-2">

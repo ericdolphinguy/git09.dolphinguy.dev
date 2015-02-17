@@ -15,6 +15,9 @@ jQuery(document).ready(function($){
             $('.offer').each(function(i,e){
                 var coe = $('> .image .boxes .box-2 > div', e).detach();
                 $('.ticket-box .tripadvisor', e).append(coe);
+
+                var img = $('> .image .boxes .box-1 > img', e).detach();
+                $('.ticket-box .coupon_image', e).append(img);
             });
         }
     });
