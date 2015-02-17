@@ -91,18 +91,19 @@ get_header(); ?>
 						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=284&amp;locationId=1437325&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
 
 						<!-- second tripadvisor widget -->
-						<div id="TA_certificateOfExcellence614" class="TA_certificateOfExcellence">
+						<!--<div id="TA_certificateOfExcellence614" class="TA_certificateOfExcellence">
 							<ul id="HNielMW" class="TA_links Nfvqg7HRzJP">
 								<li id="WfOiuYfixUS" class="BlzC8c">
 									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
 								</li>
 							</ul>
 						</div>
-						<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=614&amp;locationId=1437325&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>
+						<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=614&amp;locationId=1437325&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>-->
 
 					</div>
 
 					<div class="inner">
+
 						<div class="coupon_image">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cabo-adventures-cactus-atv-tours-01-small.jpg" />
 						</div>
