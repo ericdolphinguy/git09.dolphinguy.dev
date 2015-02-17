@@ -265,13 +265,22 @@ html {
                     font-size: 84px;
                     margin: 20px 0 0;
                     @include transform(scale(0.5,1));
-
                   }
 
                   &.text-2 {
                     font-size: 86px;
                     margin: 0 0 0 100px;
                     @include transform(scale(0.55,1));
+                  }
+
+                  &.text-3 {
+                    color: #343433;
+                    font-family: $font_kgineedafont;
+                    font-size: 28px;
+                    font-style: italic;
+                    font-weight: bold;
+                    margin: -300px 0 0 80px;
+                    @include transform(scale(1.4,1));
                   }
                 }
               }

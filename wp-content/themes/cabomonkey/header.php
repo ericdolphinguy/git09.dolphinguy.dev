@@ -112,6 +112,7 @@
 					<div class="texts">
 						<div class="text text-1">SUPERCHARGE YOUR VACATION!</div>
 						<div class="text text-2">CHOOSE CABOMONKEY!</div>
+						<div class="text text-3">Exceeding Your Expectations!!!</div>
 					</div>
 				</div>
 
