@@ -8,8 +8,16 @@ jQuery(document).ready(function($){
         $('body,#site-navigation').toggleClass('toggled-2');
     });
 
-    $('.offer').each(function(i,e){
-        var coe = $('> .image .boxes .box-2 > div', e).detach();
-        $('.ticket-box .tripadvisor', e).append(coe);
+    $(window).resize(function(){
+        var width = $(this).width();
+
+        if ( width <= 1230 ) {
+            $('.offer').each(function(i,e){
+                var coe = $('> .image .boxes .box-2 > div', e).detach();
+                $('.ticket-box .tripadvisor', e).append(coe);
+            });
+        }
     });
+
+    $(window).trigger('resize');
 });

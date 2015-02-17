@@ -162,6 +162,10 @@
                 padding: 0;
                 width: 100%;
 
+                .boxes {
+                  display: none;
+                }
+
                 .meta {
                   display: none;
                 }
@@ -209,6 +213,13 @@
 
                   .TA_certificateOfExcellence {
                     .widCOE {
+                      margin: 0;
+                      width: 100%;
+                    }
+                  }
+
+                  .TA_excellent {
+                    .widEXC {
                       margin: 0;
                       width: 100%;
                     }

@@ -591,6 +591,8 @@ html {
           margin: 0;
           padding: 0;
           width: 100%; }
+          html body #page #content #primary .offer .image .boxes {
+            display: none; }
           html body #page #content #primary .offer .image .meta {
             display: none; }
         html body #page #content #primary .offer .ticket-box {
@@ -620,6 +622,9 @@ html {
               margin: 0 0 12px;
               width: 100%; }
             html body #page #content #primary .offer .ticket-box .tripadvisor .TA_certificateOfExcellence .widCOE {
+              margin: 0;
+              width: 100%; }
+            html body #page #content #primary .offer .ticket-box .tripadvisor .TA_excellent .widEXC {
               margin: 0;
               width: 100%; }
       html body #page #colophon {
