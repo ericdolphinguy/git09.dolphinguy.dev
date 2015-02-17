@@ -623,6 +623,8 @@ html {
             html body #page #content #primary .offer .ticket-box .tripadvisor .TA_certificateOfExcellence .widCOE {
               margin: 0;
               width: 100%; }
+              html body #page #content #primary .offer .ticket-box .tripadvisor .TA_certificateOfExcellence .widCOE img {
+                width: 100%; }
             html body #page #content #primary .offer .ticket-box .tripadvisor .TA_excellent .widEXC {
               margin: 0;
               width: 100%; }
