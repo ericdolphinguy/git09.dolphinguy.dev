@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'kgineedafont';
+    src: url('kgineedafont-webfont.eot');
+    src: url('kgineedafont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kgineedafont-webfont.woff2') format('woff2'),
+         url('kgineedafont-webfont.woff') format('woff'),
+         url('kgineedafont-webfont.ttf') format('truetype'),
+         url('kgineedafont-webfont.svg#kg_i_need_a_fontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
