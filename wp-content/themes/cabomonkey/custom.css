@@ -578,6 +578,8 @@ html {
           padding: 20px 20px 20px 130px; }
           html body #page #content .banner-3 .image .inner img {
             height: 100%; }
+          html body #page #content .banner-3 .image .inner .texts .text.text-3 {
+            margin: -260px 0 0 60px; }
       html body #page #content .banner-3 .tripadvisor {
         margin: 0 0 36px; }
       html body #page #content #primary .offer {

@@ -134,6 +134,14 @@
                 img {
                   height: 100%;
                 }
+
+                .texts {
+                  .text {
+                    &.text-3 {
+                      margin: -260px 0 0 60px;
+                    }
+                  }
+                }
               }
             }
 
