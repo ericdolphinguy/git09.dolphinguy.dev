@@ -7,4 +7,9 @@ jQuery(document).ready(function($){
         $('body,#site-navigation').removeClass('toggled-1');
         $('body,#site-navigation').toggleClass('toggled-2');
     });
+
+    $('.offer').each(function(i,e){
+        var coe = $('> .image .boxes .box-2 > div', e).detach();
+        $('.ticket-box .tripadvisor', e).append(coe);
+    });
 });
