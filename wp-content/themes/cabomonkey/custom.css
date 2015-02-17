@@ -617,6 +617,10 @@ html {
             html body #page #content #primary .offer .ticket-box .tripadvisor .ta_image {
               display: none; }
             html body #page #content #primary .offer .ticket-box .tripadvisor .TA_cdsratingsonlynarrow {
+              margin: 0 0 12px;
+              width: 100%; }
+            html body #page #content #primary .offer .ticket-box .tripadvisor .TA_certificateOfExcellence .widCOE {
+              margin: 0;
               width: 100%; }
       html body #page #colophon {
         padding: 0 12px; }
