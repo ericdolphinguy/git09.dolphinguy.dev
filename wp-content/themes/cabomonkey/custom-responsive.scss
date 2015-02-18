@@ -194,6 +194,38 @@
                   .inner-2 {
                     float: right;
                     width: 50%;
+
+                    .buttons {
+
+                      .buttn {
+                      }
+
+                      .details {
+                        float: none;
+                        margin: 0 0 9px;
+                        width: 100%;
+                      }
+
+                      .bookit {
+                        float: none;
+                        width: 100%;
+                      }
+                    }
+
+                    .ticket {
+                      .adults {
+                        margin: 0 0 0 58px;
+
+                        .price2 {
+                        }
+                      }
+                      .kids {
+                        margin: 0 58px 0 0;
+
+                        .price2 {
+                        }
+                      }
+                    }
                   }
                 }
 

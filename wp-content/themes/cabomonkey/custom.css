@@ -615,6 +615,17 @@ html {
             html body #page #content #primary .offer .ticket-box .inner .inner-2 {
               float: right;
               width: 50%; }
+              html body #page #content #primary .offer .ticket-box .inner .inner-2 .buttons .details {
+                float: none;
+                margin: 0 0 9px;
+                width: 100%; }
+              html body #page #content #primary .offer .ticket-box .inner .inner-2 .buttons .bookit {
+                float: none;
+                width: 100%; }
+              html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .adults {
+                margin: 0 0 0 58px; }
+              html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .kids {
+                margin: 0 58px 0 0; }
           html body #page #content #primary .offer .ticket-box .tripadvisor {
             float: right;
             padding: 0 0 0 12px;
