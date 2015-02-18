@@ -40,7 +40,7 @@ get_header(); ?>
 						<!-- tripadvisor widget -->
 						<div class="box box-2">
 
-							<div id="TA_certificateOfExcellence614" class="TA_certificateOfExcellence">
+							<div id="TA_certificateOfExcellence614" class="TA_certificateOfExcellence preload-hide">
 								<ul id="HNielMW" class="TA_links Nfvqg7HRzJP">
 									<li id="WfOiuYfixUS" class="BlzC8c">
 										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
@@ -81,7 +81,7 @@ get_header(); ?>
 						</div>
 
 						<!-- first tripadvisor widget -->
-						<div id="TA_cdsratingsonlynarrow284" class="TA_cdsratingsonlynarrow">
+						<div id="TA_cdsratingsonlynarrow284" class="TA_cdsratingsonlynarrow preload-hide">
 							<ul id="3Fmr3db9A" class="TA_links fEk91A83lN">
 								<li id="H4gSGF9cb" class="Bk8fQtzw9">
 									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
@@ -89,16 +89,6 @@ get_header(); ?>
 							</ul>
 						</div>
 						<script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=284&amp;locationId=1437325&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
-
-						<!-- second tripadvisor widget -->
-						<!--<div id="TA_certificateOfExcellence614" class="TA_certificateOfExcellence">
-							<ul id="HNielMW" class="TA_links Nfvqg7HRzJP">
-								<li id="WfOiuYfixUS" class="BlzC8c">
-									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
-								</li>
-							</ul>
-						</div>
-						<script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=614&amp;locationId=1437325&amp;lang=en_US&amp;year=2014&amp;display_version=2"></script>-->
 
 					</div>
 
@@ -161,7 +151,7 @@ get_header(); ?>
 
 						<div class="box box-2">
 
-							<div id="TA_certificateOfExcellence796" class="TA_certificateOfExcellence">
+							<div id="TA_certificateOfExcellence796" class="TA_certificateOfExcellence preload-hide">
 								<ul id="gBrphHP49j" class="TA_links lq5yX2KXj">
 									<li id="wN9sFSysY0wc" class="1Hn7yll6">
 										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
@@ -188,7 +178,7 @@ get_header(); ?>
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
 
-						<div id="TA_cdsratingsonlynarrow880" class="TA_cdsratingsonlynarrow">
+						<div id="TA_cdsratingsonlynarrow880" class="TA_cdsratingsonlynarrow preload-hide">
 							<ul id="0BNdSvKJK" class="TA_links Mk0ktHhQlT">
 								<li id="7LQ7pvC" class="mjC2LCym">
 									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
@@ -253,7 +243,7 @@ get_header(); ?>
 
 						<div class="box box-2">
 
-							<div id="TA_certificateOfExcellence759" class="TA_certificateOfExcellence">
+							<div id="TA_certificateOfExcellence759" class="TA_certificateOfExcellence preload-hide">
 								<ul id="cOJckZJfz" class="TA_links ukTls3mNbxN">
 									<li id="KnFxymzyh9" class="oIAV4wAIEaz">
 										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
@@ -280,7 +270,7 @@ get_header(); ?>
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
 
-						<div id="TA_cdsratingsonlynarrow712" class="TA_cdsratingsonlynarrow">
+						<div id="TA_cdsratingsonlynarrow712" class="TA_cdsratingsonlynarrow preload-hide">
 							<ul id="2bgNIg" class="TA_links ZeS0eoWv6">
 								<li id="GfKidi5ousIt" class="kegbH7NeeHR">
 									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
@@ -344,7 +334,7 @@ get_header(); ?>
 
 						<div class="box box-2">
 
-							<div id="TA_certificateOfExcellence242" class="TA_certificateOfExcellence">
+							<div id="TA_certificateOfExcellence242" class="TA_certificateOfExcellence preload-hide">
 								<ul id="9JiUm8j" class="TA_links ivXqj3">
 									<li id="tAEVg5" class="c3pA8sjjs">
 										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
@@ -371,7 +361,7 @@ get_header(); ?>
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
 
-						<div id="TA_cdsratingsonlynarrow679" class="TA_cdsratingsonlynarrow">
+						<div id="TA_cdsratingsonlynarrow679" class="TA_cdsratingsonlynarrow preload-hide">
 							<ul id="rKKYd2V" class="TA_links cDBm2FED">
 								<li id="li97zC" class="1dK7knGrF">
 									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
@@ -434,7 +424,7 @@ get_header(); ?>
 
 						<div class="box box-2">
 
-							<div id="TA_certificateOfExcellence865" class="TA_certificateOfExcellence">
+							<div id="TA_certificateOfExcellence865" class="TA_certificateOfExcellence preload-hide">
 								<ul id="RcDTQkAyA" class="TA_links BMAHTeSPr5VS">
 									<li id="4ojmKj9PZ" class="HieYbVaSy">
 										<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
@@ -461,7 +451,7 @@ get_header(); ?>
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
 
-						<div id="TA_cdsratingsonlynarrow200" class="TA_cdsratingsonlynarrow">
+						<div id="TA_cdsratingsonlynarrow200" class="TA_cdsratingsonlynarrow preload-hide">
 							<ul id="cVSD6eBLMeA" class="TA_links K2B2ZL">
 								<li id="kcMCxih7xWB" class="7b9mPK1EKr">
 									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
@@ -551,7 +541,7 @@ get_header(); ?>
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tripadvisor.png" />
 						</div>
 
-						<div id="TA_cdsratingsonlynarrow454" class="TA_cdsratingsonlynarrow">
+						<div id="TA_cdsratingsonlynarrow454" class="TA_cdsratingsonlynarrow preload-hide">
 							<ul id="QR8xgrDen" class="TA_links S8imBU52qd">
 								<li id="u8DIJA6" class="reMyd4P">
 									<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>

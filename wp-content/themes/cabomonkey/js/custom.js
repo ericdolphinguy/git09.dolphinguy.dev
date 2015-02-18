@@ -19,4 +19,6 @@ jQuery(window).load(function(){
         var img = $('> .image .boxes .box-1 > img', e).clone( true, true );
         $('.ticket-box .coupon_image', e).append(img);
     });
+
+    $('.preload-hide').addClass('loaded');
 });

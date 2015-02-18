@@ -24,6 +24,10 @@ html {
   html body {
     background: #719539 url(images/background.jpg) center top fixed;
     min-height: 100%; }
+    html body .preload-hide {
+      opacity: 0; }
+      html body .preload-hide.loaded {
+        opacity: 1; }
     html body #page {
       position: relative; }
       html body #page #masthead {
@@ -309,6 +313,8 @@ html {
                       border: 2px solid #5d9849;
                       height: 100%;
                       width: 100%; }
+                  html body #page #content #primary .offer .image .boxes .box.box-2 ul {
+                    list-style: none; }
               html body #page #content #primary .offer .image .meta {
                 bottom: 54px;
                 position: absolute;

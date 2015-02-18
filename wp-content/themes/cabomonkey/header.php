@@ -126,7 +126,7 @@
 				</div>
 
 				<!-- Review widget -->
-				<div id="TA_cdswritereviewlg615" class="TA_cdswritereviewlg">
+				<div id="TA_cdswritereviewlg615" class="TA_cdswritereviewlg  preload-hide">
 					<ul id="AvarNuY" class="TA_links SfBMBEUlon">
 						<li id="Rjy2LZ" class="s5j7dus">
 							<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/medium-logo-12097-2.png" alt="TripAdvisor"/></a>

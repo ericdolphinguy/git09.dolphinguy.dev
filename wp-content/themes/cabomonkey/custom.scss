@@ -45,6 +45,14 @@ html {
     background: $color_background url(images/background.jpg) center top fixed;
     min-height: 100%;
 
+    .preload-hide {
+      opacity: 0;
+
+      &.loaded {
+        opacity: 1;
+      }
+    }
+
     #page {
       position: relative;
 
@@ -372,6 +380,16 @@ html {
                       border: 2px solid #5d9849;
                       height: 100%;
                       width: 100%;
+                    }
+                  }
+
+                  &.box-2 {
+
+                    ul {
+                      list-style: none;
+                    }
+
+                    .TA_certificateOfExcellence {
                     }
                   }
                 }
