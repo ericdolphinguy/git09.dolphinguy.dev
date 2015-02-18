@@ -307,12 +307,18 @@ html {
             }
 
             .TA_cdswritereviewlg {
+              background: #fff;
               float: right;
               height: 250px;
               width: 100%;
 
+              ul {
+                list-style: none;
+              }
+
               .widWRL {
                 background: #fff;
+                height: 242px;
                 max-width: none;
                 width: 100%;
               }
