@@ -309,7 +309,7 @@ html {
             .TA_cdswritereviewlg {
               background: #fff;
               float: right;
-              height: 250px;
+              min-height: 242px;
               width: 100%;
 
               ul {
@@ -317,8 +317,6 @@ html {
               }
 
               .widWRL {
-                background: #fff;
-                height: 242px;
                 max-width: none;
                 width: 100%;
               }

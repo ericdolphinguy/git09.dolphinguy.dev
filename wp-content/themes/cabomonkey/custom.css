@@ -261,13 +261,11 @@ html {
             html body #page #content .banner-3 .tripadvisor .TA_cdswritereviewlg {
               background: #fff;
               float: right;
-              height: 250px;
+              min-height: 242px;
               width: 100%; }
               html body #page #content .banner-3 .tripadvisor .TA_cdswritereviewlg ul {
                 list-style: none; }
               html body #page #content .banner-3 .tripadvisor .TA_cdswritereviewlg .widWRL {
-                background: #fff;
-                height: 242px;
                 max-width: none;
                 width: 100%; }
         html body #page #content #primary {
