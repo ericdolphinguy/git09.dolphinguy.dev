@@ -236,6 +236,9 @@
 
                   .ta_image {
                     display: none;
+
+                    img {
+                    }
                   }
 
                   .TA_cdsratingsonlynarrow {
@@ -258,6 +261,8 @@
                   }
 
                   .TA_excellent {
+                    display: block;
+
                     .widEXC {
                       margin: 0;
                       width: 100%;
