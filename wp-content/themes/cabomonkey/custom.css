@@ -366,6 +366,10 @@ html {
                   width: 70%; }
                   html body #page #content #primary .offer .ticket-box .tripadvisor .TA_cdsratingsonlynarrow .narrow {
                     width: 100%; }
+                html body #page #content #primary .offer .ticket-box .tripadvisor .TA_certificateOfExcellence {
+                  display: none; }
+                html body #page #content #primary .offer .ticket-box .tripadvisor .TA_excellent {
+                  display: none; }
               html body #page #content #primary .offer .ticket-box .inner {
                 margin: 0 auto;
                 overflow: hidden;
@@ -618,13 +622,16 @@ html {
             html body #page #content #primary .offer .ticket-box .tripadvisor .ta_image {
               display: none; }
             html body #page #content #primary .offer .ticket-box .tripadvisor .TA_cdsratingsonlynarrow {
+              display: block;
               margin: 0 0 12px;
               width: 100%; }
-            html body #page #content #primary .offer .ticket-box .tripadvisor .TA_certificateOfExcellence .widCOE {
-              margin: 0;
-              width: 100%; }
-              html body #page #content #primary .offer .ticket-box .tripadvisor .TA_certificateOfExcellence .widCOE img {
+            html body #page #content #primary .offer .ticket-box .tripadvisor .TA_certificateOfExcellence {
+              display: block; }
+              html body #page #content #primary .offer .ticket-box .tripadvisor .TA_certificateOfExcellence .widCOE {
+                margin: 0;
                 width: 100%; }
+                html body #page #content #primary .offer .ticket-box .tripadvisor .TA_certificateOfExcellence .widCOE img {
+                  width: 100%; }
             html body #page #content #primary .offer .ticket-box .tripadvisor .TA_excellent .widEXC {
               margin: 0;
               width: 100%; }
