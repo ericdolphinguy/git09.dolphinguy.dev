@@ -486,7 +486,8 @@ html {
             border: solid #fff;
             border-width: 0 1px;
             margin: 7px 0;
-            padding: 0 12px; }
+            padding: 0 12px;
+            text-align: center; }
 
 @media all and (max-width: 1230px) {
   html body {
@@ -724,5 +725,197 @@ html {
         display: none; }
       html body.toggled-2 #page #colophon {
         display: none; } }
+/* iPad 3/4 Horizontal */
+@media all and (max-width: 1024px) {
+  html body #page #content .banner-2 .reasons {
+    width: 100%; }
+    html body #page #content .banner-2 .reasons .texts {
+      padding: 0 20px;
+      text-align: center; }
+      html body #page #content .banner-2 .reasons .texts .text.text-1 {
+        font-size: 80px;
+        -webkit-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        transform: scale(1, 1); }
+      html body #page #content .banner-2 .reasons .texts .text.text-2 {
+        font-size: 80px;
+        -webkit-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        transform: scale(1, 1); }
+      html body #page #content .banner-2 .reasons .texts .text.text-3 {
+        font-size: 80px;
+        -webkit-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        transform: scale(1, 1);
+        white-space: normal; }
+  html body #page #content .banner-2 .gurantees {
+    padding: 24px; }
+  html body #page #content .banner-3 {
+    margin: 0;
+    padding: 0; }
+    html body #page #content .banner-3 .image {
+      width: 100%; }
+      html body #page #content .banner-3 .image img {
+        display: none; }
+      html body #page #content .banner-3 .image .inner {
+        height: 200px;
+        padding: 24px;
+        width: 100%; }
+        html body #page #content .banner-3 .image .inner .texts {
+          margin: 0; }
+          html body #page #content .banner-3 .image .inner .texts .text {
+            margin: 0;
+            padding: 0;
+            -webkit-transform-origin: 50% 0;
+            -moz-transform-origin: 50% 0;
+            -ms-transform-origin: 50% 0;
+            -o-transform-origin: 50% 0;
+            transform-origin: 50% 0; }
+            html body #page #content .banner-3 .image .inner .texts .text.text-1 {
+              font-size: 68px;
+              margin: 0;
+              -webkit-transform: scale(1, 1);
+              -moz-transform: scale(1, 1);
+              -ms-transform: scale(1, 1);
+              -o-transform: scale(1, 1);
+              transform: scale(1, 1);
+              text-align: center; }
+            html body #page #content .banner-3 .image .inner .texts .text.text-2 {
+              margin: 0;
+              -webkit-transform: scale(1, 1);
+              -moz-transform: scale(1, 1);
+              -ms-transform: scale(1, 1);
+              -o-transform: scale(1, 1);
+              transform: scale(1, 1);
+              text-align: center; }
+            html body #page #content .banner-3 .image .inner .texts .text.text-3 {
+              margin: -230px 0 0;
+              -webkit-transform: scale(1, 1);
+              -moz-transform: scale(1, 1);
+              -ms-transform: scale(1, 1);
+              -o-transform: scale(1, 1);
+              transform: scale(1, 1);
+              text-align: center; }
+    html body #page #content .banner-3 .tripadvisor {
+      width: 100%; }
+      html body #page #content .banner-3 .tripadvisor .tripadvisor_image {
+        float: none; }
+      html body #page #content .banner-3 .tripadvisor .TA_cdswritereviewlg {
+        float: none;
+        margin: 0 auto;
+        width: 240px; }
+  html body #page #content #primary .offer .ticket-box .tripadvisor .TA_cdsratingsonlynarrow {
+    height: auto; } }
+/* iPad 3/4 Vertical */
+@media all and (max-width: 768px) {
+  html body #page #content .banner-2 .reasons .texts .text.text-1 {
+    font-size: 60px; }
+  html body #page #content .banner-2 .reasons .texts .text.text-3 {
+    font-size: 60px; }
+  html body #page #content .banner-2 .gurantees {
+    padding: 24px; }
+  html body #page #content .banner-3 .image .inner {
+    height: 155px; }
+    html body #page #content .banner-3 .image .inner .texts .text.text-1 {
+      font-size: 48px; }
+    html body #page #content .banner-3 .image .inner .texts .text.text-2 {
+      font-size: 64px; }
+    html body #page #content .banner-3 .image .inner .texts .text.text-3 {
+      margin: -190px 0 0; }
+  html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .adults {
+    margin: 0 0 0 18px; }
+  html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .kids {
+    margin: 0 18px 0 0; } }
+/* iPhone 6 Plus Horizontal */
+@media all and (max-width: 736px) {
+  html body #page #content .banner-2 .reasons .texts .text.text-1 {
+    font-size: 56px; }
+  html body #page #content .banner-2 .reasons .texts .text.text-3 {
+    font-size: 56px; }
+  html body #page #content #primary .offer .image .title {
+    font-size: 24px; }
+  html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .adults {
+    margin: 0 0 0 13px; }
+  html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .kids {
+    margin: 0 13px 0 0; } }
+/* iPhone 6 Horizontal */
+@media all and (max-width: 667px) {
+  html body #page #content .banner-2 .reasons .texts .text.text-1 {
+    font-size: 52px; }
+  html body #page #content .banner-2 .reasons .texts .text.text-3 {
+    font-size: 52px; }
+  html body #page #content .banner-3 .image .inner .texts .text.text-1 {
+    font-size: 42px; }
+  html body #page #content .banner-3 .image .inner .texts .text.text-2 {
+    font-size: 58px; }
+  html body #page #content .banner-3 .image .inner .texts .text.text-3 {
+    margin: -170px 0 0; }
+  html body #page #content #primary .offer .ticket-box .inner .coupon_image {
+    float: none;
+    padding: 0 0 12px;
+    width: 100%; }
+    html body #page #content #primary .offer .ticket-box .inner .coupon_image img {
+      width: 100%; }
+  html body #page #content #primary .offer .ticket-box .inner .inner-2 {
+    float: none;
+    width: 100%; }
+    html body #page #content #primary .offer .ticket-box .inner .inner-2 .title {
+      white-space: normal; }
+    html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .adults {
+      margin: 0 0 0 100px; }
+    html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .kids {
+      margin: 0 100px 0 0; } }
+/* iPhone 6 Plus */
+@media all and (max-width: 414px) {
+  html body #page #content .banner-2 .reasons .texts .text.text-1 {
+    font-size: 32px; }
+  html body #page #content .banner-2 .reasons .texts .text.text-2 {
+    font-size: 42px;
+    margin: 0 0 10px; }
+  html body #page #content .banner-2 .reasons .texts .text.text-3 {
+    font-size: 30px; }
+  html body #page #content .banner-3 .image .inner {
+    height: 100px; }
+    html body #page #content .banner-3 .image .inner .texts .text.text-1 {
+      font-size: 24px; }
+    html body #page #content .banner-3 .image .inner .texts .text.text-2 {
+      font-size: 36px; }
+    html body #page #content .banner-3 .image .inner .texts .text.text-3 {
+      font-size: 24px;
+      margin: -130px 0 0; }
+  html body #page #content #primary .offer .image .title {
+    font-size: 18px; }
+  html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .adults {
+    margin: 0 0 0 20px; }
+  html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .kids {
+    margin: 0 20px 0 0; } }
+/* iPhone 6 */
+@media all and (max-width: 375px) {
+  html body #page #content .banner-2 .reasons .texts .text.text-1 {
+    font-size: 28px; }
+  html body #page #content .banner-2 .reasons .texts .text.text-2 {
+    font-size: 42px;
+    margin: 0 0 10px; }
+  html body #page #content .banner-2 .reasons .texts .text.text-3 {
+    font-size: 28px; }
+  html body #page #content .banner-3 .image .inner {
+    height: 95px; }
+    html body #page #content .banner-3 .image .inner .texts .text.text-1 {
+      font-size: 20px; }
+    html body #page #content .banner-3 .image .inner .texts .text.text-2 {
+      font-size: 32px; }
+    html body #page #content .banner-3 .image .inner .texts .text.text-3 {
+      font-size: 18px;
+      margin: -120px 0 0; }
+  html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .adults {
+    margin: 0 0 0 8px; }
+  html body #page #content #primary .offer .ticket-box .inner .inner-2 .ticket .kids {
+    margin: 0 8px 0 0; } }
 
 /*# sourceMappingURL=custom.css.map */

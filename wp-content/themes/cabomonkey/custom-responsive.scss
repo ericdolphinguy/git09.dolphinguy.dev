@@ -431,3 +431,606 @@
     }
   }
 }
+
+/* iPad 3/4 Horizontal */
+
+@media all and (max-width: 1024px) {
+  html {
+    body {
+      #page {
+        #content {
+          .banner-2 {
+            .reasons {
+              width: 100%;
+
+              .texts {
+                padding: 0 20px;
+                text-align: center;
+
+                .text {
+                  &.text-1 {
+                    font-size: 80px;
+                    @include transform(scale(1,1));
+                  }
+
+                  &.text-2 {
+                    font-size: 80px;
+                    @include transform(scale(1,1));
+                  }
+
+                  &.text-3 {
+                    font-size: 80px;
+                    @include transform(scale(1,1));
+                    white-space: normal;
+                  }
+                }
+              }
+            }
+
+            .gurantees {
+              padding: 24px;
+            }
+          }
+
+          .banner-3 {
+            margin: 0;
+            padding: 0;
+
+            .image {
+              width: 100%;
+
+              img {
+                display: none;
+              }
+
+              .inner {
+                height: 200px;
+                padding: 24px;
+                width: 100%;
+
+                .texts {
+                  margin: 0;
+
+                  .text {
+                    margin: 0;
+                    padding: 0;
+                    @include transform-origin(50% 0);
+
+                    &.text-1 {
+                      font-size: 68px;
+                      margin: 0;
+                      @include transform(scale(1,1));
+                      text-align: center;
+                    }
+
+                    &.text-2 {
+                      margin: 0;
+                      @include transform(scale(1,1));
+                      text-align: center;
+                    }
+
+                    &.text-3 {
+                      margin: -230px 0 0;
+                      @include transform(scale(1,1));
+                      text-align: center;
+                    }
+                  }
+                }
+              }
+            }
+
+            .tripadvisor {
+              width: 100%;
+
+              .tripadvisor_image {
+                float: none;
+              }
+
+              .TA_cdswritereviewlg {
+                float: none;
+                margin: 0 auto;
+                width: 240px;
+              }
+            }
+          }
+
+          #primary {
+            .offer {
+              .ticket-box {
+                .tripadvisor {
+                  .TA_cdsratingsonlynarrow {
+                    height: auto;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* iPad 3/4 Vertical */
+
+@media all and (max-width: 768px) {
+  html {
+    body {
+      #page {
+        #content {
+          .banner-2 {
+            .reasons {
+              .texts {
+                .text {
+                  &.text-1 {
+                    font-size: 60px;
+                  }
+
+                  &.text-2 {
+                  }
+
+                  &.text-3 {
+                    font-size: 60px;
+                  }
+                }
+              }
+            }
+
+            .gurantees {
+              padding: 24px;
+            }
+          }
+
+          .banner-3 {
+            .image {
+              img {
+              }
+
+              .inner {
+                height: 155px;
+
+                .texts {
+                  .text {
+                    &.text-1 {
+                      font-size: 48px;
+                    }
+
+                    &.text-2 {
+                      font-size: 64px;
+                    }
+
+                    &.text-3 {
+                      margin: -190px 0 0;
+                    }
+                  }
+                }
+              }
+            }
+
+            .tripadvisor {
+              .tripadvisor_image {
+              }
+
+              .TA_cdswritereviewlg {
+              }
+            }
+          }
+
+          #primary {
+            .offer {
+              .ticket-box {
+                .inner {
+                  .inner-2 {
+                    .ticket {
+                      .adults {
+                        margin: 0 0 0 18px;
+                      }
+
+                      .kids {
+                        margin: 0 18px 0 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* iPhone 6 Plus Horizontal */
+
+@media all and (max-width: 736px) {
+  html {
+    body {
+      #page {
+        #content {
+          .banner-2 {
+            .reasons {
+              .texts {
+                .text {
+                  &.text-1 {
+                    font-size: 56px;
+                  }
+
+                  &.text-2 {
+                  }
+
+                  &.text-3 {
+                    font-size: 56px;
+                  }
+                }
+              }
+            }
+
+            .gurantees {
+            }
+          }
+
+          .banner-3 {
+            .image {
+              img {
+              }
+
+              .inner {
+                .texts {
+                  .text {
+                    &.text-1 {
+                    }
+
+                    &.text-2 {
+                    }
+
+                    &.text-3 {
+                    }
+                  }
+                }
+              }
+            }
+
+            .tripadvisor {
+              .tripadvisor_image {
+              }
+
+              .TA_cdswritereviewlg {
+              }
+            }
+          }
+
+          #primary {
+            .offer {
+              .image {
+                .title {
+                  font-size: 24px;
+                }
+              }
+
+              .ticket-box {
+                .inner {
+                  .inner-2 {
+                    .ticket {
+                      .adults {
+                        margin: 0 0 0 13px;
+                      }
+
+                      .kids {
+                        margin: 0 13px 0 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* iPhone 6 Horizontal */
+
+@media all and (max-width: 667px) {
+  html {
+    body {
+      #page {
+        #content {
+          .banner-2 {
+            .reasons {
+              .texts {
+                .text {
+                  &.text-1 {
+                    font-size: 52px;
+                  }
+
+                  &.text-2 {
+                  }
+
+                  &.text-3 {
+                    font-size: 52px;
+                  }
+                }
+              }
+            }
+
+            .gurantees {
+            }
+          }
+
+          .banner-3 {
+            .image {
+              img {
+              }
+
+              .inner {
+                .texts {
+                  .text {
+                    &.text-1 {
+                      font-size: 42px;
+                    }
+
+                    &.text-2 {
+                      font-size: 58px;
+                    }
+
+                    &.text-3 {
+                      margin: -170px 0 0;
+                    }
+                  }
+                }
+              }
+            }
+
+            .tripadvisor {
+              .tripadvisor_image {
+              }
+
+              .TA_cdswritereviewlg {
+              }
+            }
+          }
+
+          #primary {
+            .offer {
+              .ticket-box {
+                .inner {
+                  .coupon_image {
+                    float: none;
+                    padding: 0 0 12px;
+                    width: 100%;
+
+                    img {
+                      width: 100%;
+                    }
+                  }
+
+                  .inner-2 {
+                    float: none;
+                    width: 100%;
+
+                    .title {
+                      white-space: normal;
+
+                    }
+
+                    .ticket {
+                      .adults {
+                        margin: 0 0 0 100px;
+                      }
+
+                      .kids {
+                        margin: 0 100px 0 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* iPhone 6 Plus */
+
+@media all and (max-width: 414px) {
+  html {
+    body {
+      #page {
+        #content {
+          .banner-2 {
+            .reasons {
+              .texts {
+                .text {
+                  &.text-1 {
+                    font-size: 32px;
+                  }
+
+                  &.text-2 {
+                    font-size: 42px;
+                    margin: 0 0 10px;
+                  }
+
+                  &.text-3 {
+                    font-size: 30px;
+                  }
+                }
+              }
+            }
+
+            .gurantees {
+            }
+          }
+
+          .banner-3 {
+            .image {
+              img {
+              }
+
+              .inner {
+                height: 100px;
+
+                .texts {
+                  .text {
+                    &.text-1 {
+                      font-size: 24px;
+                    }
+
+                    &.text-2 {
+                      font-size: 36px;
+                    }
+
+                    &.text-3 {
+                      font-size: 24px;
+                      margin: -130px 0 0;
+                    }
+                  }
+                }
+              }
+            }
+
+            .tripadvisor {
+              .tripadvisor_image {
+              }
+
+              .TA_cdswritereviewlg {
+              }
+            }
+          }
+
+          #primary {
+            .offer {
+              .image {
+                .title {
+                  font-size: 18px;
+                }
+              }
+              .ticket-box {
+                .inner {
+                  .coupon_image {
+                    img {
+                    }
+                  }
+
+                  .inner-2 {
+                    .ticket {
+                      .adults {
+                        margin: 0 0 0 20px;
+                      }
+
+                      .kids {
+                        margin: 0 20px 0 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* iPhone 6 */
+
+@media all and (max-width: 375px) {
+  html {
+    body {
+      #page {
+        #content {
+          .banner-2 {
+            .reasons {
+              .texts {
+                .text {
+                  &.text-1 {
+                    font-size: 28px;
+                  }
+
+                  &.text-2 {
+                    font-size: 42px;
+                    margin: 0 0 10px;
+                  }
+
+                  &.text-3 {
+                    font-size: 28px;
+                  }
+                }
+              }
+            }
+
+            .gurantees {
+            }
+          }
+
+          .banner-3 {
+            .image {
+              img {
+              }
+
+              .inner {
+                height: 95px;
+
+                .texts {
+                  .text {
+                    &.text-1 {
+                      font-size: 20px;
+                    }
+
+                    &.text-2 {
+                      font-size: 32px;
+                    }
+
+                    &.text-3 {
+                      font-size: 18px;
+                      margin: -120px 0 0;
+                    }
+                  }
+                }
+              }
+            }
+
+            .tripadvisor {
+              .tripadvisor_image {
+              }
+
+              .TA_cdswritereviewlg {
+              }
+            }
+          }
+
+          #primary {
+            .offer {
+              .ticket-box {
+                .inner {
+                  .coupon_image {
+                    img {
+                    }
+                  }
+
+                  .inner-2 {
+                    .ticket {
+                      .adults {
+                        margin: 0 0 0 8px;
+                      }
+
+                      .kids {
+                        margin: 0 8px 0 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
